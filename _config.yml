@@ -1,5 +1,5 @@
 # Site
-name: 'BustersPharma'
+name: 'PharmaBusters'
 description: 'Psychodietetyka, farmacja, przepisy na zdrowe i smaczne posiłki ukazane w atrakcyjnej formie, opatrzone ciekawym i wartościowym opisem.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -21,7 +21,7 @@ plugins:
 authors:
     Natalia:
       name:           Natalia
-      site:           https://www.busterspharma.pl/
+      site:           https://www.pharmabusters.pl/
       avatar:         assets/images/avatar1.jpg
       bio:            "Świeża porcja zdrowotnych newsów wybranych pod kątem dużej użyteczności społecznej. Polemika z mitami znanymi z reklam, wskazywanie szkodliwych trendów z obszaru lifestyle i bezlitosne rozprawianie się z nimi. Pokazywanie, że można jeść smacznie, zdrowo, tanio, a samą tylko wyszukaną kompozycją posiłków wyzwalać w innych niepohamowaną rządzę spróbowania tego jak to jest jeść zdrowo.<br> <br> <br>Koniec i bomba,<br> kto je suple ten trąba."
       email:          miekusn@gmail.com
