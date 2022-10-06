@@ -1,7 +1,7 @@
 ---
-title: Food corner
+title: Holistic Health - czy to dla mnie?
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Jedzenie stanowi ważną część holistycznego planu dbania o swoje zdrowie. br />Nie jest to jednak jedyny element!'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
