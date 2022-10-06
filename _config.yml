@@ -1,57 +1,44 @@
-# Site
-name: 'PharmaBusters'
-description: 'Psychodietetyka, farmacja, przepisy na zdrowe i smaczne posiłki ukazane w atrakcyjnej formie, opatrzone ciekawym i wartościowym opisem.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: ''
-disqus: 'busterspharma'
-email: 'miekusn@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# site settings
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
-include: ["_pages"]
-permalink: /:title/
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  
-authors:
-    Natalia:
-      name:           Natalia
-      site:           https://www.pharmabusters.pl/
-      avatar:         assets/images/avatar1.jpg
-      bio:            "Świeża porcja zdrowotnych newsów wybranych pod kątem dużej użyteczności społecznej. Polemika z mitami znanymi z reklam, wskazywanie szkodliwych trendów z obszaru lifestyle i bezlitosne rozprawianie się z nimi. Pokazywanie, że można jeść smacznie, zdrowo, tanio, a samą tylko wyszukaną kompozycją posiłków wyzwalać w innych niepohamowaną rządzę spróbowania tego jak to jest jeść zdrowo.<br> <br> <br>Koniec i bomba,<br> kto je suple ten trąba."
-      email:          miekusn@gmail.com
-      twitter:        https://twitter.com/BustersPharma
- 
-# Defaults
-defaults:
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/andrewbanchich
+  GitLab:
+  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/andrewbanchich
+  Facebook:
+  Slack:
 
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: Natalia
-      avatar: assets/images/avatar1.jpg
-      
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-      
-# Syntax
+# build settings
 markdown: kramdown
-highlighter: rouge
 
-# Paginate
-paginate: 10
+sass:
+  style: compressed
 
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
