@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Dr hab. n.farm. Natalia Miękus-Purwin'
 description: null
 image: null
 author: null
