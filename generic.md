@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oferta
-description: Lorem ipsum dolor est
+description: 'Sesje indywidualne<br>Spotkania wykładowe<br>Konsultacje grupowe<b>Oferta współpracy dla firm'
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
