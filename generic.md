@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oferta
-description: 'Sesje indywidualne<br><br>Spotkania wykładowe<br><br>Konsultacje grupowe<br><br>Oferta współpracy dla firm'
+description: 'Sesje indywidualne<br>&nbsp;<br>Spotkania wykładowe<br>&nbsp;<br>Konsultacje grupowe<br>&nbsp;<br>Oferta współpracy dla firm'
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
