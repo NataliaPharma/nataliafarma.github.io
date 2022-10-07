@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Oferta
+title: Galeria
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
