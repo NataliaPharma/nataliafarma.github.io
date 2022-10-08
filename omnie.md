@@ -3,7 +3,6 @@ title: Słówko o mnie
 layout: post
 description: 'Homo Sapiens Natalicus'
 image: assets/images/pic77.jpg
-nav-menu: true
 ---
 
 Przygoda z nauką zaczęła się dla mnie wiele lat temu, gdy jako młoda, nie wiedząca co ze sobą zrobić nastolatka, postanowiłam iść na Farmację, by pomagać ludziom. Realia okazały się trochę inne: ciężkie, katorżnicze studia (czyli "książka telefoniczna na pamięć"), nieprzespane noce, stracone kilogramy (w negatywnym tego słowa znaczeniu)... Ale tytuł mgr. farm. dumnie okazywałam w aptekach. Niemniej praca nie sprostała moim ideom - gdzie tu pomaganie, jak mam tylko minutę na pacjenta?! Jak służyć ludziom z całą swoją wiedzą?!
