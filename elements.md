@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Galeria
-description: '❖ Jesteś tym co jesz <br>&nbsp;<br>❖ W zdrowym ciele zdrowy duch <br>&nbsp;<br>❖ Szczęście to najwyższa forma zdrowia <br>&nbsp;<br>❖ Dobry śmiech i długi sen to najlepsze lekarstwa w książce lekarskiej'
+description: '❖ Jesteś tym co jesz &nbsp;<br>&nbsp;<br>❖ W zdrowym ciele zdrowy duch &nbsp;<br>&nbsp;<br>❖ Szczęście to najwyższa forma zdrowia &nbsp;<br>&nbsp;<br>❖ Dobry śmiech i długi sen to najlepsze lekarstwa w książce lekarskiej &nbsp;'
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
