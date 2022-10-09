@@ -1,7 +1,7 @@
 ---
 title: Jak to się wszystko zaczęło?
 layout: post
-description: 'idea big bang'
+description: 'xxx'
 image: assets/images/pic77.jpg
 ---
 
