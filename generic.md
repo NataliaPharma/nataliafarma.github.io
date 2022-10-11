@@ -19,9 +19,6 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">xy</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
-<div class="row">
 	<div class="6u 12u$(small)">
 		<h3>SESJE INDYWIDUALNE ON-LINE/STACJONARNIE:</h3>
 		<p>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.</p>
@@ -59,6 +56,24 @@ nav-menu: true
 		<h3>Accumsan montes viverra</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
+		
+		
+		<h2 id="content">Co zyskujesz?</h2>
+<p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)</p>
+<p>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</p>
+<p>Naukę rozpoznawania własnych potrzeb, określania priorytetów.</p>
+<p>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia</p>
+<p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
+	Chcesz spróbować?</p>
+		
+		
+		
+<h2>Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
+		
+		
+		
+		
+<div class="row">
 </div>
 
 <hr class="major" />
