@@ -17,7 +17,14 @@ nav-menu: true
 		<header class="major">
 			<h1>robię ofertę (20:16 2022.10.11)</h1>
 		</header>
-
+		<h2 id="content">Co zyskujesz?</h2>
+<p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)</p>
+<p>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</p>
+<p>Naukę rozpoznawania własnych potrzeb, określania priorytetów.</p>
+<p>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia</p>
+<p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
+	Chcesz spróbować?</p>
+		
 <!-- Content -->
 	<div class="6u 12u$(small)">
 		<h3>SESJE INDYWIDUALNE ON-LINE/STACJONARNIE:</h3>
@@ -30,6 +37,8 @@ nav-menu: true
 		<p>Połączenie medycyny konwencjonalnej z naturalną - co naprawdę Tobie służy, a co jest tylko chwytem reklamowym?</p>
 		
 	</div>
+		
+		
 	<div class="6u$ 12u$(small)">
 		<h3>Konsultacje grupowe</h3>
 		<p>Projekty skierowane do grup:</p>
@@ -58,14 +67,7 @@ nav-menu: true
 	</div>
 		
 		
-		<h2 id="content">Co zyskujesz?</h2>
-<p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)</p>
-<p>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</p>
-<p>Naukę rozpoznawania własnych potrzeb, określania priorytetów.</p>
-<p>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia</p>
-<p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
-	Chcesz spróbować?</p>
-		
+
 		
 		
 <h2>Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
