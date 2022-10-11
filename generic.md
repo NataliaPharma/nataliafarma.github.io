@@ -2,7 +2,7 @@
 layout: post
 title: Oferta
 description: '❖ Sesje indywidualne &nbsp;<br>&nbsp;<br>❖ Spotkania wykładowe &nbsp;<br>&nbsp;<br>❖ Konsultacje grupowe &nbsp;<br>&nbsp;<br>❖ Oferta współpracy dla firm &nbsp;'
-image: assets/images/279632095_965150060839113_2223069034019592635_n.jpg
+image: assets/images/IMG_3681.JPG
 nav-menu: true
 ---
 
