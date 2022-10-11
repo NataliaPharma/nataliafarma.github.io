@@ -34,13 +34,22 @@ nav-menu: true
 		
 	</div>
 	<div class="6u$ 12u$(small)">
-		<h3>Magna odio tempus commodo</h3>
-		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+		<h3>Konsultacje grupowe</h3>
+		<p>Projekty skierowane do grup:</p>
+		<p>Seniorzy, słuchacze uniwersytetów III wieku</p>
+		<p>Dorośli, będący członkami społeczności np. sportowcy</p>
+		<p>Studenci, uczniowie szkół</p>
+		<p>Matki, ojcowie, rodziny, przyjaciele</p>
+		<p>EDUKACJA, AKTYWIZACJA, WSPÓLNA PRACA NAD PROCESEM ZMIANY</p>
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
-		<h3>Interdum sapien gravida</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>Oferta dla firm:</h3>
+		<p>Holistyczne dbanie o zdrowie pracowników, ale również szefów.</p>
+		<p>Zdrowe nawyki żywieniowe w firmie - przerwy owocowe?</p>
+		<p>Zdrowe miejsce pracy - korekcja niesłużących wzorców pracy.</p>
+		<p>Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny.</p>
+		
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>Faucibus consequat lorem</h3>
