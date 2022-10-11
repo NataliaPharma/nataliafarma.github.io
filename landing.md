@@ -13,7 +13,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Holistic Health</h2>
 		</header>
 		<p>Jeśli tu dotarłeś, Drogi Czytelniku, bardzo się cieszę! Wiele lat pracy jako wykładowca, naukowiec na uczelni, farmaceuta w aptece, jak również w gabinetach lekarskich uświadomiły mi, ile mogę Tobie oferować. Nauczyć harmonizować życie, poprzez wypracowanie narzędzi radzenia sobie ze stresem, komponowania diety tak, byś zyskał energię i miał siłę sprostać codziennym wyzwaniom, dokonać wraz z Tobą przeglądu interesującej Cię kwestii (na przykład dotyczącej naturalnych metod terapii, dietoterapii, zdrowego stylu życia, konieczności, lub nie stosowania suplementacji) tak, by, opracować spersonalizowane plany zdrowotne dla Ciebie. </p>
 
