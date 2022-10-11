@@ -15,7 +15,7 @@ o tyle w telegraficznym skrócie!
 
 (test wprowadznia zmian poprzez if gt)
 
-Więcej o "karierze" na LINKEDIN 
+Więcej o "karierze" na LINKEDIN  ccc
 
 Więcej o filarach zdrowego stylu życia i medycynie holistycznej - na IG i TT.
 
