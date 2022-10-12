@@ -73,6 +73,10 @@ nav-menu: true
 		
 	</div>
 	<!-- Break -->
+	
+	<hr>
+	
+	
 	<div class="4u 12u$(medium)">
 		
 		
@@ -93,6 +97,9 @@ nav-menu: true
 	</div>
 </div>
 
+		<hr>
+		
+		
 		<h2 id="content">Co zyskujesz?</h2>
 		
 <p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)<br>
