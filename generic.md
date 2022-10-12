@@ -24,7 +24,7 @@ nav-menu: true
 	<div class="6u 12u$(small)">
 		
 		
-		<h3>Konsultacje grupowe</h3>
+		<h3>Konsultacje grupowe:</h3>
 		<p>Projekty skierowane do grup:</p>
 		<p>Seniorzy, słuchacze uniwersytetów III wieku</p>
 		<p>Dorośli, będący członkami społeczności np. sportowcy</p>
@@ -44,7 +44,7 @@ nav-menu: true
 	</div>
 	<div class="6u$ 12u$(small)">
 		
-<h3>SESJE INDYWIDUALNE ON-LINE/STACJONARNIE:</h3>
+<h3>Sesje indywidualne on-line/stacjonarnie:</h3>
 		<p>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.</p>
 		<p>Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej.</p>
 		<p>Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)</p>
@@ -80,8 +80,17 @@ nav-menu: true
 	</div>
 </div>
 
-		<h2 id="content">Co możesz zyskać?</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+		<h2 id="content">Co zyskujesz?</h2>
+		
+<p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)<br>
+Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!<br>
+Naukę rozpoznawania własnych potrzeb, określania priorytetów<br>
+Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia<br>
+
+
+Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
+Chcesz spróbować?</p>	
+
 		
 		
 <hr class="major" />
