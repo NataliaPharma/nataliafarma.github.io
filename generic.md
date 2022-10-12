@@ -25,18 +25,18 @@ nav-menu: true
 		
 		
 		<h3>Konsultacje grupowe:</h3>
-		Projekty skierowane do grup:<br>
-		⳾Seniorzy, słuchacze uniwersytetów III wieku<br>
-		⳾Dorośli, będący członkami społeczności np. sportowcy<br>
-		⳾Studenci, uczniowie szkół<br>
-		⳾Matki, ojcowie, rodziny, przyjaciele<br>
+		<p style=" border:1px solid red; border-width:0px 0px 0px 1px;" >Projekty skierowane do grup:<br>
+		⳾ Seniorzy, słuchacze uniwersytetów III wieku<br>
+		⳾ Dorośli, będący członkami społeczności np. sportowcy<br>
+		⳾ Studenci, uczniowie szkół<br>
+		⳾ Matki, ojcowie, rodziny, przyjaciele<br>
 		EDUKACJA, AKTYWIZACJA, WSPÓLNA PRACA NAD PROCESEM ZMIANY</p>
 		
 		<h3>Oferta dla firm:</h3>
-		<p>Holistyczne dbanie o zdrowie pracowników, ale również szefów.<br>
-		⳾Zdrowe nawyki żywieniowe w firmie - przerwy owocowe?<br>
-		⳾Zdrowe miejsce pracy - korekcja niesłużących wzorców pracy.<br>
-		⳾Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny.</p>
+		<p style=" border:1px solid red; border-width:0px 0px 0px 1px;">Holistyczne dbanie o zdrowie pracowników, ale również szefów.<br>
+		⳾ Zdrowe nawyki żywieniowe w firmie - przerwy owocowe?<br>
+		⳾ Zdrowe miejsce pracy - korekcja niesłużących wzorców pracy.<br>
+		⳾ Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny.</p>
 		
 		
 		
