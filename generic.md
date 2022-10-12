@@ -117,9 +117,7 @@ Chcesz spróbować?</p>
 
 		
 		
-		
-		
-<!-- tymczasowa wykasówka!!!!
+
 
 <h2 id="elements">Elements</h2>
 <div class="row 200%">
@@ -472,8 +470,6 @@ print 'It took ' + i + ' iterations to sort the deck.';
 </div>
 </div>
 
-
-tymczasowa wykasowka -->
 
 </div>
 
