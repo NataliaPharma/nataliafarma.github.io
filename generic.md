@@ -17,38 +17,44 @@ nav-menu: true
 		<header class="major">
 			<h1>robię ofertę (20:16 2022.10.11)</h1>
 		</header>
-
+		<h2 id="content">Co zyskujesz?</h2>
+<p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)<br>
+Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno<br>
+Naukę rozpoznawania własnych potrzeb, określania priorytetów.<br>
+Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia
+Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!<br>
+	Chcesz spróbować?</p>
 		
 <!-- Content -->
 	<div class="6u 12u$(small)">
 		<h3>SESJE INDYWIDUALNE ON-LINE/STACJONARNIE:</h3>
-		<p>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.</p>
-		<p>Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej.</p>
-		<p>Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)</p>
-		<p>Nawyki zdrowotne usprawniające systemy naprawcze organizmu, pomagające w prewencji chorób cywilizacyjnych</p>
-		<p>Model pracy dostosowany do Twoich potrzeb - Ty wybierasz, jaki filar/filary zdrowia w swoim życiu chciałbyś zmienić/zmodyfikować tak, aby cieszyć się swoim miejscem na Ziemi</p>
-		<p>Możliwość sesji domowych, wypracowanie odpowiednich wzorców pro-zdrowotnych dla całej rodziny</p>
-		<p>Połączenie medycyny konwencjonalnej z naturalną - co naprawdę Tobie służy, a co jest tylko chwytem reklamowym?</p>
+		<p>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.<br>
+		Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej.<br>
+		Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)<br>
+		Nawyki zdrowotne usprawniające systemy naprawcze organizmu, pomagające w prewencji chorób cywilizacyjnych<br>
+		Model pracy dostosowany do Twoich potrzeb - Ty wybierasz, jaki filar/filary zdrowia w swoim życiu chciałbyś zmienić/zmodyfikować tak, aby cieszyć się swoim miejscem na Ziemi<br>
+		Możliwość sesji domowych, wypracowanie odpowiednich wzorców pro-zdrowotnych dla całej rodziny<br>
+		Połączenie medycyny konwencjonalnej z naturalną - co naprawdę Tobie służy, a co jest tylko chwytem reklamowym?</p>
 		
 	</div>
 		
 		
 	<div class="6u$ 12u$(small)">
 		<h3>Konsultacje grupowe</h3>
-		<p>Projekty skierowane do grup:</p>
-		<p>Seniorzy, słuchacze uniwersytetów III wieku</p>
-		<p>Dorośli, będący członkami społeczności np. sportowcy</p>
-		<p>Studenci, uczniowie szkół</p>
-		<p>Matki, ojcowie, rodziny, przyjaciele</p>
-		<p>EDUKACJA, AKTYWIZACJA, WSPÓLNA PRACA NAD PROCESEM ZMIANY</p>
+		<p>Projekty skierowane do grup:<br>
+		Seniorzy, słuchacze uniwersytetów III wieku<br>
+		Dorośli, będący członkami społeczności np. sportowcy<br>
+		Studenci, uczniowie szkół<br>
+		Matki, ojcowie, rodziny, przyjaciele<br>
+		EDUKACJA, AKTYWIZACJA, WSPÓLNA PRACA NAD PROCESEM ZMIANY</p>
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
 		<h3>Oferta dla firm:</h3>
-		<p>Holistyczne dbanie o zdrowie pracowników, ale również szefów.</p>
-		<p>Zdrowe nawyki żywieniowe w firmie - przerwy owocowe?</p>
-		<p>Zdrowe miejsce pracy - korekcja niesłużących wzorców pracy.</p>
-		<p>Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny.</p>
+		<p>Holistyczne dbanie o zdrowie pracowników, ale również szefów.<br>
+		Zdrowe nawyki żywieniowe w firmie - przerwy owocowe?<br>
+		Zdrowe miejsce pracy - korekcja niesłużących wzorców pracy.<br>
+		Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny.</p>
 		
 	</div>
 	<div class="4u 12u$(medium)">
