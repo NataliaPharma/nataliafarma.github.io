@@ -73,10 +73,7 @@ nav-menu: true
 		
 	</div>
 	<!-- Break -->
-	
-	<hr>
-	
-	
+		
 	<div class="4u 12u$(medium)">
 		
 		
