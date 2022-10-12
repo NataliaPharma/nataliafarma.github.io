@@ -53,15 +53,19 @@ nav-menu: true
 	<div class="6u$ 12u$(small)">
 		
 <h3>Sesje indywidualne on-line/stacjonarnie:</h3>
-		<p>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.</p>
-		<p>Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej.</p>
-		<p>Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)</p>
-		<p>Nawyki zdrowotne usprawniające systemy naprawcze organizmu, pomagające w prewencji chorób cywilizacyjnych</p>
-		<p>Model pracy dostosowany do Twoich potrzeb - Ty wybierasz, jaki filar/filary zdrowia w swoim życiu chciałbyś zmienić/zmodyfikować tak, aby cieszyć się swoim miejscem na Ziemi</p>
-		<p>Możliwość sesji domowych, wypracowanie odpowiednich wzorców pro-zdrowotnych dla całej rodziny</p>
-		<p>Połączenie medycyny konwencjonalnej z naturalną - co naprawdę Tobie służy, a co jest tylko chwytem reklamowym?</p>
+		
+		<ul>
 		
 		
+		<li>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.</li>
+		<li>Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej.</li>
+		<li>Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)</li>
+		<li>Nawyki zdrowotne usprawniające systemy naprawcze organizmu, pomagające w prewencji chorób cywilizacyjnych</li>
+		<li>Model pracy dostosowany do Twoich potrzeb - Ty wybierasz, jaki filar/filary zdrowia w swoim życiu chciałbyś zmienić/zmodyfikować tak, aby cieszyć się swoim miejscem na Ziemi</li>
+		<li>Możliwość sesji domowych, wypracowanie odpowiednich wzorców pro-zdrowotnych dla całej rodziny</li>
+		<li>Połączenie medycyny konwencjonalnej z naturalną - co naprawdę Tobie służy, a co jest tylko chwytem reklamowym?</li>
+		
+		</ul>
 		
 		
 		
