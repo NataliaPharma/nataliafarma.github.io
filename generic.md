@@ -101,7 +101,7 @@ nav-menu: true
 		
 	        <ul>
 			
-<li>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)</li>
+<li>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia🙂</li>
 <li>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</li>
 <li>Naukę rozpoznawania własnych potrzeb, określania priorytetów</li>
 <li>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia.</li>
