@@ -15,7 +15,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>Zobacz co potrafię:</h1>
 		</header>
 
 <!-- Content -->
@@ -32,7 +32,6 @@ nav-menu: true
 			<li>Studenci, uczniowie szkół.</li>
 			<li>Matki, ojcowie, rodziny, przyjaciele...</li>
 		</ul>
-		EDUKACJA, AKTYWIZACJA, WSPÓLNA PRACA NAD PROCESEM ZMIANY
 		
 		<hr>
 		
