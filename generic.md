@@ -15,47 +15,25 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>robię ofertę (20:16 2022.10.11)</h1>
+			<h1>Elements</h1>
 		</header>
-		<h2 id="content">Co zyskujesz?</h2>
-<p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)<br>
-Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno<br>
-Naukę rozpoznawania własnych potrzeb, określania priorytetów.<br>
-Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia
-Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!<br>
-	Chcesz spróbować?</p>
-		
+
 <!-- Content -->
+<h2 id="content">robię ofertę (20:16 2022.10.11)</h2>
+<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<div class="row">
 	<div class="6u 12u$(small)">
-		<h3>SESJE INDYWIDUALNE ON-LINE/STACJONARNIE:</h3>
-		<p>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.<br>
-		Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej.<br>
-		Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)<br>
-		Nawyki zdrowotne usprawniające systemy naprawcze organizmu, pomagające w prewencji chorób cywilizacyjnych<br>
-		Model pracy dostosowany do Twoich potrzeb - Ty wybierasz, jaki filar/filary zdrowia w swoim życiu chciałbyś zmienić/zmodyfikować tak, aby cieszyć się swoim miejscem na Ziemi<br>
-		Możliwość sesji domowych, wypracowanie odpowiednich wzorców pro-zdrowotnych dla całej rodziny<br>
-		Połączenie medycyny konwencjonalnej z naturalną - co naprawdę Tobie służy, a co jest tylko chwytem reklamowym?</p>
-		
+		<h3>Sem turpis amet semper</h3>
+		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
-		
-		
 	<div class="6u$ 12u$(small)">
-		<h3>Konsultacje grupowe</h3>
-		<p>Projekty skierowane do grup:<br>
-		Seniorzy, słuchacze uniwersytetów III wieku<br>
-		Dorośli, będący członkami społeczności np. sportowcy<br>
-		Studenci, uczniowie szkół<br>
-		Matki, ojcowie, rodziny, przyjaciele<br>
-		EDUKACJA, AKTYWIZACJA, WSPÓLNA PRACA NAD PROCESEM ZMIANY</p>
+		<h3>Magna odio tempus commodo</h3>
+		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
-		<h3>Oferta dla firm:</h3>
-		<p>Holistyczne dbanie o zdrowie pracowników, ale również szefów.<br>
-		Zdrowe nawyki żywieniowe w firmie - przerwy owocowe?<br>
-		Zdrowe miejsce pracy - korekcja niesłużących wzorców pracy.<br>
-		Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny.</p>
-		
+		<h3>Interdum sapien gravida</h3>
+		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>Faucibus consequat lorem</h3>
@@ -65,24 +43,11 @@ Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!<br
 		<h3>Accumsan montes viverra</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
-		
-		
-
-		
-		
-<h2>Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
-		
-		
-		
-	</div>		
-<div class="row">
 </div>
 
 <hr class="major" />
 
 <!-- Elements -->
-		
-		
 <h2 id="elements">Elements</h2>
 <div class="row 200%">
 	<div class="6u 12u$(medium)">
