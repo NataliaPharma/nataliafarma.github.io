@@ -34,7 +34,7 @@ nav-menu: true
 		</ul>
 		EDUKACJA, AKTYWIZACJA, WSPÓLNA PRACA NAD PROCESEM ZMIANY
 		
-		<p>&nbsp;</p>
+		<hr>
 		
 		<h3>Oferta dla firm:</h3>
 		
