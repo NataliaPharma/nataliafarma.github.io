@@ -99,13 +99,15 @@ nav-menu: true
 		
 		<h2 id="content">Co zyskujesz?</h2>
 		
-<p>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)<br>
-Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!<br>
-Naukę rozpoznawania własnych potrzeb, określania priorytetów<br>
-Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia<br>
+	        <ul>
+			
+<li>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia:)</li>
+<li>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</li>
+<li>Naukę rozpoznawania własnych potrzeb, określania priorytetów</li>
+<li>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia.</li>
+		</ul>
 
-
-Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
+<p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
 Chcesz spróbować?</p>	
 
 		
