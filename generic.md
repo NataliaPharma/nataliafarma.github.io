@@ -74,13 +74,15 @@ Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!<br
 		
 		
 		
-		
+	</div>		
 <div class="row">
 </div>
 
 <hr class="major" />
 
 <!-- Elements -->
+		
+		
 <h2 id="elements">Elements</h2>
 <div class="row 200%">
 	<div class="6u 12u$(medium)">
