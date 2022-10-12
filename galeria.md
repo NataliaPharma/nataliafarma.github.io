@@ -27,12 +27,12 @@ nav-menu: true
 	<div class="6u$ 12u$(small)">
 		<h3>Zdrowy ruch, czyli jaki?</h3>
 		<p></p>
-	</div>
+	
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
-		<h3>Zdrowa głowa/h3>
+		<h3>Zdrowa głowa</h3>
 		<p></p>
-	</div>
+	
 	<div class="4u 12u$(medium)">
 		<h3>Zdrowe ciało</h3>
 		<p></p>
