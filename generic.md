@@ -15,7 +15,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Zobacz co potrafię:</h1>
+			<h1>Możliwości współpracy:</h1>
 		</header>
 
 <!-- Content -->
