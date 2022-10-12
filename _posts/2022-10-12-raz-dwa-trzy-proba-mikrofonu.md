@@ -1,14 +1,14 @@
 ---
 layout: post
-title: raz dwa trzy próba mikrofonu
+title: Raz dwa trzy, próba mikrofonu.
 description: Work/life balance
 image: assets/images/x.png
 ---
 
-## Sprawdzam gdzie lądują posty nowe
-## Czy na górze, czy na dole.
-## Potem wklejam filmik z tt
-## Markdown czy też plain text wolę? 🤔
+### Sprawdzam gdzie lądują posty nowe
+### Czy na górze, czy na dole.
+### Potem wklejam filmik z tt
+### Markdown czy też plain text wolę? 🤔
 
 
 
