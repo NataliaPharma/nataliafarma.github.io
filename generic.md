@@ -77,7 +77,7 @@ nav-menu: true
 		
 		
 		<h3>AKTYWIZACJA</h3>
-		<div style="width=100%;text-align:center;"><h2>⚡<h/2></div>
+		<div style="width:100%;text-align:center;"><h2>⚡</h2></div>
 		<p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, w swojej rodzinie, czy tylko dla siebie , wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
 		
 		
@@ -85,7 +85,7 @@ nav-menu: true
 		
 	</div>
 	<div class="4u 12u$(medium)">
-		<h3>EDUKACJA</h3>
+		<h3>EDUKACJA🏫 </h3>
 		<p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Tylko podejście holistyczne daje spektakularne efekty. Zmienisz wszystko albo nic. Losowe interwencje w pojedynczych obszarach raczej tylko wyprowadzą nas z równowagi zamiast zmienić coś na lepsze. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to masa źle przekazanych lub nieprawdziwych informacji i wynikające z tego nieporozumienia! </p>
 	</div>
 	<div class="4u$ 12u$(medium)">
