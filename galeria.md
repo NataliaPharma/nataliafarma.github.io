@@ -42,6 +42,99 @@ nav-menu: true
 	</div>
 </div>
 		
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+		
+		
+		
+	</div>
+	<div class="6u$ 12u$(small)">
+		<h3>Zdrowy ruch, czyli jaki?</h3>
+		<p></p>
+		
+		
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->		
+		
+		<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+	</div>
+</div>
+		
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+	<!-- Break -->
+	<div class="4u 12u$(medium)">
+		<h3>Zdrowa głowa</h3>
+		<p></p>
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->		
+		
+		<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+	</div>
+</div>
+		
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->	
+		
+		
+		
+		
+		
+		
+	</div>
+	<div class="4u 12u$(medium)">
+		<h3>Zdrowe ciało</h3>
+		<p></p>
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->		
+		
+		<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+	</div>
+</div>
+		
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->	
 		
 		
@@ -50,27 +143,35 @@ nav-menu: true
 		
 		
 		
-		
-		
-		
-		
-	</div>
-	<div class="6u$ 12u$(small)">
-		<h3>Zdrowy ruch, czyli jaki?</h3>
-		<p></p>
-	</div>
-	<!-- Break -->
-	<div class="4u 12u$(medium)">
-		<h3>Zdrowa głowa</h3>
-		<p></p>
-	</div>
-	<div class="4u 12u$(medium)">
-		<h3>Zdrowe ciało</h3>
-		<p></p>
 	</div>
 	<div class="4u$ 12u$(medium)">
 		<h3>Zdrowie społeczne</h3>
 		<p></p>
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->		
+		
+		<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+	</div>
+</div>
+		
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->	
+		
+		
+		
+		
 	</div>
 </div>
 
