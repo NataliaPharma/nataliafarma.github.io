@@ -71,6 +71,8 @@ nav-menu: true
 		
 		
 	</div>
+	
+	<hr class="major" />
 	<!-- Break -->
 		
 	<div class="4u 12u$(medium)">
