@@ -4,20 +4,20 @@
 		<section>
 			<form action="https://formspree.io/f/xlezjvgw" method="POST">
 				<div class="field half first">
-					<label for="name">Name</label>
+					<label for="name">Jak się nazywasz?</label>
 					<input type="text" name="name" id="name" />
 				</div>
 				<div class="field half">
-					<label for="email">Email</label>
+					<label for="email">Twój email:</label>
 					<input type="text" name="_replyto" id="email" />
 				</div>
 				<div class="field">
-					<label for="message">Message</label>
+					<label for="message">Wiadomość</label>
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
+					<li><input type="submit" value="Wyślij do Natalii" class="special" /></li>
+					<li><input type="reset" value="Wyczyść pole." /></li>
 				</ul>
 			</form>
 		</section>
@@ -32,14 +32,14 @@
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
+					<h3>Telefon</h3>
 					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
+					<h3>Adres</h3>
 					<span>
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
@@ -78,6 +78,7 @@
 				{% endfor %}
 			</ul>
 			<ul class="copyright">
+				<li>Zdjęcia, tekst, modyfikacje szablonu: Natalia Miękus-Purwin</li>
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
