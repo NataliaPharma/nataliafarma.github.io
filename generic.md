@@ -86,7 +86,7 @@ nav-menu: true
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>EDUKACJA</h3>
-		<div style="width:100%;text-align:center;"><h1>🦉</h1>
+		<div style="width:100%;text-align:center;"><h1>🦉</h1></div>
 		<p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Tylko podejście holistyczne daje spektakularne efekty. Zmienisz wszystko albo nic. Losowe interwencje w pojedynczych obszarach raczej tylko wyprowadzą nas z równowagi zamiast zmienić coś na lepsze. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to masa źle przekazanych lub nieprawdziwych informacji i wynikające z tego nieporozumienia! </p>
 	</div>
 	<div class="4u$ 12u$(medium)">
