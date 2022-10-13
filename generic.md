@@ -114,6 +114,8 @@ nav-menu: true
 <p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
 Chcesz spróbować?</p>	
 		
+<div style="width:100%;"><hr class="major" /></div>
+		
 		<h2> Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
 			
 		
