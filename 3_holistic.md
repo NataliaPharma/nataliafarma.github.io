@@ -53,9 +53,9 @@ nav-menu: true
         <p>Zapraszam :) </p>
 	
 	<div style="width:100%; text-align:center;">
-		    
+	<div>	    
 		<blockquote class="twitter-tweet"><p lang="pl" dir="ltr">Dlaczego robię to co robię? <a href="https://twitter.com/hashtag/holistichealth?src=hash&amp;ref_src=twsrc%5Etfw">#holistichealth</a> <a href="https://twitter.com/hashtag/psychosomatyka?src=hash&amp;ref_src=twsrc%5Etfw">#psychosomatyka</a> <a href="https://twitter.com/hashtag/integracja?src=hash&amp;ref_src=twsrc%5Etfw">#integracja</a> <a href="https://twitter.com/hashtag/medycynatradycyjna?src=hash&amp;ref_src=twsrc%5Etfw">#medycynatradycyjna</a> <br><br>Have a nice day! <a href="https://t.co/4i4FnGY1Hl">pic.twitter.com/4i4FnGY1Hl</a></p>&mdash; PharmaBusters (@BustersPharma) <a href="https://twitter.com/BustersPharma/status/1576871953067315201?ref_src=twsrc%5Etfw">October 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-		
+	</div>	
 	</div>
        
 
