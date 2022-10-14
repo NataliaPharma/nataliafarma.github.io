@@ -30,9 +30,12 @@ nav-menu: true
 		
 <p><span class="image right"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span>Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie. Zbieramy doświadczenia, uczymy się na błędach, idziemy parę kroków w przód czasem - co jest normalne - stając w miejscu, albo się cofając. Jest to również ogromnie ważny aspekt w części poznawczej, który krok za krokiem przybliża nas do pełni zdrowia - zarówno tego FIZYCZNEGO, ale również PSYCHICZNEGO
 </p>
+
+<div style="width:100%;"><hr></div>
 		
 <p><span class="image right"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span> Ładowanie baterii, odpoczynek - tego również dobrze byłoby się nauczyć. W dzisiejszym pędzącym świecie, który wymaga od nas produktywności, podejmowania nowych wyzwań, takie podejście może być "niemodne", ale czy modna uratowała kiedyś czyjeś zdrowie, albo życie? W dłuższej perspektywie spojrzymy, że to, co robimy nie zawsze prowadzi do naszego zdrowia, nawet, gdy obecnie panuje na to 'TREND'.</p>
 	
+<div style="width:100%;"><hr></div>
 
         <p>Nie negujmy medycyny konwencjonalnej! Lekarze i służba zdrowia chcą dla nas jak najlepiej. Ale również - NIE ZRZUCAJMY całej odpowiedzialności na medyków: my również możemy wiele osiągnąć, wspomóc naszą terapię, gdy tylko podejmiemy taką, świadomą decyzję. Z otwartością przygotujmy się, dokąd ta droga nas zaprowadzi... Scenariuszy jest wiele, wszystkie równie fascynujące!</p>
 
