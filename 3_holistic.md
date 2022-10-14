@@ -23,6 +23,13 @@ nav-menu: true
 
 <div style="width:100%;"><hr></div>
 		
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic08.jpg"><img src="{% link assets/images/pic08.jpg %}" alt="" /></a></span></div>
+		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic09.jpg"><img src="{% link assets/images/pic09.jpg %}" alt="" /></a></span></div>
+		<div class="4u$"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic10.jpg"><img src="{% link assets/images/pic10.jpg %}" alt="" /></a></span></div>
+	</div>
+		
 <p>Jedzenie stanowi ważny element holistycznego planu dbania o swoje zdrowie. Nie jest to jednak jedyny element! Równie ważne jest znalezienie czasu na rozwój duchowy, na swoje pasje, jak również obecność wśród ludzi. Zdrowe relacje przedłużają życie, uśmiech na codzień - to najlepszy makijaż, a spokojny ogląd sytuacji - pozwala na utrzymanie hormonalnej, a co za tym idzie - emocjonalnej - równowagi.</p>
 	
 <div style="width:100%;"><hr></div>
