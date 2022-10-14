@@ -25,9 +25,9 @@ nav-menu: true
 		
 <div class="box alt">
 	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic08.jpg"><img src="{% link assets/images/pic08.jpg %}" alt="" /></a></span></div>
-		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic09.jpg"><img src="{% link assets/images/pic09.jpg %}" alt="" /></a></span></div>
-		<div class="4u$"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic10.jpg"><img src="{% link assets/images/pic10.jpg %}" alt="" /></a></span></div>
+		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/hhealth2.jpg"><img src="{% link assets/images/hhealth2.jpg %}" alt="" /></a></span></div>
+		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/hhealth3.jpg"><img src="{% link assets/images/hhealth3.jpg %}" alt="" /></a></span></div>
+		<div class="4u$"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/hhealth4.jpg"><img src="{% link assets/images/hhealth4.jpg %}" alt="" /></a></span></div>
 </div>
 	
 <p>&nbsp;</p>
