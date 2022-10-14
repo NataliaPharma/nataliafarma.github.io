@@ -41,7 +41,7 @@ nav-menu: true
 		
 
 		
-<p><span class="image right"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span> Ładowanie baterii, odpoczynek - tego również dobrze byłoby się nauczyć. W dzisiejszym pędzącym świecie, który wymaga od nas produktywności, podejmowania nowych wyzwań, takie podejście może być "niemodne", ale czy modna uratowała kiedyś czyjeś zdrowie, albo życie? W dłuższej perspektywie spojrzymy, że to, co robimy nie zawsze prowadzi do naszego zdrowia, nawet, gdy obecnie panuje na to 'TREND'.</p>
+<p><span class="image right"><img src="{% link assets/images/hhealth1.jpg %}" alt="" /></span> Ładowanie baterii, odpoczynek - tego również dobrze byłoby się nauczyć. W dzisiejszym pędzącym świecie, który wymaga od nas produktywności, podejmowania nowych wyzwań, takie podejście może być "niemodne", ale czy modna uratowała kiedyś czyjeś zdrowie, albo życie? W dłuższej perspektywie spojrzymy, że to, co robimy nie zawsze prowadzi do naszego zdrowia, nawet, gdy obecnie panuje na to 'TREND'.</p>
 	
 		
 
