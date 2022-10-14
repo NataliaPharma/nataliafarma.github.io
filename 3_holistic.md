@@ -20,6 +20,9 @@ nav-menu: true
 <p><span class="image left"><a href="https://www.pharmabusters.pl/assets/images/hhealth0.jpg"><img src="{% link assets/images/hhealth0.jpg %}" alt="" /></a></span>Jeśli tu dotarłeś, Drogi Czytelniku, bardzo się cieszę! Wiele lat pracy jako wykładowca, naukowiec na uczelni, farmaceuta w aptece, jak również w gabinetach lekarskich uświadomiły mi, ile mogę Tobie oferować. Nauczyć harmonizować życie, poprzez wypracowanie narzędzi radzenia sobie ze stresem, komponowania diety tak, byś zyskał energię i miał siłę sprostać codziennym wyzwaniom, dokonać wraz z Tobą przeglądu interesującej Cię kwestii (na przykład dotyczącej naturalnych metod terapii, dietoterapii, zdrowego stylu życia, konieczności, lub nie stosowania suplementacji) tak, by, opracować spersonalizowane plany zdrowotne dla Ciebie.</p>
 		
 <p>Podczas konsultacji rozmawiamy o tym, czego potrzebujesz, uczymy się słuchać, czego Twoje ciało fizyczne, ale również to mentalne, emocjonalne, potrzebuje. Przyjrzymy się holistycznie ścieżkom zdrowia, które byłyby dla Ciebie najoptymalniejsze. Tego i wiele więcej dowiesz się podczas pierwszej godziny spotkania, a później, mam nadzieję, razem pójdziemy drogą ku pełni zdrowia fizycznego, ale również psychicznego.</p>	
+		
+<p>Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie. Zbieramy doświadczenia, uczymy się na błędach, idziemy parę kroków w przód czasem - co jest normalne - stając w miejscu, albo się cofając. Jest to również ogromnie ważny aspekt w części poznawczej, który krok za krokiem przybliża nas do pełni zdrowia - zarówno tego FIZYCZNEGO, ale również PSYCHICZNEGO
+</p>
 
 <div style="width:100%;"><hr></div>
 		
@@ -33,13 +36,6 @@ nav-menu: true
 <p>&nbsp;</p>
 		
 <p>Jedzenie stanowi ważny element holistycznego planu dbania o swoje zdrowie. Nie jest to jednak jedyny element! Równie ważne jest znalezienie czasu na rozwój duchowy, na swoje pasje, jak również obecność wśród ludzi. Zdrowe relacje przedłużają życie, uśmiech na codzień - to najlepszy makijaż, a spokojny ogląd sytuacji - pozwala na utrzymanie hormonalnej, a co za tym idzie - emocjonalnej - równowagi.</p>
-	
-	
-		
-<p>Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie. Zbieramy doświadczenia, uczymy się na błędach, idziemy parę kroków w przód czasem - co jest normalne - stając w miejscu, albo się cofając. Jest to również ogromnie ważny aspekt w części poznawczej, który krok za krokiem przybliża nas do pełni zdrowia - zarówno tego FIZYCZNEGO, ale również PSYCHICZNEGO
-</p>
-		
-
 		
 <p><span class="image right"><a href="https://www.pharmabusters.pl/assets/images/hhealth1.jpg"><img src="{% link assets/images/hhealth1.jpg %}" alt="" /></a></span> Ładowanie baterii, odpoczynek - tego również dobrze byłoby się nauczyć. W dzisiejszym pędzącym świecie, który wymaga od nas produktywności, podejmowania nowych wyzwań, takie podejście może być "niemodne", ale czy modna uratowała kiedyś czyjeś zdrowie, albo życie? W dłuższej perspektywie spojrzymy, że to, co robimy nie zawsze prowadzi do naszego zdrowia, nawet, gdy obecnie panuje na to 'TREND'.</p>
 	
