@@ -28,7 +28,7 @@ nav-menu: true
 		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic08.jpg"><img src="{% link assets/images/pic08.jpg %}" alt="" /></a></span></div>
 		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic09.jpg"><img src="{% link assets/images/pic09.jpg %}" alt="" /></a></span></div>
 		<div class="4u$"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic10.jpg"><img src="{% link assets/images/pic10.jpg %}" alt="" /></a></span></div>
-	</div>
+</div>
 	
 <p>&nbsp;</p>
 		
@@ -49,11 +49,14 @@ nav-menu: true
 
         <p>Wyruszamy?</p>
 	
-	<blockquote class="twitter-tweet"><p lang="pl" dir="ltr">Dlaczego robię to co robię? <a href="https://twitter.com/hashtag/holistichealth?src=hash&amp;ref_src=twsrc%5Etfw">#holistichealth</a> <a href="https://twitter.com/hashtag/psychosomatyka?src=hash&amp;ref_src=twsrc%5Etfw">#psychosomatyka</a> <a href="https://twitter.com/hashtag/integracja?src=hash&amp;ref_src=twsrc%5Etfw">#integracja</a> <a href="https://twitter.com/hashtag/medycynatradycyjna?src=hash&amp;ref_src=twsrc%5Etfw">#medycynatradycyjna</a> <br><br>Have a nice day! <a href="https://t.co/4i4FnGY1Hl">pic.twitter.com/4i4FnGY1Hl</a></p>&mdash; PharmaBusters (@BustersPharma) <a href="https://twitter.com/BustersPharma/status/1576871953067315201?ref_src=twsrc%5Etfw">October 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-	
-	
 
         <p>Zapraszam :) </p>
+	
+	<div style="width:100%; text-align:center;">
+		    
+		<blockquote class="twitter-tweet"><p lang="pl" dir="ltr">Dlaczego robię to co robię? <a href="https://twitter.com/hashtag/holistichealth?src=hash&amp;ref_src=twsrc%5Etfw">#holistichealth</a> <a href="https://twitter.com/hashtag/psychosomatyka?src=hash&amp;ref_src=twsrc%5Etfw">#psychosomatyka</a> <a href="https://twitter.com/hashtag/integracja?src=hash&amp;ref_src=twsrc%5Etfw">#integracja</a> <a href="https://twitter.com/hashtag/medycynatradycyjna?src=hash&amp;ref_src=twsrc%5Etfw">#medycynatradycyjna</a> <br><br>Have a nice day! <a href="https://t.co/4i4FnGY1Hl">pic.twitter.com/4i4FnGY1Hl</a></p>&mdash; PharmaBusters (@BustersPharma) <a href="https://twitter.com/BustersPharma/status/1576871953067315201?ref_src=twsrc%5Etfw">October 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+		
+	</div>
        
 
 
