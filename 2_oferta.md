@@ -2,7 +2,7 @@
 layout: post
 title: Oferta
 description: '❖ Sesje indywidualne &nbsp;<br>&nbsp;<br>❖ Spotkania wykładowe &nbsp;<br>&nbsp;<br>❖ Konsultacje grupowe &nbsp;<br>&nbsp;<br>❖ Oferta współpracy dla firm &nbsp;'
-image: assets/images/IMG_3681_przyciete_skompresowane.jpg
+image: assets/images/o_0.jpg
 nav-menu: true
 ---
 
