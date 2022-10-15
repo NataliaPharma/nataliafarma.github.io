@@ -25,7 +25,7 @@ nav-menu: true
 		<p></p>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->		
 		
-		<span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_a10.jpg"><img src="{% link assets/images/gm_zz10.jpg %}" alt="" /></a></span>
+		<span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_z10.jpg"><img src="{% link assets/images/gm_zz10.jpg %}" alt="" /></a></span>
 <div class="box alt">
 	<div class="row 50% uniform">
 		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_zz1.jpg"><img src="{% link assets/images/gm_zz1.jpg %}" alt="" /></a></span></div>
