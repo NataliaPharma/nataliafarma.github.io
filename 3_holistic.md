@@ -9,8 +9,6 @@ nav-menu: true
 
 <div id="main">
 
-
-<section id="one">
 	<div class="inner">
 		<header class="major">
 			<h2>Holistic Health</h2>
@@ -57,7 +55,7 @@ nav-menu: true
 
 
 	</div>
-</section>		
+	
 </div>
 	
 
