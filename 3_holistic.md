@@ -55,8 +55,12 @@ nav-menu: true
 	</div>
        
 
-</section>
+
 	</div>
+</section>		
+</div>
+	
+
 
 
 
@@ -131,4 +135,3 @@ nav-menu: true
 
 -->
 
-</div>
