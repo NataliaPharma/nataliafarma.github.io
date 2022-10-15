@@ -22,9 +22,6 @@ tiles-count: 3
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/NataliaPharma
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
   Instagram: https://www.instagram.com/pharmabusters/?hl=en
   LinkedIn: https://pl.linkedin.com/in/natalia-miekus-purwin-10915854?trk=public_profile_browsemap
   Twitter: https://twitter.com/BustersPharma
