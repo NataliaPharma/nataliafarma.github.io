@@ -64,7 +64,7 @@ nav-menu: true
 			<div class="4u$"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_zr10.jpg"><img src="{% link assets/images/gm_zr10.jpg %}" alt="" /></a></span></div>
 		</div>
 	</div>	
-	</div>		
+	
 			
 	<div class="4u 12u$(medium)">
 		<h3>Zdrowa głowa</h3>
