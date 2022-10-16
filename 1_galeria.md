@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Galeria
-description: '❖ Jesteś tym co jesz &nbsp;<br>&nbsp;<br>❖ W zdrowym ciele zdrowy duch &nbsp;<br>&nbsp;<br>❖ Szczęście to najwyższa forma zdrowia &nbsp;<br>&nbsp;<br>❖ Dobry śmiech i długi sen to najlepsze lekarstwa w książce lekarskiej &nbsp;'
+description: '❖ Zdrowa żywność, czyli jaka? &nbsp;<br>&nbsp;<br>❖ Zdrowy ruch, czyli jaki? &nbsp;<br>&nbsp;<br>❖ Zdrowa głowa &nbsp;<br>&nbsp;<br>❖ Zdrowe ciało &nbsp;<br>&nbsp;<br> ❖ Zdrowie społeczne &nbsp;'
 image: assets/images/AKCA1432.JPG
 nav-menu: true
 ---
