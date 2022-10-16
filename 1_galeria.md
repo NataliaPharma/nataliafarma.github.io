@@ -79,7 +79,7 @@ nav-menu: true
 		
 		
 		
-	</div>
+	
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
 		<h3>Zdrowa głowa</h3>
