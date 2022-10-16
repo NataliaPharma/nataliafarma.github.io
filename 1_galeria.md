@@ -43,7 +43,8 @@ nav-menu: true
 	   		</div>
 		</div>
 	</div>
-
+	</div>
+<div class="row">
 	<div class="6u$ 12u$(small)">
 		<h3>Zdrowy ruch, czyli jaki?</h3>
 		<p></p>	
@@ -107,7 +108,7 @@ nav-menu: true
 		<!-- Break -->
 		</div>
 	</div>
-				
+</div>				
 </div>
 </div>
 </div>
