@@ -9,8 +9,6 @@ nav-menu: true
 <!-- Main -->
 <div id="main" class="alt">
 
-<!-- One -->
-<section id="one">
 	<div class="inner">
 		<header class="major">
 			<h1>GALERIA</h1>
@@ -175,8 +173,6 @@ nav-menu: true
 </div>
 </div>
 
-<hr class="major" />
 
-</section>
 
 </div>
