@@ -151,12 +151,12 @@ nav-menu: true
 		
 		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->		
 		
-		<span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic03.jpg"><img src="{% link assets/images/pic03.jpg %}" alt="" /></a></span>
+		<span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_zs1.jpg"><img src="{% link assets/images/gm_zs1.jpg %}" alt="" /></a></span>
 <div class="box alt">
 	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic08.jpg"><img src="{% link assets/images/pic08.jpg %}" alt="" /></a></span></div>
-		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic09.jpg"><img src="{% link assets/images/pic09.jpg %}" alt="" /></a></span></div>
-		<div class="4u$"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/pic10.jpg"><img src="{% link assets/images/pic10.jpg %}" alt="" /></a></span></div>
+		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_zs2.jpg"><img src="{% link assets/images/gm_zs2.jpg %}" alt="" /></a></span></div>
+		<div class="4u"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_zs3.jpg"><img src="{% link assets/images/gm_zs3.jpg %}" alt="" /></a></span></div>
+		<div class="4u$"><span class="image fit"><a href="https://www.pharmabusters.pl/assets/images/g_zs4.jpg"><img src="{% link assets/images/gm_zs4.jpg %}" alt="" /></a></span></div>
 		<!-- Break -->
 		
 		<!--$ 
