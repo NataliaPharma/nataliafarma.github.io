@@ -125,7 +125,7 @@ nav-menu: true
 		
 		<video controls style="width:100%;">
 
-    <source src="/media/cc0-videos/flower.webm"
+    <source src="https://www.pharmabusters.pl/assets/images/g_zc1.webm"
             type="video/webm">
 		
 		</video>
