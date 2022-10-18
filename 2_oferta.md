@@ -68,7 +68,7 @@ nav-menu: true
 				<div style="width:100%;text-align:center;">
 					<h1>⚡</h1>
 				</div>
-			<p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, w swojej rodzinie, czy tylko dla siebie , wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
+			<p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
 		</div>
 
 		<div class="4u 12u$(medium)">
@@ -76,7 +76,7 @@ nav-menu: true
 			<div style="width:100%;text-align:center;">
 				<h1>🦉</h1>
 			</div>
-			<p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Tylko podejście holistyczne daje spektakularne efekty. Zmienisz wszystko albo nic. Losowe interwencje w pojedynczych obszarach raczej tylko wyprowadzą nas z równowagi zamiast zmienić coś na lepsze. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to masa źle przekazanych lub nieprawdziwych informacji i wynikające z tego nieporozumienia! </p>
+			<p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia! </p>
 		</div>
 
 		<div class="4u$ 12u$(medium)">
@@ -84,7 +84,7 @@ nav-menu: true
 			<div style="width:100%;text-align:center;">
 				<h1>🤝</h1>
 			</div>
-			<p>Dlaczego ludzie spychają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu. </p>
+			<p>Dlaczego ludzie spychają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę,mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu. </p>
 		</div>
 	</div>
 
@@ -94,10 +94,10 @@ nav-menu: true
 	<h2 id="content">Co zyskujesz?</h2>
 		
 	<ul>
-		<li>Harmonizację w ciele, w sercu i duszy - naprawdę do zrobienia, mimo że pracy jest sporo każdego dnia🙂</li>
+		<li>Harmonizację w ciele, w sercu i duszy - naprawdę jest osiągalne, mimo że pracy jest sporo każdego dnia🙂</li>
 		<li>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</li>
 		<li>Naukę rozpoznawania własnych potrzeb, określania priorytetów</li>
-		<li>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia.</li>
+		<li>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia</li>
 	</ul>
 
 	<p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
