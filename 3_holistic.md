@@ -44,7 +44,7 @@ nav-menu: true
         <p>Wyruszamy?</p>
 	
 
-        <p>Zapraszam :) </p>
+        <p>Zapraszam. </p>
 	
 	<p>&nbsp;</p>    
 	
