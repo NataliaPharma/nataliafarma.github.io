@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wydarzenia
-description: 'będę tu a potem tam'
+description: '❖ Najbliższe wykłady &nbsp;<br>&nbsp;<br>❖ Historia wydarzeń &nbsp;'
 image: assets/images/o_0.jpg
 nav-menu: true
 ---
@@ -12,5 +12,5 @@ nav-menu: true
 fefe
 ## wydarzenie 2
 jfnjfnjd
-## wydarzenie 1
+## wydarzenie 3
 fjdnfdfj
