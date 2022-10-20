@@ -19,7 +19,7 @@ nav-menu: true
 		<div class="row">
 			<div class="6u 12u$(small)">
 		
-		
+		<!--
 			<h3>Konsultacje grupowe:</h3>
 		
 			<ul>
@@ -30,7 +30,7 @@ nav-menu: true
 			</ul>
 		
 			<hr>
-		
+		-->
 			<h3>Oferta dla firm:</h3>
 		
 			<ul>
