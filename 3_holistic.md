@@ -1,7 +1,7 @@
 ---
-title: Holistic Health - podejście dotykające każdej sfery życia.
+title: Holistic Health
 layout: landing
-description: 'Jedzenie stanowi ważną część holistycznego planu dbania o swoje zdrowie. <br>Nie jest to jednak jedyny element!'
+description: 'Podejście dotykające każdej sfery życia. <br>Zdrowe jedzenie to nie wszystko!'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
