@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wydarzenia
-description: '❖ Najbliższe wykłady &nbsp;<br>&nbsp;<br>❖ Historia wydarzeń &nbsp;'
+description: '❖ Najbliższe wykłady, historia wydarzeń &nbsp;'
 image: assets/images/wydarzenia.jpg
 nav-menu: true
 ---
