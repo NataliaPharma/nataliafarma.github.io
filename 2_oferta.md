@@ -23,8 +23,8 @@ nav-menu: true
 			<h3>Sesje indywidualne on-line/stacjonarnie:</h3>
 		
 			<ul>
-				<li>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem.</li>
-				<li>Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej.</li>
+				<li>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem, choroby psychosomatyczne</li>
+				<li>Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej</li>
 				<li>Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)</li>
 				<li>Nawyki zdrowotne usprawniające systemy naprawcze organizmu, pomagające w prewencji chorób cywilizacyjnych</li>
 				<li>Model pracy dostosowany do Twoich potrzeb - Ty wybierasz, jaki filar/filary zdrowia w swoim życiu chciałbyś zmienić/zmodyfikować tak, aby cieszyć się swoim miejscem na Ziemi</li>
@@ -40,25 +40,15 @@ nav-menu: true
 			<div class="6u$ 12u$(small)">
 		
 		<!--
-			<h3>Konsultacje grupowe:</h3>
-		
-			<ul>
-				<li>Seniorzy, słuchacze uniwersytetów III wieku.</li>
-				<li>Dorośli, będący członkami społeczności np. sportowcy.</li>
-				<li>Studenci, uczniowie szkół.</li>
-				<li>Matki, ojcowie, rodziny, przyjaciele...</li>
-			</ul>
-		
-			<hr>
 		-->
-			<h3>Oferta dla firm:</h3>
+			<h3>Oferta dla firm/uczelni wyższych/szkół ponadgimnazjalnych:</h3>
 		
 			<ul>
 			
 				<li>Holistyczne dbanie o zdrowie pracowników, ale również szefów.</li>
-				<li>Zdrowe nawyki żywieniowe w firmie - przerwy owocowe?</li>
-				<li>Zdrowe miejsce pracy - korekcja niesłużących wzorców pracy.</li>
-				<li>Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny.</li>
+				<li>Zdrowe nawyki żywieniowe w firmie/szkole/na studiach - przerwy owocowe? Przerwy medytacyjne?</li>
+				<li>Zdrowe miejsce pracy/miejsce nauki - korekcja niesłużących wzorców pracy.</li>
+				<li>Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny. Holistyczne ścieżki zdrowia.</li>
 			</ul>
 		</div>
 
@@ -75,7 +65,7 @@ nav-menu: true
 				<div style="width:100%;text-align:center;">
 					<h1>⚡</h1>
 				</div>
-			<p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
+			<p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
 		</div>
 
 		<div class="4u 12u$(medium)">
@@ -91,7 +81,7 @@ nav-menu: true
 			<div style="width:100%;text-align:center;">
 				<h1>🤝</h1>
 			</div>
-			<p>Dlaczego ludzie spychają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę,mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu. </p>
+			<p>Dlaczego ludzie przerzucają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę, mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu. </p>
 		</div>
 	</div>
 
