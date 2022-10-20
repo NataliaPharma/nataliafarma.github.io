@@ -18,7 +18,7 @@ nav-menu: true
 		</header>
 		<div class="row">
 			
-			<div class="6u$ 12u$(small)">
+			<div class="6u 12u$(small)">
 		
 			<h3>Sesje indywidualne on-line/stacjonarnie:</h3>
 		
@@ -37,7 +37,7 @@ nav-menu: true
 			
 			
 			
-			<div class="6u 12u$(small)">
+			<div class="6u$ 12u$(small)">
 		
 		<!--
 			<h3>Konsultacje grupowe:</h3>
