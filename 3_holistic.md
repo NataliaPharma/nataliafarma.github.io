@@ -1,7 +1,7 @@
 ---
-title: Holistic Health
+title: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Holistic Health</span>
 layout: landing
-description: 'Podejście dotykające każdej sfery życia. <br>Zdrowe jedzenie to nie wszystko!'
+description: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Podejście dotykające każdej sfery życia.</span> <br><span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zdrowe jedzenie to nie wszystko!</span>'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
