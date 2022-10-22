@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Galeria
-description: '❖ Zdrowa żywność, czyli jaka? &nbsp;<br>&nbsp;<br>❖ Zdrowy ruch, czyli jaki? &nbsp;<br>&nbsp;<br>❖ Zdrowa głowa &nbsp;<br>&nbsp;<br>❖ Zdrowe ciało &nbsp;<br>&nbsp;<br> ❖ Zdrowie społeczne &nbsp;'
+title: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Galeria</span>
+description: '❖ <span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zdrowa żywność, czyli jaka?</span> &nbsp;<br>&nbsp;<br>❖ <span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zdrowy ruch, czyli jaki?</span> &nbsp;<br>&nbsp;<br>❖ <span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zdrowa głowa</span> &nbsp;<br>&nbsp;<br>❖ <span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zdrowe ciało</span> &nbsp;<br>&nbsp;<br> ❖ <span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zdrowie społeczne</span> &nbsp;'
 image: assets/images/AKCA1432.JPG
 nav-menu: true
 ---
