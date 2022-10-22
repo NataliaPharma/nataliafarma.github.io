@@ -1,5 +1,5 @@
 ---
-title: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Holistic Health</span>
+title: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Holistic Health</span>'
 layout: landing
 description: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Podejście dotykające każdej sfery życia.</span> <br><span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zdrowe jedzenie to nie wszystko!</span>'
 image: assets/images/pic07.jpg
