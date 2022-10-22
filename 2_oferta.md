@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oferta
+title: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Oferta</span>'
 description: '❖ Sesje indywidualne &nbsp;<br>&nbsp;<br>❖ Spotkania wykładowe &nbsp;<br>&nbsp;<br>❖ Konsultacje grupowe &nbsp;<br>&nbsp;<br>❖ Oferta współpracy dla firm &nbsp;<br>&nbsp;<br><span style="color: rgba(255,0,0,0.0);">❖ Sesje indywidualne</span> &nbsp;'
 image: assets/images/o_0.jpg
 nav-menu: true
