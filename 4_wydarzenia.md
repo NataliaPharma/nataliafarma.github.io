@@ -16,6 +16,7 @@ jfnjfnjd
 ## wydarzenie 3
 fjdnfdfj
 
+<hr class="major" />
 
 <div id="disqus_thread"></div>
 <script>
@@ -37,3 +38,5 @@ fjdnfdfj
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
+
+<hr class="major" />
