@@ -9,12 +9,13 @@ comments: true
 
 
 
-## wydarzenie 1
-fefe
-## wydarzenie 2
-jfnjfnjd
-## wydarzenie 3
-fjdnfdfj
+## Wykład - działanie olejków eterycznych na zdrowie - czy to dla mnie?
+Informacje wkrótce! Jeśli jesteś ciekawy, zapisz się do newsletter'a  - wyślę Tobie informację o wykładzie. Wypisanie się z newsletter - możliwe zawsze, do niczego to nie zobowiązuje i na pewno nie będziesz zarzucany spamem codziennie.
+## Sesja "pytania i odpowiedzi"
+Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA". Wydarzenie będzie transmitowane na żywo, będzie mozliwość zadawania większej ilości pytań. Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
+## Kolejne wydarzenia - w przygotowaniu.
+Stacjonarnie  - w trójmieście - już niedługo warsztaty/wykłady rozwojowe/ 10 pytań do....
+On-line - regularnie - jeśli chcesz dostać update, gdy będę organizowała wydarzenie - daj znać w newsletterze! Napiszę.
 
 <hr class="major" />
 
