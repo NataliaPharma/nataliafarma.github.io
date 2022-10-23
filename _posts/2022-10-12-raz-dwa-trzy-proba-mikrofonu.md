@@ -10,6 +10,7 @@ image: assets/images/x.png
 
 
 <blockquote> 
+<hr class="major" />
 		<div id="disqus_thread"></div>
 <script>
     /**
@@ -30,5 +31,6 @@ image: assets/images/x.png
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
+<hr class="major" />
 </blockquote> 
 
