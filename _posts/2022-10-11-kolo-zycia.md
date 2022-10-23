@@ -21,6 +21,8 @@ Myślę, wierzę , że zmiany są możliwe! Odkryj, co sprawi, że wrócisz na d
 #harmony
 #integrity
 
+<blockquote>
+<hr class="major" />
 	<div id="disqus_thread"></div>
 <script>
     /**
@@ -41,4 +43,5 @@ Myślę, wierzę , że zmiany są możliwe! Odkryj, co sprawi, że wrócisz na d
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
-
+<hr class="major" />
+</blockquote>
