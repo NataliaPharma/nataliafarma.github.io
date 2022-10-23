@@ -132,7 +132,7 @@ nav-menu: true
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
 	
 		
-		
+	<hr class="major" />	
 		
 		
 		
