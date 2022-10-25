@@ -12,7 +12,7 @@ comments: true
 <form action="https://formspree.io/f/mnqrgpnq" method="POST">
     <div class="field">
 	    <label for="email">Zapisz się na newsletter:</label>
-		<input type="email" name="email" placeholder="email" maxlength="25">
+		<input type="email" name="email" placeholder="email" maxlength="40" size="40">
 	</div>
 	<ul class="actions">
 	    <li><input type="submit" value="Zapisz" class="special" /></li>
