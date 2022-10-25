@@ -7,6 +7,17 @@ nav-menu: true
 comments: true
 ---
 
+<hr class="major"></hr>
+		
+<form action="https://formspree.io/f/mnqrgpnq" method="POST">
+    <div class="field">
+	    <label for="email">Zapisz się na newsletter:</label>
+		<input type="email" name="email" placeholder="email">
+	</div>
+	<ul class="actions">
+	    <li><input type="submit" value="Zapisz" class="special" /></li>
+	/ul>
+</form>
 
 
 ## Wykład - działanie olejków eterycznych na zdrowie - czy to dla mnie?
