@@ -9,7 +9,8 @@ comments: true
 
 <hr class="major">
 		
-<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-image:url('https://www.pharmabusters.pl/assets/images/zagiel.jpg');">
+<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-image:url('https://www.pharmabusters.pl/assets/images/zagiel.jpg'); background-size:cover;width:50%;">
+	
     <div class="field">
 	    <label for="email">Zapisz się na newsletter:</label>
 		<input type="email" name="email" placeholder="email" size="40" style="background-color:black;">
