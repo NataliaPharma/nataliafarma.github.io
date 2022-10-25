@@ -13,7 +13,7 @@ comments: true
 	
     <div class="field" style="text-align:right;">
 	    <label for="email">Zapisz się na newsletter:</label>
-		<input type="email" name="email" placeholder="email" size="40" style="background-color:#242943;width:80%;">
+		<input type="email" name="email" placeholder="email" size="40" style="background-color:#242943;width:80%;margin-left:20%;">
 	</div>
 	<div class="field" style="text-align:right;">
 	<ul class="actions">
