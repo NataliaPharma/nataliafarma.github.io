@@ -11,7 +11,7 @@ comments: true
 		
 <form action="https://formspree.io/f/mnqrgpnq" method="POST">
     <div class="field">
-	    <label for="email">Zapisz się na newsletter:></label>
+	    <label for="email">Zapisz się na newsletter:</label>
 		<input type="email" name="email" placeholder="email">
 	</div>
 	<ul class="actions">
