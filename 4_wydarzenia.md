@@ -12,7 +12,7 @@ comments: true
 <form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-image:url('https://www.pharmabusters.pl/assets/images/zagiel.jpg'); background-size:cover;">
 	
     <div class="field" style="text-align:right;">
-	    <label for="email" style="color:red;">Zapisz się do newsletter'a:</label>
+	    <label for="email" >Zapisz się do newsletter'a:</label>
 		<input type="email" name="email" placeholder="email" size="40" style="background-color:#242943;width:80%;margin-left:20%;">
 	</div>
 	<div class="field" style="text-align:right;">
