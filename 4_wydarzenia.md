@@ -16,7 +16,7 @@ comments: true
 	</div>
 	<ul class="actions">
 	    <li><input type="submit" value="Zapisz" class="special" /></li>
-	/ul>
+	</ul>
 </form>
 
 
