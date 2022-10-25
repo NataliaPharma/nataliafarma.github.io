@@ -8,7 +8,8 @@ comments: true
 ---
 
 <hr class="major">
-		
+<div style="text-align:right;">
+<div style="width:80%;">
 <form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-image:url('https://www.pharmabusters.pl/assets/images/zagiel.jpg'); background-size:cover;">
 	
     <div class="field" style="text-align:right;">
@@ -20,6 +21,8 @@ comments: true
 	    <li><input type="submit" value="Zapisz" class="special" /></li>
 	</ul>
 	</div>
+</div>
+</div>
 </form>
 
 
