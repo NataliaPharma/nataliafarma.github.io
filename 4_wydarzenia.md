@@ -7,12 +7,12 @@ nav-menu: true
 comments: true
 ---
 
-<hr class="major"></hr>
+<hr class="major">
 		
 <form action="https://formspree.io/f/mnqrgpnq" method="POST">
     <div class="field">
 	    <label for="email">Zapisz się na newsletter:</label>
-		<input type="email" name="email" placeholder="email">
+		<input type="email" name="email" placeholder="email" maxlength="25">
 	</div>
 	<ul class="actions">
 	    <li><input type="submit" value="Zapisz" class="special" /></li>
