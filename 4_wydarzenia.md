@@ -9,7 +9,7 @@ comments: true
 <div>
 <span class="image main"><img src="/assets/images/wydarzenia.jpg" style="position:absolute;" alt=""></span>	
 	
-<div style="width:100%;position:absolute;">
+<div style="width:100%;position:absolute;z-index:10;">
 	<div style="width:80%;margin-right:20%">
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
@@ -27,7 +27,7 @@ comments: true
 	</div>
 </div>
 
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="opacity:0.0;pointer-events:none;" alt=""></span>	
+<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="opacity:0.0;pointer-events:none;visibility:hidden;" alt=""></span>	
 	
 	
 	
