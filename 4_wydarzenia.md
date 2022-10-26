@@ -7,7 +7,7 @@ comments: true
 ---
 
 <div>
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" alt=""></span>	
+<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="position:absolute;" alt=""></span>	
 	
 <div style="width:100%;position:absolute;">
 	<div style="width:80%;margin-right:20%">
@@ -26,6 +26,8 @@ comments: true
 		</form>
 	</div>
 </div>
+
+<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="opacity:0.0;" alt=""></span>	
 	
 	
 	
