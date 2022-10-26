@@ -27,7 +27,7 @@ comments: true
 	</div>
 </div>
 
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="opacity:0.0;" alt=""></span>	
+<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="opacity:0.0;pointer-events:none;" alt=""></span>	
 	
 	
 	
