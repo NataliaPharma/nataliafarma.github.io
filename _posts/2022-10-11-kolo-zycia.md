@@ -26,7 +26,7 @@ Myślę, wierzę , że zmiany są możliwe! Odkryj, co sprawi, że wrócisz na d
 
 <hr class="major" />
 
-<blockquote>	
+<blockquote style="margin-left:0px;">	
 		
 		<div id="disqus_thread"></div>
 <script>
