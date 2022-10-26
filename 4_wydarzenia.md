@@ -9,6 +9,7 @@ comments: true
 	
 <div class="image main">
 	<div style="width:100%;background-color:rgba(0,0,0,0.5);">
+		&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
     		<div class="field">
