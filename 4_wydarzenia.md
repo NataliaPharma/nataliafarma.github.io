@@ -7,15 +7,17 @@ comments: true
 ---
 
 <div>
+<span class="image main"><img src="/assets/images/wydarzenia.jpg" alt="" style="position:absolute;"></span>	
+	
 <div style="width:100%;position:absolute;">
-	<div style="width:80%;margin-left:20%">
+	<div style="width:80%;margin-right:20%">
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
     		<div class="field">
 	   		 <label for="email" >Zapisz się do newsletter'a:</label>
 			<input type="email" name="email" placeholder="email" size="40" style="background-color:#242943;border: 1px solid skyblue;">
 		</div>
-		<div class="field" style="text-align:right;">
+		<div class="field">
 			<ul class="actions">
 	  			<li><input type="submit" value="Zapisz" class="special" /></li>
 			</ul>
@@ -27,10 +29,7 @@ comments: true
 	
 	
 	
-	
-	
-	
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" alt=""></span>
+
 	
 </div>
 
