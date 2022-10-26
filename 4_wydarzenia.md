@@ -7,7 +7,7 @@ comments: true
 ---
 
 <div>
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="position:absolute;" alt=""></span>	
+<span class="image main"><img src="/assets/images/woda.jpg" style="position:absolute;" alt=""></span>	
 	
 <div style="width:80%;position:absolute;z-index:10;">
 	<div style="width:80%;margin-right:20%;background-color:rgba(0,0,0,0.5);">
@@ -27,7 +27,7 @@ comments: true
 	</div>
 </div>
 
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" style="opacity:0.0;pointer-events:none;visibility:hidden;" alt=""></span>	
+<span class="image main"><img src="/assets/images/woda.jpg" style="opacity:0.0;pointer-events:none;visibility:hidden;" alt=""></span>	
 	
 	
 	
