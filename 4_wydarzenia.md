@@ -5,13 +5,11 @@ description: '❖ <span style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);">Najbl
 nav-menu: true
 comments: true
 ---
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" alt=""></span>
 
-
-<hr class="major">
-<div style="width:100%;">
+<div>
+<div style="width:100%;position:absolute;">
 	<div style="width:80%;margin-left:20%">
-		<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-image:url('https://www.pharmabusters.pl/assets/images/zagiel.jpg'); background-size:cover;">
+		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
     		<div class="field">
 	   		 <label for="email" >Zapisz się do newsletter'a:</label>
@@ -26,6 +24,18 @@ comments: true
 		</form>
 	</div>
 </div>
+	
+	
+	
+	
+	
+	
+<span class="image main"><img src="/assets/images/wydarzenia.jpg" alt=""></span>
+	
+</div>
+
+<hr class="major">
+
 
 ## Wykład - działanie olejków eterycznych na zdrowie - czy to dla mnie?
 Informacje wkrótce! Jeśli jesteś ciekawy, zapisz się do newsletter'a  - wyślę Tobie informację o wykładzie. Wypisanie się z newsletter - możliwe zawsze, do niczego to nie zobowiązuje i na pewno nie będziesz zarzucany spamem codziennie.
