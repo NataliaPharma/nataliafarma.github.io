@@ -10,7 +10,7 @@ comments: true
 <span class="image main"><img src="/assets/images/woda.jpg" style="position:absolute;" alt=""></span>	
 	
 <div style="width:80%;height:100%;position:absolute;z-index:10;">
-	<div style="width:80%;margin-right:20%;background-color:rgba(0,0,0,0.5);">
+	<div style="width:80%;margin-right:20%;height:100%;background-color:rgba(0,0,0,0.5);">
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
     		<div class="field">
