@@ -9,8 +9,8 @@ comments: true
 <div>
 <span class="image main"><img src="/assets/images/wydarzenia.jpg" style="position:absolute;" alt=""></span>	
 	
-<div style="width:100%;position:absolute;z-index:10;">
-	<div style="width:80%;margin-right:20%">
+<div style="width:80%;position:absolute;z-index:10;">
+	<div style="width:80%;margin-right:20%; border: 1px solid skyblue;">
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
     		<div class="field">
