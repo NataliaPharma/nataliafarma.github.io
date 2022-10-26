@@ -7,7 +7,7 @@ comments: true
 ---
 
 <div>
-<span class="image main"><img src="/assets/images/wydarzenia.jpg" alt="" style="position:absolute;"></span>	
+<span class="image main"><img src="/assets/images/wydarzenia.jpg" alt=""></span>	
 	
 <div style="width:100%;position:absolute;">
 	<div style="width:80%;margin-right:20%">
