@@ -8,7 +8,7 @@ comments: true
 
 	
 <div class="image main">
-	<div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/ptak.jpg'); background-size: cover;">
+	<div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/ptak2.jpg'); background-size: cover;">
 		&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-color:rgba(0,0,0,0.7);">
 	
