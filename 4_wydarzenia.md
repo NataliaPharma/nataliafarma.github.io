@@ -14,7 +14,7 @@ comments: true
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
     		<div class="field">
-	   		 <label for="email" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zapisz się do newsletter'a:</label>
+	   		 <label for="email" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;background-color:rgba(0,0,0,0.5);">Zapisz się do newsletter'a:</label>
 			<input type="email" name="email" placeholder="email" size="40" style="background-color:#242943;border: 1px solid skyblue;">
 		</div>
 		<div class="field">
