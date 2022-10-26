@@ -8,9 +8,9 @@ comments: true
 
 	
 <div class="image main">
-	<div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/o_0.jpg');">
+	<div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/ptak.jpg');">
 		&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
-		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
+		<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-color:rgba(0,0,0,0.5);">
 	
     		<div class="field">
 	   		 <label for="email" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zapisz się do newsletter'a:</label>
