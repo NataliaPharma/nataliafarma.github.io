@@ -6,10 +6,8 @@ nav-menu: true
 comments: true
 ---
 
-<div>
-<span class="image main"><img src="/assets/images/woda.jpg" style="position:absolute;" alt=""></span>	
 	
-<div style="width:100%;position:absolute;z-index:10;">
+<div class="image main">
 	<div style="width:100%;background-color:rgba(0,0,0,0.5);">
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST">
 	
@@ -26,14 +24,9 @@ comments: true
 		</form>
 	</div>
 </div>
-
-<span class="image main"><img src="/assets/images/woda.jpg" style="opacity:0.0;pointer-events:none;visibility:hidden;" alt=""></span>	
 	
 	
 	
-
-	
-</div>
 
 <hr class="major">
 
