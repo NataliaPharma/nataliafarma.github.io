@@ -8,11 +8,9 @@ image: assets/images/x.png
 	
 	
 	
-<a href="http://example.com/article1.html#disqus_thread" data-disqus-identifier="pharmabustersrazdwatrzy">First article</a>
-<script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
+<a href="https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html#disqus_thread" data-disqus-identifier="pharmabustersrazdwatrzy">First article</a>
 	
-	
-	
+<script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>	
 </blockquote>
 
 
