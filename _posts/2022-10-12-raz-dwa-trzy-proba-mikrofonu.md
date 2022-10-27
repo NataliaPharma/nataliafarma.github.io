@@ -20,7 +20,7 @@ image: assets/images/x.png
     /*
     var disqus_config = function () {
     this.page.url = 'https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.identifier = razdwatrzy; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     */
     (function() { // DON'T EDIT BELOW THIS LINE
