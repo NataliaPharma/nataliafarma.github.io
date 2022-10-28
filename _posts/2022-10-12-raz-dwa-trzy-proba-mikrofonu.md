@@ -33,7 +33,7 @@ image: assets/images/x.png
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
-<scrip> alert(PAGE_IDENTIFIER);
+	<scrip> alert(PAGE_IDENTIFIER);</script>
 </blockquote>	
 
 
