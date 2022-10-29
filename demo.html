@@ -1,0 +1,1168 @@
+<body id="boo" style="background-color:RGB(16,32,16); color: white; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; font-family: Courier, Courier, monospace;">
+
+<head>
+<title>e-rpcalc</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=10">
+<style>
+textarea.ta {
+display: inline-block;
+font-size: 3vw; font-weight: bold;
+height:5vw; margin-right: 1%;
+}
+
+p {
+font-size: 1.5vw;
+}
+
+span {
+font-size: 1.5vw;
+}
+
+div {
+font-size: 1.5vw;
+}
+</style>
+<div id="wyrenderowane" style="pointer-events: none;position: absolute;width:100%;height:100%; z-index:1; top:0px;"> <!--plutno dla webGL-->
+<canvas id="c"  style="pointer-events: none; height: 100%; width: 100%;"></canvas>
+</div>
+<script>
+/*---------------------chat part 1 start------------------------------------*/
+function scrollchat() {
+var objDiv = document.getElementById("napis");
+objDiv.scrollTo(0,objDiv.scrollHeight + 50);
+}
+function beeper() {
+var snd = new Audio("data:audio/wav;base64,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qJrx4KOQjahZxWbcZgztj2c49nKmkId44S71j0c8eV9yDK6uPRzx5X18eDvjvQ6yKo9ZSS6l//8elePK/Lf//IInrOF/FvDoADYAGBMGb7FtErm5MXMlmPAJQVgWta7Zx2go+8xJ0UiCb8LHHdftWyLJE0QIAIsI+UbXu67dZMjmgDGCGl1H+vpF4NSDckSIkk7Vd+sxEhBQMRU8j/12UIRhzSaUdQ+rQU5kGeFxm+hb1oh6pWWmv3uvmReDl0UnvtapVaIzo1jZbf/pD6ElLqSX+rUmOQNpJFa/r+sa4e/pBlAABoAAAAA3CUgShLdGIxsY7AUABPRrgCABdDuQ5GC7DqPQCgbbJUAoRSUj+NIEig0YfyWUho1VBBBA//uQZB4ABZx5zfMakeAAAAmwAAAAF5F3P0w9GtAAACfAAAAAwLhMDmAYWMgVEG1U0FIGCBgXBXAtfMH10000EEEEEECUBYln03TTTdNBDZopopYvrTTdNa325mImNg3TTPV9q3pmY0xoO6bv3r00y+IDGid/9aaaZTGMuj9mpu9Mpio1dXrr5HERTZSmqU36A3CumzN/9Robv/Xx4v9ijkSRSNLQhAWumap82WRSBUqXStV/YcS+XVLnSS+WLDroqArFkMEsAS+eWmrUzrO0oEmE40RlMZ5+ODIkAyKAGUwZ3mVKmcamcJnMW26MRPgUw6j+LkhyHGVGYjSUUKNpuJUQoOIAyDvEyG8S5yfK6dhZc0Tx1KI/gviKL6qvvFs1+bWtaz58uUNnryq6kt5RzOCkPWlVqVX2a/EEBUdU1KrXLf40GoiiFXK///qpoiDXrOgqDR38JB0bw7SoL+ZB9o1RCkQjQ2CBYZKd/+VJxZRRZlqSkKiws0WFxUyCwsKiMy7hUVFhIaCrNQsKkTIsLivwKKigsj8XYlwt/WKi2N4d//uQRCSAAjURNIHpMZBGYiaQPSYyAAABLAAAAAAAACWAAAAApUF/Mg+0aohSIRobBAsMlO//Kk4soosy1JSFRYWaLC4qZBYWFRGZdwqKiwkNBVmoWFSJkWFxX4FFRQWR+LsS4W/rFRb/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VEFHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU291bmRib3kuZGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjAwNGh0dHA6Ly93d3cuc291bmRib3kuZGUAAAAAAAAAACU=");
+snd.play();
+};
+var b = setInterval("odsw();",5000);
+function odsw() {
+if (tictoc == 1) {
+dupa('tak');
+};
+}
+var compare
+function dupa(refr) {
+var xhr = new XMLHttpRequest();
+// var url = "/chattest";
+var url = "http://prezes.ruch-kolczastych-globulek.pl/chat"
+xhr.open("POST", url, true);
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.onreadystatechange = function () {
+if (xhr.readyState === 4 && xhr.status === 200) {
+        var json = JSON.parse(xhr.responseText);
+        if (compare != json.info) {beeper();setTimeout(scrollchat, 500);};
+        document.getElementById("napis").innerHTML = json.info;
+        compare = json.info;
+    }
+}
+if (refr == "tak") {
+var n = ""
+var m = ""
+var data = JSON.stringify('{"command": "czekamnatxt", "mess": "' + m + '", "nick": "' + n + '"}');
+xhr.send(data);
+} else if (refr == "wyslij") {
+var n = document.getElementById("tarea1").value;
+var m = document.getElementById("tarea0").value;
+n = n.replace(/&/g, "--");
+n = n.replace(/"/g, "--");
+n = n.replace(/'/g, "--");
+n = n.replace(/</g, "--");
+n = n.replace(/>/g, "--");
+n = n.replace(/(?:\r\n|\r|\n)/g, '<br>');
+
+m = m.replace(/&/g, "--");
+m = m.replace(/"/g, "--");
+m = m.replace(/'/g, "--");
+m = m.replace(/</g, "--");
+m = m.replace(/>/g, "--");
+m = m.replace(/(?:\r\n|\r|\n)/g, '<br>');
+
+console.log(m);
+console.log(n);
+
+
+var data = JSON.stringify('{"command": "czekamnatxt", "mess": "' + m + '", "nick": "' + n + '"}');
+xhr.send(data);
+document.getElementById("tarea0").value = ""
+}};
+
+//-------------------------------------------------------------------
+
+
+
+/*---------------------chat part 1 end------------------------------------*/
+
+var tictoc = 0
+function gochat() {
+if (tictoc == 0) {
+document.getElementById('mydiv').style.display = "inline";
+tictoc = 1;
+} else {
+document.getElementById('mydiv').style.display= "none";
+tictoc = 0;
+}
+};
+
+
+</script>
+
+<script src="https://autoserwis.leki.expert/static/three.min.js"></script>
+<script src="https://autoserwis.leki.expert/static/WebGL.js"></script>
+<script src="https://autoserwis.leki.expert/static/threex.dynamictexture.js"></script>
+<script src="https://autoserwis.leki.expert/static/inhale.js"></script>
+<script src="https://autoserwis.leki.expert/static/erpcalc.js"></script>
+
+
+<div id="mydiv" style="position:fixed; border: none; display: none; height: 20vw; width: 19.2vw; right: 5vw; bottom: 25vh; background-color: #001; color: lightblue; z-index: 110;">
+    <div id="mydivheader" style="text-align: center; height: 2vw; background-color: blue;font-size: 0.9vw;">
+    złap i przesuń gdzie chcesz
+   <button style="position: absolute; top: 0px; right: 0px;cursor: pointer;background-color: snow; color: black; font-size: 1vw; height: 1vw: width:1vw; border: none;" onclick="gochat();">X</button>
+   </div>
+
+
+   <div id="napis" style="overflow-y:scroll; height: 16.2vw; width: auto; word-wrap:break-word; text-align: left; font-size: 1vw;">
+   </div>
+
+    <div style="float: left;">
+    <textarea id="tarea1" name="textn" style="border: none;font-size: 1vw; width: 5.0vw; height:2vw; display:block; background-color: #fff; color:black;">ksywa</textarea>
+    <button onclick="dupa('wyslij');" style="border: none;font-size: 1vw;height:2vw; width: 5vw; background-color: darkred; color: white; display:block; cursor: pointer;">wyślij</button>
+    </div>
+     <textarea id="tarea0" name="textm" style="border: none; font-size: 1vw; width: 14.2vw; height:4vw;background-color: #fff; color:black;">wpisz wiadomość</textarea>
+ </div>
+
+
+
+
+
+<div style="display:none;color: white; background-color:RGB(16,32,16);">
+
+<div id="wyrenderowane" style="pointer-events: none;position: absolute;width:100%;height:100%; z-index:1; top:0px;">
+<canvas id="c"  style="pointer-events: none; height: 100%; width: 100%;"></canvas>
+</div>
+
+
+
+
+<div style="margin-top: 2vw; margin-left: 2vw;margin-right: 2vw; width: 91vw; border-color: lime; border-style:solid; border-width: 1px 0px 0px 1px; border-radius: 0; padding-left: 3vw;">
+
+<div style="text-align:left; width:95%;margin-right:auto;margin-left:0px; font-size:0.8vw;">
+<label><input id="rb_kto0" type="radio" name="kto" checked >Lek./Dent.</label>&nbsp<label><input type="radio" id="rb_kto1" name="kto">Piel./Poł.</label>&nbsp<span style="color:lime;">|</span>
+<label><input id="rb_grupa0" type="radio" name="grupa" checked>A/B/III-P</label>&nbsp<label><input type="radio" id="rb_grupa1" name="grupa">I-N/II-P</label>&nbsp<label><input type="radio" id="rb_grupa2" name="grupa">IV-P/PR.</label>&nbsp<span style="color:lime;">|</span>
+<label><input id="rb_czyant0" type="radio" name="czyant" checked>nie-Antyb.</label><label><input type="radio" id="rb_czyant1" name="czyant">Antyb.</label>&nbsp<span style="color:lime;">|</span>
+<label><input id="rb_czyimm0" type="radio" name="czyimm" checked>nie-Immu.</label><label><input type="radio" id="rb_czyimm1" name="czyimm">Immu.</label>
+</div>
+
+
+<div style="color: white; background-color:RGB(0,64,0); border-color:lime;border-width:1px; border-style: solid; border-radius: 0 0 0 0; border-top: 0px; border-right: 0px;">
+
+<div style="float:right; width:40%; background-color:RGB(64,0,64);border-top: 1px solid darkviolet; overflow-y: scroll; height:24vw;border-left: 1px solid darkviolet; border-bottom: 0px solid darkviolet; border-radius: 0 0 0 0;">
+
+
+Wielkość NZO:
+<div style="text-align:right; display:inline-block;width:100%;">
+<textarea id="nzo" cols="3" rows="1" maxlength="3" class="ta"></textarea>
+</div>
+
+
+
+
+
+
+Wydano już:
+<hr style="border-color:darkviolet;">
+
+<div style="text-align:right; display:inline-block;width:100%; ">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+①
+</div>
+Dnia <textarea id="d0" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m0" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r0" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile0" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie0" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+②
+</div>
+Dnia <textarea id="d1" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m1" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r1" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile1" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie1" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+③
+</div>
+Dnia <textarea id="d2" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m2" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r2" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile2" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie2" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+④
+</div>
+Dnia <textarea id="d3" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m3" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r3" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile3" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie3" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑤
+</div>
+Dnia <textarea id="d4" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m4" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r4" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile4" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie4" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑥
+</div>
+Dnia <textarea id="d5" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m5" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r5" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile5" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie5" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑦
+</div>
+Dnia <textarea id="d6" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m6" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r6" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile6" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie6" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑧
+</div>
+Dnia <textarea id="d7" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m7" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r7" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile7" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie7" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑨
+</div>
+Dnia <textarea id="d8" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m8" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r8" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile8" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie8" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑩
+</div>
+Dnia <textarea id="d9" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m9" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r9" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile9" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie9" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑪
+</div>
+Dnia <textarea id="d10" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m10" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r10" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile10" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie10" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+<div style="text-align:right; display:inline-block;width:100%;">
+<div style="text-align:left; float:left;color:pink; font-size:3vw;">
+⑫
+</div>
+Dnia <textarea id="d11" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="m11" cols="2" rows="1" maxlength="2" class="ta"></textarea> <textarea id="r11" cols="4" rows="1" maxlength="4" class="ta"></textarea><br>
+<textarea id="wydopile11" cols="2" rows="1" maxlength="2" class="ta"></textarea>&nbspop. po&nbsp<textarea id="wydojakie11" cols="3" rows="1" maxlength="3" class="ta"></textarea><hr style="border-color:darkviolet;">
+</div>
+
+
+
+</div>
+
+<!---->
+<p>&nbsp&nbsp&nbsp&nbspData realizacji od / data wystawienia:</p>
+<textarea id="d" cols="2" rows="1" maxlength="2" class="ta"></textarea><textarea id="m" cols="2" rows="1" maxlength="2" class="ta"></textarea><textarea id="r" cols="4" rows="1" maxlength="4" class="ta"></textarea>
+</div>
+<div style="color: white; background-color:RGB(0,64,0); border-color:lime;border-width:1px; border-style: solid; border-top: 0px; border-right: 0px; ">
+
+
+<p>&nbsp&nbsp&nbsp&nbspIlość przepisanych opakowań i ich wielkość:</p>
+<textarea id="j" cols="2" rows="1" maxlength="2" class="ta"></textarea>op. po <textarea id="o" cols="3" rows="1" maxlength="3" class="ta"></textarea> jednostek
+</div>
+ <div style="color: white;width:56vw; background-color:RGB(0,64,0); border-color:lime;border-width:1px; border-style: solid; border-top:0px; border-radius: 0 0 0 0; border-right: 0px;">
+
+<p>&nbsp&nbsp&nbsp&nbspLiczba jednostek dawkowania na dobę:</p>
+
+<textarea id="s" cols="3" rows="1" maxlength="3" class="ta"></textarea>
+
+
+
+
+</div>
+<div id="starter" style="width:100%; text-align:right; margin-top: 0px; margin-bottom: 0px;color: white;">
+<span onclick="liczmywiec();" style="background-color: darkred;cursor:pointer; border-color:red; border-width: 0px 1px 1px 0px; border-style: solid;">KLIKNIJ TU PO UZUPEŁNIENIU PÓL</span>
+</div>
+
+<br>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div style="width: 65vw;background-color:black; margin-left:auto; margin-right: auto; font-size: 2.5vh; box-shadow: 2px 3px 20px 27px rgba(0,0,0,1);" >
+<div style="text-align:center;font-size: 2.5vh;"><b>INSTUKCJA OBSŁUGI:</b></div><br>
+<span style="color:red;font-size: 2vh;"><b>1.</span> Określamy typ recepty zaznaczając odpowiednie kułeczka.</b><br><br>
+<span style="color:red;font-size: 2vh;"><b>2.</span> Uzupełniamy białe pola. Uzupełnienie pól znajdujących się na fioletowym tle jest opcjonalne.</b><br><br>
+<span style="color:red;font-size: 2vh;"><b>3.</span> Naciskamy czerwony przycisk.</b><br><br>
+<span style="color:red;font-size: 2vh;"><b>4.</span> Z widoku przedstawiającego infografikę wychodzimy klikając gdzieś na jej obszarze.</b><br><br>
+<span style="color:red;font-size: 2vh;"><b>5.</span> Po kliknięciu infografiki można obejrzeć coś w rodzaju protokołu. Pojawia się on pod tą instrukcją.</b><br><br>
+<span style="color:red;font-size: 2vh;"><b>6.</span> Opis danego etapu jest do przeczytania po kliknięciu żółtego trókąta z literką "i".<br><br>
+
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</div>
+<div style="background-color:RGB(0,0,0);">
+<div id="tuwykres" ></div>
+<div style="font-size: 0.5vw; color: lime; z-index:0; margin-left: 0vw; margin-right: auto;">
+<canvas id="c2" style="width:100%; z-index:40;"></canvas>
+</div>
+
+</div>
+<div style="color: white; background-color:RGB(16,32,16);">
+<div style="text-align: left;">
+
+
+
+
+</div>
+
+
+</body>
+
+<script>
+let wystawionodzien; let wystawionomiesiac; let wystawionorok; let wypsanoopakowan; let wypisaneopsapo; let liczbajednosteknadobe; let wielkoscnzo;
+let wyniktxt1 = "?"; let wyniktxt2 = "?"; let wyniktxt3 = "?"; let wyniktxt4 = "?"; let wyniktxt5 = "?"; let jednostekmaxdowyd = 0; let wynik6 = 0; let tabletek=0;
+let wydopile0 = 0; let wydopile1 = 0; let wydopile2 = 0; let wydopile3 = 0; let wydopile4 = 0; let wydopile5 = 0; let wydopile6 = 0; let wydopile7 = 0; let wydopile8 = 0; let wydopile9 = 0; let wydopile10 = 0; let wydopile11 = 0;
+let wydojakie0 = 0; let wydojakie1 = 0; let wydojakie2 = 0; let wydojakie3 = 0; let wydojakie4 = 0; let wydojakie5 = 0; let wydojakie6 = 0; let wydojakie7 = 0; let wydojakie8 = 0; let wydojakie9 = 0; let wydojakie10 = 0; let wydojakie11 = 0;
+let wyd0d; let wyd0m; let wyd0r; let wyd0op; let wyd0po; let wyd1d; let wyd1m; let wyd1r; let wyd1op; let wyd1po;
+let wyd2d; let wyd2m; let wyd2r; let wyd2op; let wyd2po; let wyd3d; let wyd3m; let wyd3r; let wyd3op; let wyd3po;
+let wyd4d; let wyd4m; let wyd4r; let wyd4op; let wyd4po; let wyd5d; let wyd5m; let wyd5r; let wyd5op; let wyd5po;
+let wyd6d; let wyd6m; let wyd6r; let wyd6op; let wyd6po; let wyd7d; let wyd7m; let wyd7r; let wyd7op; let wyd7po;
+let wyd8d; let wyd8m; let wyd8r; let wyd8op; let wyd8po; let wyd9d; let wyd9m; let wyd9r; let wyd9op; let wyd9po;
+let wyd10d; let wyd10m; let wyd10r; let wyd10op; let wyd10po; let wyd11d; let wyd11m; let wyd11r; let wyd11op; let wyd11po;
+let czekkto0; let czekkto1; let czekgrupa0; let czekgrupa1; let czakgrupa2; let czekczyant0; let czekczyant1; let czekczyimm0; let czekczyimm1
+var data = new Date();
+var wydanojuzjednostek = 0;
+
+function liczmywiec() {
+document.getElementById("starter").style.visibility = "hidden";
+setTimeout(function(){ odczytajpola();}, 100);
+};
+
+function odczytajpola() {
+
+
+
+//------------------
+wystawionodzien = document.getElementById("d").value;
+wystawionomiesiac = document.getElementById("m").value;
+wystawionorok = document.getElementById("r").value;
+//------------------
+wypsanoopakowan = document.getElementById("j").value;
+wypisaneopsapo = document.getElementById("o").value;
+//------------------
+liczbajednosteknadobe = document.getElementById("s").value;
+//------------------
+wielkoscnzo = document.getElementById("nzo").value;
+//------------------
+if (document.getElementById("wydopile0").value == "") {wydopile0 = 0;} else {wydopile0 = parseInt(document.getElementById("wydopile0").value, 10)};
+if (document.getElementById("wydopile1").value == "") {wydopile1 = 0;} else {wydopile1 = parseInt(document.getElementById("wydopile1").value, 10)};
+if (document.getElementById("wydopile2").value == "") {wydopile2 = 0;} else {wydopile2 = parseInt(document.getElementById("wydopile2").value, 10)};
+if (document.getElementById("wydopile3").value == "") {wydopile3 = 0;} else {wydopile3 = parseInt(document.getElementById("wydopile3").value, 10)};
+if (document.getElementById("wydopile4").value == "") {wydopile4 = 0;} else {wydopile4 = parseInt(document.getElementById("wydopile4").value, 10)};
+if (document.getElementById("wydopile5").value == "") {wydopile5 = 0;} else {wydopile5 = parseInt(document.getElementById("wydopile5").value, 10)};
+if (document.getElementById("wydopile6").value == "") {wydopile6 = 0;} else {wydopile6 = parseInt(document.getElementById("wydopile6").value, 10)};
+if (document.getElementById("wydopile7").value == "") {wydopile7 = 0;} else {wydopile7 = parseInt(document.getElementById("wydopile7").value, 10)};
+if (document.getElementById("wydopile8").value == "") {wydopile8 = 0;} else {wydopile8 = parseInt(document.getElementById("wydopile8").value, 10)};
+if (document.getElementById("wydopile9").value == "") {wydopile9 = 0;} else {wydopile9 = parseInt(document.getElementById("wydopile9").value, 10)};
+if (document.getElementById("wydopile10").value == "") {wydopile10 = 0;} else {wydopile10 = parseInt(document.getElementById("wydopile10").value, 10)};
+if (document.getElementById("wydopile11").value == "") {wydopile11 = 0;} else {wydopile11 = parseInt(document.getElementById("wydopile11").value, 10)};
+//------------------
+if (document.getElementById("wydojakie0").value == "") {wydojakie0 = 0;} else {wydojakie0 = parseInt(document.getElementById("wydojakie0").value, 10)};
+if (document.getElementById("wydojakie1").value == "") {wydojakie1 = 0;} else {wydojakie1 = parseInt(document.getElementById("wydojakie1").value, 10)};
+if (document.getElementById("wydojakie2").value == "") {wydojakie2 = 0;} else {wydojakie2 = parseInt(document.getElementById("wydojakie2").value, 10)};
+if (document.getElementById("wydojakie3").value == "") {wydojakie3 = 0;} else {wydojakie3 = parseInt(document.getElementById("wydojakie3").value, 10)};
+if (document.getElementById("wydojakie4").value == "") {wydojakie4 = 0;} else {wydojakie4 = parseInt(document.getElementById("wydojakie4").value, 10)};
+if (document.getElementById("wydojakie5").value == "") {wydojakie5 = 0;} else {wydojakie5 = parseInt(document.getElementById("wydojakie5").value, 10)};
+if (document.getElementById("wydojakie6").value == "") {wydojakie6 = 0;} else {wydojakie6 = parseInt(document.getElementById("wydojakie6").value, 10)};
+if (document.getElementById("wydojakie7").value == "") {wydojakie7 = 0;} else {wydojakie7 = parseInt(document.getElementById("wydojakie7").value, 10)};
+if (document.getElementById("wydojakie8").value == "") {wydojakie8 = 0;} else {wydojakie8 = parseInt(document.getElementById("wydojakie8").value, 10)};
+if (document.getElementById("wydojakie9").value == "") {wydojakie9 = 0;} else {wydojakie9 = parseInt(document.getElementById("wydojakie9").value, 10)};
+if (document.getElementById("wydojakie10").value == "") {wydojakie10 = 0;} else {wydojakie10 = parseInt(document.getElementById("wydojakie10").value, 10)};
+if (document.getElementById("wydojakie11").value == "") {wydojakie11 = 0;} else {wydojakie11 = parseInt(document.getElementById("wydojakie11").value, 10)};
+//------------------
+wyd0d = document.getElementById("d0").value; wyd0m = document.getElementById("m0").value; wyd0r = document.getElementById("r0").value; wyd0op = wydopile0; wyd0po = wydojakie0;
+wyd1d = document.getElementById("d1").value; wyd1m = document.getElementById("m1").value; wyd1r = document.getElementById("r1").value; wyd1op = wydopile1; wyd1po = wydojakie1;
+wyd2d = document.getElementById("d2").value; wyd2m = document.getElementById("m2").value; wyd2r = document.getElementById("r2").value; wyd2op = wydopile2; wyd2po = wydojakie2;
+wyd3d = document.getElementById("d3").value; wyd3m = document.getElementById("m3").value; wyd3r = document.getElementById("r3").value; wyd3op = wydopile3; wyd3po = wydojakie3;
+wyd4d = document.getElementById("d4").value; wyd4m = document.getElementById("m4").value; wyd4r = document.getElementById("r4").value; wyd4op = wydopile4; wyd4po = wydojakie4;
+wyd5d = document.getElementById("d5").value; wyd5m = document.getElementById("m5").value; wyd5r = document.getElementById("r5").value; wyd5op = wydopile5; wyd5po = wydojakie5;
+wyd6d = document.getElementById("d6").value; wyd6m = document.getElementById("m6").value; wyd6r = document.getElementById("r6").value; wyd6op = wydopile6; wyd6po = wydojakie6;
+wyd7d = document.getElementById("d7").value; wyd7m = document.getElementById("m7").value; wyd7r = document.getElementById("r7").value; wyd7op = wydopile7; wyd7po = wydojakie7;
+wyd8d = document.getElementById("d8").value; wyd8m = document.getElementById("m8").value; wyd8r = document.getElementById("r8").value; wyd8op = wydopile8; wyd8po = wydojakie8;
+wyd9d = document.getElementById("d9").value; wyd9m = document.getElementById("m9").value; wyd9r = document.getElementById("r9").value; wyd9op = wydopile9; wyd9po = wydojakie9;
+wyd10d = document.getElementById("d10").value; wyd10m = document.getElementById("m10").value; wyd10r = document.getElementById("r10").value; wyd10op = wydopile10; wyd10po = wydojakie10;
+wyd11d = document.getElementById("d11").value; wyd11m = document.getElementById("m11").value; wyd11r = document.getElementById("r11").value; wyd11op = wydopile11; wyd11po = wydojakie11;
+
+czekkto0 = document.getElementById("rb_kto0").checked;
+czekkto1 = document.getElementById("rb_kto1").checked;
+czekgrupa0 = document.getElementById("rb_grupa0").checked;
+czekgrupa1 = document.getElementById("rb_grupa1").checked;
+czekgrupa2 = document.getElementById("rb_grupa2").checked;
+czekczyant0 = document.getElementById("rb_czyant0").checked;
+czekczyant1 = document.getElementById("rb_czyant1").checked;
+czekczyimm0 = document.getElementById("rb_czyimm0").checked;
+czekczyimm1 = document.getElementById("rb_czyimm1").checked;
+
+
+wartoscipol = {rb_czyimm0: czekczyimm0, rb_czyimm1: czekczyimm1, rb_kto0:czekkto0, rb_kto1:czekkto1, rb_grupa0:czekgrupa0, rb_grupa1:czekgrupa1, rb_grupa2:czekgrupa2, rb_czyant0:czekczyant0, rb_czyant1:czekczyant1,
+wystawienie_dzien:wystawionodzien, wystawienie_miesiac:wystawionomiesiac, wystawienie_rok:wystawionorok,
+wypisano_opakowan:wypsanoopakowan, wielkosc_wypisanych_opakowan:wypisaneopsapo,
+jednostek_na_dobe:liczbajednosteknadobe, wielkosc_nzo:wielkoscnzo,
+wyd_0_dzien:wyd0d, wyd_0_miesiac:wyd0m, wyd_0_rok:wyd0r, wyd_0_op:wyd0op, wyd_0_po:wyd0po,
+wyd_1_dzien:wyd1d, wyd_1_miesiac:wyd1m, wyd_1_rok:wyd1r, wyd_1_op:wyd1op, wyd_1_po:wyd1po,
+wyd_2_dzien:wyd2d, wyd_2_miesiac:wyd2m, wyd_2_rok:wyd2r, wyd_2_op:wyd2op, wyd_2_po:wyd2po,
+wyd_3_dzien:wyd3d, wyd_3_miesiac:wyd3m, wyd_3_rok:wyd3r, wyd_3_op:wyd3op, wyd_3_po:wyd3po,
+wyd_4_dzien:wyd4d, wyd_4_miesiac:wyd4m, wyd_4_rok:wyd4r, wyd_4_op:wyd4op, wyd_4_po:wyd4po,
+wyd_5_dzien:wyd5d, wyd_5_miesiac:wyd5m, wyd_5_rok:wyd5r, wyd_5_op:wyd5op, wyd_5_po:wyd5po,
+wyd_6_dzien:wyd6d, wyd_6_miesiac:wyd6m, wyd_6_rok:wyd6r, wyd_6_op:wyd6op, wyd_6_po:wyd6po,
+wyd_7_dzien:wyd7d, wyd_7_miesiac:wyd7m, wyd_7_rok:wyd7r, wyd_7_op:wyd7op, wyd_7_po:wyd7po,
+wyd_8_dzien:wyd8d, wyd_8_miesiac:wyd8m, wyd_8_rok:wyd8r, wyd_8_op:wyd8op, wyd_8_po:wyd8po,
+wyd_9_dzien:wyd9d, wyd_9_miesiac:wyd9m, wyd_9_rok:wyd9r, wyd_9_op:wyd9op, wyd_9_po:wyd9po,
+wyd_10_dzien:wyd10d, wyd_10_miesiac:wyd10m, wyd_10_rok:wyd10r, wyd_10_op:wyd10op, wyd_10_po:wyd10po,
+wyd_11_dzien:wyd11d, wyd_11_miesiac:wyd11m, wyd_11_rok:wyd11r, wyd_11_op:wyd11op, wyd_11_po:wyd11po};
+
+document.getElementById("tuwykres").innerHTML = "";
+
+
+var xx = 0;
+//document.getElementById("boo").scrollBy(0, 20);
+
+eerpcalcZerujZmienne();
+erpcalcRysujOdcinekWaznosciRp(wartoscipol);
+erpcalcRysujPrzedPo(wartoscipol);
+erpcalcRysujOdcinkiCzasu(wartoscipol);
+erpcalcRysujSumeArrayi(erpcalcSumujArraye());
+erpcalcRysujSumeArrayi(erpcalcSumujArrayePoEwKorekcie());
+eerpcalcNaloz(RedBlueArr, sumaArrayiK);
+eerpcalcRysujPoNal(poNalozeniu);
+eerpcalcWygumkowywanieV2(poNalozeniu, wartoscipol);
+//----WIDOK3D---
+GenerujBitmape(wyniktxt1,wyniktxt2,wyniktxt3,wyniktxt4,wyniktxt5);
+renderuj(wartoscipol);
+document.getElementById("wyrenderowane").style.pointerEvents = "auto";
+document.getElementById("c").style.pointerEvents = "auto";
+document.getElementById("wyrenderowane").style.visibility = "visible";
+
+};//^
+
+
+//----------------chat part 2 start
+dragElement(document.getElementById("mydiv"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    document.getElementById(elmnt.id + "header").ontouchstart = dragMouseDown;
+
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+    elmnt.ontouchstart = dragMouseDown;
+  }
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+    document.ontouchend = closeDragElement;
+    document.ontouchmove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    var coordinateY = e.clientY || e.targetTouches[0].pageY;
+    var coordinateX = e.clientX || e.targetTouches[0].pageX;
+
+    pos1 = pos3 - coordinateX;
+    pos2 = pos4 - coordinateY;
+    pos3 = coordinateX;
+    pos4 = coordinateY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+    document.ontouchend = null;
+    document.ontouchmove = null;
+  }
+}
+//-----------chat part 2 koniec
+
+
+// 3D--------------------------
+
+
+var dynamicTexture	= new THREEx.DynamicTexture(512,512);
+var dynamicTextureOut	= new THREEx.DynamicTexture(512,512);
+var dynamicTextureWynik	= new THREEx.DynamicTexture(2048,1024);
+var dynamicTextureD = new THREEx.DynamicTexture(256,256);
+var dynamicTextureP = new THREEx.DynamicTexture(256,256);
+
+  const canvas = document.querySelector('#c');
+  const renderer = new THREE.WebGLRenderer({canvas: canvas, antialias: false, precision: "mediump", alpha: true});
+  renderer.setClearColor( 0x000000, 0);
+  const fov = 30;
+  const aspect = 2;  // the canvas default
+  const near = 0.1;
+  const far = 30;
+  const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+  //const camera = new THREE.OrthographicCamera(fov, aspect, near, far);
+  camera.position.z = 24;
+  camera.position.y = -1;
+  camera.position.x = 0;
+  const scene = new THREE.Scene();
+  const boxWidth = 1.5;
+  const boxHeight = 0.5;
+  const boxDepth = 0.2;
+  const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+  const tlogeometry = new THREE.PlaneGeometry(30,20,16,16);
+  const tlomaterial = new THREE.MeshPhongMaterial( {color: 0x000000, side: THREE.DoubleSide} );
+  const tlo = new THREE.Mesh( tlogeometry, tlomaterial );
+  tlo.position.z = -1;
+  scene.add(tlo);
+ //----
+  const nadmiarWgeometry = new THREE.PlaneGeometry(1.5,1.0,2,2);
+  const nadmiarWmaterial = new THREE.MeshPhongMaterial( {map: dynamicTextureP.texture, side: THREE.DoubleSide} );
+  const nadmiarDoWyd = new THREE.Mesh( nadmiarWgeometry, nadmiarWmaterial );
+  nadmiarDoWyd.position.z = 0;
+  nadmiarDoWyd.position.y = -3.2;
+  nadmiarDoWyd.position.x= -1;
+  scene.add(nadmiarDoWyd);
+
+  const nadmiarPgeometry = new THREE.PlaneGeometry(1.5,1.0,2,2);
+  const nadmiarPmaterial = new THREE.MeshPhongMaterial( {map: dynamicTextureD.texture, side: THREE.DoubleSide} );
+  const nadmiarPrzep = new THREE.Mesh( nadmiarPgeometry, nadmiarPmaterial );
+  nadmiarPrzep.position.z = 0;
+  nadmiarPrzep.position.y = -3.2;
+  nadmiarPrzep.position.x= 1;
+  scene.add(nadmiarPrzep);
+
+
+ //------
+//---wyk3d
+
+
+const skalatexture = new THREE.TextureLoader().load( "static/skala.png" );
+
+const skalageo = new THREE.PlaneGeometry(25.35,1,4,4);
+const skalamat = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, map: skalatexture} );
+const skala = new THREE.Mesh( skalageo, skalamat );
+skala.rotation.z = 0;
+skala.position.y = -2.2;
+skala.position.x = 3.76;
+skala.position.z = 0.3;
+scene.add( skala );
+ //---
+  const infotextgeometry = new THREE.PlaneGeometry(27,7,16,16);
+  const infotextmaterial = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, map: dynamicTextureWynik.texture} );
+  const infotext = new THREE.Mesh( infotextgeometry, infotextmaterial );
+  infotext.position.z = -0.5;
+  infotext.position.y = 2;
+  scene.add(infotext);
+  const color = 0xFFFFFF;
+  const intensity = 1;
+  const light = new THREE.PointLight(color, intensity, 0);
+  light.position.set(0, -15, 50);
+  scene.add(light);
+
+  dynamicTexture.context.font	= "bolder 256px Verdana";
+  dynamicTexture.texture.anisotropy = renderer.getMaxAnisotropy();
+  dynamicTexture.clear('white');
+  dynamicTexture.drawText(tabletek, undefined, 350, 'red');
+
+  dynamicTextureOut.context.font	= "bolder 256px Verdana";
+  dynamicTextureOut.texture.anisotropy = renderer.getMaxAnisotropy();
+  dynamicTextureOut.clear('red');
+  dynamicTexture.drawText(tabletek, undefined, 350, 'black');
+
+
+  renderer.setSize(1600, 1200, false)
+
+
+
+
+      function PudelkaDoWydania(liczbapudelek) {
+      const material = new THREE.MeshStandardMaterial({map	: dynamicTexture.texture});
+
+      let osiks = 0;
+      let przeskok = 0;
+      for (let i=0; i<liczbapudelek; i++) {
+     const cube = new THREE.Mesh(geometry, material);
+     cube.position.y = (i/1.5)-(osiks/1.5)*5 - 6.66;
+     cube.position.x = 1 + osiks*1.7;
+     scene.add(cube);
+     przeskok = przeskok + 1;
+     if (przeskok == 5) {
+	 przeskok = 0;
+	 osiks = osiks + 1;
+	 }
+      };
+    }
+
+      function PudelkaPrzepadle(liczbapudelek) {
+      const materialOut = new THREE.MeshStandardMaterial({map	: dynamicTextureOut.texture});
+       let osiks = 0;
+      let przeskok = 0;
+       for (let i=0; i<liczbapudelek; i++) {
+     const cube = new THREE.Mesh(geometry, materialOut);
+     cube.position.y = (-i/1.5) +(osiks/1.5)*5 - 4;
+     cube.position.x = -1 - osiks*1.7;
+     scene.add(cube);
+     przeskok = przeskok + 1;
+     if (przeskok == 5) {
+	 przeskok = 0;
+	 osiks = osiks + 1;
+	 }
+      };
+    }
+
+
+function GenerujBitmape(wyniktxt1, wyniktxt2, wyniktxt3, wyniktxt4, wyniktxt5) {
+//czesc 1
+dynamicTextureWynik.context.font	= "bolder 64px Verdana";
+dynamicTextureWynik.clear("#000000");
+dynamicTextureWynik.drawText(wyniktxt1, undefined, 100, '#aaaaff');
+//czesc 2
+dynamicTextureWynik.context.font	= "bolder 48px Verdana";
+dynamicTextureWynik.drawText(wyniktxt2, undefined, 200, 'red');
+//czesc 3
+dynamicTextureWynik.drawText(wyniktxt3, undefined, 300, 'lime');
+//czesc 4
+dynamicTextureWynik.drawText(wyniktxt4, undefined, 400, 'goldenrod');
+//czesc 5
+dynamicTextureWynik.context.font	= "bolder 64px Verdana";
+dynamicTextureWynik.drawText(wyniktxt5, undefined, 500, '#aaaaff');
+//czesc 5
+dynamicTextureWynik.drawText(">>>Kliknij albo pacnij gdziekolwiek by powrócić.<<<", undefined,700, '#222222');
+
+dynamicTextureP.context.font	= "bolder 64px Verdana";
+dynamicTextureP.clear("#000000");
+dynamicTextureD.context.font	= "bolder 64px Verdana";
+dynamicTextureD.clear("#000000");
+
+
+
+
+}
+
+function renderuj(w) {
+var tabletek = document.getElementById("o").value;
+if (w.wielkosc_nzo.trim() != "") {moznajednostekGlob = moznajednostekGlob + parseInt(w.wielkosc_nzo);};
+var pWyd = Math.floor(moznajednostekGlob/tabletek);
+var pP = Math.floor(przepadlojednostekGlob/tabletek);
+
+PudelkaDoWydania(pWyd);
+dynamicTextureD.drawText("+" + (moznajednostekGlob - pWyd*tabletek), undefined, 200, '#4444ff');
+
+PudelkaPrzepadle(pP);
+dynamicTextureP.drawText("+" + (przepadlojednostekGlob - pP*tabletek), undefined, 200, '#ff4444');
+
+Baton();
+
+dynamicTexture.clear('#4444ff');
+dynamicTexture.drawText(tabletek, undefined, 350, 'black');
+dynamicTextureOut.clear('red');
+dynamicTextureOut.drawText(tabletek, undefined, 350, 'black');
+renderer.render(scene, camera);
+}
+
+function Baton() {
+var zielen;
+for (var dcl = 0; dcl < 360; dcl++) {
+var cylgeo = new THREE.CylinderBufferGeometry( 0.5, 0.5, 0.05, 16 );
+
+if (typeof poNalozeniu[dcl] == "string") {
+
+				if (poNalozeniu[dcl] == "r") {var cylmat = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, color: 0xff0000} );}
+				else if (poNalozeniu[dcl] == "b") {var cylmat = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, color: 0x0000ff} );}
+}
+else if (typeof poNalozeniu[dcl] == "number") {
+
+               if (poNalozeniu[dcl] != 0) {zielen = poNalozeniu[dcl]*0x004000; var cylmat = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, color: zielen} );}
+               else if (poNalozeniu[dcl] == 0) {var cylmat = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, color: 0x000000, transparent: true, opacity: 0} );}
+
+}
+
+else {var cylmat = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, color: 0x000000, transparent: true, opacity: 0} );};
+
+
+var cyl = new THREE.Mesh( cylgeo, cylmat );
+cyl.rotation.z = 1.57;
+cyl.position.y = -1.2;
+cyl.position.x = -8.95 + dcl/20;
+cyl.position.z = 0;
+scene.add( cyl );
+};
+};
+
+function wroc() {
+document.getElementById("wyrenderowane").style.pointerEvents = "auto";
+document.getElementById("c").style.pointerEvents = "auto";
+document.getElementById("wyrenderowane").style.visibility = "hidden"
+document.getElementById("starter").style.visibility = "visible"
+
+while(scene.children.length > 0){
+    scene.remove(scene.children[0]);
+}
+
+DodajStaleElementy();
+
+}
+
+function DodajStaleElementy() {
+  scene.add(light);
+  scene.add(tlo);
+scene.add(infotext);
+scene.add(nadmiarDoWyd);
+scene.add(nadmiarPrzep);
+scene.add(skala);
+};
+
+document.getElementById("wyrenderowane").addEventListener("click", wroc);
+</script>
+
+<script>
+
+var napis;
+	  const tex0 = new THREE.TextureLoader().load( "https://autoserwis.leki.expert/static/pa.jpg" );
+	   const tex1 = new THREE.TextureLoader().load( "https://autoserwis.leki.expert/static/amber.jpg" );
+	   const tex2 = new THREE.TextureLoader().load( "https://autoserwis.leki.expert/static/text22.png" );
+
+	   tex1.repeat.set(0.5, 0.5);
+	   tex2.repeat.set(1, 0.25);
+	   tex2.wrapT = THREE.RepeatWrapping;
+
+const canvas2 = document.querySelector('#c2');
+  const renderer2 = new THREE.WebGLRenderer({canvas: canvas2, antialias: false, precision: "mediump", alpha: true});
+  renderer2.setClearColor( 0x000000, 0);
+  const fov2 = 25;
+  const aspect2 = 2;  // the canvas default
+  const near2 = 0.1;
+  const far2 = 100;
+  const camera2 = new THREE.PerspectiveCamera(fov2, aspect2, near2, far2);
+  //const camera = new THREE.OrthographicCamera(fov, aspect, near, far);
+  camera2.position.z = 40;
+  camera2.rotation.y = -0.2;
+  camera2.rotation.x = 0.04;
+  camera2.position.y = 0;
+  camera2.position.x = 0;
+  const scene2 = new THREE.Scene();
+  const tlogeometry2 = new THREE.CylinderGeometry(50,50,60,16);
+  const tlomaterial2 = new THREE.MeshBasicMaterial( {side: THREE.DoubleSide, map: tex0  } );
+  const tlo2 = new THREE.Mesh( tlogeometry2, tlomaterial2 );
+  tlo2.doubleSided = true;
+  scene2.add(tlo2);
+
+  //const geometry = new THREE.BoxGeometry(0.5,0.5,0.5);
+ // const material = new THREE.MeshPhongMaterial( {side: THREE.DoubleSide, color: 0xff0000  } );
+ // const cu = new THREE.Mesh( geometry, material );
+ // scene.add(cu);
+    const color2 = 0xFFFFFF;
+  const intensity2 = 1;
+  const light2 = new THREE.PointLight(color2, intensity2, 0);
+  light2.position.set(0, 20, 0);
+  scene2.add(light2);
+
+  const light22 = new THREE.PointLight(color2, intensity2, 0);
+  light22.position.set(0, 5, 20);
+  scene2.add(light22);
+
+ //----
+
+
+  renderer2.setSize(1200, 600, false)
+
+
+
+var loader = new THREE.FontLoader();
+
+loader.load( 'https://autoserwis.leki.expert/static/optimer.json', function ( font ) {
+
+var geometrynapis = new THREE.TextBufferGeometry( '@', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2, bevelOffset: 0, bevelSegments: 5} );
+var geometrynapis1 = new THREE.TextBufferGeometry( 'B', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis2 = new THREE.TextBufferGeometry( 'u', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis3 = new THREE.TextBufferGeometry( 's', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis4 = new THREE.TextBufferGeometry( 't', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis5 = new THREE.TextBufferGeometry( 'e', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis6 = new THREE.TextBufferGeometry( 'r', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis7 = new THREE.TextBufferGeometry( 's', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis8 = new THREE.TextBufferGeometry( 'P', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis9 = new THREE.TextBufferGeometry( 'h', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis10 = new THREE.TextBufferGeometry( 'a', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis11 = new THREE.TextBufferGeometry( 'r', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis12 = new THREE.TextBufferGeometry( 'm', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+var geometrynapis13 = new THREE.TextBufferGeometry( 'a', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
+
+materialnapis = new THREE.MeshPhysicalMaterial( {map: tex1,metalness: 0.0,roughness: 0,opacity: 1,side: THREE.FrontSide,transparent: false,envMapIntensity: 5,premultipliedAlpha: true} );
+//materialnapisback = new THREE.MeshPhysicalMaterial( {map: tex1,metalness: 1.0,roughness: 0,opacity: 0.0,side: THREE.BackSide,transparent: true,envMapIntensity: 5,premultipliedAlpha: true} );
+
+
+napis = new THREE.Mesh();
+napis.geometry = geometrynapis;
+
+//napisclone = new THREE.Mesh();
+//napisclone.geometry = geometrynapis;
+//napisclone.material = materialnapisback;
+
+napis1 = new THREE.Mesh();
+napis1.geometry = geometrynapis1;
+
+//napisclone1 = new THREE.Mesh();
+//napisclone1.geometry = geometrynapis1;
+//napisclone1.material = materialnapisback;
+
+napis2 = new THREE.Mesh();
+napis2.geometry = geometrynapis2;
+
+//napisclone2 = new THREE.Mesh();
+//napisclone2.geometry = geometrynapis2;
+//napisclone2.material = materialnapisback;
+
+napis3 = new THREE.Mesh();
+napis3.geometry = geometrynapis3;
+
+//napisclone3 = new THREE.Mesh();
+//napisclone3.geometry = geometrynapis3;
+//napisclone3.material = materialnapisback;
+
+napis4 = new THREE.Mesh();
+napis4.geometry = geometrynapis4;
+
+//napisclone4 = new THREE.Mesh();
+//napisclone4.geometry = geometrynapis4;
+//napisclone4.material = materialnapisback;
+
+napis5 = new THREE.Mesh();
+napis5.geometry = geometrynapis5;
+
+//napisclone5 = new THREE.Mesh();
+//napisclone5.geometry = geometrynapis5;
+//napisclone5.material = materialnapisback;
+
+napis6 = new THREE.Mesh();
+napis6.geometry = geometrynapis6;
+
+//napisclone6 = new THREE.Mesh();
+//napisclone6.geometry = geometrynapis6;
+//napisclone6.material = materialnapisback;
+
+napis7 = new THREE.Mesh();
+napis7.geometry = geometrynapis7;
+
+//napisclone7 = new THREE.Mesh();
+//napisclone7.geometry = geometrynapis7;
+//napisclone7.material = materialnapisback;
+
+napis8 = new THREE.Mesh();
+napis8.geometry = geometrynapis8;
+
+//napisclone8 = new THREE.Mesh();
+//napisclone8.geometry = geometrynapis8;
+//napisclone8.material = materialnapisback;
+
+
+napis9 = new THREE.Mesh();
+napis9.geometry = geometrynapis9;
+
+//napisclone9 = new THREE.Mesh();
+//napisclone9.geometry = geometrynapis9;
+//napisclone9.material = materialnapisback;
+
+napis10 = new THREE.Mesh();
+napis10.geometry = geometrynapis10;
+
+napis11 = new THREE.Mesh();
+napis11.geometry = geometrynapis11;
+
+napis12 = new THREE.Mesh();
+napis12.geometry = geometrynapis12;
+
+napis13 = new THREE.Mesh();
+napis13.geometry = geometrynapis13;
+
+napis.material = materialnapis;
+napis.position.x = -8;
+napis.position.y = 2;
+
+//napisclone.position.x = -8;
+//napisclone.position.y = 2;
+
+napis1.material = materialnapis;
+napis1.position.x = -3.8;
+napis1.position.y = 2;
+
+
+napis2.material = materialnapis;
+napis2.position.x = -1.3;
+napis2.position.y = 2;
+
+//s
+napis3.material = materialnapis;
+napis3.position.x = 1;
+napis3.position.y = 2;
+
+
+napis4.material = materialnapis;
+napis4.position.x = 3.1;
+napis4.position.y = 2;
+
+
+napis5.material = materialnapis;
+napis5.position.x = 4.5;
+napis5.position.y = 2;
+
+
+napis6.material = materialnapis;
+napis6.position.x = 6.6;
+napis6.position.y = 2;
+
+
+//s
+napis7.material = materialnapis;
+napis7.position.x = 7.9;
+napis7.position.y = 2;
+
+
+napis8.material = materialnapis;
+napis8.position.x = 9.6;
+napis8.position.y = 2;
+
+
+napis9.material = materialnapis;
+napis9.position.x = 12.0;
+napis9.position.y = 2;
+
+
+napis10.material = materialnapis;
+napis10.position.x = 14.2;
+napis10.position.y = 2;
+
+napis11.material = materialnapis;
+napis11.position.x = 16.4;
+napis11.position.y = 2;
+
+napis12.material = materialnapis;
+napis12.position.x = 18.1;
+napis12.position.y = 2;
+
+napis13.material = materialnapis;
+napis13.position.x = 21.8;
+napis13.position.y = 2;
+
+
+
+pivot = new THREE.Object3D();
+//pivot.add( napisclone );
+pivot.add( napis);
+
+//pivot.add( napisclone1 );
+pivot.add( napis1);
+
+//pivot.add( napisclone2 );
+pivot.add( napis2);
+
+//pivot.add( napisclone3 );
+pivot.add( napis3);
+
+
+//pivot.add( napisclone4 );
+pivot.add( napis4);
+
+//pivot.add( napisclone5 );
+pivot.add( napis5);
+
+//pivot.add( napisclone6 );
+pivot.add( napis6);
+
+//pivot.add( napisclone7 );
+pivot.add( napis7);
+
+
+//pivot.add( napisclone8 );
+pivot.add( napis8);
+
+//pivot.add( napisclone9 );
+pivot.add( napis9);
+
+pivot.add( napis10);
+pivot.add( napis11);
+pivot.add( napis12);
+pivot.add( napis13);
+
+
+
+scene2.add( pivot );
+
+var light32 = new THREE.AmbientLight( 0xc0f4f0 ); // soft white light
+scene2.add( light32);
+
+} );
+
+
+  const napisydemogeo = new THREE.PlaneGeometry(16,20,16,16);
+  const napisydemomat = new THREE.MeshBasicMaterial( {side: THREE.FrontSide, map: tex2, transparent: true} );
+  const napisydemo = new THREE.Mesh( napisydemogeo, napisydemomat );
+  napisydemo.position.x = 18;
+  napisydemo.position.y = 1.5;
+  napisydemo.rotation.y = -0.20;
+  napisydemo.rotation.x = 0.050;
+  napisydemo.rotation.z = 0.0052;
+  scene2.add(napisydemo);
+
+
+
+
+
+
+var k;
+var k1;
+var k2;
+var k3;
+var k4;
+var k5;
+var k6;
+var k7;
+var k8;
+var k9;
+var k10;
+var k11;
+var k12;
+var k13;
+
+var kolysanie = 0;
+var przesuwanie = 0.75;
+function animate(time) {
+
+	  time *= 0.001;
+	  tex2.offset.set(0, 0.5);
+
+	  kolysanie = time;
+	  przesuwanie = -time/60 + 0.75;
+	  tex2.offset.set(0, przesuwanie);
+
+	  requestAnimationFrame( animate );
+	  renderer2.render(scene2, camera2);
+	  tlo2.rotation.y = time/10;
+
+	  tlo2.rotation.z =  0 + Math.sin(kolysanie)/10;
+	  pivot.rotation.y = time/10;
+	  k = 2 + Math.sin(kolysanie*4+0.0)*2;
+	  k1 = 2 + Math.sin(kolysanie*4+0.4)*2;
+	  k2 = 2 + Math.sin(kolysanie*4+0.8)*2;
+	  k3 = 2 + Math.sin(kolysanie*4+1.2)*2;
+	  k4 = 2 + Math.sin(kolysanie*4+1.8)*2;
+	  k5 = 2 + Math.sin(kolysanie*4+2.2)*2;
+	  k6 = 2 + Math.sin(kolysanie*4+2.6)*2;
+	  k7 = 2 + Math.sin(kolysanie*4+3)*2;
+	  k8 = 2 + Math.sin(kolysanie*4+3.4)*2;
+	  k9 = 2 + Math.sin(kolysanie*4+3.8)*2;
+      k10 = 2 + Math.sin(kolysanie*4+4.2)*2;
+      k11 = 2 + Math.sin(kolysanie*4+4.6)*2;
+      k12 = 2 + Math.sin(kolysanie*4+5.0)*2;
+      k13 = 2 + Math.sin(kolysanie*4+5.4)*2;
+
+
+	  napis.position.y = k;
+	  //napisclone.position.y = k;
+
+	  napis1.position.y = k1;
+	  //napisclone1.position.y = k1;
+
+	  napis2.position.y = k2;
+	  //napisclone2.position.y = k2;
+
+	  napis3.position.y = k3;
+	  //napisclone3.position.y = k3;
+
+	  napis4.position.y = k4;
+	  //napisclone4.position.y = k4;
+
+	  napis5.position.y = k5;
+	  //napisclone5.position.y = k5;
+
+	  napis6.position.y = k6;
+	  //napisclone6.position.y = k6;
+
+	  napis7.position.y = k7;
+	  //napisclone7.position.y = k7;
+
+	  napis8.position.y = k8;
+	  //napisclone8.position.y = k8;
+
+	  napis9.position.y = k9;
+	  //napisclone9.position.y = k9;
+
+      napis10.position.y = k10;
+      napis11.position.y = k11;
+      napis12.position.y = k12;
+      napis13.position.y = k13;
+
+
+	 }
+
+
+
+requestAnimationFrame( animate );
+
+
+</script>
+
+
