@@ -108,12 +108,12 @@ tictoc = 0;
 
 </script>
 
-<script src="https://autoserwis.leki.expert/static/three.min.js"></script>
-<script src="https://autoserwis.leki.expert/static/WebGL.js"></script>
-<script src="https://autoserwis.leki.expert/static/threex.dynamictexture.js"></script>
-<script src="https://autoserwis.leki.expert/static/inhale.js"></script>
-<script src="https://autoserwis.leki.expert/static/erpcalc.js"></script>
 
+<script src="{{ "assets/js/three.min.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/WebGL.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/threex.dynamictexture.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/inhale.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/erpcalc.js" | absolute_url }}"></script>
 
 <div id="mydiv" style="position:fixed; border: none; display: none; height: 20vw; width: 19.2vw; right: 5vw; bottom: 25vh; background-color: #001; color: lightblue; z-index: 110;">
     <div id="mydivheader" style="text-align: center; height: 2vw; background-color: blue;font-size: 0.9vw;">
@@ -834,7 +834,7 @@ const canvas2 = document.querySelector('#c2');
 
 var loader = new THREE.FontLoader();
 
-loader.load( 'https://autoserwis.leki.expert/static/optimer.json', function ( font ) {
+loader.load( '{{ "assets/js/optimer.json" | absolute_url }}', function ( font ) {
 
 var geometrynapis = new THREE.TextBufferGeometry( '@', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2, bevelOffset: 0, bevelSegments: 5} );
 var geometrynapis1 = new THREE.TextBufferGeometry( 'B', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
