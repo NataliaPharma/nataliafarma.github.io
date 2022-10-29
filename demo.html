@@ -782,9 +782,9 @@ document.getElementById("wyrenderowane").addEventListener("click", wroc);
 <script>
 
 var napis;
-	  const tex0 = new THREE.TextureLoader().load( "https://autoserwis.leki.expert/static/pa.jpg" );
-	   const tex1 = new THREE.TextureLoader().load( "https://autoserwis.leki.expert/static/amber.jpg" );
-	   const tex2 = new THREE.TextureLoader().load( "https://autoserwis.leki.expert/static/text22.png" );
+	  const tex0 = new THREE.TextureLoader().load( "https://pharmabusters.pl/assets/images/pa.jpg" );
+	   const tex1 = new THREE.TextureLoader().load( "https://pharmabusters.pl/assets/images/amber.jpg" );
+	   const tex2 = new THREE.TextureLoader().load( "https://pharmabusters.pl/assets/images/text22.png" );
 
 	   tex1.repeat.set(0.5, 0.5);
 	   tex2.repeat.set(1, 0.25);
@@ -834,7 +834,7 @@ const canvas2 = document.querySelector('#c2');
 
 var loader = new THREE.FontLoader();
 
-loader.load( 'https://pharmabusters.pl/assets/fonts/optimer.json', function ( font ) {
+loader.load( 'https://pharmabusters.pl/assets/js/optimer.js', function ( font ) {
 
 var geometrynapis = new THREE.TextBufferGeometry( '@', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2, bevelOffset: 0, bevelSegments: 5} );
 var geometrynapis1 = new THREE.TextBufferGeometry( 'B', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
