@@ -1,14 +1,14 @@
-<p>
+
 ---
-layout: allposts
+layout: post
 title: Wszystkie wpisy
-landing-title: 'All posts'
+landing-title: 'Wszystkie posty'
 nav-menu: true
 description: null
 image: null
 author: null
 show_tile: false
 ---
-</p>
 
-<p>tabelka tu będzie</p>
+
+#tabelka tu będzie
