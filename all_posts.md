@@ -1,3 +1,4 @@
+<p>
 ---
 layout: allposts
 title: Wszystkie wpisy
@@ -8,5 +9,6 @@ image: null
 author: null
 show_tile: false
 ---
+</p>
 
-<h1>All posts</h1>
+<p>tabelka tu będzie</p>
