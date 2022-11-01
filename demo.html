@@ -794,11 +794,9 @@ const canvas2 = document.querySelector('#c2');
   const renderer2 = new THREE.WebGLRenderer({canvas: canvas2, antialias: false, precision: "mediump", alpha: true});
   renderer2.setClearColor( 0x000000, 0);
   const fov2 = 25;
-  const aspect2 = 2;  // the canvas default
   const near2 = 0.1;
   const far2 = 100;
-  const camera2 = new THREE.PerspectiveCamera(fov2, aspect2, near2, far2);
-  //const camera = new THREE.OrthographicCamera(fov, aspect, near, far);
+  const camera2 = new THREE.PerspectiveCamera(fov2, window.innerWidth / window.innerHeight, near2, far2);
   camera2.position.z = 40;
   camera2.rotation.y = -0.2;
   camera2.rotation.x = 0.04;
