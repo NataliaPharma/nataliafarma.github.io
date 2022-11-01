@@ -39,7 +39,7 @@ var napis;
 const canvas2 = document.querySelector('#c');
   const renderer2 = new THREE.WebGLRenderer({canvas: canvas2, antialias: false, precision: "mediump", alpha: true});
   renderer2.setClearColor( 0x000000, 0);
-  const fov2 = 30;
+  const fov2 = 25;
   const near2 = 0.1;
   const far2 = 100;
   const camera2 = new THREE.PerspectiveCamera(fov2, window.innerWidth / window.innerHeight, near2, far2);
