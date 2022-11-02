@@ -9,6 +9,9 @@ author: null
 show_tile: false
 ---
 
+&nbsp;<br>&nbsp;<br>&nbsp;<br>
+
+
 <div id = "opracowania" style="margin-top:-4rem !important;">
 <div>
 <div>
@@ -62,3 +65,136 @@ show_tile: false
 </div>
 </div>
 
+<script>
+	
+	function opracowania_obj_gen() {
+opr = [{
+tytul: "tutuł 0",
+data: "09.10.2021",
+autor: "Natalia Miękus-Purwin",
+dzial: "lajfhaki",
+art_link: "",
+dzial_link: ""
+},
+{
+tytul: "tytuł 1",
+data: "02.11.2021",
+autor: "Natalia Miękus-Purwin",
+dzial: "wykwintne dania",
+art_link: "",
+dzial_link: ""
+},
+{
+tytul: "tytuł 2",
+data: "05.11.2021",
+autor: "Natalia Miękus-Purwin",
+dzial: "zdrowie społeczne",
+art_link: "",
+dzial_link: ""
+},
+{
+tytul: "tytuł 3",
+data: "13.01.2022",
+autor: "Natalia Miękus-Purwin",
+dzial: "lajfhaki",
+art_link: "",
+dzial_link: ""
+}
+]
+return opr
+}
+
+function filtruj(opracowania, slowo, autor, dzial) {
+
+let opracowania_po_filtracji = [];
+let opracowania_po_filtracji2 = [];
+let opracowania_po_filtracji3 = [];
+//pass0:
+for (var i = 0; i < opracowania.length; i++) {
+if (opracowania[i].tytul.toUpperCase().includes(slowo.toUpperCase())) {
+opracowania_po_filtracji.push(opracowania[i])
+}
+}
+//pass1:
+if (document.getElementById("s0").value != "wszyscy autorzy") {
+    for (var i = 0; i < opracowania_po_filtracji.length; i++) {
+        if (opracowania_po_filtracji[i].autor == autor) {
+            opracowania_po_filtracji2.push(opracowania_po_filtracji[i])
+        }
+    }
+} else {
+opracowania_po_filtracji2 = [...opracowania_po_filtracji];
+}
+//pass2:
+if (document.getElementById("s1").value != "wszystkie działy") {
+    for (var i = 0; i < opracowania_po_filtracji2.length; i++) {
+        if (opracowania_po_filtracji2[i].dzial == dzial) {
+            opracowania_po_filtracji3.push(opracowania_po_filtracji2[i])
+        }
+    }
+} else {
+opracowania_po_filtracji3 = [...opracowania_po_filtracji2];
+}
+
+return opracowania_po_filtracji3
+}
+
+
+function generator_LKO(tabelka, slowo, autor, dzial) {
+let opracowania_po_filtracji = filtruj(opracowania_obj_gen(), slowo, autor, dzial);
+let zawartosc = ""
+
+for (var i = 0; i < opracowania_po_filtracji.length; i++) {
+zawartosc = zawartosc + `
+<tr>
+<td><a href="${opracowania_po_filtracji[i].art_link}">${opracowania_po_filtracji[i].tytul}</a></td>
+<td>${opracowania_po_filtracji[i].autor}</td>
+<td><a href="${opracowania_po_filtracji[i].dzial_link}">${opracowania_po_filtracji[i].dzial}</a></td>
+<td>${opracowania_po_filtracji[i].data}</td>
+</tr>`
+}
+
+tabelka.innerHTML = zawartosc
+}
+
+
+window.onload = function () {
+let tabelka = document.querySelector("#wnetrze");
+generator_LKO(tabelka, "", "wszyscy autorzy", "wszystkie działy");
+document.getElementById("fname").addEventListener('input', liste_uaktualnij);
+document.getElementById("s0").addEventListener("change", liste_uaktualnij, false);
+document.getElementById("s1").addEventListener("change", liste_uaktualnij, false);
+
+
+}
+
+
+
+function liste_uaktualnij() {
+let wpisane = document.getElementById("fname").value;
+let tabelka = document.querySelector("#wnetrze");
+generator_LKO(tabelka, wpisane, document.getElementById("s0").value, document.getElementById("s1").value)
+
+}
+
+	
+</script>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
