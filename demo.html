@@ -80,7 +80,7 @@ var loader = new THREE.FontLoader();
 
 loader.load( 'https://www.pharmabusters.pl/assets/js/optimer.js', function ( font ) {
 
-var geometrynapis = new THREE.TextBufferGeometry( 'P', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2, bevelOffset: 0, bevelSegments: 5} );
+var geometrynapis = new THREE.TextBufferGeometry( 'p', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2, bevelOffset: 0, bevelSegments: 5} );
 var geometrynapis1 = new THREE.TextBufferGeometry( 'h', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
 var geometrynapis2 = new THREE.TextBufferGeometry( 'a', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
 var geometrynapis3 = new THREE.TextBufferGeometry( 'r', {font: font,size: 3,height: 0.3,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.5,bevelSize: 0.2,bevelOffset: 0,bevelSegments: 5} );
@@ -308,6 +308,7 @@ requestAnimationFrame( animate );
   const napisydemo = new THREE.Mesh( napisydemogeo, napisydemomat );
   napisydemo.position.x = 18;
   napisydemo.position.y = 1.5;
+  napisydemo.position.z = 10;
   napisydemo.rotation.y = -0.20;
   napisydemo.rotation.x = 0.050;
   napisydemo.rotation.z = 0.0052;
@@ -349,7 +350,7 @@ function animate(time) {
 	  tlo2.rotation.y = time/10;
 
 	  tlo2.rotation.z =  0 + Math.sin(kolysanie)/10;
-	  pivot.rotation.y = time/4;
+	  pivot.rotation.y = time/2;
 	  k = 2 + Math.sin(kolysanie*4+0.0)*2;
 	  k1 = 2 + Math.sin(kolysanie*4+0.4)*2;
 	  k2 = 2 + Math.sin(kolysanie*4+0.8)*2;
