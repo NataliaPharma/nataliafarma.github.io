@@ -17,7 +17,7 @@ show_tile: false
 <div>
 <div>
 <div>
-<h3> Lista wszystkich materiałów dostępnych na stronie:</h3>
+<h3> &nbsp; </h3>
 </div>
 </div>
 </div>
