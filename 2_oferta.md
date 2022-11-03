@@ -2,7 +2,7 @@
 layout: post
 title: '<span style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Oferta</span>'
 description: '❖ <span style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);">Sesje indywidualne</span> &nbsp;<br>&nbsp;<br>❖ <span style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);">Spotkania wykładowe</span> &nbsp;<br>&nbsp;<br>❖ <span style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);">Konsultacje grupowe</span> &nbsp;<br>&nbsp;<br>❖ <span style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);">Oferta współpracy dla firm</span> &nbsp;<br>&nbsp;<br><span style="color: rgba(255,0,0,0.0);">❖ Sesje indywidualne</span> &nbsp;'
-image: assets/images/o_0.jpg
+image: assets/images/IMG-20190627-WA0030.jpg
 nav-menu: true
 ---
 
