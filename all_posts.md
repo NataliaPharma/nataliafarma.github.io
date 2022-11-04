@@ -9,7 +9,7 @@ author: null
 show_tile: false
 ---
 
-<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.5;" > </iframe>
+<iframe src="https://pharmabusters.pl/demo" style="width:100%; aspect-ratio : 1 / 0.25;" > </iframe>
 
 &nbsp;<br>&nbsp;
 <div id = "opracowania" style="margin-top:-4rem !important;">
