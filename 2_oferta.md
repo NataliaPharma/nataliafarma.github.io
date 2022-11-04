@@ -5,13 +5,10 @@ description: '❖ <span style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);">Sesje
 nav-menu: true
 ---
 
-<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75;" > </iframe>
+
 
 <div id="main" class="alt">
-	
-
-
-
+<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75;" > </iframe>	
 <section id="one">
 	<div class="inner">
 		<header class="major">
