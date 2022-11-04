@@ -6,7 +6,6 @@ nav-menu: true
 ---
 
 <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75;" > </iframe>
-&nbsp;<br>&nbsp;
 
 <div id="main" class="alt">
 	
