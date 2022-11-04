@@ -8,7 +8,7 @@ nav-menu: true
 
 
 <div id="main" class="alt">
-<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.50; margin-bottom:-8em;" > </iframe>	
+<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75; margin-bottom:-8em;" > </iframe>	
 <section id="one">
 	<div class="inner">
 		<header class="major">
