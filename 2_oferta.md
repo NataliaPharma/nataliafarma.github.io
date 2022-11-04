@@ -6,12 +6,12 @@ image: assets/images/IMG-20190627-WA0030.jpg
 nav-menu: true
 ---
 
-
+<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.5;" > </iframe>
+&nbsp;<br>&nbsp;
 
 <div id="main" class="alt">
 	
-<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.5;" > </iframe>
-&nbsp;<br>&nbsp;
+
 
 
 <section id="one">
