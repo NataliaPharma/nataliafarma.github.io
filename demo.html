@@ -216,12 +216,12 @@ requestAnimationFrame( animate );
 } );
 
 
-  const napisydemogeo = new THREE.PlaneGeometry(16,20,16,16);
+  const napisydemogeo = new THREE.PlaneGeometry(8,10,8,8);
   const napisydemomat = new THREE.MeshBasicMaterial( {side: THREE.FrontSide, map: tex2, transparent: true} );
   const napisydemo = new THREE.Mesh( napisydemogeo, napisydemomat );
-  napisydemo.position.x = 10.5;
+  napisydemo.position.x = 5;
   napisydemo.position.y = 1.5;
-  napisydemo.position.z = 15;
+  napisydemo.position.z = 12;
   napisydemo.rotation.y = -0.20;
   napisydemo.rotation.x = 0.050;
   napisydemo.rotation.z = 0.0052;
