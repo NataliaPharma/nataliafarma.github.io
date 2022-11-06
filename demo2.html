@@ -45,9 +45,7 @@ const canvasx = document.querySelector('#c');
 const tloader = new THREE.TextureLoader();
 
 
-var chmurax = tloader.load('https://www.pharmabusters.pl/assets/images/gl0.png')
-chmurax.center.set(.5, .5);
-var tex0 = tloader.load('https://www.pharmabusters.pl/assets/images/tx0.jpg')
+var tex_tlo = tloader.load('https://www.pharmabusters.pl/assets/images/tx0.jpg')
 tex0.magFilter = THREE.NearestFilter;
 tex0.minFilter = THREE.NearestFilter;
 
@@ -66,8 +64,8 @@ natitex4pl.minFilter = THREE.LinearFilter;
 
 
 
+var material_tlo = new THREE.MeshPhongMaterial( { map: tex0, flatShading: false, side: THREE.DoubleSide } )
 
-var materialx = new THREE.MeshPhongMaterial( { map: tex0, flatShading: false, side: THREE.DoubleSide } )
 var material1x = new THREE.MeshBasicMaterial( { map: chmurax, flatShading: false, side: THREE.DoubleSide, opacity: 0.5, transparent: true } )
 var material2x = [new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
@@ -85,8 +83,9 @@ var material3x = [new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: f
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } )];
 
 
-var geometryx = new THREE.PlaneGeometry( 0.27, 0.1, 4, 4 );
-var geometry2x = new THREE.PlaneGeometry( 0.9, 0.5, 4, 4 );
+var tlo_geometry = new THREE.BoxGeometry( 4, 4, 1, 1 );
+var tlo = new THREE.Mesh(tlo_geometry, material_tlo);
+    
 var pokazx = new THREE.BoxGeometry( 1, 0.35, 0.005, 0.005 );
 var pokaz2x = new THREE.BoxGeometry( 1, 0.35, 0.005, 0.005 );
 var pokazowkax = new THREE.Mesh(pokazx, material2x);
@@ -102,7 +101,7 @@ pokazowka2x.position.z = -2;
 pokazowka2x.rotation.z = -2;
 
 
-
+scenex.add( tlo );
 scenex.add( pokazowkax );
 scenex.add( pokazowka2x );
 
@@ -169,7 +168,7 @@ function renderx() {
   etaponex = false;
 
   if (przecinak == false) {
-  timer0 = setTimeout(waitandnew, 3000);
+  timer0 = setTimeout(waitandnew, 4000);
   }
   zmianatekstury(0, "n");
 
@@ -197,7 +196,7 @@ function renderx() {
   pokazowkax.position.z = 0; //test
   dawajwprawox = false;
   etaponex = true;
-  timer1 = setTimeout(waitandnew, 3000);
+  timer1 = setTimeout(waitandnew, 4000);
   zmianatekstury(1, "n");
 
   }
@@ -256,7 +255,7 @@ var liczniklepek = 0;
 function zmianatekstury(numermesha, czyzwatcha) {
 liczniklepek += 1;
 
-if (liczniklepek == 4) {
+if (liczniklepek == 5) {
     liczniklepek = 0;
     }
 
