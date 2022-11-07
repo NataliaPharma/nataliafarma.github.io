@@ -12,43 +12,33 @@
 <script src="https://www.pharmabusters.pl/assets/js/WebGL.js"></script>
 
 <script>
-
 "use strict";
 var dupadupa = 200; var gra = false; var switch0 = 0; var wczytane = false;
 var angletr1; var angle1c; var switch1 = 0;  var angletr2; var angle2c; var switch2 = 0; var angletr3;
 var angle3c; var switchi3 = 0; var tape = 90; var tape2 = 0; var tape3 = 0; var switch3 = 0; var color = 0; var grow = 0;
 var tapeg = 270; var tape2g; var tape3g = 60; var switch3g = 0; var colorg = 0; var growg = 0; var blokada = 0;
-
-    var gra2 = false;
-    var kolejnywyraz = 0;
-    var gwsw = 0;
-
-
-
+var gra2 = false; var kolejnywyraz = 0;var gwsw = 0;
 </script>
+
 <script>
-
 const canvasx = document.querySelector('#c');
-  const rendererx = new THREE.WebGLRenderer({canvas: canvasx, antialias: false, precision: "mediump", alpha: true});
-  rendererx.setClearColor( 0x000000, 0);
-  const fovx = 75;
-  const aspectx = 2.4;  // the canvas default
-  const nearx = 0.1;
-  const farx = 10;
-  const camerax = new THREE.PerspectiveCamera(fovx, aspectx, nearx, farx);
-  camerax.position.z = 0.24;
-  camerax.position.y = 1.9;
-  camerax.rotation.x = - 0.3;
-  const scenex = new THREE.Scene();
-
+const rendererx = new THREE.WebGLRenderer({canvas: canvasx, antialias: false, precision: "mediump", alpha: true});
+rendererx.setClearColor( 0x000000, 0);
+const fovx = 75;
+const aspectx = 2.4;  // the canvas default
+const nearx = 0.1;
+const farx = 10;
+const camerax = new THREE.PerspectiveCamera(fovx, aspectx, nearx, farx);
+camerax.position.z = 0.24;
+camerax.position.y = 1.9;
+camerax.rotation.x = - 0.3;
+const scenex = new THREE.Scene();
 
 const tloader = new THREE.TextureLoader();
-
 
 var tex_tlo = tloader.load('https://www.pharmabusters.pl/assets/images/tlo2.jpg')
 tex_tlo.magFilter = THREE.NearestFilter;
 tex_tlo.minFilter = THREE.NearestFilter;
-
 var natitex1pl = tloader.load('https://www.pharmabusters.pl/assets/images/slajd0.jpg')
 natitex1pl.magFilter = THREE.LinearFilter;
 natitex1pl.minFilter = THREE.LinearFilter;
@@ -60,8 +50,7 @@ natitex3pl.magFilter = THREE.LinearFilter;
 natitex3pl.minFilter = THREE.LinearFilter;
 var natitex4pl = tloader.load('https://www.pharmabusters.pl/assets/images/slajd3.jpg')
 natitex4pl.magFilter = THREE.LinearFilter;
-natitex4pl.minFilter = THREE.LinearFilter;
-    
+natitex4pl.minFilter = THREE.LinearFilter; 
 var natitex5pl = tloader.load('https://www.pharmabusters.pl/assets/images/slajd4.jpg')
 natitex5pl.magFilter = THREE.LinearFilter;
 natitex5pl.minFilter = THREE.LinearFilter;
@@ -76,17 +65,13 @@ natitex8pl.magFilter = THREE.LinearFilter;
 natitex8pl.minFilter = THREE.LinearFilter;
 
 
-
 var material_tlo = new THREE.MeshPhongMaterial( { map: tex_tlo, flatShading: false, side: THREE.OneSide } )
-
 var material2x = [new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex1pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } )];
-
-
 var material3x = [new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
@@ -94,10 +79,8 @@ var material3x = [new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: f
                  new THREE.MeshPhongMaterial( { map: natitex1pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } )];
 
-
 var tlo_geometry = new THREE.BoxGeometry( 30, 30, 1, 1 );
 var tlo = new THREE.Mesh(tlo_geometry, material_tlo);
-    
 var pokazx = new THREE.BoxGeometry( 1, 0.35, 0.005, 0.005 );
 var pokaz2x = new THREE.BoxGeometry( 1, 0.35, 0.005, 0.005 );
 var pokazowkax = new THREE.Mesh(pokazx, material2x);
@@ -119,13 +102,11 @@ scenex.add( tlo );
 scenex.add( pokazowkax );
 scenex.add( pokazowka2x );
 
-
 const colorrx = 0xFFFFff;
 const intensityx = 0.5;
 const lightx = new THREE.DirectionalLight(colorrx, intensityx);
 lightx.position.set(0, 0, 8);
 scenex.add(lightx);
-
 const light3x = new THREE.AmbientLight( 0xa0a0a0 );
 scenex.add( light3x );
 
@@ -140,89 +121,72 @@ var przecinak = false;
 
 function renderx() {
 
-  timex = performance.now();
-  roznicaczasux = timex - time2x;
-  roznicaczasux *= 0.001;
+timex = performance.now();
+roznicaczasux = timex - time2x;
+roznicaczasux *= 0.001;
 
-  time2x = performance.now();
+time2x = performance.now();
 
+wx += roznicaczasux;
+wy -= ((wx + 0.7)**4)/200;
 
-  wx += roznicaczasux;
-  wy -= ((wx + 0.7)**4)/200;
-
-  if ( wy < - 18 ) {
+if ( wy < - 18 ) {
     wy = 0.3;
     wx = 0.47;
-  };
+};
 
-  if (dawajwprawox == true && etaponex == true) {
+if (dawajwprawox == true && etaponex == true) {
 
-  pokazowkax.position.x += roznicaczasux*5;
+pokazowkax.position.x += roznicaczasux*5;
+pokazowkax.rotation.z -= roznicaczasux*2;
+pokazowkax.rotation.x += roznicaczasux*6;
+pokazowkax.position.y += roznicaczasux*0.7;
+pokazowka2x.position.x += roznicaczasux*4.45;
+pokazowka2x.position.z += roznicaczasux*2;
+pokazowka2x.rotation.z += roznicaczasux*2;
 
-  pokazowkax.rotation.z -= roznicaczasux*2;
-  pokazowkax.rotation.x += roznicaczasux*6;
-  pokazowkax.position.y += roznicaczasux*0.7;
-  pokazowka2x.position.x += roznicaczasux*4.45;
-  pokazowka2x.position.z += roznicaczasux*2;
-  pokazowka2x.rotation.z += roznicaczasux*2;
-
-  if (pokazowka2x.position.z > -0.025) {
-  pokazowkax.position.y = 1.8;
-  pokazowkax.rotation.x = -0.30;
-  pokazowkax.position.x = -4.5;
-  pokazowkax.position.z = -2;
-  pokazowkax.rotation.z = -2;
-  pokazowka2x.position.x = 0;
-
-  pokazowka2x.rotation.z = 0;
-  pokazowka2x.position.z = 0; //test
-  dawajwprawox = false;
-
-
-  etaponex = false;
-
-  if (przecinak == false) {
+if (pokazowka2x.position.z > -0.025) {
+pokazowkax.position.y = 1.8;
+pokazowkax.rotation.x = -0.30;
+pokazowkax.position.x = -4.5;
+pokazowkax.position.z = -2;
+pokazowkax.rotation.z = -2;
+pokazowka2x.position.x = 0;
+pokazowka2x.rotation.z = 0;
+pokazowka2x.position.z = 0; //test
+dawajwprawox = false;
+etaponex = false;
+if (przecinak == false) {
   timer0 = setTimeout(waitandnew, 4000);
   }
-  zmianatekstury(0, "n");
-
-  }
+zmianatekstury(0, "n");
 }
-  if (dawajwprawox == true && etaponex == false) {
+}
+if (dawajwprawox == true && etaponex == false) {
 
-  pokazowka2x.position.x += roznicaczasux*5;
+pokazowka2x.position.x += roznicaczasux*5;
+pokazowka2x.rotation.z -= roznicaczasux*2;
+pokazowka2x.rotation.x += roznicaczasux*6;
+pokazowka2x.position.y += roznicaczasux*0.7;
+pokazowkax.position.x += roznicaczasux*4.45;
+pokazowkax.position.z += roznicaczasux*2;
+pokazowkax.rotation.z += roznicaczasux*2;
 
-  pokazowka2x.rotation.z -= roznicaczasux*2;
-  pokazowka2x.rotation.x += roznicaczasux*6;
-  pokazowka2x.position.y += roznicaczasux*0.7;
-  pokazowkax.position.x += roznicaczasux*4.45;
-  pokazowkax.position.z += roznicaczasux*2;
-  pokazowkax.rotation.z += roznicaczasux*2;
-
-  if (pokazowkax.position.z > -0.025) {
-  pokazowka2x.position.y = 1.8;
-  pokazowka2x.rotation.x = -0.30;
-  pokazowka2x.position.x = -4.5;
-  pokazowka2x.position.z = -2;
-  pokazowka2x.rotation.z = -2;
-  pokazowkax.position.x = 0;
-  pokazowkax.rotation.z = 0;
-  pokazowkax.position.z = 0; //test
-  dawajwprawox = false;
-  etaponex = true;
-  timer1 = setTimeout(waitandnew, 4000);
+if (pokazowkax.position.z > -0.025) {
+pokazowka2x.position.y = 1.8;
+pokazowka2x.rotation.x = -0.30;
+pokazowka2x.position.x = -4.5;
+pokazowka2x.position.z = -2;
+pokazowka2x.rotation.z = -2;
+pokazowkax.position.x = 0;
+pokazowkax.rotation.z = 0;
+pokazowkax.position.z = 0; //test
+dawajwprawox = false;
+etaponex = true;
+timer1 = setTimeout(waitandnew, 4000);
   zmianatekstury(1, "n");
-
-  }
-
-
-
-
-
-
-
+ }
 }
-
 
 rendererx.render(scenex, camerax);
 requestAnimationFrame(renderx);
@@ -255,13 +219,16 @@ nowylek();
 
 requestAnimationFrame(renderx);
 var czypl=true;
-
 dawajwprawox = true;
 
-
-
-
-var listalepek = [{ map: natitex1pl, flatShading: false, side: THREE.OneSide }, { map: natitex2pl, flatShading: false, side: THREE.OneSide }, { map: natitex3pl, flatShading: false, side: THREE.OneSide }, { map: natitex4pl, flatShading: false, side: THREE.OneSide }, { map: natitex5pl, flatShading: false, side: THREE.OneSide }, { map: natitex6pl, flatShading: false, side: THREE.OneSide , { map: natitex7pl, flatShading: false, side: THREE.OneSide }, { map: natitex8pl, flatShading: false, side: THREE.OneSide }];
+var listalepek = [{ map: natitex1pl, flatShading: false, side: THREE.OneSide },
+                  { map: natitex2pl, flatShading: false, side: THREE.OneSide },
+                  { map: natitex3pl, flatShading: false, side: THREE.OneSide },
+                  { map: natitex4pl, flatShading: false, side: THREE.OneSide },
+                  { map: natitex5pl, flatShading: false, side: THREE.OneSide },
+                  { map: natitex6pl, flatShading: false, side: THREE.OneSide },
+                  { map: natitex7pl, flatShading: false, side: THREE.OneSide },
+                  { map: natitex8pl, flatShading: false, side: THREE.OneSide }];
 
 
 var liczniklepek = 0;
@@ -275,44 +242,28 @@ if (liczniklepek == 8) {
 
 var trybwatchme = false
 
-//if (etaponex == true && dawajwprawox == false) {
-//material2x[4] = new THREE.MeshPhongMaterial(listalepek[liczniklepek]);
-//} else if ( etaponex == false && dawajwprawox == false) {
-//material3x[4] = new THREE.MeshPhongMaterial(listalepek[liczniklepek]);
-//}
-
 if (numermesha == 0) {
 material2x[4] = new THREE.MeshPhongMaterial(listalepek[liczniklepek]);
 } else if ( numermesha == 1 ) {
 material3x[4] = new THREE.MeshPhongMaterial(listalepek[liczniklepek]);
 }
 
-
-//clearTimeout(timer0);
-//clearTimeout(timer1);
-
-
 }
 
 function resizeCanvasToDisplaySize() {
-  const canvas = rendererx.domElement;
-  const width = canvas.clientWidth;
-  const height = canvas.clientHeight;
-  if (canvas.width !== width ||canvas.height !== height) {
-   rendererx.setSize(width, height, false);
-  var tcanvas = document.getElementById("c");
-  tcanvas.width = width;
-  tcanvas.height = height;
-
+const canvas = rendererx.domElement;
+const width = canvas.clientWidth;
+const height = canvas.clientHeight;
+if (canvas.width !== width ||canvas.height !== height) {
+rendererx.setSize(width, height, false);
+var tcanvas = document.getElementById("c");
+tcanvas.width = width;
+tcanvas.height = height;
   }
-
-
 };
 
 resizeCanvasToDisplaySize();
 window.addEventListener("resize", resizeCanvasToDisplaySize);
-
-
 
 function waitandnew() {
 trybwatchme = false;
