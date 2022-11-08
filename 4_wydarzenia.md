@@ -8,6 +8,54 @@ comments: true
 
 	
 <div class="image main">
+	
+	
+	<form action="">
+
+   <div class="">
+    <div class="">
+
+     <div class=" " style="color: #ffffff; text-align: center;" >
+      <h3 style="color: #ffffff;">Drogi czytelniku pharmabusters.pl</h3>
+     </div>
+
+
+      <div class="" style="color: #ffffff; text-align: center;"><br><span>Zapisz się do newslettera, by otrzymywać informacje o nowych wydarzeniach i materiałach na stronie!</span>
+      </div>
+
+      &nbsp;<br>
+
+<div style="margin: auto; width: 80%; padding: 10px; text-align:center;">
+     <div class=""><label class="" style="color: #ffffff;">Imię</label><br> <input class="" name="" type="text" placeholder="Jan">
+     </div>
+     <div class=""><label class="" style="color: #ffffff;">Adres e-mail</label><br> <input class="" name="" type="email" placeholder="email.address@example.com">
+     </div>
+</div>
+     &nbsp;<br>
+<div style="margin: auto; width: 80%; padding: 10px; text-align:left;">
+      <p class="" style="color: #ffffff;font-size: 9px;"><input type="checkbox" name="" value="true"> Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.*</p>
+
+
+
+       <p class="" style="color: #ffffff;font-size: 9px;"> <input type="checkbox" name="" value="true">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.*</p>
+       
+      &nbsp;<br> 
+ </div>
+
+     <div class="" style="margin: auto; width: 80%; padding: 10px; text-align:center;">
+        <button type="submit" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
+     </div>
+    </div>
+   </div>
+  </form>
+	
+	
+	
+	
+	
+	
+	
+	<!--
 	<div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/ptak2.jpg'); background-size: cover;">
 		&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
 		<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-color:rgba(0,0,0,0.7);">
@@ -24,6 +72,7 @@ comments: true
 
 		</form>
 	</div>
+        -->
 </div>
 	
 	
