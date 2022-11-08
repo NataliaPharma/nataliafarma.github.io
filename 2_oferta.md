@@ -14,7 +14,8 @@ nav-menu: true
 <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75; margin-bottom:-3em; margin-top:-2em;" > </iframe>
 	</div>
 	<div class="6u$ 12u$(small)">
-	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
+	&nbsp;<br>
+	<p style="margin-left:3em;margin-right:3em;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
 		
 		
 		
