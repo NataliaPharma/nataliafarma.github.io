@@ -49,7 +49,7 @@ comments: true
  </div>
 
      <div class="" style="margin: auto; width: 80%; padding: 10px; text-align:center;">
-        <button type="submit" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
+        <button onclick="alert('trwają prace nad newsletterem, w tej chwili usługa niedostępna')" type="submit" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
      </div>
     </div>
    </div>
