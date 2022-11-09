@@ -6,7 +6,7 @@ nav-menu: true
 ---
 
 <section id="banner" class="style2">
-            <div class="inner">
+   <div class="inner">
                 <span class="image">
                     <img src="/assets/images/pic07.jpg" alt="">
                 </span>
@@ -20,24 +20,35 @@ nav-menu: true
                     <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Podejście dotykające każdej sfery życia</span><br>&nbsp;<br><span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Zdrowe jedzenie to nie wszystko!</span>
 -->
                 </div>
+		    
+	<div class="row">
+	    <div class="6u 12u$(small)">
+                <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75; margin-bottom:-3em; margin-top:-2em;" > </iframe>
+	     </div>
+	     <div class="6u$ 12u$(small)">
+		    
+	         <p style="margin-left:1.5em;margin-right:1.5em;">
+                  &nbsp;<br>
+	          Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie.</p>
+		
+	  </div>
+	
+        </div>		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
             </div>
         </section>
 
 <div id="main" class="alt">
 	
-<div class="row">
-	<div class="6u 12u$(small)">
-<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75; margin-bottom:-3em; margin-top:-2em;" > </iframe>
-	</div>
-	<div class="6u$ 12u$(small)">
-		    
-	<p style="margin-left:1.5em;margin-right:1.5em;">
-        &nbsp;<br>
-	Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie.</p>
-		
-	</div>
-	
-</div>	
+
 	
 <section id="one">
 	<div class="inner">
