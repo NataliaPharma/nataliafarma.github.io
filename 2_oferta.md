@@ -12,7 +12,7 @@ nav-menu: true
                 </span>
                 <header class="major">
 			
-                    <div style="padding-top:5vw;"><h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>Oferta</span></h1></div>
+                    <div style="margin-top:5vw;"><h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>Oferta</span></h1></div>
 
                 </header>
                 <div class="content">
