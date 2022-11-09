@@ -11,9 +11,9 @@ nav-menu: true
                     <img src="/assets/images/pic07.jpg" alt="">
                 </span>
                 <header class="major">
-			
+			<!--
                     <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>&nbsp;</span></h1>
-
+                        -->
                 </header>
                 <div class="content">
 <!--
@@ -27,9 +27,9 @@ nav-menu: true
 	     </div>
 	     <div class="6u$ 12u$(small)">
 		    
-	         <h1 style="margin-left:0px;margin-right:0px;">
+	         <h4 style="margin-left:0px;margin-right:0px;">
                   &nbsp;<br>
-	          Pierwszym krokiem do pełni zdrowia jest POZNANIE.  </h1>
+	          Pierwszym krokiem do pełni zdrowia jest POZNANIE.  </h4>
 		
 	  </div>
 	
