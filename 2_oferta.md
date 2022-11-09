@@ -10,7 +10,7 @@ nav-menu: true
 <div id="main" class="alt">
 	
 <div class="row" style="background-color:rgb(205, 92, 92);">
-	<div class="6u 12u$(small)">
+	<div class="6u 12u$(small)" style="background-color:indigo;">
 <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75; margin-bottom:-3em; margin-top:-2em;" > </iframe>
 	</div>
 	<div class="6u$ 12u$(small)">
