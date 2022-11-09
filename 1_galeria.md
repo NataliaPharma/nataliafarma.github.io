@@ -58,7 +58,7 @@ nav-menu: true
 			<h1>GALERIA</h1>
 		</header>
 -->
-		<h1>&nbsp;</h1><br><h1>&nbsp;</h1>
+		<h1>&nbsp;</h1>
 		
 <!-- Content -->
 <h2 id="content">FILARY ZDROWIA</h2>
