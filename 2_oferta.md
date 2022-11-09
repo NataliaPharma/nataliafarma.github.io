@@ -9,15 +9,15 @@ nav-menu: true
 
 <div id="main" class="alt">
 	
-<div class="row" style="background-color:rgb(205, 92, 92);">
+<div class="row">
 	<div class="6u 12u$(small)">
 <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75; margin-bottom:-3em; margin-top:-2em;" > </iframe>
 	</div>
 	<div class="6u$ 12u$(small)">
 		    
-	<h1 style="margin-left:1.5em;margin-right:1.5em;">
+	<p style="margin-left:1.5em;margin-right:1.5em;">
         &nbsp;<br>
-	Oferta</h1>
+	Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie.</p>
 		
 	</div>
 	
