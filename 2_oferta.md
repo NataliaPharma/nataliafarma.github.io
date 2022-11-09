@@ -11,7 +11,7 @@ nav-menu: true
                     <img src="/assets/images/pic07.jpg" alt="">
                 </span>
                 <header class="major">
-
+                    <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>&nbsp;</span></h1>
                     <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>Oferta</span></h1>
 
                 </header>
@@ -53,6 +53,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
+			<h1>&nbsp;</h1>
 			<h1>Możliwości współpracy:</h1>
 		</header>
 		<div class="row">
