@@ -11,8 +11,8 @@ nav-menu: true
                     <img src="/assets/images/pic07.jpg" alt="">
                 </span>
                 <header class="major">
-			<div style="width:100%; height:5vw;"></div>
-                    <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>Oferta</span></h1>
+			
+                    <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;padding-top:5vw;'>Oferta</span></h1>
 
                 </header>
                 <div class="content">
