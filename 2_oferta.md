@@ -29,7 +29,7 @@ nav-menu: true
 		    
 	         <p style="margin-left:1.5em;margin-right:1.5em;">
                   &nbsp;<br>
-	          Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie.</p>
+	          Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? </p>
 		
 	  </div>
 	
@@ -52,6 +52,7 @@ nav-menu: true
 	
 <section id="one">
 	<div class="inner">
+		<h1>nbsp;</h1>
 		<header class="major">
 			<h1>Możliwości współpracy:</h1>
 		</header>
