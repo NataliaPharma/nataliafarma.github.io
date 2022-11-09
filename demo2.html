@@ -16,7 +16,7 @@
 var dupadupa = 200; var gra = false; var switch0 = 0; var wczytane = false;
 var angletr1; var angle1c; var switch1 = 0;  var angletr2; var angle2c; var switch2 = 0; var angletr3;
 var angle3c; var switchi3 = 0; var tape = 90; var tape2 = 0; var tape3 = 0; var switch3 = 0; var color = 0; var grow = 0;
-var tapeg = 270; var tape2g; var tape3g = 60; var switch3g = 0; var colorg = 0; var growg = 0; var blokada = 0;
+var tapeg = 0; var tape2g; var tape3g = 60; var switch3g = 0; var colorg = 0; var growg = 0; var blokada = 0;
 var gra2 = false; var kolejnywyraz = 0;var gwsw = 0;
 </script>
 
@@ -120,7 +120,8 @@ var etaponex = true;
 var przecinak = false;
 
 function renderx() {
-
+tapeg = tapeg + 0.01
+tex.tlo.offset = tapeg
 timex = performance.now();
 roznicaczasux = timex - time2x;
 roznicaczasux *= 0.001;
