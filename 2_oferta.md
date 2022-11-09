@@ -5,6 +5,8 @@ description: "❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Sesje
 nav-menu: true
 ---
 
+<div style="width:100%;height:10vw;">
+<div>
 <section id="banner" class="style2">
    <div class="inner">
                 <span class="image">
@@ -23,11 +25,9 @@ nav-menu: true
 		    
 	<div class="row">
 	    <div class="6u 12u$(small)">
-		    <h1>&nbsp;</h1>
-                <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 1; margin-left:0px; margin-top:0px;" > </iframe>
+                <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio : 1 / 0.75; margin-left:0px; margin-top:0px; border:1px solid red;" > </iframe>
 	     </div>
 	     <div class="6u$ 12u$(small)">
-		    <h1>&nbsp;</h1>
 	         <h4 style="margin-left:0px;margin-right:0px;">Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać. Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą?</h4>
 		
 	  </div>
