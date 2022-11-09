@@ -11,7 +11,6 @@ nav-menu: true
                     <img src="/assets/images/pic07.jpg" alt="">
                 </span>
                 <header class="major">
-                    <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>&nbsp;</span></h1>
                     <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>Oferta</span></h1>
 
                 </header>
@@ -29,7 +28,7 @@ nav-menu: true
 		    
 	         <p style="margin-left:1.5em;margin-right:1.5em;">
                   &nbsp;<br>
-	          Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? Jeśli już nie - opracowujemy nowe strategie prowadzące do harmonii w naszym organizmie.</p>
+	          Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? 
 		
 	  </div>
 	
@@ -53,7 +52,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>&nbsp;</h1>
+			<p>&nbsp;</p>
 			<h1>Możliwości współpracy:</h1>
 		</header>
 		<div class="row">
