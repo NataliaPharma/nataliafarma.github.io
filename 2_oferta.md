@@ -30,7 +30,7 @@ nav-menu: true
 		    
 	         <h4 style="margin-left:0px;margin-right:0px;">
                    <h1>&nbsp;</h1>
-	          Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać. Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą?</h4>
+	          <h4>Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać. Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą?</h4>
 		
 	  </div>
 	
