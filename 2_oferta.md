@@ -27,9 +27,9 @@ nav-menu: true
 	     </div>
 	     <div class="6u$ 12u$(small)">
 		    
-	         <h3 style="margin-left:0px;margin-right:0px;">
+	         <h1 style="margin-left:0px;margin-right:0px;">
                   &nbsp;<br>
-	          Pierwszym krokiem do pełni zdrowia jest POZNANIE.  </h3>
+	          Pierwszym krokiem do pełni zdrowia jest POZNANIE.  </h1>
 		
 	  </div>
 	
