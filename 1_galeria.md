@@ -6,6 +6,49 @@ image: assets/images/galeria.jpg
 nav-menu: true
 ---
 
+
+
+<div style="width:100%;height:10vw;">
+</div>
+<section id="banner" class="style2">
+   <div class="inner">
+                <span class="image">
+                    <img src="/assets/images/zagiel.jpg" alt="">
+                </span>
+                <header class="major">
+			<!--
+                    <h1><span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>&nbsp;</span></h1>
+                        -->
+                </header>
+                <div class="content">
+<!--
+                    <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Podejście dotykające każdej sfery życia</span><br>&nbsp;<br><span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Zdrowe jedzenie to nie wszystko!</span>
+-->
+                </div>
+		    
+	<div class="row">
+	    <div class="6u 12u$(small)">
+<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio: 1 / 0.85; margin-left:0px; margin-top:0px;">
+</iframe>
+	     </div>
+	     <div class="6u$ 12u$(small)">
+	         <h4 style="margin-left:0px;margin-right:0px;">Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać. Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą?</h4>
+		
+	  </div>
+	
+        </div>		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+            </div>
+        </section>
+
 <!-- Main -->
 <div id="main" class="alt">
 
