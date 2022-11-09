@@ -52,7 +52,7 @@ nav-menu: true
 	
 <section id="one">
 	<div class="inner">
-		<h1>nbsp;</h1>
+		<h2>&nbsp;</h2>
 		<header class="major">
 			<h1>Możliwości współpracy:</h1>
 		</header>
