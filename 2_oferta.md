@@ -27,9 +27,9 @@ nav-menu: true
 	     </div>
 	     <div class="6u$ 12u$(small)">
 		    
-	         <p style="margin-left:1.5em;margin-right:1.5em;">
+	         <h3 style="margin-left:0px;margin-right:0px;">
                   &nbsp;<br>
-	          Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać.Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą? </p>
+	          Pierwszym krokiem do pełni zdrowia jest POZNANIE.  </h3>
 		
 	  </div>
 	
