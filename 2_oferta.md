@@ -15,7 +15,7 @@ nav-menu: true
 	</div>
 	<div class="6u$ 12u$(small)">
 		    
-	<h1> style="margin-left:1.5em;margin-right:1.5em;">
+	<h1 style="margin-left:1.5em;margin-right:1.5em;">
         &nbsp;<br>
 	At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</h1>
 		
