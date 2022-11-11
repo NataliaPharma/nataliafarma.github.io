@@ -28,8 +28,8 @@ nav-menu: true
 		    
 	<div class="row">
 	    <div class="6u 12u$(small)">
-<iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio: 1 / 0.85; margin-left:0px; margin-top:0px;border:none;">
-</iframe>
+<!-- <iframe src="https://pharmabusters.pl/demo2" style="width:100%; aspect-ratio: 1 / 0.85; margin-left:0px; margin-top:0px;border:none;">
+</iframe> -->
 	     </div>
 	     <div class="6u$ 12u$(small)">
 	         <h4 style="margin-left:0px;margin-right:0px;">Pierwszym krokiem do pełni zdrowia jest POZNANIE. Edukacja o naszym organizmie, o tym co nam służy, a czego lepiej unikać. Następnie rozszerzamy percepcję i sprawdzamy, jakie mechanizmy kierują naszymi zachowaniami, czy umiemy je zidentyfikować? Czy nadal nam służą?</h4>
