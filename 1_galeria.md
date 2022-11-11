@@ -239,9 +239,9 @@ nav-menu: true
 		
 		
 </div>
-	
+<!--	
 <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/demo.html" style="width:100%; aspect-ratio : 1 / 0.25;" > </iframe>		
-	
+-->	
 </div>
 		
 
