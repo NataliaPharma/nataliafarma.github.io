@@ -69,35 +69,35 @@ show_tile: false
 	
 	function opracowania_obj_gen() {
 opr = [{
-tytul: "tutuł 0",
-data: "09.10.2021",
+tytul: "Koło życia.",
+data: "11.10.2022",
 autor: "Miękus-Purwin Natalia",
 dzial: "lajfhaki",
-art_link: "",
+art_link: "https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html",
 dzial_link: ""
 },
 {
-tytul: "tytuł 1",
-data: "02.11.2021",
+tytul: "Raz, dwa, trzy, próba mikrofonu.",
+data: "12.10.2022",
 autor: "Miękus-Purwin Natalia",
-dzial: "wykwintne dania",
-art_link: "",
+dzial: "lajfhaki",
+art_link: "https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html",
 dzial_link: ""
 },
 {
-tytul: "tytuł 2",
-data: "05.11.2021",
+tytul: "Słówko o mnie.",
+data: "15.10.2022",
 autor: "Miękus-Purwin Natalia",
 dzial: "zdrowie społeczne",
-art_link: "",
+art_link: "https://www.pharmabusters.pl//omnie.html",
 dzial_link: ""
 },
 {
-tytul: "tytuł 3",
-data: "13.01.2022",
+tytul: "Holistic Health",
+data: "1.10.2022",
 autor: "Miękus-Purwin Natalia",
 dzial: "lajfhaki",
-art_link: "",
+art_link: "https://www.pharmabusters.pl/3_holistic.html",
 dzial_link: ""
 }
 ]
