@@ -42,6 +42,7 @@ show_tile: false
     <option>lajfhaki</option>
 	<option>wykwintne dania</option>
 	<option>zdrowie społeczne</option>
+	<option>Q&A</option>
 	</select>
     </td>
 
@@ -68,7 +69,16 @@ show_tile: false
 <script>
 	
 	function opracowania_obj_gen() {
-opr = [{
+opr = [
+{
+tytul: "Seria Q&A (listopad 2022).",
+data: "12.11.2022",
+autor: "Miękus-Purwin Natalia",
+dzial: "Q&A",
+art_link: "https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html",
+dzial_link: ""
+},	
+{
 tytul: "Koło życia.",
 data: "11.10.2022",
 autor: "Miękus-Purwin Natalia",
