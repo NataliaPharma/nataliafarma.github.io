@@ -7,17 +7,17 @@ image: assets/images/qa_listopad_2022_2.jpg
 
 
 <iframe style="width:100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/9MQm1nMSiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<p>&nbsp</p>
 <p>Spis treści:<br>&nbsp;<br>
-0m0s - Wstęp do Q&A,zaproszenie do kontaktu.<br>
-1m20s - Ciekawość to pierwszy stopień do... Przedstawienie źródeł inspiracji.<br>
-2m56s - Krótka autoprezentacja.<br>
-3m37s - Początek q&a. O uczeniu się. Jak nie zwariować na farmacji, trudności studentów tego kierunku. Motywacja. Użyteczność wiedzy. Dbałość o inne sfery życia. Rola wspierającej grupy.<br>
-9m01s - Jak to robisz, że Ci się chce? Znaczenie odpoczynku.<br>
-12m04s - O co chodzi z tą Holistic Health? Co to jest zdrowie?<br>
-13m12s - Czy można jeść za zdrowo? Ortoreksja.<br>
-16m05s - Jak wygląda wizyta u mnie?<br>
-18m10s - Cukier i owoce. Zapowiedź wykładu.<br>	
+<b>0m0s</b> - Wstęp do Q&A,zaproszenie do kontaktu.<br>
+<b>1m20s</b> - Ciekawość to pierwszy stopień do... Przedstawienie źródeł inspiracji.<br>
+<b>2m56s</b> - Krótka autoprezentacja.<br>
+<b>3m37s</b> - Początek Q&A. O uczeniu się. Jak nie zwariować na farmacji, trudności studentów tego kierunku. Motywacja. Użyteczność wiedzy. Dbałość o inne sfery życia. Rola wspierającej grupy.<br>
+<b>9m01s</b> - Jak to robisz, że Ci się chce? Znaczenie odpoczynku.<br>
+<b>12m04s</b> - O co chodzi z tą Holistic Health? Co to jest zdrowie?<br>
+<b>13m12s</b> - Czy można jeść za zdrowo? Ortoreksja.<br>
+<b>16m05s</b> - Jak wygląda wizyta u mnie?<br>
+<b>18m10s</b> - Cukier i owoce. Zapowiedź wykładu.<br>	
 </p>
 
 
