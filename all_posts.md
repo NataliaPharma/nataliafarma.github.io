@@ -32,7 +32,7 @@ show_tile: false
     <td >
     <select name="autor" id = "s0">
     <option>wszyscy autorzy</option>
-	<option>Natalia Miękus-Purwin</option>
+	<option>Miękus-Purwin Natalia</option>
 	<option>inny_autor_0</option>
     </select>
     </td>
@@ -71,7 +71,7 @@ show_tile: false
 opr = [{
 tytul: "tutuł 0",
 data: "09.10.2021",
-autor: "Natalia Miękus-Purwin",
+autor: "Miękus-Purwin Natalia",
 dzial: "lajfhaki",
 art_link: "",
 dzial_link: ""
@@ -79,7 +79,7 @@ dzial_link: ""
 {
 tytul: "tytuł 1",
 data: "02.11.2021",
-autor: "Natalia Miękus-Purwin",
+autor: "Miękus-Purwin Natalia",
 dzial: "wykwintne dania",
 art_link: "",
 dzial_link: ""
@@ -87,7 +87,7 @@ dzial_link: ""
 {
 tytul: "tytuł 2",
 data: "05.11.2021",
-autor: "Natalia Miękus-Purwin",
+autor: "Miękus-Purwin Natalia",
 dzial: "zdrowie społeczne",
 art_link: "",
 dzial_link: ""
@@ -95,7 +95,7 @@ dzial_link: ""
 {
 tytul: "tytuł 3",
 data: "13.01.2022",
-autor: "Natalia Miękus-Purwin",
+autor: "Miękus-Purwin Natalia",
 dzial: "lajfhaki",
 art_link: "",
 dzial_link: ""
