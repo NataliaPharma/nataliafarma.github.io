@@ -6,7 +6,7 @@ image: assets/images/qa_listopad_2022_2.jpg
 ---
 
 
-<iframe width="100%"  src="https://www.youtube.com/embed/9MQm1nMSiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width:100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/9MQm1nMSiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>Spis treści:<br>&nbsp;<br>
 0m0s - Wstęp do Q&A,zaproszenie do kontaktu.<br>
