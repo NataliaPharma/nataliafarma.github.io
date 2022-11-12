@@ -2,8 +2,13 @@
 layout: post
 title: Pytania i odpowiedzi z listopada 2022.
 description: Pytania i odpowiedzi. Listopad 2022.
-image: assets/images/qa_listopad_2022.jpg
+image: assets/images/qa_listopad_2022_2.jpg
 ---
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9MQm1nMSiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 
 
