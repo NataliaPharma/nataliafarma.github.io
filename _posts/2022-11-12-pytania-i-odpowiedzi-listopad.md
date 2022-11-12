@@ -7,7 +7,7 @@ image: assets/images/qa_listopad_2022_2.jpg
 
 
 <iframe style="width:100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/9MQm1nMSiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p>&nbsp</p>
+<p>&nbsp;</p>
 <p>Spis treści:<br>&nbsp;<br>
 <b>0m0s</b> - Wstęp do Q&A,zaproszenie do kontaktu.<br>
 <b>1m20s</b> - Ciekawość to pierwszy stopień do... Przedstawienie źródeł inspiracji.<br>
