@@ -6,7 +6,19 @@ image: assets/images/qa_listopad_2022_2.jpg
 ---
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9MQm1nMSiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%"  src="https://www.youtube.com/embed/9MQm1nMSiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Spis treści:<br>&nbsp;<br>
+0m0s - Wstęp do Q&A,zaproszenie do kontaktu.<br>
+1m20s - Ciekawość to pierwszy stopień do... Przedstawienie źródeł inspiracji.<br>
+2m56s - Krótka autoprezentacja.<br>
+3m37s - Początek q&a. O uczeniu się. Jak nie zwariować na farmacji, trudności studentów tego kierunku. Motywacja. Użyteczność wiedzy. Dbałość o inne sfery życia. Rola wspierającej grupy.<br>
+9m01s - Jak to robisz, że Ci się chce? Znaczenie odpoczynku.<br>
+12m04s - O co chodzi z tą Holistic Health? Co to jest zdrowie?<br>
+13m12s - Czy można jeść za zdrowo? Ortoreksja.<br>
+16m05s - Jak wygląda wizyta u mnie?<br>
+18m10s - Cukier i owoce. Zapowiedź wykładu.<br>	
+</p>
 
 
 
