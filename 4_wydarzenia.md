@@ -35,6 +35,9 @@ comments: true
      <div class=""><label class="" style="color: #ffffff;">Adres e-mail</label><br> <input class="" name="" type="email" placeholder="email.address@example.com">
      </div>
 </div>
+	    
+	&nbsp;<br>
+	    
 <div style="margin: auto; width: 80%; padding: 10px; text-align:left;">
 	
 	<fieldset>
