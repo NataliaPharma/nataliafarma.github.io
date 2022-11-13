@@ -92,13 +92,22 @@ comments: true
 <hr class="major">
 
 
-## Wykład - działanie olejków eterycznych na zdrowie - czy to dla mnie?
-Informacje wkrótce! Jeśli jesteś ciekawy, zapisz się do newsletter'a  - wyślę Tobie informację o wykładzie. Wypisanie się z newsletter - możliwe zawsze, do niczego to nie zobowiązuje i na pewno nie będziesz zarzucany spamem codziennie.
-## Sesja "pytania i odpowiedzi"
-Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA". Wydarzenie będzie transmitowane na żywo, będzie mozliwość zadawania większej ilości pytań. Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 ## Kolejne wydarzenia - w przygotowaniu.
 Stacjonarnie  - w trójmieście - już niedługo warsztaty/wykłady rozwojowe/ 10 pytań do....
 On-line - regularnie - jeśli chcesz dostać update, gdy będę organizowała wydarzenie - daj znać w newsletterze! Napiszę.
+## Webinar - działanie olejków eterycznych na zdrowie.
+(odbędzie się 23.11.2022 o godzinie 20:00)
+ <audio controls>
+  <source src="https://www.pharmabusters.pl/assets/olejki_zapowiedz.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio> 
+Więcej informacje wkrótce! 
+## Listopadowa sesja "pytania i odpowiedzi" część pierwsza.
+(odbyło się 12.11.2022)
+<a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - nagranie.</a>
+Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
+
+
 
 <hr class="major" />
 
