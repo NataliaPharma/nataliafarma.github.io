@@ -38,7 +38,7 @@ comments: true
 	    
 	&nbsp;<br>
 	    
-<div style="margin: auto; width: 80%; padding: 10px; text-align:left;">
+<div style="margin: auto; width: 100%; padding: 10px; text-align:left;">
 	
 	<fieldset>
   <div style="font-size:21px;">
