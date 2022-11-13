@@ -28,6 +28,9 @@ comments: true
 <div style="margin: auto; width: 80%; padding: 10px; text-align:center;">
      <div class=""><label class="" style="color: #ffffff;">Imię</label><br> <input class="" name="" type="text" placeholder="Jan">
      </div>
+	
+	&nbsp;<br>
+	
      <div class=""><label class="" style="color: #ffffff;">Adres e-mail</label><br> <input class="" name="" type="email" placeholder="email.address@example.com">
      </div>
 </div>
@@ -36,11 +39,11 @@ comments: true
 	<fieldset>
   <div>
     <input type="checkbox" id="coding" name="interest" value="coding" style="border:1px solid skyblue"/>
-    <label for="coding" style="font-size:9px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</label>
+    <label for="coding" style="font-size:7px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</label>
   </div>
   <div>
     <input type="checkbox" id="music" name="interest" value="music" style="border:1px solid skyblue"/>
-    <label for="music" style="font-size:9px;">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</label>
+    <label for="music" style="font-size:7px;">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</label>
   </div>
 </fieldset>
 	    
