@@ -103,8 +103,8 @@ On-line - regularnie - jeśli chcesz dostać update, gdy będę organizowała wy
 </audio> 
 Więcej informacje wkrótce! 
 ## Listopadowa sesja "pytania i odpowiedzi" część pierwsza.
-(odbyło się 12.11.2022)<br>
-<a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - nagranie.</a><br>&nbsp;<br>
+(odbyło się 12.11.2022)<br>&nbsp;<br>
+<a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - link do podstrony z nagraniem części pierwszej.</a><br>&nbsp;<br>
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
 
