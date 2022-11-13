@@ -39,7 +39,7 @@ comments: true
 	
 	<fieldset>
   <div>
-    <input type="checkbox" id="coding" name="interest" value="coding" style="width:2em;" />
+    <input type="checkbox" id="coding" name="interest" value="coding"/>
     <label for="coding" style="font-size:7px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</label>
   </div>
   <div>
