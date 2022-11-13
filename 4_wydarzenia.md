@@ -5,7 +5,13 @@ description: "❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Najbl
 nav-menu: true
 comments: true
 ---
-
+<style>
+input[type="checkbox"] {
+    filter: sepia(100%) brightness(80%) hue-rotate(170deg) saturate(70%) contrast(300%);
+}		
+</style>
+	
+	
 	
 <div class="image main">
 	
@@ -38,11 +44,11 @@ comments: true
 	
 	<fieldset>
   <div>
-    <input type="checkbox" id="coding" name="interest" value="coding" style="border:1px solid skyblue; transform: scale(2);"/>
+    <input type="checkbox" id="coding" name="interest" value="coding"/>
     <label for="coding" style="font-size:7px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</label>
   </div>
   <div>
-    <input type="checkbox" id="music" name="interest" value="music" style="border:1px solid skyblue; transform: scale(2);"/>
+    <input type="checkbox" id="music" name="interest" value="music"/>
     <label for="music" style="font-size:7px;">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</label>
   </div>
 </fieldset>
