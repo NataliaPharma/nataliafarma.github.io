@@ -5,12 +5,7 @@ description: "❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Najbl
 nav-menu: true
 comments: true
 ---
-<style>
-input[type="checkbox"] {
-    filter: sepia(100%) brightness(80%) hue-rotate(170deg) saturate(70%) contrast(300%);
-}		
-</style>
-	
+
 	
 	
 <div class="image main">
@@ -44,7 +39,7 @@ input[type="checkbox"] {
 	
 	<fieldset>
   <div>
-    <input type="checkbox" id="coding" name="interest" value="coding"/>
+    <input type="checkbox" id="coding" name="interest" value="coding" style="width:2em;" />
     <label for="coding" style="font-size:7px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</label>
   </div>
   <div>
