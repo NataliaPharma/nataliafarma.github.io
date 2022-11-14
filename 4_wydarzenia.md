@@ -9,7 +9,7 @@ comments: true
 	
 input[type="checkbox"] {
   appearance: none;
-  background-color: #fff;
+  background-color: red;
   margin: 0;
   font: inherit;
   color: red;
@@ -29,6 +29,8 @@ input[type="checkbox"]::before {
   transform: scale(0);
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(--form-control-color);
+  color:red;
+  border: 1px solid red;
 }
 </style>
 	
