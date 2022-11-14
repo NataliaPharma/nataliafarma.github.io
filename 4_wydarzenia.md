@@ -43,7 +43,7 @@ comments: true
 	<fieldset>
   <div style="font-size:27px;">
     <input type="checkbox" id="coding" name="interest" value="coding"/>
-    <label for="coding"><span style="font-size:9px;line-height: 2px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
+    <label for="coding" style="line-height:2px;"><span style="font-size:9px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
   </div>
   <div style="font-size:27px;">
     <input type="checkbox" id="music" name="interest" value="music"/>
