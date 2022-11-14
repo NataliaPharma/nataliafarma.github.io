@@ -32,7 +32,7 @@ comments: true
 	
 	&nbsp;<br>
 	
-     <div class=""><label class="" style="color: #ffffff;">Adres e-mail</label><br> <input class="" name="" type="email" placeholder="email.address@example.com">
+     <div class=""><label class="" style="color: #ffffff; position: absolute;left: 20px;">Adres e-mail</label><input class="" name="" type="email" placeholder="email.address@example.com">
      </div>
 </div>
 	    
@@ -43,7 +43,7 @@ comments: true
 	<fieldset>
   <div style="font-size:27px;">
     <input type="checkbox" id="coding" name="interest" value="coding"/>
-    <label for="coding" style="line-height:6px;position: absolute;top:6px;left: 20px;"><span style="font-size:9px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
+    <label for="coding" style="line-height:6px;"><span style="font-size:9px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
   </div>
   <div style="font-size:27px;">
     <input type="checkbox" id="music" name="interest" value="music"/>
