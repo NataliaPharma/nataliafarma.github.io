@@ -12,7 +12,7 @@ input[type="checkbox"] {
   background-color: #fff;
   margin: 0;
   font: inherit;
-  color: rred;
+  color: red;
   width: 1.15em;
   height: 1.15em;
   border: 0.15em solid red;
@@ -68,7 +68,7 @@ input[type="checkbox"]::before {
 </div>
 	    
 	&nbsp;<br>
-	     <div class="" style="color: #ffffff; text-align: center;"><span>By móc wysłać Tobie newsletter porzebne będą dwie zgody:</span>
+	     <div class="" style="color: #ffffff; text-align: center;"><span>By móc wysyłać Tobie newsletter porzebne będą dwie zgody:</span>
       </div>
 	&nbsp;<br>
 	    
