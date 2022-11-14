@@ -27,12 +27,12 @@ comments: true
       &nbsp;<br>
 
 <div style="margin: auto; width: 80%; padding: 10px; text-align:center;">
-     <div class=""><label class="" style="color: #ffffff;">Imię</label><br> <input class="" name="" type="text" placeholder="Jan">
+     <div class=""><label class="" style="color: #ffffff;position: absolute;left:0px">Imię</label><br> <input class="" name="" type="text" placeholder="Jan">
      </div>
 	
 	&nbsp;<br>
 	
-     <div class=""><label class="" style="color: #ffffff; position: absolute;left: 20px;">Adres e-mail</label><input class="" name="" type="email" placeholder="email.address@example.com">
+     <div class=""><label class="" style="color: #ffffff; position: absolute;left:0px;">Adres e-mail</label><input class="" name="" type="email" placeholder="email.address@example.com">
      </div>
 </div>
 	    
