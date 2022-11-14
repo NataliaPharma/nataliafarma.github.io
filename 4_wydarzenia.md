@@ -26,15 +26,20 @@ comments: true
 
       &nbsp;<br>
 
-<div style="margin: auto; width: 50%; padding: 10px; text-align:left;">
+<div style="widt:100%;">
 	
-     <div class=""><label class="" style="color: #ffffff;position: absolute;left:0px">Imię</label><br> <input class="" name="" type="text" placeholder="Jan">
+     <div class="" style="margin: auto; width: 50%; padding: 10px; text-align:left;" >
+            <label class="" style="color: #ffffff;position: absolute;left:0px">Imię</label><br>
+            <input class="" name="" type="text" placeholder="Jan">
      </div>
 	
 	&nbsp;<br>
 	
-     <div class=""><label class="" style="color: #ffffff; position: absolute;left:0px;">Adres e-mail</label><br><input class="" name="" type="email" placeholder="email.address@example.com">
+     <div class="" style="margin: auto; width: 50%; padding: 10px; text-align:left;">
+	     <label class="" style="color: #ffffff; position: absolute;left:0px;">Adres e-mail</label><br>
+	     <input class="" name="" type="email" placeholder="email.address@example.com">
      </div>
+	
 </div>
 	    
 	&nbsp;<br>
