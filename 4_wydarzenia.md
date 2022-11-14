@@ -48,7 +48,7 @@ comments: true
 	
 	<fieldset>
   <div style="font-size:27px;">
-    <span style="border:1px solid red;"><input type="checkbox" id="coding" name="interest" value="coding" style="border: 1px solid pink;"/></span>
+    <span style="border:1px solid red;"></span><input type="checkbox" id="coding" name="interest" value="coding" style="border: 1px solid pink;"/><span style="border:1px solid red;"></span>
     <label for="coding" style="line-height:6px;"><span style="font-size:9px;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
   </div>
   <div style="font-size:27px;">
