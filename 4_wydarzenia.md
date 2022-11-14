@@ -26,7 +26,8 @@ comments: true
 
       &nbsp;<br>
 
-<div style="margin: auto; width: 80%; padding: 10px; text-align:center;">
+<div style="margin: auto; width: 50%; padding: 10px; text-align:left;">
+	
      <div class=""><label class="" style="color: #ffffff;position: absolute;left:0px">Imię</label><br> <input class="" name="" type="text" placeholder="Jan">
      </div>
 	
