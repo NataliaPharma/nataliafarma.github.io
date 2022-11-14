@@ -32,7 +32,7 @@ comments: true
 	
 	&nbsp;<br>
 	
-     <div class=""><label class="" style="color: #ffffff; position: absolute;left:0px;">Adres e-mail</label><input class="" name="" type="email" placeholder="email.address@example.com">
+     <div class=""><label class="" style="color: #ffffff; position: absolute;left:0px;">Adres e-mail</label><br><input class="" name="" type="email" placeholder="email.address@example.com">
      </div>
 </div>
 	    
