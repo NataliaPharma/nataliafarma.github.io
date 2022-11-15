@@ -49,7 +49,7 @@ comments: true
 <div style="margin: auto; width: 100%; padding: 10px; text-align:left;">
 	
 	<fieldset>
-  <div style="font-size:27px;">
+  <div id="check0" style="font-size:27px;">
     <input type="checkbox" id="coding" name="interest" value="coding" style="border: 1px solid pink;"/>
     <label for="coding" style="line-height:9px;"><span style="font-size:9px;color:white;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
   </div>
@@ -116,7 +116,7 @@ Więcej informacje wkrótce!
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
 <script>
-document.getElementById("coding").style.filter = "hue-rotate(60deg)";
+document.getElementById("check0").style.filter = "hue-rotate(60deg)";
 </script>
 
 <hr class="major" />
