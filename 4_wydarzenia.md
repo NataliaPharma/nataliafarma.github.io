@@ -52,13 +52,13 @@ comments: true
   <div id="check0" style="font-size:27px;text-align:center;border:1px solid red;">
     
     <label for="coding" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;color:white;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
-<input type="checkbox" id="coding" name="interest" value="coding" style="width:2em;height:2em;"/>
+<input type="checkbox" id="coding" name="zgoda0" value="coding" style="width:2em;height:2em;"/>
   </div>
 		<p>&nbsp;</p>
   <div style="font-size:27px;text-align:center;border:1px solid red;">
     
     <label for="music" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span></label>
-   <input type="checkbox" id="music" name="interest" value="music" style="width:2em;height:2em;" />
+   <input type="checkbox" id="music" name="zgoda1" value="music" style="width:2em;height:2em;" />
   </div>
 		<p>&nbsp;</p>
 </fieldset>
@@ -120,7 +120,25 @@ Więcej informacje wkrótce!
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
 <script>
-//document.getElementById("coding").appearance = "checkbox";
+var checkbox0 = document.querySelector("input[name=zgoda0]");
+var checkbox1 = document.querySelector("input[name=zgoda1]");
+
+checkbox0.addEventListener('change', function() {
+  if (this.checked) {
+    alert("Checkbox0 is checked..");
+  } else {
+    alert("Checkbox0 is not checked..");
+  }
+});
+	
+checkbox1.addEventListener('change', function() {
+  if (this.checked) {
+    alert("Checkbox0 is checked..");
+  } else {
+    alert("Checkbox0 is not checked..");
+  }
+});
+	
 </script>
 
 <hr class="major" />
