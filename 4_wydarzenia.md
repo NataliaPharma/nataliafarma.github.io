@@ -116,7 +116,7 @@ Więcej informacje wkrótce!
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
 <script>
-document.getElementById("coding").style.filter = "contrast(10)";
+document.getElementById("check0").style.filter = "invert(100%)";
 </script>
 
 <hr class="major" />
