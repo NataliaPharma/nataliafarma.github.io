@@ -116,7 +116,7 @@ Więcej informacje wkrótce!
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
 <script>
-document.getElementById("check0").style.filter = "hue-rotate(60deg)";
+document.getElementById("check0").style.filter = "brightness(1.7)";
 </script>
 
 <hr class="major" />
