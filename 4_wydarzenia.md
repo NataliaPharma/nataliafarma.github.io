@@ -5,14 +5,7 @@ description: "❖ Najbliższe wykłady&nbsp;<br>&nbsp;<br>❖ Historia wydarzeń
 nav-menu: true
 comments: true
 ---
-<style>
-	
-input[type="checkbox"] { 
-  filter: invert(100%) hue-rotate(18deg) brightness(1.7);
-}
-	
-	
-</style>
+
 	
 <div class="image main">
 	
@@ -122,7 +115,9 @@ Więcej informacje wkrótce!
 <a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - link do podstrony z nagraniem części pierwszej.</a><br>&nbsp;<br>
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
-
+<script>
+document.getElementById("coding").style.filter = "hue-rotate(60deg)";
+</script>
 
 <hr class="major" />
 
