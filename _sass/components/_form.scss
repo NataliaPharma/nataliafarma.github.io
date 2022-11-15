@@ -132,7 +132,7 @@
 		padding: 0.75em 1em;
 	}
 
-	input[type="checkbox"],
+	// czekboxy były mało wyraziste input[type="checkbox"],
 	input[type="radio"], {
 		@include vendor('appearance', 'none');
 		display: block;
