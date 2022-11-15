@@ -125,17 +125,17 @@ var checkbox1 = document.querySelector("input[name=zgoda1]");
 
 checkbox0.addEventListener('change', function() {
   if (this.checked) {
-    alert("Checkbox0 is checked..");
+    documentgetElementById("check0").style.border="1px solid lime";
   } else {
-    alert("Checkbox0 is not checked..");
+    documentgetElementById("check0").style.border="1px solid red";
   }
 });
 	
 checkbox1.addEventListener('change', function() {
   if (this.checked) {
-    alert("Checkbox0 is checked..");
+    documentgetElementById("check1").style.border="1px solid lime";
   } else {
-    alert("Checkbox0 is not checked..");
+    documentgetElementById("check1").style.border="1px solid red";
   }
 });
 	
