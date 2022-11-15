@@ -5,7 +5,14 @@ description: "❖ Najbliższe wykłady&nbsp;<br>&nbsp;<br>❖ Historia wydarzeń
 nav-menu: true
 comments: true
 ---
-
+<style>
+	
+input[type="checkbox"] { 
+  filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+}
+	
+	
+</style>
 	
 <div class="image main">
 	
