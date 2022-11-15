@@ -125,17 +125,17 @@ var checkbox1 = document.querySelector("input[name=zgoda1]");
 
 checkbox0.addEventListener('change', function() {
   if (this.checked) {
-    documentgetElementById("check0").style.border="1px solid lime";
+    document.getElementById("check0").style.border="1px solid lime";
   } else {
-    documentgetElementById("check0").style.border="1px solid red";
+    document.getElementById("check0").style.border="1px solid red";
   }
 });
 	
 checkbox1.addEventListener('change', function() {
   if (this.checked) {
-    documentgetElementById("check1").style.border="1px solid lime";
+    document.getElementById("check1").style.border="1px solid lime";
   } else {
-    documentgetElementById("check1").style.border="1px solid red";
+    document.getElementById("check1").style.border="1px solid red";
   }
 });
 	
