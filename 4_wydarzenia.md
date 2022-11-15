@@ -6,99 +6,69 @@ nav-menu: true
 comments: true
 ---
 
-	
 <div class="image main">
-	
-	
 	<form action="">
+		<div class="">
+  		  <div class="">
+			  
+			<div class=" " style="color: #ffffff; text-align: center;" >
+     				 <h3 style="color: #ffffff;">Drogi czytelniku pharmabusters.pl</h3>
+   			</div>
+			  
+			 <div class="" style="color: #ffffff; text-align: center;">
+			<br><span>Zapisz się do newslettera, by otrzymywać informacje o nowych wydarzeniach i materiałach na stronie!</span>
+      			</div>
+			 &nbsp;<br>
 
-   <div class="">
-    <div class="">
-
-     <div class=" " style="color: #ffffff; text-align: center;" >
-      <h3 style="color: #ffffff;">Drogi czytelniku pharmabusters.pl</h3>
-     </div>
-
-
-      <div class="" style="color: #ffffff; text-align: center;"><br><span>Zapisz się do newslettera, by otrzymywać informacje o nowych wydarzeniach i materiałach na stronie!</span>
-      </div>
-
-      &nbsp;<br>
-
-<div style="widt:100%;">
+			<div style="width:100%;">
 	
-     <div class="" style="margin: auto; width: 70%; padding: 10px; text-align:left;" >
-            <label class="" style="color: #ffffff;left:0px;">Imię</label>
-            <input class="" name="" type="text" placeholder="Jan">
-     </div>
+     				<div class="" style="margin: auto; width: 70%; padding: 10px; text-align:left;" >
+          				  <label class="" style="color: #ffffff;left:0px;">Imię</label>
+        				    <input class="" name="" type="text" placeholder="Jan">
+    				</div>
+				&nbsp;<br>
 	
-	&nbsp;<br>
+   				 <div class="" style="margin: auto; width: 70%; padding: 10px; text-align:left;">
+	    				 <label class="" style="color: #ffffff;left:0px;">Adres e-mail</label>
+	    				 <input class="" name="" type="email" placeholder="email.address@example.com">
+    				 </div>
 	
-     <div class="" style="margin: auto; width: 70%; padding: 10px; text-align:left;">
-	     <label class="" style="color: #ffffff;left:0px;">Adres e-mail</label>
-	     <input class="" name="" type="email" placeholder="email.address@example.com">
-     </div>
+			</div>
+	    
+			&nbsp;<br>
+			  
+	    		 <div class="" style="color: #ffffff; text-align: center;">
+				 <span>By móc wysyłać Tobie newsletter porzebne będą dwie zgody:</span>
+     			 </div>
+			&nbsp;<br>
+	    
+			<div style="margin: auto; width: 100%; padding: 10px; text-align:left;">
 	
+				<fieldset>
+ 					 <div id="check0" style="font-size:27px;text-align:center;border:1px solid red;padding: 9px;">
+    						<label for="coding" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;	color:white;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
+						 
+						<input type="checkbox" id="coding" name="zgoda0" value="coding" style="width:2em;height:2em;"/>
+  					</div>
+					<p>&nbsp;</p>
+  					<div id="check1" style="font-size:27px;text-align:center;border:1px solid red;padding:9px;">
+    						 <label for="music" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span></label>
+						 <input type="checkbox" id="music" name="zgoda1" value="music" style="width:2em;height:2em;" />
+  					</div>
+					<p>&nbsp;</p>
+				</fieldset>
+	    
+ 			</div>
+
+     			<div class="" style="margin: auto; width: 80%; padding: 10px; text-align:center;">
+       				 <button onclick="alert('trwają prace nad newsletterem, w tej chwili usługa niedostępna')" type="submit" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
+				
+     			</div>
+   	      </div>
+   	  </div>
+   </form>
+		
 </div>
-	    
-	&nbsp;<br>
-	     <div class="" style="color: #ffffff; text-align: center;"><span>By móc wysyłać Tobie newsletter porzebne będą dwie zgody:</span>
-      </div>
-	&nbsp;<br>
-	    
-<div style="margin: auto; width: 100%; padding: 10px; text-align:left;">
-	
-	<fieldset>
-  <div id="check0" style="font-size:27px;text-align:center;border:1px solid red;padding: 9px;">
-    
-    <label for="coding" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;color:white;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
-<input type="checkbox" id="coding" name="zgoda0" value="coding" style="width:2em;height:2em;"/>
-  </div>
-		<p>&nbsp;</p>
-  <div id="check1" style="font-size:27px;text-align:center;border:1px solid red;padding:9px;">
-    
-    <label for="music" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span></label>
-   <input type="checkbox" id="music" name="zgoda1" value="music" style="width:2em;height:2em;" />
-  </div>
-		<p>&nbsp;</p>
-</fieldset>
-	    
- </div>
-
-     <div class="" style="margin: auto; width: 80%; padding: 10px; text-align:center;">
-        <button onclick="alert('trwają prace nad newsletterem, w tej chwili usługa niedostępna')" type="submit" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
-     </div>
-    </div>
-   </div>
-  </form>
-	
-	
-	
-	
-	
-	
-	
-	<!--
-	<div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/ptak2.jpg'); background-size: cover;">
-		&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
-		<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="background-color:rgba(0,0,0,0.7);">
-	
-    		<div class="field">
-	   		 <label for="email" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Zapisz się do newsletter'a:</label>
-			<input type="email" name="email" placeholder="email" size="40" style="background-color:#242943;border: 1px solid skyblue;">
-		</div>
-		<div class="field">
-			<ul class="actions">
-	  			<li><input type="submit" value="Zapisz" class="special" /></li>
-			</ul>
-		</div>
-
-		</form>
-	</div>
-        -->
-</div>
-	
-	
 	
 
 <hr class="major">
@@ -119,27 +89,7 @@ Więcej informacje wkrótce!
 <a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - link do podstrony z nagraniem części pierwszej.</a><br>&nbsp;<br>
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
-<script>
-var checkbox0 = document.querySelector("input[name=zgoda0]");
-var checkbox1 = document.querySelector("input[name=zgoda1]");
 
-checkbox0.addEventListener('change', function() {
-  if (this.checked) {
-    document.getElementById("check0").style.border="1px solid lime";
-  } else {
-    document.getElementById("check0").style.border="1px solid red";
-  }
-});
-	
-checkbox1.addEventListener('change', function() {
-  if (this.checked) {
-    document.getElementById("check1").style.border="1px solid lime";
-  } else {
-    document.getElementById("check1").style.border="1px solid red";
-  }
-});
-	
-</script>
 
 <hr class="major" />
 
@@ -165,3 +115,26 @@ checkbox1.addEventListener('change', function() {
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
 
 <hr class="major" />
+
+
+<script>
+var checkbox0 = document.querySelector("input[name=zgoda0]");
+var checkbox1 = document.querySelector("input[name=zgoda1]");
+
+checkbox0.addEventListener('change', function() {
+  if (this.checked) {
+    document.getElementById("check0").style.border="1px solid lime";
+  } else {
+    document.getElementById("check0").style.border="1px solid red";
+  }
+});
+	
+checkbox1.addEventListener('change', function() {
+  if (this.checked) {
+    document.getElementById("check1").style.border="1px solid lime";
+  } else {
+    document.getElementById("check1").style.border="1px solid red";
+  }
+});
+	
+</script>
