@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "<span style='text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>Galeria</span>"
-description: "❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Zdrowa żywność, czyli jaka?</span> &nbsp;<br>&nbsp;<br>❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Zdrowy ruch, czyli jaki?</span> &nbsp;<br>&nbsp;<br>❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Zdrowa głowa</span> &nbsp;<br>&nbsp;<br>❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Zdrowe ciało</span> &nbsp;<br>&nbsp;<br> ❖ <span style='text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);'>Zdrowie społeczne</span> &nbsp;"
+title: Galeria
+description: "❖ Zdrowa żywność, czyli jaka?&nbsp;<br>&nbsp;<br>❖ Zdrowy ruch, czyli jaki?&nbsp;<br>&nbsp;<br>❖ Zdrowa głowa&nbsp;<br>&nbsp;<br>❖ Zdrowe ciało&nbsp;<br>&nbsp;<br> ❖ Zdrowie społeczne&nbsp;"
 image: assets/images/galeria.jpg
 nav-menu: true
 ---
