@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Oferta
-description: "❖ Sesje indywidualne&nbsp;<br>&nbsp;<br>❖ Spotkania wykładowe&nbsp;<br>&nbsp;<br>❖ Konsultacje grupowe&nbsp;<br>&nbsp;<br>❖ Oferta współpracy dla firm&nbsp;<br>&nbsp;<br>❖ Sesje indywidualne&nbsp;"
+description: "❖ Sesje indywidualne&nbsp;<br>&nbsp;<br>❖ Spotkania wykładowe&nbsp;<br>&nbsp;<br>❖ Konsultacje grupowe&nbsp;<br>&nbsp;<br>❖ Oferta współpracy dla firm&nbsp;<br>&nbsp;<br><span style='color:rgba(0,0,0,0.0)'>❖ Sesje indywidualne&nbsp;</span>"
 nav-menu: true
 ---
 
