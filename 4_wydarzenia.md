@@ -7,31 +7,52 @@ comments: true
 ---
 <style>
 	
-input[type="checkbox"] {
-  appearance: none;
-  background-color: red;
-  margin: 0;
-  font: inherit;
-  color: red;
-  width: 1.15em;
-  height: 1.15em;
-  border: 0.15em solid red;
-  border-radius: 0.15em;
-  transform: translateY(-0.075em);
+.checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
 }
 
-	
-	
-input[type="checkbox"]::before {
-  content: "";
-  width: 0.65em;
-  height: 0.65em;
-  transform: scale(0);
-  transition: 120ms transform ease-in-out;
-  box-shadow: inset 1em 1em var(--form-control-color);
-  color:red;
-  border: 1px solid red;
+.checkbox > span {
+    color: #34495E;
+    padding: 0.5rem 0.25rem;
 }
+
+.checkbox > input {
+    height: 25px;
+    width: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid #34495E;
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #41B883;
+    cursor: pointer;
+  }
+
+.checkbox > input:checked {
+    border: 1px solid #41B883;
+    background-color: #34495E;
+}
+
+.checkbox > input:checked + span::before {
+    content: '\2713';
+    display: block;
+    text-align: center;
+    color: #41B883;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.2rem;
+}
+
+.checkbox > input:active {
+    border: 2px solid #34495E;
+}
+	
+
 </style>
 	
 	
