@@ -74,6 +74,26 @@ image: assets/images/golab.jpg
 	
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
+	
+	
+	<form action="https://formspree.io/f/mnqrgpnq" method="POST">
+			<div class="field">
+					<label for="email">Zapisz się na newsletter:</label>
+			
+				        <input type="email" name="email" placeholder="email">
+				
+					<textarea name="message" id="email" placeholder="twój e-mail" rows="1"></textarea>
+                              
+				
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Zapisz" class="special" /></li>
+				</ul>
+			</form>
+	
+	
+	
+	
 	<p>&nbsp;</p>
 </div>
 	
@@ -83,6 +103,9 @@ var checkbox1 = document.querySelector("input[name=zgoda1]");
 	
 var pole0 = document.querySelector("input[name=imie]");
 var pole1 = document.querySelector("input[name=mail]");
+
+var send0 = document.querySelector("input[name=email]");
+var send1 = document.querySelector("textarea[name=message]");
 
 checkbox0.addEventListener('change', function() {
   if (this.checked) {
@@ -118,9 +141,8 @@ var oki = 1;
 	
 	if (oki == 1) {
 	
-	var cipher = cip(pole0.value + " # " + pole1.value);
-	alert(pole0.value + " # " + pole1.value);
-	alert(cipher);
+	send0.value = "newsletter"
+        send1.value = cip(pole0.value + " # " + pole1.value);
 	
 	} 
 	
