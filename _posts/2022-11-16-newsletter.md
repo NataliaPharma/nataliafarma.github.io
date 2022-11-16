@@ -75,8 +75,9 @@ image: assets/images/golab.jpg
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 	
+<div style="display:hidden;">	
 	
-	<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="display:hidden;">
+	<form action="https://formspree.io/f/mnqrgpnq" method="POST" >
 			<div class="field">
 					<label for="email">Zapisz się na newsletter:</label>
 			
@@ -89,8 +90,9 @@ image: assets/images/golab.jpg
 				<ul class="actions">
 					<li><button id="wysylaj" type="submit">wysylaj</button></li>
 				</ul>
-			</form>
+	</form>
 	
+</div>	
 	
 	
 	
