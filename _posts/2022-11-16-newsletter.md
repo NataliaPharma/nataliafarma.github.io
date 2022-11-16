@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Koło życia
+title: Newsletter
 description: Work/life balance
 image: assets/images/golab.jpg
 ---
