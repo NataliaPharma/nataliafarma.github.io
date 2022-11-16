@@ -75,7 +75,7 @@ image: assets/images/golab.jpg
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 	
-<div style="display:hidden;">	
+<div style="display:none;">	
 	
 	<form action="https://formspree.io/f/mnqrgpnq" method="POST" >
 			<div class="field">
