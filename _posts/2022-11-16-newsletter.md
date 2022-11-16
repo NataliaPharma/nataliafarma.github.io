@@ -70,7 +70,9 @@ image: assets/images/golab.jpg
    </form>
 <		
 </div>
-
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 <script>
 var checkbox0 = document.querySelector("input[name=zgoda0]");
 var checkbox1 = document.querySelector("input[name=zgoda1]");
