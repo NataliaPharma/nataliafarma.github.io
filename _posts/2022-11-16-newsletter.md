@@ -103,19 +103,24 @@ checkbox1.addEventListener('change', function() {
 	
 function nacisnieto() {
 	
-var oki = 0;
+var oki = 1;
 	
         if (checkbox0.checked == false || checkbox1.checked == false ) {
 	alert("Nie wyrazono potrzebnych zgód.");
 	oki = 0;
-	}else if (checkbox0.checked == true && checkbox1.checked == true ) {
-	oki = 1;
 	}
 	
-	alert(pole0.value)
 	
+        if (pole0.value == "" || pole1.value == "" ) {
+	alert("Wypełnij wszystkie pola.");
+	oki = 0;
+	}
 	
-	
+	if(oki == 1) {
+	alert("wszystko oki")
+	} else {
+	alert("nie wszystko oki")
+	}
 	
 }
 	
