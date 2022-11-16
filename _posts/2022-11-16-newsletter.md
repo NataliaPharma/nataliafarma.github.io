@@ -65,7 +65,7 @@ image: assets/images/golab.jpg
  			</div>
 
      			<div class="" style="margin: auto; width: 80%; padding: 10px; text-align:center;">
-       				 <button onclick="alert('trwają prace nad newsletterem, w tej chwili usługa niedostępna')" type="button" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
+       				 <button onclick="nacisnieto();" type="button" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
 				
      			</div>
    	      </div>
@@ -96,10 +96,17 @@ checkbox1.addEventListener('change', function() {
     document.getElementById("check1").style.border="1px solid red";
   }
 });
-	
-</script>
 
-<script>
+	
+function nacisnieto() {
+	
+  if (checkbox0.checked == false || checkbox1.checked == false ) {
+	alert("Nie wyrazono potrzebnych zgód.");
+	}
+   if (checkbox0.checked == true && checkbox1.checked == true ) {
+	alert("Wyrazono zgody.");
+	}
+}
 	
 	
 	
