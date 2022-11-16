@@ -65,7 +65,7 @@ image: assets/images/golab.jpg
  			</div>
 
      			<div class="" style="margin: auto; width: 80%; padding: 10px; text-align:center;">
-       				 <button onclick="alert('trwają prace nad newsletterem, w tej chwili usługa niedostępna')" type="submit" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
+       				 <button onclick="alert('trwają prace nad newsletterem, w tej chwili usługa niedostępna')" type="button" class="" style="border-radius: 5px;color: #000000;background-color: #ffffff"> Zapisz się! </button>
 				
      			</div>
    	      </div>
@@ -76,9 +76,6 @@ image: assets/images/golab.jpg
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 </div>
-
-
-	
 	
 <script>
 var checkbox0 = document.querySelector("input[name=zgoda0]");
@@ -101,3 +98,33 @@ checkbox1.addEventListener('change', function() {
 });
 	
 </script>
+
+<script>
+	
+	
+	
+function cip(str) {
+  var input     = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@';
+  var output    = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm0987654321$';
+  var index     = x => input.indexOf(x);
+  var translate = x => index(x) > -1 ? output[index(x)] : x;
+  return str.split('').map(translate).join('');
+}	
+	
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
