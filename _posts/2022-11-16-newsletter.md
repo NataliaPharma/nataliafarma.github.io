@@ -68,5 +68,27 @@ image: assets/images/golab.jpg
    	      </div>
    	  </div>
    </form>
-		
+<		
 </div>
+
+<script>
+var checkbox0 = document.querySelector("input[name=zgoda0]");
+var checkbox1 = document.querySelector("input[name=zgoda1]");
+
+checkbox0.addEventListener('change', function() {
+  if (this.checked) {
+    document.getElementById("check0").style.border="1px solid lime";
+  } else {
+    document.getElementById("check0").style.border="1px solid red";
+  }
+});
+	
+checkbox1.addEventListener('change', function() {
+  if (this.checked) {
+    document.getElementById("check1").style.border="1px solid lime";
+  } else {
+    document.getElementById("check1").style.border="1px solid red";
+  }
+});
+	
+</script>
