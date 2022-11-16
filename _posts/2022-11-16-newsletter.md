@@ -118,9 +118,7 @@ var oki = 1;
 	
 	if(oki == 1) {
 	alert("wszystko oki")
-	} else {
-	alert("nie wszystko oki")
-	}
+	} 
 	
 }
 	
