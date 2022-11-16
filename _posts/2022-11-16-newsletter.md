@@ -28,13 +28,13 @@ image: assets/images/golab.jpg
 	
      				<div class="" style="margin: auto; width: 70%; padding: 10px; text-align:left;" >
           				  <label class="" style="color: #ffffff;left:0px;">Imię</label>
-        				    <input class="" name="" type="text" placeholder="Jan">
+        				    <input class="" name="imie" type="text" placeholder="Jan">
     				</div>
 				&nbsp;<br>
 	
    				 <div class="" style="margin: auto; width: 70%; padding: 10px; text-align:left;">
 	    				 <label class="" style="color: #ffffff;left:0px;">Adres e-mail</label>
-	    				 <input class="" name="" type="email" placeholder="email.address@example.com">
+	    				 <input class="" name="mail" type="email" placeholder="email.address@example.com">
     				 </div>
 	
 			</div>
@@ -80,6 +80,9 @@ image: assets/images/golab.jpg
 <script>
 var checkbox0 = document.querySelector("input[name=zgoda0]");
 var checkbox1 = document.querySelector("input[name=zgoda1]");
+	
+var pole0 = document.querySelector("input[name=imie]");
+var pole1 = document.querySelector("input[name=mail]");
 
 checkbox0.addEventListener('change', function() {
   if (this.checked) {
@@ -100,12 +103,20 @@ checkbox1.addEventListener('change', function() {
 	
 function nacisnieto() {
 	
-  if (checkbox0.checked == false || checkbox1.checked == false ) {
+var oki = 0;
+	
+        if (checkbox0.checked == false || checkbox1.checked == false ) {
 	alert("Nie wyrazono potrzebnych zgód.");
+	oki = 0;
+	}else if (checkbox0.checked == true && checkbox1.checked == true ) {
+	oki = 1;
 	}
-   if (checkbox0.checked == true && checkbox1.checked == true ) {
-	alert("Wyrazono zgody.");
-	}
+	
+	alert(pole0.value)
+	
+	
+	
+	
 }
 	
 	
