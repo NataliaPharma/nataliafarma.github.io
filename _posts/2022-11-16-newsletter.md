@@ -67,8 +67,7 @@ image: assets/images/golab.jpg
      			</div>
    	      </div>
    	  </div>
-   </form>
-<		
+   </form>		
 </div>
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
