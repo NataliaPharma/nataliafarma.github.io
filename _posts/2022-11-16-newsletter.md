@@ -116,11 +116,12 @@ var oki = 1;
 	oki = 0;
 	}
 	
-	if(oki == 1) {
+	if (oki == 1) {
 	
-	var cipher = cip(pole0.value + " # " + pole1.value)
-	alert("pole0.value + " # " + pole1.value")
-	alert("cipher")
+	var cipher = cip(pole0.value + " # " + pole1.value);
+	alert(pole0.value + " # " + pole1.value);
+	alert(cipher);
+	
 	} 
 	
 }
