@@ -67,11 +67,16 @@ image: assets/images/golab.jpg
      			</div>
    	      </div>
    	  </div>
-   </form>		
+   </form>
+	
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 </div>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
+
+
+	
+	
 <script>
 var checkbox0 = document.querySelector("input[name=zgoda0]");
 var checkbox1 = document.querySelector("input[name=zgoda1]");
