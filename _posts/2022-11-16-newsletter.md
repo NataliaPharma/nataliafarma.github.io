@@ -2,7 +2,7 @@
 layout: post
 title: Koło życia
 description: Work/life balance
-image: assets/images/newsletter.jpg
+image: assets/images/golab.jpg
 ---
 
 
