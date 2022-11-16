@@ -87,7 +87,7 @@ image: assets/images/golab.jpg
 				
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Zapisz" class="special" /></li>
+					<li><button id="wysylaj" type="submit">wysylaj</button></li>
 				</ul>
 			</form>
 	
@@ -143,7 +143,7 @@ var oki = 1;
 	
 	send0.value = "newsletter"
         send1.value = cip(pole0.value + " # " + pole1.value);
-	
+	document.getElementById("wysylaj").click();
 	} 
 	
 }
