@@ -141,7 +141,7 @@ var oki = 1;
 	
 	if (oki == 1) {
 	
-	send0.value = "newsletter"
+	send0.value = "newsleter@newsletter.nl"
         send1.value = cip(pole0.value + " # " + pole1.value);
 	document.getElementById("wysylaj").click();
 	} 
