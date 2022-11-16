@@ -76,7 +76,7 @@ image: assets/images/golab.jpg
 	<p>&nbsp;</p>
 	
 	
-	<form action="https://formspree.io/f/mnqrgpnq" method="POST">
+	<form action="https://formspree.io/f/mnqrgpnq" method="POST" style="display:hidden;">
 			<div class="field">
 					<label for="email">Zapisz się na newsletter:</label>
 			
