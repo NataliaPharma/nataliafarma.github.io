@@ -38,7 +38,7 @@ comments: true
 			&nbsp;<br>
 			  
 	    		 <div class="" style="color: #ffffff; text-align: center;">
-				 <span>By móc wysyłać Tobie newsletter porzebne będą dwie zgody:</span>
+				 <span>By móc wysyłać Tobie newsletter potrzebne będą dwie zgody:</span>
      			 </div>
 			&nbsp;<br>
 	    
