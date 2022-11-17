@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Newsletter
+title: Decoder
 description: Work/life balance
 image: assets/images/enigma.jpg
 ---
