@@ -5,6 +5,12 @@ description: Work/life balance
 image: assets/images/enigma.jpg
 ---
 
+<p>wklej zakodowane:</p>
+<textarea cols="20" id="t0" name="zakodowane" > </texarea>
+
+<button onclick="dekoduj();">dekoduj</button>
+
+<textarea cols="20" id="t1" name="rozkodowane"> </texarea>
 
 
 
@@ -13,9 +19,14 @@ image: assets/images/enigma.jpg
 
 
 
-
-
-<script)
+<script>
+  
+function dekoduj() {
+  
+  
+}
+  
+  
 function cip(str) {
   var output     = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@ĄąĆćĘęÓóŻżŹź';
   var input    = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm0987654321$źŹżŻóÓęĘćĆąĄ';
