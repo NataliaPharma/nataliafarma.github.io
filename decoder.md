@@ -7,7 +7,7 @@ image: assets/images/enigma.jpg
 
 <p>wklej zakodowane:</p>
 <textarea cols="20" id="t0" name="zakodowane" > </textarea>
-
+<p>&nbsp;</p>
 <button onclick="dekoduj();">dekoduj</button>
 
 <textarea cols="20" id="t1" name="rozkodowane"> </textarea>
