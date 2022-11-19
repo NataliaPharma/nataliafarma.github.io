@@ -8,7 +8,7 @@ image: assets/images/golab.jpg
 
 
 <!-- wyłażące okienko start -->
-<div id="poka" style="border:1px solid black;display:none;background-color:LightGray;position:fixed;width:95vw;height:80vh;left:2.5vw;top:10vh;z-index:900;color:black;">
+<div id="poka" style="border:1px solid black;display:none;background-color:LightGray;position:fixed;width:95vw;height:80vh;left:2.5vw;top:10vh;z-index:900;color:black;overflow:scroll;">
 	
 	<div id="poka2" style="width:95vw;position:fixed;">
           	<div style="background-color:gray;width:100%;text-align:right;height:2rem;color:white;">
@@ -19,7 +19,7 @@ image: assets/images/golab.jpg
 
 
 	</div>
-	        <div id="fikimiki" style="margin-top:2.5rem;margin-left:1rem;margin-right:1rem;overflow:scroll;"></div>
+	        <div id="fikimiki" style="margin-top:2.5rem;margin-left:1rem;margin-right:1rem;"></div>
 
 </div>
 
