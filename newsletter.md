@@ -37,13 +37,7 @@ image: assets/images/golab.jpg
 			<div class=" " style="color: #ffffff; text-align: center;" >
      				 <h3 style="color: #ffffff;">Drogi czytelniku pharmabusters.pl</h3>
 				
-				
-				
-				<a onclick='rst();document.getElementById("tyt").innerHTML=klauzula_tyt;document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";'>test</a>
-				
-				<a onclick='rst();document.getElementById("tyt").innerHTML=zgodarodo_tyt;document.getElementById("fikimiki").innerHTML=zgodarodo;document.getElementById("poka").style.display ="inherit";'>test2</a>
-				
-				
+								
 				
    			</div>
 			  
@@ -78,13 +72,13 @@ image: assets/images/golab.jpg
 	
 				<fieldset>
  					 <div id="check0" style="font-size:27px;text-align:center;border:1px solid red;padding: 9px;">
-    						<label for="coding" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;	color:white;">Wyrażam zgodę na zbieranie, przechowywanie i przetwarzanie moich danych osobowych w celach związanych z usługą newslettera i marketingu bezpośredniego przez administratora danych osobowych tj. XXXXXXXXXXXX, e-mail: XXXXXXXXX, zgodnie z <a href="" target="_blank">Regulaminem</a>, <a href="" target="_blank">Polityką prywatności</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
+    						<label for="coding" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;	color:white;">Zgadzam sie nia otrzymywanie newslettera drogą mailową. Pana/i dane osobowe będą przetwarzane w celu prowadzenia korespondencji e-mail związanej z realizacją konsultacji, edukacji i usług świadczonych przez Natalia Miękus-Purwin. Więcej  o zasadach <a onclick='rst();document.getElementById("tyt").innerHTML=klauzula_tyt;document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";' style="cursor:pointer;" >KLAUZULA RODO</a>, <a onclick='rst();document.getElementById("tyt").innerHTML=zgodarodo_tyt;document.getElementById("fikimiki").innerHTML=zgodarodo;document.getElementById("poka").style.display ="inherit";' style="cursor:pointer;">Zgoda na przetwarzanie danych osobowych zgodnie Z RODO</a>.&nbsp;Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span></label>
 						 
 						<input type="checkbox" id="coding" name="zgoda0" value="coding" style="width:2em;height:2em;"/>
   					</div>
 					<p>&nbsp;</p>
   					<div id="check1" style="font-size:27px;text-align:center;border:1px solid red;padding:9px;">
-    						 <label for="music" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;">Wyrażam zgodę na otrzymywanie drogą elektroniczną (e-mail) informacji handlowych (marketing) pochodzących od XXXXXX Wyrażam zgodę na wykorzystywanie przez XXXXXXXXX telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span></label>
+    						 <label for="music" style="line-height:9px;color:white;text-align:left;"><span style="font-size:9px;">Wyrażam zgodę na wykorzystywanie przez Natalię Miękus-Purwin telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span></label>
 						 <input type="checkbox" id="music" name="zgoda1" value="music" style="width:2em;height:2em;" />
   					</div>
 					<p>&nbsp;</p>
