@@ -194,6 +194,23 @@ function rst(){
 
 };
 
+var zgodarodo_tyt = "Treść w oknie jest przewijalna.";
+var zgodarodo = `<p>ZGODA NA PRZETWARZANIE DANYCH OSOBOWYCH ZGODNIE Z RODO</p>
+<p>Wyrażam zgodę na przetwarzanie moich danych osobowych przez administratora danych - Natalię Annę Miękus-Purwin z siedzibą w Sopocie, ul. ### ulica gdzie zamieszkuje Natalia ###, numer CEIDG ### ??? ###. w następującym zakresie:</p>
+ 
+<p>1)Imię.</p>
+<p>2)Adres e-mail.</p>
+ 
+<p>Przyjmuję do wiadomości, że wszelkie inne dodatkowe, omyłkowo podane przeze mnie podczas zapisywania się na newsletter dane osobowe zostaną natychmiast skasowane i w związku z tym nie staną się przedmiotem dalszego przetwarzania.</p>
+<p>Zdaję sobie sprawę, że przetwarzanie polegające na natychmiastowym skasowaniu danych będzie wynikiem, mogącego nastąpić przypadkowo, podania dodatkowych danych o które nie zostałem poproszony i jest jedynym dostępnym, możliwym do zastosowania środkiem zapobiegawczym jakim Administrator dysponuje.</p>
+ <p>Zostałem/am poinformowany/a, że zgoda na przetwarzanie moich danych osobowych jest dobrowolna oraz o przysługującym prawie do dostępu do tych danych osobowych i ich poprawiania, a także  o możliwości cofnięcia zgody.</p>
+<p>Zgodę, o której mowa powyżej, wyrażam dobrowolnie oraz świadomie.</p>	
+`;
+	
+
+	
+	
+	
 var klauzula_tyt = "Treść w oknie jest przewijalna.";
 var klauzula = `<p>KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH</p><p>Wypełniając obowiązek, o którym mowa w art. 13 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U.UE.L.2016.119.1 ze zm.) (dalej: RODO), informujemy, że:</p>
 
