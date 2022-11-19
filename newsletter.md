@@ -6,6 +6,24 @@ image: assets/images/golab.jpg
 ---
 
 
+<!-- wyłażące okienko start -->
+<div id="poka" style="border:1px solid black;display:none;background-color:LightGray;overflow:scroll;position:fixed;width:95vw;height:80vh;margin-left:2.5vw;margin-top:10vh;z-index:900;color:black;">
+	
+	<div id="poka2" style="width:95vw;position:fixed;">
+          	<div style="background-color:gray;width:100%;text-align:right;height:2rem;color:white;">
+            		<div id="tyt" style="width:calc(100% - 2rem);position:absolute;text-align:center;">
+			</div>
+            		<img style="background-color:black;width:2rem;height:2rem;cursor:pointer;" src="https://autoserwis.leki.expert/static/iks2.jpg" onclick='document.getElementById("poka").style.display ="none";'></img>
+           	 </div>
+
+
+	</div>
+	        <p id="fikimiki" style="margin-top:2.5rem;margin-left:1rem;margin-right:1rem;"></p>
+
+</div>
+
+<!-- wyłażące okienko stop -->
+	    
 
 <div class="image main">
 	
@@ -17,6 +35,13 @@ image: assets/images/golab.jpg
 			  
 			<div class=" " style="color: #ffffff; text-align: center;" >
      				 <h3 style="color: #ffffff;">Drogi czytelniku pharmabusters.pl</h3>
+				
+				
+				
+				<a onclick='rst();document.getElementById("tyt").innerHTML="jakieś info";document.getElementById("fikimiki").innerHTML="treść jakiegoś info";document.getElementById("poka").style.display ="inherit";'>test</a>
+				
+				
+				
    			</div>
 			  
 			 <div class="" style="color: #ffffff; text-align: center;">
