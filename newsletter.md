@@ -9,7 +9,7 @@ image: assets/images/golab.jpg
 <!-- wyłażące okienko start -->
 <div id="poka" style="border:1px solid black;display:none;background-color:LightGray;overflow:scroll;position:absolute;width:95vw;height:80vh;left:2.5vw;top:10vh;z-index:900;color:black;">
 	
-	<div id="poka2" style="width:95vw;position:fixed;">
+	<div id="poka2" style="width:95vw;">
           	<div style="background-color:gray;width:100%;text-align:right;height:2rem;color:white;">
             		<div id="tyt" style="width:calc(100% - 2rem);position:absolute;text-align:center;">
 			</div>
