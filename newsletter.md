@@ -5,6 +5,37 @@ description: Work/life balance
 image: assets/images/golab.jpg
 ---
 
+<script>
+const klauzula = "<p>KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH</p>
+
+<p>Wypełniając obowiązek, o którym mowa w art. 13 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U.UE.L.2016.119.1 ze zm.) (dalej: RODO), informujemy, że:</p>
+
+<p>1. Administratorem Pani/Pana danych osobowych (dalej: Administrator) jest Natalia Anna Miękus-Purwin.</p>
+<p>2. Z Administratorem można się kontaktować pisemnie na adres ### ADRES NATALII ### lub poprzez pocztę elektroniczną na adres: miekusn@gmail.com</p>
+<p>3. Pani/Pana dane osobowe są przetwarzane na podstawie art. 6 ust. 1 lit. a RODO - osoba, której dane dotyczą wyraziła zgodę na przetwarzanie swoich danych osobowych w jednym lub większej liczbie określonych celów.</p>
+<p>4. Dane osobowe są przetwarzane przez Administratora w celu przekazywania subskrybowanego newslettera.</p>
+<p>5.  Jednynym  odbiorcą dysponującym danymi osobowymi w formie niezaszyfrowanej jest administrator. Podmioty świadczące na rzecz Administratora w szczególności usługi telekomunikacyjne, informatyczne i księgowe oraz inne podmioty, które muszą zostać dopuszczone do przetwarzania Pani/Pana danych osobowych w powyższych celach przetwarzają je w formie zaszyfrowanej. Administrator nie udziela i nie udzieli żadnym osobom wglądu w otrzymane dane osobowe i nie zezwala ani nie zezwoli nikomu na wgląd w nie poza dwoma wyjątkami jakie stanowią:<br>
+a) moment wysyłki listu zawierającego newsletter dla zamawiającego go, gdy dane tej osoby są niezbędne do zaadresowania listu elektronicznego poprzez serwer poczty gmail (Google). W tym przypadku potencjalny wgląd do danych, jedynie tą drogą, otrzymują osobą zarządzające tym serwerem, ponieważ wysłanie listu elektronicznego innym sposobem nie jest technicznie możliwe.<br> 
+b) Żądanie osoby dostępu do danych (pkt 9 a)</p>
+<p>6. Pani/Pana dane osobowe nie będą przekazywane do państwa trzeciego lub organizacji międzynarodowej.</p>
+<p>7. Pani/Pana dane osobowe będą przetwarzane do czasu zgłoszenia rezygnacji przez Panią/Pana z otrzymywania newsletteru bądź też do zakończenia wydawania tego newsletteru.</p>
+<p>8. W związku z przetwarzaniem Pani/Pana danych osobowych przysługuje Pani/Panu prawo do:<br>
+a) żądania od Administratora dostępu do Pani/Pana danych osobowych;<br>
+b) żądania od Administratora sprostowania Pani/Pana danych osobowych;<br>
+c)żądania od Administratora usunięcia Pani/Pana danych osobowych;<br>
+d) żądania od Administratora ograniczenia przetwarzania Pani/Pana danych osobowych;<br>
+e) wniesienia sprzeciwu wobec przetwarzania Pani/Pana danych osobowych;<br>
+f) przenoszenia Pani/Pana danych osobowych;<br>
+g) wniesienia skargi do organu nadzorczego – Prezesa Urzędu Ochrony Danych Osobowych;</p>
+<p>10. W przypadku pozyskania danych osobowych w sposób inny niż od osoby, której dane dotyczą, źródłem pochodzenia takich danych może być:<br>
+a) formularz służący zamawianiu newslettera;<br>
+b) formularz kontaktowy znajdujący się na samym dole strony;<br>
+c) wiadomość otrzymana na kontaktową skrzynkę email;<br>
+d) wiadomość sms otrzymana na kontaktowy numer telefonu;<br>
+e) wiadomość otrzymana pocztą tradycyjną;</p>
+<p>W każdym takim przypadku osoba, której dane dotyczą będzie zapytana o chęć zapisania na newsletter i dopiero po oświadczeniu woli znalezienia się na liście subskrybentów zostanie na nią wpisana. Takiej osobie niniejsza KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH zostanie przedstawiona w całości przed umożliwieniem podjęcia decyzji o zapisaniu się na wspomnianą listę.</p>
+<p>Podanie przez Panią/Pana danych osobowych jest dobrowolne, niemniej jest niezbędne i jest warunkiem do przekazywania newsletteru.</p>
+<p>Pani/Pana dane osobowe nie będą wykorzystywane do zautomatyzowanego podejmowania decyzji, w tym do profilowania.</p>"
 
 <!-- wyłażące okienko start -->
 <div id="poka" style="border:1px solid black;display:none;background-color:LightGray;overflow:scroll;position:fixed;width:95vw;height:80vh;left:2.5vw;top:10vh;z-index:900;color:black;">
@@ -38,7 +69,7 @@ image: assets/images/golab.jpg
 				
 				
 				
-				<a onclick='rst();document.getElementById("tyt").innerHTML="jakieś info";document.getElementById("fikimiki").innerHTML="treść jakiegoś info";document.getElementById("poka").style.display ="inherit";'>test</a>
+				<a onclick='rst();document.getElementById("tyt").innerHTML="jakieś info";document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";'>test</a>
 				
 				
 				
