@@ -41,6 +41,8 @@ image: assets/images/golab.jpg
 				
 				<a onclick='rst();document.getElementById("tyt").innerHTML=klauzula_tyt;document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";'>test</a>
 				
+				<a onclick='rst();document.getElementById("tyt").innerHTML=zgodarodo_tyt;document.getElementById("fikimiki").innerHTML=zgodarodo;document.getElementById("poka").style.display ="inherit";'>test2</a>
+				
 				
 				
    			</div>
