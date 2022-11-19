@@ -39,7 +39,7 @@ image: assets/images/golab.jpg
 				
 				
 				
-				<a onclick='rst();document.getElementById("tyt").innerHTML="jakieś info";document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";'>test</a>
+				<a onclick='rst();document.getElementById("tyt").innerHTML="KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH";document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";'>test</a>
 				
 				
 				
@@ -194,9 +194,7 @@ function rst(){
 
 };
 
-var klauzula = `<p>KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH</p>
-
-<p>Wypełniając obowiązek, o którym mowa w art. 13 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U.UE.L.2016.119.1 ze zm.) (dalej: RODO), informujemy, że:</p>
+var klauzula = `<p>Wypełniając obowiązek, o którym mowa w art. 13 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U.UE.L.2016.119.1 ze zm.) (dalej: RODO), informujemy, że:</p>
 
 <p>1. Administratorem Pani/Pana danych osobowych (dalej: Administrator) jest Natalia Anna Miękus-Purwin.</p>
 <p>2. Z Administratorem można się kontaktować pisemnie na adres ### ADRES NATALII ### lub poprzez pocztę elektroniczną na adres: miekusn@gmail.com</p>
