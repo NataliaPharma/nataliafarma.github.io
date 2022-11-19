@@ -8,7 +8,7 @@ image: assets/images/golab.jpg
 
 
 <!-- wyłażące okienko start -->
-<div id="poka" style="border:1px solid black;display:none;background-color:LightGray;overflow:scroll;position:fixed;width:95vw;height:80vh;left:2.5vw;top:10vh;z-index:900;color:black;">
+<div id="poka" style="border:1px solid black;display:none;background-color:LightGray;position:fixed;width:95vw;height:80vh;left:2.5vw;top:10vh;z-index:900;color:black;">
 	
 	<div id="poka2" style="width:95vw;position:fixed;">
           	<div style="background-color:gray;width:100%;text-align:right;height:2rem;color:white;">
@@ -19,7 +19,7 @@ image: assets/images/golab.jpg
 
 
 	</div>
-	        <p id="fikimiki" style="margin-top:2.5rem;margin-left:1rem;margin-right:1rem;"></p>
+	        <div id="fikimiki" style="margin-top:2.5rem;margin-left:1rem;margin-right:1rem;overflow:scroll;"></div>
 
 </div>
 
@@ -39,7 +39,7 @@ image: assets/images/golab.jpg
 				
 				
 				
-				<a onclick='rst();document.getElementById("tyt").innerHTML="KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH";document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";'>test</a>
+				<a onclick='rst();document.getElementById("tyt").innerHTML=klauzula_tyt;document.getElementById("fikimiki").innerHTML=klauzula;document.getElementById("poka").style.display ="inherit";'>test</a>
 				
 				
 				
@@ -194,6 +194,7 @@ function rst(){
 
 };
 
+var klauzula_tyt = "KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH";
 var klauzula = `<p>Wypełniając obowiązek, o którym mowa w art. 13 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U.UE.L.2016.119.1 ze zm.) (dalej: RODO), informujemy, że:</p>
 
 <p>1. Administratorem Pani/Pana danych osobowych (dalej: Administrator) jest Natalia Anna Miękus-Purwin.</p>
