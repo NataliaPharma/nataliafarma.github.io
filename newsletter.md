@@ -37,6 +37,8 @@ e) wiadomość otrzymana pocztą tradycyjną;</p>
 <p>Podanie przez Panią/Pana danych osobowych jest dobrowolne, niemniej jest niezbędne i jest warunkiem do przekazywania newsletteru.</p>
 <p>Pani/Pana dane osobowe nie będą wykorzystywane do zautomatyzowanego podejmowania decyzji, w tym do profilowania.</p>"
 
+</script>
+
 <!-- wyłażące okienko start -->
 <div id="poka" style="border:1px solid black;display:none;background-color:LightGray;overflow:scroll;position:fixed;width:95vw;height:80vh;left:2.5vw;top:10vh;z-index:900;color:black;">
 	
