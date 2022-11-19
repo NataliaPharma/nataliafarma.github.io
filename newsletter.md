@@ -19,7 +19,7 @@ image: assets/images/golab.jpg
 
 
 	</div>
-	        <div id="fikimiki" style="margin-top:2.5rem;margin-left:1rem;margin-right:1rem;"></div>
+	        <div id="fikimiki" style="margin-top:2.5rem;margin-left:1rem;margin-right:1rem;font-size:9px;"></div>
 
 </div>
 
