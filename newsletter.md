@@ -13,7 +13,7 @@ image: assets/images/golab.jpg
           	<div style="background-color:gray;width:100%;text-align:right;height:2rem;color:white;">
             		<div id="tyt" style="width:calc(100% - 2rem);position:absolute;text-align:center;">
 			</div>
-            		<img style="background-color:black;width:2rem;height:2rem;cursor:pointer;" src="https://autoserwis.leki.expert/static/iks2.jpg" onclick='document.getElementById("poka").style.display ="none";'></img>
+            		<img style="background-color:black;width:2rem;height:2rem;cursor:pointer;" src="https://autoserwis.leki.expert/static/iks2.jpg" onclick='document.getElementById("poka").style.display ="none";' />
            	 </div>
 
 
