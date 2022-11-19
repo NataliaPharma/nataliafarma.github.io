@@ -185,9 +185,17 @@ function cip(str) {
   return str.split('').map(translate).join('');
 }	
 	
+
+function rst(){
+
+  setTimeout(function() {document.getElementById('poka').scrollTo(0, 0);}, 100);
+
+
+}
+	
+	
 	
 </script>
-
 
 
 
