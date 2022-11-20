@@ -39,3 +39,7 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+
+webserver_headers:
+  "Access-Control-Allow-Origin": "*"
+  "Server": "https://autoserwis.leki.expert"
