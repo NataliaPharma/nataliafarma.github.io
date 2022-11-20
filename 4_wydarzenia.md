@@ -7,21 +7,18 @@ comments: true
 ---
 
 
-<!--
 <div class="image main">
-	  <div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/ptak2.jpg'); background-size: cover;">
-		&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
-		    
-  	</div>
-</div>
--->
-
-    <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/bocian.html" style="width:100%; aspect-ratio : 1 / 0.25;" > </iframe>	
-            <div style="background-color:rgba(0,0,0,0.7);text-align:center;" >
+     <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/bocian.html" style="width:100%; aspect-ratio : 1 / 0.25;" ></iframe>
+	
+     <div style="background-color:rgba(0,0,0,0.7);text-align:center;" >
+	    
 	         <h2> Kiliknij <a style="color:skyblue;cursor:pointer;" href="https://www.pharmabusters.pl/newsletter" > >>tutaj<< </a> by zapisać się do Newsletteru!</h2>
 	         <p>Nowe komunikaty pojawiające się na tej podstronie będą wpadnać prosto do Twojej skrzynki!</p>
-		 <p>&nbsp;</p>
-	    </div>
+     </div>
+	
+</div>
+
+
 
 
 
