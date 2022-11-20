@@ -9,8 +9,8 @@ comments: true
 <div class="image main">
 	  <div style="width:100%;background-image:url('https://www.pharmabusters.pl/assets/images/ptak2.jpg'); background-size: cover;">
 		&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
-		    <div style="background-color:rgba(0,0,0,0.7); text-align:center;">
-			    <h2> Kiliknij <a> >>tutaj<< </a> by zapisać się do newsletteru!<h2>
+		    <div style="background-color:rgba(0,0,0,0.7);text-align:center;" >
+			    <h2> Kiliknij <a> >>tutaj<< </a> by zapisać się do newsletteru!</h2>
 	    	   </div>
   	</div>
 </div>
