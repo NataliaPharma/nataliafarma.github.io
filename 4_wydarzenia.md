@@ -8,7 +8,7 @@ comments: true
 
 
 <div class="image main">
-     <div style="background-color:indigo;text-align:center;" >
+     <div style="background-color:PaleVioletRed;text-align:center;" >
 	         <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/golab.html" style="width:100%; aspect-ratio : 1 / 0.25;" ></iframe>
 	    
 	         <h3> Kiliknij <a style="color:skyblue;cursor:pointer;" href="https://www.pharmabusters.pl/newsletter" > >>tutaj<< </a> by zapisać się do Newsletteru!</h3>
