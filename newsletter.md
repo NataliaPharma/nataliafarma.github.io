@@ -192,7 +192,7 @@ function rst(){
 
 var zgodarodo_tyt = "Treść w oknie jest przewijalna.";
 var zgodarodo = `<p>ZGODA NA PRZETWARZANIE DANYCH OSOBOWYCH ZGODNIE Z RODO</p>
-<p>Wyrażam zgodę na przetwarzanie moich danych osobowych przez administratora danych - Natalię Annę Miękus-Purwin z siedzibą w Sopocie, ul. ### ulica gdzie zamieszkuje Natalia ###, numer CEIDG ### ??? ###. w następującym zakresie:</p>
+<p>Wyrażam zgodę na przetwarzanie moich danych osobowych przez administratora danych - Natalię Annę Miękus-Purwin z siedzibą w Gdyni 81-553, ul. Bernadowska 1a/6. w następującym zakresie:</p>
  
 <p>1)Imię.</p>
 <p>2)Adres e-mail.</p>
@@ -211,7 +211,7 @@ var klauzula_tyt = "Treść w oknie jest przewijalna.";
 var klauzula = `<p>KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH</p><p>Wypełniając obowiązek, o którym mowa w art. 13 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U.UE.L.2016.119.1 ze zm.) (dalej: RODO), informujemy, że:</p>
 
 <p>1. Administratorem Pani/Pana danych osobowych (dalej: Administrator) jest Natalia Anna Miękus-Purwin.</p>
-<p>2. Z Administratorem można się kontaktować pisemnie na adres ### ADRES NATALII ### lub poprzez pocztę elektroniczną na adres: miekusn@gmail.com</p>
+<p>2. Z Administratorem można się kontaktować pisemnie na adres Bernadowska 1a/6 81-553 Gdynia lub poprzez pocztę elektroniczną na adres: miekusn@gmail.com</p>
 <p>3. Pani/Pana dane osobowe są przetwarzane na podstawie art. 6 ust. 1 lit. a RODO - osoba, której dane dotyczą wyraziła zgodę na przetwarzanie swoich danych osobowych w jednym lub większej liczbie określonych celów.</p>
 <p>4. Dane osobowe są przetwarzane przez Administratora w celu przekazywania subskrybowanego newslettera.</p>
 <p>5.  Jednynym  odbiorcą dysponującym danymi osobowymi w formie niezaszyfrowanej jest administrator. Podmioty świadczące na rzecz Administratora w szczególności usługi telekomunikacyjne, informatyczne i księgowe oraz inne podmioty, które muszą zostać dopuszczone do przetwarzania Pani/Pana danych osobowych w powyższych celach przetwarzają je w formie zaszyfrowanej. Administrator nie udziela i nie udzieli żadnym osobom wglądu w otrzymane dane osobowe i nie zezwala ani nie zezwoli nikomu na wgląd w nie poza dwoma wyjątkami jakie stanowią:<br>
