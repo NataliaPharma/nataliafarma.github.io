@@ -9,7 +9,7 @@ comments: true
 
 <div class="image main">
      <div style="background-color:rgba(0,0,0,0.7);text-align:center;" >
-	         <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/bocian.html" style="width:100%; aspect-ratio : 1 / 0.25;" ></iframe>
+	         <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/golab.html" style="width:100%; aspect-ratio : 1 / 0.25;" ></iframe>
 	    
 	         <h3> Kiliknij <a style="color:skyblue;cursor:pointer;" href="https://www.pharmabusters.pl/newsletter" > >>tutaj<< </a> by zapisać się do Newsletteru!</h3>
 	         <p>Nowe komunikaty pojawiające się na tej podstronie będą wpadnać prosto do Twojej skrzynki!</p>
