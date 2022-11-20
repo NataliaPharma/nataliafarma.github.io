@@ -42,21 +42,12 @@ a:hover {
   </body>
 </html>
 
-<script>
-  
-import {
-  Scene,
-  Color,
-  PerspectiveCamera,
-  WebGLRenderer,
-  DirectionalLight,
-  HemisphereLight,
-  Vector3,
-  Clock,
-  AnimationMixer
-} from "three";
 
-import GLTFLoader from "three-gltf-loader";
+<script src="https://www.pharmabusters.pl/assets/js/three.min.js" ></script>
+<script src="https://www.pharmabusters.pl/assets/js/WebGL.js"></script>
+<script src="https://www.pharmabusters.pl/assets/js/GLTFLoader.js"></script>
+
+<script>
 
 let container;
 let camera;
@@ -124,7 +115,7 @@ function loadModels() {
 
   const storkPosition = new Vector3(0, -2.5, -10);
   loader.load(
-    "/src/models/Stork.glb",
+    "https://www.pharmabusters.pl/assets/Stork.glb",
     gltf => onLoad(gltf, storkPosition),
     onProgress
   );
