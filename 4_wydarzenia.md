@@ -15,7 +15,7 @@ comments: true
 	    	   </div>
   	</div>
 </div>
-	
+<iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/bocian.html" style="width:100%; aspect-ratio : 1 / 0.5;" > </iframe>	
 
 
 
