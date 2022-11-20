@@ -94,7 +94,7 @@ function createLights() {
 }
 
 function loadModels() {
-  const loader = new GLTFLoader();
+  const loader = new THREE.GLTFLoader();
 
   const onLoad = (result, position) => {
     const model = result.scene.children[0];
