@@ -11,7 +11,9 @@ comments: true
      <div style="background-color:PaleVioletRed;text-align:center;" >
 	     
 	         <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/golab.html" style="width:100%; aspect-ratio : 1 / 0.25;" ></iframe>
+	     <div style="width:100%;text-align:right;">
 	    <p style="font-size:8px;height:10px;margin-bottom:auto;margin-top:-20px;color:black;">license fmedfefds</p>
+	     </div>
 	         <h3> Kiliknij <a style="color:skyblue;cursor:pointer;" href="https://www.pharmabusters.pl/newsletter" > >>tutaj<< </a> by zapisać się do Newsletteru!</h3>
 	         <p>Nowe komunikaty pojawiające się na tej podstronie będą wpadnać prosto do Twojej skrzynki!</p>
      </div>
