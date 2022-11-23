@@ -1,3 +1,5 @@
+#liczba odwiedzin - nazwa strony <br>&nbsp;<br>
+
 <span id="baster0stats">?</span> - decoder <br>
 <span id="baster1stats">?</span> - strona startowa <br>
 <span id="baster2stats">?</span> - galeria <br>
