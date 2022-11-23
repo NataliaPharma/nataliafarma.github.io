@@ -25,6 +25,30 @@ Droga do zrozumienia siebie, swoich potrzeb zdrowotnych jest świetną przygodą
 
 A jak stoisz w miejscu i spodziewasz się innych efektów, mimo, że od lat postępujesz tak samo - poproś o pomoc to nic strasznego!
 
+<script>
+function licznikodw() {
+var xhr4 = new XMLHttpRequest();
+var url4 = "https://autoserwis.leki.expert/baster7/";
+xhr4.open("POST", url4, true);
+xhr4.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+xhr4.setRequestHeader("Data-Type", "json");
 
+xhr4.onreadystatechange = function () {
+    if (xhr4.readyState === 4 && xhr4.status === 200) {
+        var json = JSON.parse(xhr4.responseText);
+        var compare4 = json.info;
+        document.getElementById("wyswi").innerHTML = compare4;
+    }
+
+}
+
+var data4 = JSON.stringify('{"wtf": "logowanie"}');
+xhr4.send(data4);
+
+
+};
+
+licznikodw(); 
+</script>
 
 
