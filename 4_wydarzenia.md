@@ -10,7 +10,7 @@ comments: true
 <div class="image main">
      <div style="background-color:PaleVioletRed;text-align:center;" >
 	     <div style="position:absolute;width:100%;text-align:left;z-index:100;margin-bottom:0px;margin-top:0px;padding:0px;">
-	     <p style="font-size:8px;color:gray;margin-bottom:0px;margin-top:0px;padding:0px;">This work is based on "Pigeon" (https://sketchfab.com/3d-models/pigeon-5884a0f5200c44ceaa7d0399bea577f9) by FourthGreen (https://sketchfab.com/FourthGreen) licensed under CC-BY-4.0</p>
+	     <p style="font-size:6px;color:gray;margin-bottom:0px;margin-top:0px;padding:0px;">This work is based on "Pigeon" (https://sketchfab.com/3d-models/pigeon-5884a0f5200c44ceaa7d0399bea577f9) by FourthGreen (https://sketchfab.com/FourthGreen) licensed under CC-BY-4.0</p>
              </div>
 	         <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/golab.html" style="width:100%; aspect-ratio : 1 / 0.25;z-index:99;" ></iframe>
 	         <h3> Kiliknij <a style="color:skyblue;cursor:pointer;" href="https://www.pharmabusters.pl/newsletter" > >>tutaj<< </a> by zapisać się do Newsletteru!</h3>
