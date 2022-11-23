@@ -5,7 +5,6 @@ description: Work/life balance
 image: assets/images/enigma.jpg
 ---
 
-<p style="color:lime;">Test licznika odwiedzin: <span id="wyswi">?</span></p>
 
 
 <p>wklej zakodowane:</p>
