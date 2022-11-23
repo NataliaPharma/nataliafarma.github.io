@@ -1,4 +1,4 @@
-#liczba odwiedzin - nazwa strony <br>&nbsp;<br>
+#liczba odwiedzin (od 23.11.2022) - nazwa strony <br>&nbsp;<br>
 
 <span id="baster0stats">?</span> - decoder <br>
 <span id="baster1stats">?</span> - strona startowa <br>
