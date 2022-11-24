@@ -35,7 +35,6 @@ comments: true
   <source src="https://www.pharmabusters.pl/assets/olejki_zapowiedz.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio> 
-Więcej informacje wkrótce! 
 
 <hr class="major" />
 
