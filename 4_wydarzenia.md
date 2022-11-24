@@ -19,23 +19,23 @@ comments: true
 	
 </div>
 
+<br>&nbsp;<br>
 
-
-
-
-
-## Kolejne wydarzenia - w przygotowaniu.
-Stacjonarnie  - w trójmieście - już niedługo warsztaty/wykłady rozwojowe/ 10 pytań do....
-On-line - regularnie - jeśli chcesz dostać update, gdy będę organizowała wydarzenie - daj znać w newsletterze! Napiszę.
+## Wpadnij pobiegać!
+<span style="color:lime;">odbędzie się 2.12(piątek godź. 08:00), 11.12(niedziela godź. 09:00), 14.12.2022 (środa godź. 16:00)</span>
+<div style="text-align:center;">
+<img src="https://www.pharmabusters.pl/assets/images/fire2.jpg" alt="plakat" style="width:70%;" > 
+</div>
 ## Webinar - działanie olejków eterycznych na zdrowie.
-(odbędzie się 23.11.2022 o godzinie 20:00)
+<span style="color:gray;">odbyło się 23.11.2022 o godzinie 20:00</span>
  <audio controls>
   <source src="https://www.pharmabusters.pl/assets/olejki_zapowiedz.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio> 
 Więcej informacje wkrótce! 
+
 ## Listopadowa sesja "pytania i odpowiedzi" część pierwsza.
-(odbyło się 12.11.2022)<br>&nbsp;<br>
+<span style="color:gray;">odbyło się 12.11.2022</span><br>&nbsp;<br>
 <a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - link do podstrony z nagraniem części pierwszej.</a><br>&nbsp;<br>
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
