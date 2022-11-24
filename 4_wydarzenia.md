@@ -19,13 +19,16 @@ comments: true
 	
 </div>
 
-<br>&nbsp;<br>
+<hr class="major" />
 
 ## Wpadnij pobiegać!
 <span style="color:lime;">odbędzie się 2.12(piątek godź. 08:00), 11.12(niedziela godź. 09:00), 14.12.2022 (środa godź. 16:00)</span>
 <div style="text-align:center;">
-<img src="https://www.pharmabusters.pl/assets/images/fire2.jpg" alt="plakat" style="width:70%;" > 
+<img src="https://www.pharmabusters.pl/assets/images/trening.jpg" alt="plakat" style="width:70%;" > 
 </div>
+
+<hr class="major" />
+
 ## Webinar - działanie olejków eterycznych na zdrowie.
 <span style="color:gray;">odbyło się 23.11.2022 o godzinie 20:00</span>
  <audio controls>
@@ -33,6 +36,8 @@ comments: true
   Your browser does not support the audio tag.
 </audio> 
 Więcej informacje wkrótce! 
+
+<hr class="major" />
 
 ## Listopadowa sesja "pytania i odpowiedzi" część pierwsza.
 <span style="color:gray;">odbyło się 12.11.2022</span><br>&nbsp;<br>
