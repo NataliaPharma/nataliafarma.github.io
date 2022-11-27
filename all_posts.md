@@ -43,6 +43,7 @@ show_tile: false
 	<option>wykwintne dania</option>
 	<option>zdrowie społeczne</option>
 	<option>Q&A</option>
+	<option>prasa</option>
 	</select>
     </td>
 
@@ -70,6 +71,14 @@ show_tile: false
 	
 	function opracowania_obj_gen() {
 opr = [
+{
+tytul: "Polscy aptekarze zainteresowani holistycznym poejściem do pacjenta.",
+data: "27.11.2022",
+autor: "Miękus-Purwin Natalia",
+dzial: "prasa",
+art_link: "https://www.pharmabusters.pl/2022/11/27/polscy-aptekarze-zainteresowani.html",
+dzial_link: ""
+},	
 {
 tytul: "Seria Q&A (listopad 2022).",
 data: "12.11.2022",
