@@ -12,6 +12,7 @@
 <span id="baster9stats">?</span> - raz dwa trzy próba mikrofonu <br>
 <span id="baster10stats">?</span> - pytania i odpowiedzi listopad <br>
 <span id="baster11stats">?</span> - polscy aptekarze zainteresowani holistycznym podejściem <br>
+<span id="baster12stats">?</span> - pytania i odpowiedzi listopad cz.2 <br>
 
 
 
@@ -50,5 +51,6 @@ licznikodw("baster8stats");
 licznikodw("baster9stats"); 
 licznikodw("baster10stats"); 
 licznikodw("baster11stats"); 
+licznikodw("baster12stats"); 
   
 </script>
