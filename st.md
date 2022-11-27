@@ -11,6 +11,7 @@
 <span id="baster8stats">?</span> - kolo zycia <br>
 <span id="baster9stats">?</span> - raz dwa trzy próba mikrofonu <br>
 <span id="baster10stats">?</span> - pytania i odpowiedzi listopad <br>
+<span id="baster11stats">?</span> - polscy aptekarze zainteresowani holistycznym podejściem <br>
 
 
 
