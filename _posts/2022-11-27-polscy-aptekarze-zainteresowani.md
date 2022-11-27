@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Polscy aptekarze zainteresowani holistycznym podejściem do pacjenta.
-description: Work/life balance
-image: assets/images/kolo-zyciaa.png
+description: prasa
+image: assets/images/jotr.jpg
 ---
 
 
