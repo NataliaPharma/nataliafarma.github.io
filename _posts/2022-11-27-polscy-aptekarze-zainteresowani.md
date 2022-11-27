@@ -53,6 +53,32 @@ image: assets/images/kolo-zyciaa.png
 
 <p>(...)Działam także na rzecz opieki farmaceutycznej, możliwości jej świadczenia, staram się oferować wsparcie farmaceutów, którzy pytają mnie na temat jakości badań suplementów, przeglądam opracowania EMA dotyczące działania najnowszych leków, szczególnie tych budzących najwięcej kontrowersji. A ponadto biorę udział w szkoleniu ciągłym dla farmaceutów, jak każdy z nas i wciąż szkolę studentów farmacji, jeśli mają na to ochotę!Piszę również artykuły z pogranicza farmacji, metod naturalnych i zdrowia tak, aby zarazić pasją do nauki jak najwięcej osób.(...)</p>
 
+<hr class="major" />
+
+<blockquote style="margin-left:0px;">	
+		
+		<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = 'https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://pharmabusters.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
+</blockquote>
+
 
 
 
