@@ -22,7 +22,7 @@ comments: true
 <hr class="major" />
 
 ## Wpadnij pobiegać!
-<span style="color:lime;">odbędzie się 2.12(piątek godź. 08:00), 11.12(niedziela godź. 09:00), 14.12.2022 (środa godź. 16:00)</span>
+<span style="color:lime;">odbędzie się 2.12(piątek godz. 08:00), 11.12(niedziela godz. 09:00), 14.12.2022 (środa godz. 16:00)</span>
 <div style="text-align:center;">
 <img src="https://www.pharmabusters.pl/assets/images/trening.jpg" alt="plakat" style="width:70%;" > 
 </div>
