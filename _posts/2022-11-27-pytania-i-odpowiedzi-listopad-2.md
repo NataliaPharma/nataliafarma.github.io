@@ -10,6 +10,11 @@ image: assets/images/qa_listopad_2022_2.jpg
 <p>&nbsp;</p>
 
 <p>Spis treści:<br>&nbsp;<br>
+	
+0m00s Czemu nie psychodietetyk? Czemu Holistic Health?
+2m14s Łatwe metody na odporność psychiczną.
+4m30s Aby niejadek zjadł... warzywa?
+7m44s Choroby układu krążenia - czy możemy zastosować prewencję dietetyczną?
 
 <hr class="major" />
 
@@ -22,7 +27,7 @@ image: assets/images/qa_listopad_2022_2.jpg
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
     var disqus_config = function () {
-    this.page.url = 'https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.url = 'https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html';  // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     */
