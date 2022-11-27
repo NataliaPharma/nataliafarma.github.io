@@ -72,6 +72,14 @@ show_tile: false
 	function opracowania_obj_gen() {
 opr = [
 {
+tytul: "Seria Q&A (listopad 2022 cz.II).",
+data: "27.11.2022",
+autor: "Miękus-Purwin Natalia",
+dzial: "Q&A",
+art_link: "https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html",
+dzial_link: ""
+},	
+{
 tytul: "Polscy aptekarze zainteresowani holistycznym poejściem do pacjenta.",
 data: "27.11.2022",
 autor: "Miękus-Purwin Natalia",
