@@ -80,7 +80,7 @@ art_link: "https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad
 dzial_link: ""
 },	
 {
-tytul: "Polscy aptekarze zainteresowani holistycznym poejściem do pacjenta.",
+tytul: "Polscy aptekarze zainteresowani holistycznym podejściem do pacjenta.",
 data: "27.11.2022",
 autor: "Miękus-Purwin Natalia",
 dzial: "prasa",
