@@ -16,7 +16,7 @@
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input style="display:none;" type="submit" value="Wyślij" class="special" /></li>
+					<li><input id="wysylajx" style="display:none;" type="submit" value="Wyślij" class="special" /></li>
 					<li><input style="display:none;" type="reset" value="Wyczyść" /></li>
 				</ul>
 			</form>
@@ -127,11 +127,12 @@
 <!-- Scripts -->
 
 <script>
+	
 
 var checkbox0x = document.querySelector("input[name=zgoda0x]");
 var checkbox1x = document.querySelector("input[name=zgoda1x]");
 	
-//var pole0 = document.querySelector("input[name=imie]");
+var pole3 = document.querySelector("input[name=message]");
 //var pole1 = document.querySelector("input[name=mail]");
 
 //var send0 = document.querySelector("input[name=email]");
@@ -152,6 +153,46 @@ checkbox0x.addEventListener('change', function() {
      document.getElementById("check1x").style.backgroundColor="rgba(255,0,0,0.1)";
    }
  });
+	
+	
+function nacisnietox() {
+	
+var okix = 1;
+	
+        if (checkbox0x.checked == false || checkbox1x.checked == false ) {
+	alert("Nie wyrazono potrzebnych zgód.");
+	okix = 0;
+	}
+	
+	
+        if (pole3.value == "") {
+	alert("treść wiadomości pusta :(");
+	okix = 0;
+	}
+	
+	if (okix == 1) {
+	
+        //send3.value = cip(pole0.value + " # " + pole1.value);
+	document.getElementById("wysylajx").click();
+	} 
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 </script>
 
