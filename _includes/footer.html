@@ -22,12 +22,12 @@
 			</form>
 			<div style="width:100%; margin-top:-5em; margin-bottom:auto">
 			<input type="checkbox0x" id="coding" name="zgoda0x" value="coding" style="width:2em;height:2em;"/>
-			<span id="check0x" style="font-size:18px;border:1px solid red;" >Zgadzam się by moje dane osobowe były przetwarzane w celu prowadzenia korespondencji e-mail związanej z realizacją konsultacji,
+			<span id="check0x" style="font-size:18px;border:0px solid red;" >Zgadzam się by moje dane osobowe były przetwarzane w celu prowadzenia korespondencji e-mail związanej z realizacją konsultacji,
 				edukacji i usług świadczonych przez Natalia Miękus-Purwin. Więcej o zasadach: KLAUZULA RODO,
 				Zgoda na przetwarzanie danych osobowych zgodnie Z RODO.
 				Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span><br>
 			<input type="checkbox1x" id="coding" name="zgoda1x" value="coding" style="width:2em;height:2em;"/>
-			<span id="check1x" style="font-size:18px;border:1px solid red;"  >Wyrażam zgodę na wykorzystywanie przez Natalię Miękus-Purwin telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne.
+			<span id="check1x" style="font-size:18px;border:0px solid red;"  >Wyrażam zgodę na wykorzystywanie przez Natalię Miękus-Purwin telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne.
 				Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania,
 				którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span><br>
 				&nbsp;<br>
@@ -128,8 +128,8 @@
 
 <script>
 
-var checkbox0x = document.querySelector("input[name=zgoda0x]");
-var checkbox1x = document.querySelector("input[name=zgoda1x]");
+// var checkbox0x = document.querySelector("input[name=zgoda0x]");
+// var checkbox1x = document.querySelector("input[name=zgoda1x]");
 	
 //var pole0 = document.querySelector("input[name=imie]");
 //var pole1 = document.querySelector("input[name=mail]");
@@ -137,21 +137,21 @@ var checkbox1x = document.querySelector("input[name=zgoda1x]");
 //var send0 = document.querySelector("input[name=email]");
 //var send1 = document.querySelector("textarea[name=message]");
 
-checkbox0x.addEventListener('change', function() {
-  if (this.checked) {
-    document.getElementById("check0x").style.border="1px solid lime";
-  } else {
-    document.getElementById("check0x").style.border="1px solid red";
-  }
-});
+//checkbox0x.addEventListener('change', function() {
+//  if (this.checked) {
+//     document.getElementById("check0x").style.border="1px solid lime";
+//   } else {
+//     document.getElementById("check0x").style.border="1px solid red";
+//   }
+// });
 	
-checkbox1x.addEventListener('change', function() {
-  if (this.checked) {
-    document.getElementById("check1x").style.border="1px solid lime";
-  } else {
-    document.getElementById("check1x").style.border="1px solid red";
-  }
-});
+// checkbox1x.addEventListener('change', function() {
+//   if (this.checked) {
+//     document.getElementById("check1x").style.border="1px solid lime";
+//   } else {
+//     document.getElementById("check1x").style.border="1px solid red";
+//   }
+// });
 
 </script>
 
