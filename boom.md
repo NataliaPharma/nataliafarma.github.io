@@ -14,7 +14,7 @@
 
 .a2 {
   width: 100%;
-  min-height: 100%;
+  height: 80vw;
   overflow: hidden;
 }
 
@@ -31,7 +31,7 @@
 }
 .wrap .girl {
   border: #fffefe 10px solid;
-  background: url("https://res.cloudinary.com/malaika/image/upload/e_grayscale/v1564579524/d7isyf5-137c7a98-d161-496f-9753-f96f530be3be_1.png") no-repeat;
+  background: url("https://autoserwis.leki.expert/static/siad.png") no-repeat;
   margin-left: 0;
   width: 450px;
   height: 600px;
@@ -116,7 +116,7 @@ button {
 
 @media only screen and (max-width: 768px) {
   .girl {
-    background: url(https://res.cloudinary.com/malaika/image/upload/v1564328867/Gabriella-Wilde-PNG-HD_1_2.png) no-repeat cover fixed;
+    background: url(https://autoserwis.leki.expert/static/siad.png) no-repeat cover fixed;
   }
 
   h1 {
@@ -128,12 +128,10 @@ button {
 
 <div class="a1">
 <div class="a2">
-	
-	
-	
+
 <div class="wrap">
 	<div class="girl"></div>
-	<h1>This is Inspired Fashion <span>.</span></h1>
+	<h1>&nbsp; &nbsp; &nbsp;We can do it right way.&nbsp;<span></span></h1>
   <div class="list">
     <div class="item">
       <div class="img" style="background-image: url(https://images.unsplash.com/photo-1495462911434-be47104d70fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80)"></div>
@@ -185,6 +183,6 @@ button {
 		<button>Buy Now</button>
   </div>
 </div>
-
 </div>
+
 </div>
