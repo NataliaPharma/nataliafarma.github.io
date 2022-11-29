@@ -14,7 +14,7 @@
 
 .a2 {
   width: 100%;
-  height: 40vw;
+  height: 30vw;
   overflow: hidden;
 }
 
@@ -131,7 +131,7 @@ button {
 
 <div class="wrap">
 	<div class="girl"></div>
-	<h1>&nbsp; &nbsp; &nbsp;We can do it right way.&nbsp;<span></span></h1>
+	<h1>We can do it right way.&nbsp;<span></span></h1>
   <div class="list">
     <div class="item">
       <div class="img" style="background-image: url(https://images.unsplash.com/photo-1495462911434-be47104d70fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80)"></div>
