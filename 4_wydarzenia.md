@@ -21,6 +21,17 @@ comments: true
 
 <hr class="major" />
 
+## Listopadowa sesja "pytania i odpowiedzi" część pierwsza.
+<span style="color:gray;">odbyło się 27.11.2022</span><br>&nbsp;<br>
+<a href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html">Listopadowa sesja - link do podstrony z nagraniem części drugiej.</a><br>&nbsp;<br>
+W 2 części listopadowego "QandA" można usłyszeć m.in. o tym czym jest Holistic Health, jak budować odporność psychiczną, jak podejść małego niejadka stroniącego od warzyw oraz, na koniec, o tym jakie znaczenie w prewencji chorób układu krążenia ma dieta.
+<br>
+Mało? Masz pytania, które chciałbyś zadać? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w kolejnej sesji "QandA". Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
+
+
+
+<hr class="major" />
+
 ## Wpadnij pobiegać!
 <span style="color:lime;">odbędzie się 2.12(piątek godz. 08:00), 11.12(niedziela godz. 09:00), 14.12.2022 (środa godz. 16:00)</span>
 <div style="text-align:center;">
