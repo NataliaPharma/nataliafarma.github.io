@@ -59,7 +59,7 @@ nav-menu: true
 			<hr class="major" />
 			
 			<div style="width:100%; text-align:center;" >
-                                 <a href=""><img style="width:10%;" src="https://autoserwis.leki.expert/static/pdf.jpg" alt="" /></a><br> <a href="">Pobierz cennik.</a>
+                                 <a href=""><img style="width:10%;" src="https://www.pharmabusters.pl/assets/images/pdfic.jpg" alt="" /></a><br> <a href="">Pobierz cennik.</a>
 			</div>
 			
 			<hr class="major" />
