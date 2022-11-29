@@ -14,7 +14,7 @@ image: assets/images/qa_listopad_2022_2.jpg
 <b>0m00s</b> - Czemu nie psychodietetyk? Czemu Holistic Health?<br>
 <b>2m14s</b> - Łatwe metody na odporność psychiczną.<br>
 <b>4m30s</b> - Aby niejadek zjadł... warzywa?<br>
-<b>7m44s</b> - Choroby układu krążenia - czy możemy zastosować prewencję dietetyczną?<br.
+<b>7m44s</b> - Choroby układu krążenia - czy możemy zastosować prewencję dietetyczną?<br>
 
 <hr class="major" />
 
