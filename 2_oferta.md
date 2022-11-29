@@ -55,6 +55,13 @@ nav-menu: true
 	 	
 	
 	   	<div style="width:100%;">
+			
+			<hr class="major" />
+			
+			<div style="width:100%; text-align:center;" >
+                                 <a href=""><img style="width:10%;" src="https://autoserwis.leki.expert/static/pdf.jpg" alt="" /></a> <a href="">Cennik</a>
+			</div>
+			
 			<hr class="major" />
 		</div>
 	
