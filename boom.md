@@ -19,7 +19,7 @@
 }
 
 .wrap {
-  display: none;
+
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -54,6 +54,7 @@
   font-weight: 1000;
 }
 .wrap .list {
+  display: none;
   width: 80%;
   height: 150vh;
   overflow-x: hidden;
