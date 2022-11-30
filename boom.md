@@ -14,7 +14,7 @@
 
 .a2 {
   width: 100%;
-  height: 30vw;
+  height: 35vw;
   overflow: hidden;
 }
 
