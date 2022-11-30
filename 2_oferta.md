@@ -100,14 +100,14 @@ nav-menu: true
 
 </div>
 
-<!-- koniec obrazka -->
 
 
 
 
 <div id="main" class="alt">
-	<div style="position:absolute; width:50%; border: 0px dotted red; height:52.5vw;top:0px;left:auto;right:0px;text-align:left;">
-	     <span style="font-size:36vw;margin-top:0vw;margin-bottom:auto;color:gray;">↴</span>
+	
+	<div style="position:absolute; width:50%; border: 0px dotted red; height:60w;top:0px;left:auto;right:0px;text-align:left;">
+	     <span style="font-size:40vw;margin-top:0vw;margin-bottom:auto;color:black;">↴</span>
 	</div>
 
 	
