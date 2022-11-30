@@ -91,9 +91,7 @@ nav-menu: true
 	<div class="girl"></div>
 	<h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
   
-     <div style="position:absolute; width:50%; border: 1px dotted red; height:52.5vw;left:auto;right:0px;text-align:left;">
-	     <span style="font-size:35vw;margin-top:0vw;margin-bottom:auto;color:black;">↴</span>
-	</div>
+     
 	
 	
 </div>
@@ -108,7 +106,9 @@ nav-menu: true
 
 
 <div id="main" class="alt">
-	
+	<div style="position:absolute; width:50%; border: 0px dotted red; height:52.5vw;top:0px;left:auto;right:0px;text-align:left;">
+	     <span style="font-size:36vw;margin-top:0vw;margin-bottom:auto;color:gray;">↴</span>
+	</div>
 
 	
 <section id="one">
