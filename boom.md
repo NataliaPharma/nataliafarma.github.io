@@ -103,7 +103,7 @@
   position: relative;
 }
 
-button {
+.buttonx {
   border: 2px solid black;
   padding: 10px;
   z-index: 9999;
@@ -119,7 +119,7 @@ button {
     background: url(https://autoserwis.leki.expert/static/siad.png) no-repeat cover fixed;
   }
 
-  h1 {
+  .headerx {
     display: none;
   }
 }
@@ -131,24 +131,24 @@ button {
 
 <div class="wrap">
 	<div class="girl"></div>
-	<h1>&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
+	<h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
   <div class="list">
     <div class="item">
       <div class="img" style="background-image: url(https://images.unsplash.com/photo-1495462911434-be47104d70fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80)"></div>
     </div>
-		<button>Buy Now</button>
+		<button class="buttonx" >Buy Now</button>
     <div class="item">
       <div class="img" style="background-image: url(https://images.unsplash.com/photo-1501441858156-e505fb04bfbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80)"></div>
     </div>
-		<button>Buy Now</button>
+		<button class="buttonx">Buy Now</button>
     <div class="item">
       <div class="img" style="background-image: url(https://images.unsplash.com/photo-1502736842968-bcaab72d0700?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80)"></div>
     </div>
-		<button>Buy Now</button>
+		<button class="buttonx">Buy Now</button>
     <div class="item">
       <div class="img" style="background-image: url(https://images.unsplash.com/photo-1495137675798-14250d1e9070?ixlib=rb-1.2.1&auto=format&fit=crop&w=627&q=80)"></div>
     </div>
-		<button>Buy Now</button>
+		<button class="buttonx">Buy Now</button>
 
   </div>
 </div>
