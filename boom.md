@@ -149,38 +149,7 @@ button {
       <div class="img" style="background-image: url(https://images.unsplash.com/photo-1495137675798-14250d1e9070?ixlib=rb-1.2.1&auto=format&fit=crop&w=627&q=80)"></div>
     </div>
 		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1524401581-85ee6d7d2ccd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)"></div>
-    </div>
-		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1485014749802-1dba3a03984c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)"></div>
-    </div>
-		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1503043259787-e75660c42572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=672&q=80)"></div>
-    </div>
-		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1472646189317-418747480cd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)"></div>
-		</div>
-		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1493848015788-45ad0e9f4186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=717&q=80)"></div>
-    </div>
-		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1521860908473-fa7dae377c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)"></div>
-    </div>
-		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1478604793707-b3a982845b32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)"></div>
-    </div>
-		<button>Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1503758425033-cd7b21496e21?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)"></div>
-    </div>
-		<button>Buy Now</button>
+
   </div>
 </div>
 </div>
