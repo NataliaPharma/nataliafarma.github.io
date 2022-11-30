@@ -93,7 +93,7 @@ nav-menu: true
 	<div class="girl"></div>
 	<h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
 	
-       <div style="margin-right:0px;left:auto;text-align:right;">
+       <div style="margin-right:50vw;margin-left:auto;text-align:right;">
 		    <h1 style="transform: rotate(0deg);">Oferta</h1>
 	</div>
 	 
