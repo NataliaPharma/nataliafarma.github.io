@@ -92,7 +92,7 @@ nav-menu: true
 	<h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
   
      <div style="position:absolute; width:50%; border: 1px dotted red; height:52.5vw;left:auto;right:0px;text-align:left;">
-	     <span style="font-size:30vw;margin-top:0vw;margin-bottom:auto;color:black;">↴</span>
+	     <span style="font-size:35vw;margin-top:0vw;margin-bottom:auto;color:black;">↴</span>
 	</div>
 	
 	
