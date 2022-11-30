@@ -87,7 +87,7 @@
   
      <div style="width:50%; border: 1px solid red; height:100%; margin-right:0px;margin-left:auto; ">
       podstrona w rekonstrukcji :)
-     </div0
+	</div>
 	
 	
 </div>
