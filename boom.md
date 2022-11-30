@@ -85,6 +85,11 @@
 	<div class="girl"></div>
 	<h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
   
+     <div style="width:50%; border: 1px solid red; height:100%; margin-right:0px;margin-left:auto; ">
+      podstrona w rekonstrukcji :)
+     </div0
+	
+	
 </div>
 	
 </div>
