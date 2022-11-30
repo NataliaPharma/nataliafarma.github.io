@@ -53,57 +53,7 @@
   color: black;
   font-weight: 1000;
 }
-.wrap .list {
-  display: none;
-  width: 80%;
-  height: 150vh;
-  overflow-x: hidden;
-  webkit-transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
-  transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
-  margin: 0 0 0 200px;
-  padding: 150px 100px 500px 0;
-  scrollbar-width: none;
-}
-.wrap .list::-webkit-scrollbar {
-  display: none;
-}
-.wrap .list::-webkit-scrollbar {
-  display: none;
-}
-.wrap .list::-webkit-scrollbar {
-  display: block;
-}
-.wrap .list .item {
-  filter: grayscale(100%);
-  width: 30%;
-  height: 400px;
-  margin: 20px;
-  display: inline-block;
-  position: relative;
-}
-.wrap .list .item::after {
-  content: "";
-  position: absolute;
-  z-index: 150;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3960c8e1-d90e-4e60-8522-816b41b93892/d84vq6v-5985a860-c6c3-453c-a0ae-e80e5e5abf06.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM5NjBjOGUxLWQ5MGUtNGU2MC04NTIyLTgxNmI0MWI5Mzg5MlwvZDg0dnE2di01OTg1YTg2MC1jNmMzLTQ1M2MtYTBhZS1lODBlNWU1YWJmMDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.G2ljZtN3fPs4NhvF-fCGxl_97BA4w8kvt_qGyJH1RNI");
-  opacity: 0.1;
-}
-.wrap .list .item .img {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  box-shadow: 1px 1px 50px 0 #000;
-  -webkit-transform-origin: 100% 50%;
-  -ms-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
-  z-index: 10;
-  position: relative;
-}
+
 
 .buttonx {
   border: 2px solid black;
@@ -134,26 +84,9 @@
 <div class="wrap">
 	<div class="girl"></div>
 	<h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
-  <div class="list">
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1495462911434-be47104d70fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80)"></div>
-    </div>
-		<button class="buttonx" >Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1501441858156-e505fb04bfbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80)"></div>
-    </div>
-		<button class="buttonx">Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1502736842968-bcaab72d0700?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80)"></div>
-    </div>
-		<button class="buttonx">Buy Now</button>
-    <div class="item">
-      <div class="img" style="background-image: url(https://images.unsplash.com/photo-1495137675798-14250d1e9070?ixlib=rb-1.2.1&auto=format&fit=crop&w=627&q=80)"></div>
-    </div>
-		<button class="buttonx">Buy Now</button>
-
-  </div>
+  
 </div>
+	
 </div>
 
 </div>
