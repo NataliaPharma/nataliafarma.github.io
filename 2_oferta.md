@@ -159,7 +159,7 @@ nav-menu: true
 			
 			<div style="width:100%; text-align:center;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:2em;" >
 				<div style="position:absolute; width:40%;height:15em;left:auto;right:4em;text-align:right;">
-	                 <span style="font-size:15vw;color:white;">Cennik</span>
+	                 <span style="font-size:15vw;color:white;margin-top:-15em;margin-bottom:auto;">Cennik</span>
 	                        </div>
 				
 				
