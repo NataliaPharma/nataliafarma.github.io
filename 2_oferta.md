@@ -108,7 +108,7 @@ nav-menu: true
 <div id="main" class="alt">
 	
 	<div style="position:absolute; width:65%; border: 0px dotted red; height:60w;top:0px;left:auto;right:0px;text-align:left;">
-	     <span style="font-size:40vw;margin-top:0vw;margin-bottom:auto;color:#333;">↴</span><span style="font-size:4em;color:#333;">Oferta</span>
+	     <span style="font-size:40vw;margin-top:0vw;margin-bottom:auto;color:#333;">↴</span><span style="font-size:6em;color:white;">Oferta</span>
 	</div>
 
 	
