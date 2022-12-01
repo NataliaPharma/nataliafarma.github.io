@@ -93,11 +93,6 @@ nav-menu: true
 	<div class="girl"></div>
 	<h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
 	
-       <div style="margin-right:50vw;margin-left:auto;text-align:right;">
-		    <h1 style="transform: rotate(0deg);">Oferta</h1>
-	</div>
-	 
-     
 	
 	
 </div>
@@ -113,7 +108,7 @@ nav-menu: true
 <div id="main" class="alt">
 	
 	<div style="position:absolute; width:65%; border: 0px dotted red; height:60w;top:0px;left:auto;right:0px;text-align:left;">
-	     <span style="font-size:40vw;margin-top:0vw;margin-bottom:auto;color:#333;">↴</span>
+	     <span style="font-size:40vw;margin-top:0vw;margin-bottom:auto;color:#333;">↴</span><span style="font-size:4em;color:#333;">Oferta</span>
 	</div>
 
 	
