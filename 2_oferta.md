@@ -12,10 +12,7 @@ nav-menu: true
 
 .a1 {
   background: url(https://pharmabusters.pl/assets/images/tlofiolet.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ 
 }
 
 .a2 {
