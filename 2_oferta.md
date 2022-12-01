@@ -11,7 +11,7 @@ nav-menu: true
 }
 
 .a1 {
-  background: url(https://res.cloudinary.com/malaika/image/upload/v1564327185/parallax-h-img-1_2.jpg) no-repeat center center fixed;
+  background: url(https://pharmabusters.pl/assets/images/tlofiolet.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
