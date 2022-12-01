@@ -151,7 +151,6 @@ nav-menu: true
 			</ul>
 				
 			<div style="position:absolute; width:60%;height:15em;left:auto;right:4em;text-align:right;">
-				<span style="font-size:4vw;color:white;">&nbsp; &nbsp;</span><br>
 	                 <span style="font-size:16vw;color:white;">Cennik</span>
 	                        </div>	
 		</div>
