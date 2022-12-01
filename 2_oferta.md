@@ -163,7 +163,6 @@ nav-menu: true
 			
 			
 			
-			<hr class="major" />
 			
 			<div style="width:100%; text-align:left;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:4em;" >
 				
