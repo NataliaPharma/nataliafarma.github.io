@@ -157,8 +157,8 @@ nav-menu: true
 			
 			<hr class="major" />
 			
-			<div style="width:100%; text-align:center;xbackground: url(https://pharmabusters.pl/assets/images/tlofiolet.jpg); xpadding:4em;" >
-                                 <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:10%;" src="https://www.pharmabusters.pl/assets/images/pdfic.jpg" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf">Pobierz cennik.</a>
+			<div style="width:100%; text-align:center;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:2em;" >
+                                 <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:10%;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
 			</div>
 			
 			<hr class="major" />
