@@ -150,9 +150,9 @@ nav-menu: true
 				<li>Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny. Holistyczne ścieżki zdrowia.</li>
 			</ul>
 				
-			<div style="position:absolute; width:40%;height:15em;left:auto;right:4em;text-align:right;">
-				<span style="font-size:8vw;color:white;">&nbsp; &nbsp;</span><br>
-	                 <span style="font-size:14vw;color:white;">Cennik</span>
+			<div style="position:absolute; width:60%;height:15em;left:auto;right:4em;text-align:right;">
+				<span style="font-size:4vw;color:white;">&nbsp; &nbsp;</span><br>
+	                 <span style="font-size:16vw;color:white;">Cennik</span>
 	                        </div>	
 		</div>
 
