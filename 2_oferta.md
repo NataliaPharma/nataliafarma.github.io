@@ -47,7 +47,7 @@ nav-menu: true
   left: -5%;
   transform: rotate(-49deg);
   color: #333;
-  font-size: 4em;
+  font-size: 4vw;
   font-family: Raleway, sans-serif;
   top: 25%;
   position: absolute;
