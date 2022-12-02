@@ -110,7 +110,7 @@ nav-menu: true
 
 	
 <section id="one">
-	<div class="inner">
+	<div class="inner" style="backgroud-color:snow;color:black;">
 		<h2>&nbsp;</h2>
 		<header class="major">
 			<h1>Możliwości współpracy:</h1>
@@ -151,7 +151,8 @@ nav-menu: true
 			</ul>
 				
 			<div style="position:absolute; width:60%;height:15em;left:auto;right:4em;text-align:right;">
-	                 <span style="font-size:16vw;color:white;">Cennik</span>
+			 <span style="font-size:4vw;color:white;">&nbsp;</span>
+	                 <span style="font-size:12vw;color:white;">Za jedyne...</span>
 	                        </div>	
 		</div>
 
