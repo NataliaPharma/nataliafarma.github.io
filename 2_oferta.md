@@ -35,7 +35,8 @@ nav-menu: true
 }
 .wrap .girl {
   border: #fffefe 0.5vw solid;
-  background: url("https://autoserwis.leki.expert/static/siad.png") contain no-repeat;
+  background: url("https://autoserwis.leki.expert/static/siad.png") no-repeat;
+  background-size: contain;
   margin-left: 0;
   width: 23.5vw;
   height: 31.3vw;
