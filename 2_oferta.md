@@ -34,13 +34,13 @@ nav-menu: true
   perspective-origin: 100% 50%;
 }
 .wrap .girl {
-  border: #fffefe 10px solid;
+  border: #fffefe 0.5vw solid;
   background: url("https://autoserwis.leki.expert/static/siad.png") no-repeat;
   margin-left: 0;
-  width: 450px;
-  height: 600px;
+  width: 23.5vw;
+  height: 31.3vw;
   bottom: 0%;
-  top: 10%;
+  top: 3vw;
   position: absolute;
 }
 .wrap h1 {
@@ -104,7 +104,7 @@ nav-menu: true
 
 <div id="main" class="alt">
 	
-	<div style="position:absolute; width:65%; border: 0px dotted red; height:60w;top:15vw;left:auto;right:0px;text-align:left;">
+	<div style="position:absolute; width:65%; border: 0px dotted red;top:15vw;left:auto;right:0px;text-align:left;">
 	     <span style="font-size:24vw;color:white;">Oferta</span>
 	</div>
 
