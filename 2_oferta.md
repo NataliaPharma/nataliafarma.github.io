@@ -151,7 +151,7 @@ nav-menu: true
 				<li>Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny. Holistyczne ścieżki zdrowia.</li>
 			</ul>
 				
-			<div style="position:absolute; width:60%;height:15em;left:auto;right:4em;text-align:right;">
+			<div style="position:absolute; width:60%;xxxheight:15em;left:auto;right:4em;text-align:right;">
 			 <span style="font-size:12vw;color:white;">&nbsp;</span>
 	                 <span style="font-size:9vw;color:white;">za jedyne...</span>
 	                        </div>	
@@ -165,10 +165,10 @@ nav-menu: true
 			
 			
 			
-			<div style="width:100%; text-align:left;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:4em;" >
+			<div style="width:100%; text-align:left;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:5vw;" >
 				
 				
-                                 <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:10%;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
+                                 <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
 			</div>
 			
 			<hr class="major" />
