@@ -151,8 +151,8 @@ nav-menu: true
 			</ul>
 				
 			<div style="position:absolute; width:60%;height:15em;left:auto;right:4em;text-align:right;">
-			 <span style="font-size:14vw;color:white;">&nbsp;</span>
-	                 <span style="font-size:8vw;color:white;">za jedyne...</span>
+			 <span style="font-size:12vw;color:white;">&nbsp;</span>
+	                 <span style="font-size:9vw;color:white;">za jedyne...</span>
 	                        </div>	
 		</div>
 
