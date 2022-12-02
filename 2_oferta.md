@@ -102,7 +102,7 @@ nav-menu: true
 
 
 
-<div id="main" class="alt">
+<div id="main" class="alt" style="backgroud-color:gray;color:black;">
 	
 	<div style="position:absolute; width:65%; border: 0px dotted red; height:60w;top:15vw;left:auto;right:0px;text-align:left;">
 	     <span style="font-size:24vw;color:white;">Oferta</span>
@@ -110,7 +110,7 @@ nav-menu: true
 
 	
 <section id="one">
-	<div class="inner" style="backgroud-color:snow;color:black;">
+	<div class="inner" >
 		<h2>&nbsp;</h2>
 		<header class="major">
 			<h1>Możliwości współpracy:</h1>
@@ -151,8 +151,8 @@ nav-menu: true
 			</ul>
 				
 			<div style="position:absolute; width:60%;height:15em;left:auto;right:4em;text-align:right;">
-			 <span style="font-size:4vw;color:white;">&nbsp;</span>
-	                 <span style="font-size:12vw;color:white;">Za jedyne...</span>
+			 <span style="font-size:12vw;color:white;">&nbsp;</span>
+	                 <span style="font-size:9vw;color:white;">za jedyne...</span>
 	                        </div>	
 		</div>
 
