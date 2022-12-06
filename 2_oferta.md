@@ -187,7 +187,7 @@ nav-menu: true
 		<div class="4u 12u$(medium)">
 			<h3>EDUKACJA</h3>
 			<div style="width:100%;text-align:center;">
-				<img style="height:calc(10vw + 5vh);" src="https://www.pharmabusters.pl/assets/images/edu.png" alt="" />
+				<img style="height:calc(10vw + 5vh);" src="https://www.pharmabusters.pl/assets/images/edu2.png" alt="" />
 			</div>
 			<p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia! </p>
 		</div>
