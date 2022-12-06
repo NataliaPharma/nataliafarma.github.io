@@ -179,7 +179,7 @@ nav-menu: true
 		
 			<h3>AKTYWIZACJA</h3>
 				<div style="width:100%;text-align:center;">
-				<img style="height:10vw;" src="https://www.pharmabusters.pl/assets/images/aktyw.png" alt="" />
+				<img style="height:calc(10vw + 5vh);" src="https://www.pharmabusters.pl/assets/images/aktyw.png" alt="" />
 				</div>
 			<p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
 		</div>
@@ -187,7 +187,7 @@ nav-menu: true
 		<div class="4u 12u$(medium)">
 			<h3>EDUKACJA</h3>
 			<div style="width:100%;text-align:center;">
-				<img style="height:10vw;" src="https://www.pharmabusters.pl/assets/images/edu.png" alt="" />
+				<img style="height:calc(10vw + 5vh);" src="https://www.pharmabusters.pl/assets/images/edu.png" alt="" />
 			</div>
 			<p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia! </p>
 		</div>
@@ -195,7 +195,7 @@ nav-menu: true
 		<div class="4u$ 12u$(medium)">
 			<h3>WSPÓLNA PRACA NAD ZMIANĄ</h3>
 			<div style="width:100%;text-align:center;">
-				<img style="height:10vw;" src="https://www.pharmabusters.pl/assets/images/coop.png" alt="" />
+				<img style="height:calc(10vw + 5vh);" src="https://www.pharmabusters.pl/assets/images/coop.png" alt="" />
 			</div>
 			<p>Dlaczego ludzie przerzucają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę, mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu. </p>
 		</div>
