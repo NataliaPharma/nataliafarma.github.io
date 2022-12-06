@@ -12,8 +12,8 @@
   
   </style>
   <html>
-<script src="/static/three.min.js" ></script>
-<script src="/static/WebGL.js"></script>
+<script src="https://www.pharmabusters.pl/assets/js/three.min.js" ></script>
+<script src="https://www.pharmabusters.pl/assets/js/WebGL.js"></script>
   <body>
   <canvas id="ccb" class="a" ></canvas> 
   </body>
