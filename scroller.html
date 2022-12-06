@@ -5,6 +5,7 @@
   pointer-events: none;
   height:20vw;
   width:100%;
+  border:1px solid red;
   }
   
   </style>
@@ -41,7 +42,7 @@ var dodomaterial = new THREE.MeshBasicMaterial( { map: dodotex, flatShading: fal
 var dodogeometry = new THREE.PlaneGeometry( 10, 0.5, 4, 4 );
 var dodo = new THREE.Mesh(dodogeometry, dodomaterial);
 dodo.position.z = -0.1;
-dodo.position.y = -1.9;
+dodo.position.y = -1.85;
 dodo.rotation.x = -0.3;
 scenecb.add(dodo)
 
