@@ -3,7 +3,7 @@
   <style>
 .a {
   pointer-events: none;
-  height:65vw;
+  height:20vw;
   width:100%;
   border:1px solid red;
   border-color:#121260;
