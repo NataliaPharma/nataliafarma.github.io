@@ -35,7 +35,7 @@
   
 const tloader = new THREE.TextureLoader();
 
-var dodotex = tloader.load('https://autoserwis.leki.expert/static/dodo5.jpg')
+var dodotex = tloader.load('https://www.pharmabusters.pl/assets/images/dodo5.jpg')
 dodotex.magFilter = THREE.LinearFilter;
 dodotex.minFilter = THREE.LinearFilter;
 dodotex.wrapS = dodotex.wrapT = THREE.RepeatWrapping;
