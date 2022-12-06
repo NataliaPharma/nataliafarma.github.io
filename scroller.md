@@ -32,6 +32,8 @@
   cameracb.position.y = 0.6;
   cameracb.rotation.x = - 0.3;
   const scenecb = new THREE.Scene();
+  
+const tloader = new THREE.TextureLoader();
 
 var dodotex = tloader.load('https://autoserwis.leki.expert/static/dodo5.jpg')
 dodotex.magFilter = THREE.LinearFilter;
