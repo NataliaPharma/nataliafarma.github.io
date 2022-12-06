@@ -1,0 +1,90 @@
+  
+  
+  <style>
+.a {
+  pointer-events: none;
+  height:65vw;
+  width:100%;
+  border:1px solid red;
+  border-color:#121260;
+  border-width:0vw 0vw 1.3vw 0vw;
+  }
+  
+  </style>
+  <html>
+  <body>
+  <canvas id="ccb" class="a" ></canvas> 
+  </body>
+  </html>
+  
+  <script>
+  const canvascb = document.querySelector('#ccb');
+  const renderercb = new THREE.WebGLRenderer({canvas: canvascb, antialias: false, precision: "mediump", alpha: true});
+  renderercb.setClearColor( 0x000000, 0);
+  const fovcb = 50;
+  const aspectcb = 1;  // the canvas default
+  const nearcb = 0.1;
+  const farcb = 10;
+  const cameracb = new THREE.PerspectiveCamera(fovcb, aspectcb, nearcb, farcb);
+  cameracb.position.z = 3;
+  cameracb.position.y = 0.6;
+  cameracb.rotation.x = - 0.3;
+  const scenecb = new THREE.Scene();
+
+var dodotex = tloader.load('https://autoserwis.leki.expert/static/dodo5.jpg')
+dodotex.magFilter = THREE.LinearFilter;
+dodotex.minFilter = THREE.LinearFilter;
+dodotex.wrapS = dodotex.wrapT = THREE.RepeatWrapping;
+dodotex.repeat.set( 0.5, 1 );
+var dodomaterial = new THREE.MeshBasicMaterial( { map: dodotex, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: true } )
+var dodogeometry = new THREE.PlaneGeometry( 5, 0.12, 4, 4 );
+var dodo = new THREE.Mesh(dodogeometry, dodomaterial);
+dodo.position.z = -0.5;
+dodo.position.y = 1.018;
+dodo.rotation.x = -0.3;
+scenecb.add(dodo)
+
+const colorrcb = 0xFFFFff;
+const intensitycb = 1;
+const lightcb = new THREE.DirectionalLight(colorrcb, intensitycb);
+lightcb.position.set(0, 0, 8);
+scenecb.add(lightcb);
+
+const light3cb = new THREE.AmbientLight( 0xa0a0a0 ); // soft white light
+scenecb.add( light3cb );
+
+
+var wy = 0.3;
+var wx = 0.47;
+var timecb;
+var time2cb = 0;
+var roznicaczasucb;
+
+
+function rendercb() {
+timecb = performance.now();
+dodotex.offset.x = (timecb/30000)
+renderercb.render(scenecb, cameracb);
+requestAnimationFrame(rendercb);
+
+}
+
+requestAnimationFrame(rendercb);
+
+
+function threeresizecb() {
+  canvascb.height = window.innerWidth*1.05;
+  canvascb.width = window.innerWidth*1;
+  cameracb.aspect = (window.innerWidth*1.6) / (window.innerWidth*1);
+  cameracb.updateProjectionMatrix();
+  renderercb.setSize(window.innerWidth*1, window.innerWidth*1.05, false);
+}
+
+
+window.onresize = function(){
+threeresizecb();
+
+};
+
+threeresizecb();
+</script>
