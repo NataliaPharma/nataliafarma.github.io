@@ -12,6 +12,8 @@
   
   </style>
   <html>
+<script src="/static/three.min.js" ></script>
+<script src="/static/WebGL.js"></script>
   <body>
   <canvas id="ccb" class="a" ></canvas> 
   </body>
