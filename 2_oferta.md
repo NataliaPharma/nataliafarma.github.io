@@ -197,32 +197,36 @@ nav-menu: true
        </div> <!-- koniec inner -->
   </div> <!-- koniec main -->
 
-  <hr>
-    
-    
-<h2 id="content">Co zyskujesz?</h2>
-    
-<ul>
-    <li>Harmonizację w ciele, w sercu i duszy - naprawdę jest osiągalne, mimo że pracy jest sporo każdego dnia.</li>
-    <li>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</li>
-    <li>Naukę rozpoznawania własnych potrzeb, określania priorytetów</li>
-    <li>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia</li>
-</ul>
 
-<p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
-Chcesz spróbować?</p> 
+<div id="main" class="alt">
+      <div class="inner" >
     
-<div style="width:100%;">
-    <hr class="major" />
-</div>
     
-<h2> Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
+      <h2 id="content">Co zyskujesz?</h2>
+    
+      <ul>
+      <li>Harmonizację w ciele, w sercu i duszy - naprawdę jest osiągalne, mimo że pracy jest sporo każdego dnia.</li>
+      <li>Poczucie, że bierzesz Siebie w opiekę - nigdy nie jest za późno!</li>
+      <li>Naukę rozpoznawania własnych potrzeb, określania priorytetów</li>
+      <li>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia</li>
+      </ul>
+
+      <p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
+      Chcesz spróbować?</p> 
+    
+      <div style="width:100%;">
+           <hr class="major" />
+      </div>
+    
+      <h2> Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
       
     
-<hr class="major" />
+     <div style="width:100%;">
+           <hr class="major" />
+     </div>
 
 
-  <div id="disqus_thread"></div>
+     <div id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -244,7 +248,8 @@ Chcesz spróbować?</p>
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
   
     
-  <hr class="major" />  
+     </div> <!-- koniec inner -->
+</div> <!-- koniec main -->
     
 <script>
 function licznikodw() {
