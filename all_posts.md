@@ -44,6 +44,7 @@ show_tile: false
 	<option>zdrowie społeczne</option>
 	<option>Q&A</option>
 	<option>prasa</option>
+	    <option>wykłady</option>
 	</select>
     </td>
 
@@ -69,8 +70,19 @@ show_tile: false
 
 <script>
 	
+	
+	
+	
 	function opracowania_obj_gen() {
 opr = [
+{
+tytul: "Olejki eteryczne w walce z wirusami.",
+data: "07.12.2022",
+autor: "Miękus-Purwin Natalia",
+dzial: "wykłady",
+art_link: "https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html",
+dzial_link: ""
+},	
 {
 tytul: "Seria Q&A (listopad 2022 cz.II).",
 data: "27.11.2022",
