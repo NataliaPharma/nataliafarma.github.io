@@ -152,48 +152,50 @@ nav-menu: true
   </div>  <!-- koniec main -->
 
 
-<iframe name="ramka_scr" id="scroller" src="https://pharmabusters.pl/scroller.html" style="width:100%; height:21vw;z-index:99;margin-left:0px;margin-right:0px;border:none;" ></iframe>
 
-<div style="margin-top:-21vw;margin-bottom:auto;width:100%;text-align:center;">
-<a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
-</div>
+<div style="position: absolute;width:100%;text-align:center;">
 
-<div style="height:21vw;width:100%;">
+<a href="https://www.pharmabusters.pl/assets/cennik.pdf" style="z-index:100;"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
 </div>
+<iframe name="ramka_scr" id="scroller" src="https://pharmabusters.pl/scroller.html" style="width:100%; height:21vw;z-index:99;margin: 0px 0px 0px 0px;border:none;" ></iframe>
+
+
 
    
-<div id="main" class="alt">
-      <div class="inner" >
-           <div class="row">
-                  <div class="4u 12u$(medium)" style="xxxbackground-color:rgba(0,0,0,0.5);">
+<div id="main" class="alt" style="background-image: url('https://www.pharmabusters.pl/assets/images/tlo4.jpg');background-size:cover;">
+      <div class="inner">
+           <div class="row" style="background-color:rgba(172,255,172,0.8);padding:0px;margin:0px;border:0px;color:black;">
+                  <div class="4u 12u$(medium)" style="border: 0.25vw solid rgba(0,0,0,0.0);border-left-width: 0.5vw;border-right-width: 1vw;background-color:rgba(0,0,0,0.0);">
     
-          
-                          <h3>AKTYWIZACJA</h3>
-                          <p>&nbsp;</p>
                           <div style="width:100%;text-align:center;">
-                                <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/aktyw3.png" alt="" />
-                          </div>
                           <p>&nbsp;</p>
+                                <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/aktyw3.png" alt="" />
+                          <h4 style="color:black;">AKTYWIZACJA</h4>
+                          <h4>&nbsp;</h4>
+                          </div>
+                          
                           <p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
                   </div>
 
-                  <div class="4u 12u$(medium)">
-                         <h3>EDUKACJA</h3>
+                  <div class="4u 12u$(medium)" style="border: 0.25vw solid rgba(0,0,0,0.0);border-right-width: 1vw;background-color:rgba(0,255,0,0.1);">
+                         
+                         <div style="width:100%;text-align:center;">  
                          <p>&nbsp;</p>
-                        <div style="width:100%;text-align:center;">
                               <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/edu3.png" alt="" />
+                         <h4 style="color:black;">EDUKACJA</h4>
+                         <h4>&nbsp;</h4>
                         </div>
-                         <p>&nbsp;</p>
                          <p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia! </p>
                   </div>
 
-                  <div class="4u$ 12u$(medium)">
-                        <h3>WSPÓLNA PRACA NAD ZMIANĄ</h3>
-                        <p>&nbsp;</p>
+                  <div class="4u$ 12u$(medium)" style="border: 0.25vw solid rgba(0,0,0,0.0);border-right-width: 1vw;background-color:rgba(0,0,0,0.0);">
+                        
                         <div style="width:100%;text-align:center;">
-                             <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/coop3.png" alt="" />
-                        </div>
                         <p>&nbsp;</p>
+                             <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/coop3.png" alt="" />
+                        <h4 style="color:black;">WSPÓLNA PRACA NAD ZMIANĄ</h4>
+                        <h4>&nbsp;</h4>
+                        </div>
                         <p>Dlaczego ludzie przerzucają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę, mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu. </p>
                   </div>
            </div>
