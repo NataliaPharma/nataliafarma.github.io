@@ -161,19 +161,20 @@ nav-menu: true
 		
 
 
-</div>			
-<section>
+   </div>		
+</div>
+
+</section>
 </div>	
 
-			<div style="width:100%;">
-			<div style="width:100%; text-align:left;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:5vw;" >
+
+<div style="width:100%; text-align:left;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:5vw;" >
 				
 				
                                  <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
-			</div>
+</div>
 			
-		
-		        </div>			
+	
 		
 		
 		
