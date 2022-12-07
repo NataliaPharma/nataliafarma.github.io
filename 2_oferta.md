@@ -289,6 +289,6 @@ xhr4.send(data4);
 licznikodw(); 
 </script>		
 		
-
 </div>
-</section>	
+</div>
+	
