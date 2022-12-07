@@ -156,7 +156,7 @@ nav-menu: true
 
 	 	
 	
-	   	<div style="width:100%;">
+	   	
 			
 		
 
@@ -165,7 +165,7 @@ nav-menu: true
 <section>
 </div>	
 
-			
+			<div style="width:100%;">
 			<div style="width:100%; text-align:left;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:5vw;" >
 				
 				
@@ -173,7 +173,7 @@ nav-menu: true
 			</div>
 			
 		
-		</div>			
+		        </div>			
 		
 		
 		
