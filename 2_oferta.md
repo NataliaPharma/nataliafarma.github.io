@@ -153,7 +153,7 @@ nav-menu: true
 
 
 
-<div style="position: absolute;width:100%;text-align:center;">
+<div style="position: absolute;width:100%;text-align:center;padding:2vw;">
 
 <a href="https://www.pharmabusters.pl/assets/cennik.pdf" style="z-index:100;"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
 </div>
