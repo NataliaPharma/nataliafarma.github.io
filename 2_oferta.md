@@ -158,14 +158,14 @@ nav-menu: true
 <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
 </div>
 
-<div style="height:10vw;width:100%;">
+<div style="height:21vw;width:100%;">
 </div>
 
    
 <div id="main" class="alt">
       <div class="inner" >
            <div class="row">
-                  <div class="4u 12u$(medium)">
+                  <div class="4u 12u$(medium)" style="background-color:rgba(0,0,0,0.5);>
     
           
                           <h3>AKTYWIZACJA</h3>
