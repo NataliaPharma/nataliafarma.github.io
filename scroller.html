@@ -45,6 +45,25 @@ dodo.position.y = -1.75;
 dodo.rotation.x = -0.3;
 scenecb.add(dodo)
 
+var back_tex = tloader.load('https://www.pharmabusters.pl/assets/images/tapred.jpg')
+back_tex.magFilter = THREE.LinearFilter;
+back_tex.minFilter = THREE.LinearFilter;
+var back_material = new THREE.MeshPhongMaterial( { map: back_tex, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: false } )
+var back_geometry = new THREE.PlaneGeometry( 10, 10, 4, 4 );
+var back = new THREE.Mesh(back_geometry, back_material);
+
+back.position.z = -3.5;
+back.position.y = 0;
+back.rotation.x = -0.3;
+
+scenecb.add(back)
+
+
+scenecb.add(dodo)
+
+
+
+
 const colorrcb = 0xFFFFff;
 const intensitycb = 1;
 const lightcb = new THREE.DirectionalLight(colorrcb, intensitycb);
