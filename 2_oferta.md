@@ -153,10 +153,13 @@ nav-menu: true
 
 
 <iframe name="ramka_scr" id="scroller" src="https://pharmabusters.pl/scroller.html" style="width:100%; height:21vw;z-index:99;margin-left:0px;margin-right:0px;border:none;" ></iframe>
-<div style="margin-top:-19vw;margin-bottom:auto;width:100%;text-align:center;">
+
+<div style="margin-top:-21vw;margin-bottom:auto;width:100%;text-align:center;">
 <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
 </div>
 
+<div style="height:15vw;width:100%;">
+</div>
 
    
 <div id="main" class="alt">
