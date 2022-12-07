@@ -165,7 +165,7 @@ nav-menu: true
 <div id="main" class="alt">
       <div class="inner" >
            <div class="row">
-                  <div class="4u 12u$(medium)" style="background-color:rgba(0,0,0,0.5);>
+                  <div class="4u 12u$(medium)" style="background-color:rgba(0,0,0,0.5);">
     
           
                           <h3>AKTYWIZACJA</h3>
