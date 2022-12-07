@@ -151,16 +151,11 @@ nav-menu: true
       </section>
   </div>  <!-- koniec main -->
 
-<!--
-<div style="width:100%; text-align:center;background: url(https://pharmabusters.pl/assets/images/tapred.jpg); padding:10vw;" >
-        
-        
-                                 <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
-</div>
--->
 
-<a href="https://www.pharmabusters.pl/assets/cennik.pdf" style="margin-top:auto;margin-bottom:-10vw;"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
-<iframe name="ramka_scr" id="scroller" src="https://pharmabusters.pl/scroller.html" style="width:100%; height:21vw;z-index:99;" ></iframe>
+<iframe name="ramka_scr" id="scroller" src="https://pharmabusters.pl/scroller.html" style="width:100%; height:21vw;z-index:99;margin-left:0px;margin-right:0px;border:none;" ></iframe>
+<div style="margin-top:-10vw;margin-bottom:auto;width:100%;text-align:center;">
+<a href="https://www.pharmabusters.pl/assets/cennik.pdf"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik.pdf"><b>Pobierz cennik.</b></a>
+</div>
 
 
    
