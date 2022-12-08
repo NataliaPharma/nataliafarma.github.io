@@ -48,7 +48,7 @@ scenecb.add(dodo)
 var back_tex = tloader.load('https://www.pharmabusters.pl/assets/images/markprawo.jpg')
 back_tex.magFilter = THREE.LinearFilter;
 back_tex.minFilter = THREE.LinearFilter;
-var back_material = new THREE.MeshPhongMaterial( { map: back_tex, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: false } )
+var back_material = new THREE.MeshBasicMaterial( { map: back_tex, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: false } )
 var back_geometry = new THREE.PlaneGeometry( 0.65, 2, 4, 4 );
 var back = new THREE.Mesh(back_geometry, back_material);
 
@@ -62,7 +62,7 @@ scenecb.add(back)
 var back_tex2 = tloader.load('https://www.pharmabusters.pl/assets/images/marklewo.jpg')
 back_tex2.magFilter = THREE.LinearFilter;
 back_tex2.minFilter = THREE.LinearFilter;
-var back_material2 = new THREE.MeshPhongMaterial( { map: back_tex2, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: false } )
+var back_material2 = new THREE.MeshBasicMaterial( { map: back_tex2, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: false } )
 var back_geometry2 = new THREE.PlaneGeometry( 0.65, 2, 4, 4 );
 var back2 = new THREE.Mesh(back_geometry2, back_material2);
 
