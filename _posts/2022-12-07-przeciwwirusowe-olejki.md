@@ -12,26 +12,26 @@ image: assets/images/xxxxqa_listopad_2022_2.jpg
 <p>&nbsp;</p>
 
 <p><b>Spis treści:</b><br>&nbsp;<br>
-<b>00m00s</b> - Powitanie.
-<b>01m00s</b> - Kim jestem, czym się zajmuję?
-<b>01m47s</b> - Co to są olejki eteryczne, ich skład chemiczny.
-<b>03m55s</b> - Koszt terapii olejkowej.
-<b>04m24s</b> - O aromaterapii.
-<b>05m30s</b> - Olejki eteryczne - precyzyjna definicja.
-<b>07m41s</b> - Co powinna zawierać etykieta olejku eterycznego?
-<b>08m08s</b> - Polecane opracowania i inne źródła wiedzy na temat olejków.
-<b>08m34s</b> - O wirusach.
-<b>10m15s</b> - Jak odróżnić infekję bakteryjną od wirusowej?
-<b>11m28s</b> - Najlepsze sposoby leczenia infekcji wirusowych.
-<b>12m14s</b> - Cechy skutecznego leku przeciwwirusowego.
-<b>12m57s</b> - Dawkowanie olejków.
-<b>13m53s</b> - Olejek goździkowy.
-<b>14m33s</b> - Olejek goździkowy w opryszczce.
-<b>15m20s</b> - Olejek gożdzikowy w przeziębieniu i zapaleniu gardła.
-<b>15m46s</b> - Olejkowe mieszanki w kaszlu, katarze, przy zaleganiu wydzieliny.
-<b>16m10s</b> - Olejki w grypie.
-<b>16m48s</b> - Czy olejki eteryczne są skuteczną bronią przeciwko wirusom?
-<b>18m18s</b> - Mały test wiedzy.</p>
+<b>00m00s</b> - Powitanie.<br>
+<b>01m00s</b> - Kim jestem, czym się zajmuję?<br>
+<b>01m47s</b> - Co to są olejki eteryczne, ich skład chemiczny.<br>
+<b>03m55s</b> - Koszt terapii olejkowej.<br>
+<b>04m24s</b> - O aromaterapii.<br>
+<b>05m30s</b> - Olejki eteryczne - precyzyjna definicja.<br>
+<b>07m41s</b> - Co powinna zawierać etykieta olejku eterycznego?<br>
+<b>08m08s</b> - Polecane opracowania i inne źródła wiedzy na temat olejków.<br>
+<b>08m34s</b> - O wirusach.<br>
+<b>10m15s</b> - Jak odróżnić infekję bakteryjną od wirusowej?<br>
+<b>11m28s</b> - Najlepsze sposoby leczenia infekcji wirusowych.<br>
+<b>12m14s</b> - Cechy skutecznego leku przeciwwirusowego.<br>
+<b>12m57s</b> - Dawkowanie olejków.<br>
+<b>13m53s</b> - Olejek goździkowy.<br>
+<b>14m33s</b> - Olejek goździkowy w opryszczce.<br>
+<b>15m20s</b> - Olejek gożdzikowy w przeziębieniu i zapaleniu gardła.<br>
+<b>15m46s</b> - Olejkowe mieszanki w kaszlu, katarze, przy zaleganiu wydzieliny.<br>
+<b>16m10s</b> - Olejki w grypie.<br>
+<b>16m48s</b> - Czy olejki eteryczne są skuteczną bronią przeciwko wirusom?<br>
+<b>18m18s</b> - Mały test wiedzy.<br></p>
 	
 
 
