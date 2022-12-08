@@ -49,17 +49,31 @@ var back_tex = tloader.load('https://www.pharmabusters.pl/assets/images/tapred.j
 back_tex.magFilter = THREE.LinearFilter;
 back_tex.minFilter = THREE.LinearFilter;
 var back_material = new THREE.MeshPhongMaterial( { map: back_tex, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: false } )
-var back_geometry = new THREE.PlaneGeometry( 10, 10, 4, 4 );
+var back_geometry = new THREE.PlaneGeometry( 0.65, 2, 4, 4 );
 var back = new THREE.Mesh(back_geometry, back_material);
 
 back.position.z = -3.5;
-back.position.y = 0;
+back.position.y = -1;
+back.position.x = -2;
 back.rotation.x = -0.3;
 
-//scenecb.add(back)
+scenecb.add(back)
+
+var back_tex2 = tloader.load('https://www.pharmabusters.pl/assets/images/tapred.jpg')
+back_tex2.magFilter = THREE.LinearFilter;
+back_tex2.minFilter = THREE.LinearFilter;
+var back_material2 = new THREE.MeshPhongMaterial( { map: back_tex2, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: false } )
+var back_geometry2 = new THREE.PlaneGeometry( 0.65, 2, 4, 4 );
+var back2 = new THREE.Mesh(back_geometry2, back_material2);
+
+back2.position.z = -3.5;
+back2.position.y = -1;
+back2.position.x = 2;
+back2.rotation.x = -0.3;
+
+scenecb.add(back2)
 
 
-scenecb.add(dodo)
 
 
 
@@ -78,7 +92,8 @@ var wy = 0.3;
 var wx = 0.47;
 var timecb;
 var time2cb = 0;
-var roznicaczasucb;
+var timed = 0
+
 
 
 function rendercb() {
@@ -87,6 +102,9 @@ dodotex.offset.x = (timecb/30000)
 renderercb.render(scenecb, cameracb);
 requestAnimationFrame(rendercb);
 
+timed = Math.sin(timecb/500)
+back.position.x = -2 + timed/2
+back2.position.x = 2 - timed/2
 }
 
 requestAnimationFrame(rendercb);
