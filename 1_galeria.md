@@ -10,7 +10,7 @@ nav-menu: true
 
 <div style="width:100%;height:10vw;">
 </div>
-<section id="banner" class="style2">
+<section id="banner" class="style1">
    <div class="inner">
                 <span class="image">
                     <img src="/assets/images/zagiel.jpg" alt="">
