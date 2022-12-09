@@ -65,7 +65,7 @@ natitex8pl.magFilter = THREE.LinearFilter;
 natitex8pl.minFilter = THREE.LinearFilter;
 
 
-var material_tlo = new THREE.MeshPhongMaterial( { map: tex_tlo, flatShading: false, side: THREE.OneSide } )
+var material_tlo = new THREE.MeshBasicMaterial( { map: tex_tlo, flatShading: false, side: THREE.OneSide } )
 var material2x = [new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
                  new THREE.MeshPhongMaterial( { map: natitex4pl, flatShading: false, side: THREE.OneSide } ),
