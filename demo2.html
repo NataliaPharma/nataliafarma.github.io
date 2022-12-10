@@ -3,8 +3,8 @@
 
 
 <html>
-<body>
-<canvas id="c"   style="pointer-events: none; height: 80vw; width: 100%;z-index:99"></canvas>
+<body style="margin:0px 0px 0px 0px;">
+<canvas id="c"   style="pointer-events: none; height: 100vw; width: 100%;z-index:99;margin:0px 0px 0px 0px;"></canvas>
 </body>
 </html>
 
@@ -25,11 +25,11 @@ const canvasx = document.querySelector('#c');
 const rendererx = new THREE.WebGLRenderer({canvas: canvasx, antialias: false, precision: "mediump", alpha: true});
 rendererx.setClearColor( 0x000000, 0);
 const fovx = 75;
-const aspectx = 2.7;  // the canvas default
+const aspectx = 2.3;  // the canvas default
 const nearx = 0.1;
 const farx = 10;
 const camerax = new THREE.PerspectiveCamera(fovx, aspectx, nearx, farx);
-camerax.position.z = 0.22;
+camerax.position.z = 0.25;
 camerax.position.y = 1.88;
 camerax.rotation.x = - 0.3;
 const scenex = new THREE.Scene();
@@ -280,31 +280,3 @@ dawajwprawox = true;
 }
 
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
