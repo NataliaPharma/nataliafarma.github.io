@@ -28,7 +28,7 @@ nav-menu: true
 		    
 	<div class="row">
 	    <div class="6u 12u$(small)">
-<iframe name="ramka2" id="iframe2" src="http://pharmabusters.pl/demo2.html" style="width:100%; aspect-ratio: 1 / 1; margin-left:0px; margin-top:0px;border:0px solid red; border-radius: 50%;">
+<iframe name="ramka2" id="iframe2" src="https://pharmabusters.pl/demo2.html" style="width:100%; aspect-ratio: 1 / 1; margin-left:0px; margin-top:0px;border:0px solid red; border-radius: 50%;">
 </iframe> 
 	     </div>
 	     <div class="6u$ 12u$(small)">
