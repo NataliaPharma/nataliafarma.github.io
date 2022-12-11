@@ -1,11 +1,28 @@
 ---
 title: Holistic Health
-layout: landing
+layout: page
 description: "Podejście dotykające każdej sfery życia<br>&nbsp;<br>Zdrowe jedzenie to nie wszystko!"
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
+<section id="banner" class="style3" style="background-position: center 0px; background-image: url('https://www.pharmabusters.pl/assets/images/pic07.jpg');">
+            <div class="inner">
+                <span class="image" style="display: none;">
+                    <img src="https://www.pharmabusters.pl/assets/images/pic07.jpg" alt="">
+                </span>
+                <header class="major">
+
+                    <h1>Holistic Health</h1>
+
+                </header>
+                <div class="content">
+
+                    Podejście dotykające każdej sfery życia<br>&nbsp;<br>Zdrowe jedzenie to nie wszystko!
+
+                </div>
+            </div>
+</section>
 
 <div id="main">
 
