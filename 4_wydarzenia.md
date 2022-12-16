@@ -19,8 +19,10 @@ comments: true
 	
 </div>
 
+<hr class="major" />
 
-## Potrzebujesz porady, konsultacji, dostałeś niejasne zalecenia, nie wiesz do końca czy Twoje postępowanie jest optymalne dla Ciebie, masz jakieś wątpliwości w sprawie diety, farmakoterapii, stylu życia? Sprawdź czy naprawdę właściwie dbasz o zdrowie! Zapraszam!
+## Konsulacje zdrowotne. Sopot Haffnera 12A. Zapraszam!
+Potrzebujesz porady, konsultacji, dostałeś niejasne zalecenia, nie wiesz do końca czy Twoje postępowanie jest optymalne dla Ciebie, masz jakieś wątpliwości w sprawie diety, farmakoterapii, stylu życia? Sprawdź czy naprawdę właściwie dbasz o zdrowie!
 <span style="color:lime;">Termin: 01.01-01.03.2023</span>
 <div style="text-align:center;">
 <img src="https://www.pharmabusters.pl/assets/images/zaproszenie_0.jpg" alt="zaproszenie" style="width:70%;" > 
