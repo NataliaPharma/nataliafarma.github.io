@@ -19,7 +19,15 @@ comments: true
 	
 </div>
 
+
+## Potrzebujesz porady, konsultacji, dostałeś niejasne zalecenia, nie wiesz do końca czy Twoje postępowanie jest optymalne dla Ciebie, masz jakieś wątpliwości w sprawie diety, farmakoterapii, stylu życia? Sprawdź czy naprawdę właściwie dbasz o zdrowie! Zapraszam!
+<span style="color:lime;">Termin: 01.01-01.03.2023</span>
+<div style="text-align:center;">
+<img src="https://www.pharmabusters.pl/assets/images/zaproszenie_0.jpg" alt="zaproszenie" style="width:70%;" > 
+</div>
+
 <hr class="major" />
+
 
 ## Listopadowa sesja "pytania i odpowiedzi" część II.
 <span style="color:gray;">odbyło się 27.11.2022</span><br>&nbsp;<br>
@@ -32,7 +40,7 @@ Mało? Masz pytania, które chciałbyś zadać? Może takie, które pomogą Ci w
 <hr class="major" />
 
 ## Wpadnij pobiegać!
-<span style="color:lime;">odbędzie się 2.12(piątek godz. 08:00), 11.12(niedziela godz. 09:00), 14.12.2022 (środa godz. 16:00)</span>
+<span style="color:gray;">odbyło się 2.12(piątek godz. 08:00), 11.12(niedziela godz. 09:00), 14.12.2022 (środa godz. 16:00)</span>
 <div style="text-align:center;">
 <img src="https://www.pharmabusters.pl/assets/images/trening.jpg" alt="plakat" style="width:70%;" > 
 </div>
