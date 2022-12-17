@@ -18,6 +18,28 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 	}
+
+.plakat {
+position:fixed;
+width:calc(14.76vw + 22.14vh);
+height:calc(20vw + 30vh);
+right:5vw;bottom:10vh;
+z-index:50;
+background-image: url('https://www.pharmabusters.pl/assets/images/zaproszenie_w.png');
+background-size:cover;
+opacity: 0.0;
+pointer-events: all;
+transition: 1s;
+}
+
+.plakatx {
+margin-right:0px;
+margin-left:auto;
+width:calc(2.6vw + 3.9vh);
+height:calc(2.6vw + 3.9vh);
+cursor: pointer;
+}
+
 </style>
 
 	
@@ -25,6 +47,11 @@ a:active { text-decoration: none; }
 {% include head.html %}
 
 <body>
+<div id="plakat" class = "plakat">
+<div class = "plakatx" onclick = "chowajplakat();"></div>	
+
+</div>
+
 
 
     {% include header.html %}
@@ -374,6 +401,17 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
     {% include footer.html %}
 
 <script>
+
+var nacisnietox = 0;
+var plakatsiepokazuje = 0;
+
+function chowajplakat() {
+nacisnietox = 1;
+document.getElementById("plakat").style.opacity = "0.0";
+document.getElementById("plakat").style.pointerEvents = "none";
+
+}
+
 function licznikodw() {
 var xhr4 = new XMLHttpRequest();
 var url4 = "https://autoserwis.leki.expert/baster1/";
@@ -397,6 +435,15 @@ xhr4.send(data4);
 };
 
 licznikodw(); 
+
+document.addEventListener("scroll", function(){
+
+if (nacisnietox == 0 && plakatsiepokazuje == 0) {
+  document.getElementById("plakat").style.opacity = "1.0";
+  plakatsiepokazuje = 1
+}
+
+});
 </script>
 </body>
 
