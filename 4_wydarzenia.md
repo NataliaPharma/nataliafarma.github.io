@@ -19,6 +19,13 @@ comments: true
 	
 </div>
 
+
+<hr class="major" />
+
+## Wykład: Jak wzmacniać swoją odporność i cieszyć się zdrowiem niezależnie od pory roku?
+<span style="color:lime;">Odbędzie się 18.01.2023 o godz. 17.30 - 18.15</span><br>&nbsp;<br>
+Miejsce: Siedziba WSZ w Gdańsku (Campus A), sala 110
+
 <hr class="major" />
 
 ## Konsulacje zdrowotne. Sopot Haffnera 12A. Zapraszam!
@@ -29,7 +36,6 @@ Potrzebujesz porady, konsultacji, dostałeś niejasne zalecenia, nie wiesz do ko
 </div>
 
 <hr class="major" />
-
 
 ## Listopadowa sesja "pytania i odpowiedzi" część II.
 <span style="color:gray;">odbyło się 27.11.2022</span><br>&nbsp;<br>
