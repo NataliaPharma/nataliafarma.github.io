@@ -22,9 +22,23 @@ comments: true
 
 <hr class="major" />
 
-## Wykład: Jak wzmacniać swoją odporność i cieszyć się zdrowiem niezależnie od pory roku?
-<span style="color:lime;">Odbędzie się 18.01.2023 o godz. 17.30 - 18.15</span><br>&nbsp;<br>
-Miejsce: Siedziba WSZ w Gdańsku (Campus A), sala 110
+## Wykład: Jak wzmacnić swoją odporność i cieszyć się zdrowiem niezależnie od pory roku?
+<span style="color:lime;">Odbędzie się 18.01.2023 o godz. 17.30 - 18.15</span><br>
+
+Masz już dość ciągłego chorowania, często czujesz się przemęczony i "nie do życia"? Podczas spotkania dowiesz się, jak uchronić organizm przed infekcjami wirusowymi czy bakteryjnymi. Zdradzę Ci sekretne sposoby na wzmocnienie odporności, byś mógł/mogła czerpać z życia pełnymi garściami. Przekonasz się, że droga po odporność nie prowadzi wyłącznie do apteki.<br>
+
+
+Miejsce: Wyższa Szkoła Zdrowia w Gdańsku, sala 110 Pelplińska 7, Gdańsk <br>&nbsp;<br>
+Zapisy obowiązkowe! Można się zapisać klikając w ten link: &nbsp; <a href="https://online.ikongres.pl/conference/jak_wzmocnic_swoja_odpornosc_i_cieszyc_sie_zdrowiem_niezaleznie_od_pory_roku?utm_source=qrcode&utm_medium=print&utm_campaign=materialy_drukowane"> --> zapisz się <-- <a><br>&nbsp;<br>
+
+
+
+<div style="text-align:center;">
+<img src="https://www.pharmabusters.pl/assets/images/kongres.jpg" alt="plakat" style="width:70%;" > 
+</div>
+
+
+
 
 <hr class="major" />
 
