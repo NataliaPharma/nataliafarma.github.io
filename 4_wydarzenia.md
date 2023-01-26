@@ -20,10 +20,43 @@ comments: true
 </div>
 
 
+
+
+
+
+
+
+<hr class="major" />
+
+## Zadbaj o zdrowie i odporność naturalnie z olejkami.
+<span style="color:lime;">Odbędzie się 5.02.2023 o godz. 16.00 - 17.30</span><br>
+
+Miejsce: Studio Jogi Trzecie Piętro ul. Czesława Niemena 3/44, Gdynia
+
+Chcesz dowiedzieć się jak zadbać o zdrowie i odporność naturalnie? Zapraszam Cię na aromatyczne i praktyczne spotkanie. Podczas spotkania dowiesz się:
+- Jak bezpiecznie i skutecznie stosować olejki eteryczne klasy terapeutycznej u dorosłych i u dzieci
+- Jak za pomocą 10 podstawowych olejków stworzyć własną domową apteczkę, dzięki której zadbasz o odporność, dobry sen, ukojenie nerwów, rozwiążesz problemy skórne, trawienne, bóle głowy i wiele innych spraw.
+
+Przetestujesz również działanie olejków na Twoich zmysłach i rozpoczniesz olejkową przygodę - otrzymasz próbkę olejku dopasowanego do Twoich potrzeb.
+
+Wydarzenie na FB: &nbsp; <a href="https://fb.me/e/2edXptn0r"> --> link <-- <a><br>&nbsp;<br>
+
+Obowiązują zapisy! Liczba miejsc ograniczona! Czekamy na Twoje zgłoszenie do soboty 04.02.
+
+Inwestycja: 35 zł
+
+<div style="text-align:center;">
+<img src="https://www.pharmabusters.pl/assets/images/studio_olejki.jpg" alt="plakat" style="width:70%;" > 
+</div>
+
+
+
+
+
 <hr class="major" />
 
 ## Wykład: Jak wzmacnić swoją odporność i cieszyć się zdrowiem niezależnie od pory roku?
-<span style="color:lime;">Odbędzie się 18.01.2023 o godz. 17.30 - 18.15</span><br>
+<span style="color:gray;">Odbyło się 18.01.2023 o godz. 17.30 - 18.15</span><br>
 
 Masz już dość ciągłego chorowania, często czujesz się przemęczony i "nie do życia"? Podczas spotkania dowiesz się, jak uchronić organizm przed infekcjami wirusowymi czy bakteryjnymi. Zdradzę Ci sekretne sposoby na wzmocnienie odporności, byś mógł/mogła czerpać z życia pełnymi garściami. Przekonasz się, że droga po odporność nie prowadzi wyłącznie do apteki.<br>
 
