@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Koło życia
+title: Konkurs poetycki
 description: Work/life balance
 image: assets/images/byron.jpg
 ---
