@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Koło życia
@@ -8,7 +7,7 @@ image: assets/images/kolo-zycia.png
 
 <script src="https://autoserwis.leki.expert/static/iframeResizer.min.js"></script>
 
-<iframe class="ifr" id="myIframe" src="https://natalia.leki.expert/petycjarf"></iframe>
+<iframe class="ifr" id="myIframe" src="https://natalia.leki.expert/petycjarf" style="width:100%;"></iframe>
 
 <script>
   iFrameResize({ log: true }, '#myIframe')
