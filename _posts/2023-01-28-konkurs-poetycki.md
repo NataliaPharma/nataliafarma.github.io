@@ -2,7 +2,7 @@
 layout: post
 title: Koło życia
 description: Work/life balance
-image: assets/images/kolo-zycia.png
+image: assets/images/byron.jpg
 ---
 
 <script src="https://autoserwis.leki.expert/static/iframeResizer.min.js"></script>
