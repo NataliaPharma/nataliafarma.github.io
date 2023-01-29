@@ -14,6 +14,7 @@
 <span id="baster11stats">?</span> - polscy aptekarze zainteresowani holistycznym podejściem <br>
 <span id="baster12stats">?</span> - pytania i odpowiedzi listopad cz.2 <br>
 <span id="baster13stats">?</span> - olejki i wirusy <br>
+<span id="baster14stats">?</span> - konkurs poetycki<br>
 
 
 
@@ -54,5 +55,6 @@ licznikodw("baster10stats");
 licznikodw("baster11stats"); 
 licznikodw("baster12stats"); 
 licznikodw("baster13stats"); 
+licznikodw("baster14stats"); 
   
 </script>
