@@ -10,7 +10,7 @@ Chcesz się podzielic na forum - wyślij wiersz w komentarzu pod tym wpisem! (Gr
 
 Tematyka: kulinarny motyw kojarzący się z odpornością! Powodzenia:) 
 
-Termin nadsyłania prac: do 15.02.2023
+Termin nadsyłania prac: do 15.03.2023
 
 
 
