@@ -60,6 +60,13 @@ Postanowiłem dodać możliwość nadawania w trybie radiotelegrafii w paśmie r
 
 Po tej modyfikacji ledówka wysyła antenką w przestrzeń modulowaną tonem 620Hz falę radiową o częstotliwości 17.734MHz. Jest to zakres 16m radiofonii. Można ten sygnał odbierać na normalnym, cywilnym, nieprzerobionym radiu z zakresem fal krótkich. Słychać pip pip piiiip :-)<br>&nbsp;<br>
 
+ <video style="margin-left:37.5%;" width="25%"  controls>
+  <source src="https://autoserwis.leki.expert/static/ledv0.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video> 
+
+<br>&nbsp;<br>
+
 Jednocześnie ze względu na niską impedancję anteny ćwierćfalowej duża "porcja" sygnału "idzie" do okablowania sieci enegetycznej do której jest podpięta ledówka i rozchodzi się po przewodach!
 
 Mieszkaniec np bloku wystarczy, że przyłoży antenę radia w okolicę gniazdka znajdującego się w swojej kwaterze - odbierze sygnał nadawany z innego mieszkania, rozchodzący się po kablach normalnie dostarczających prąd do gniazdka. <br>&nbsp;<br>
@@ -68,16 +75,38 @@ Czyli teraz moja przerobiona ledówka nadaje sygnał radiowy MOŻLIWY DO ODEBRAN
 
 <img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led6.jpg"> <br>&nbsp;<br>
 
+# 6. Parę fotek.
+
+
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led1.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led2.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led3.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led0.jpg"> <br>&nbsp;<br>
+
+
+# 7. Zakończenie.
+
+<img style="width:100%;" src="https://autoserwis.leki.expert/static/led7.jpg"> <br>&nbsp;<br>
+
+
+ <video style="margin-left:37.5%;" width="25%"  controls>
+  <source src="https://autoserwis.leki.expert/static/ledv1.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video> 
+
+<br>&nbsp;<br>
+
+<div style="width:100%;background-color: gray;margin-top:0px;"> 
 
 
 
-<h1 style="color:red;"> jutro (28.02.2023) dokończę opracowanie<h1>
+
+<h1 style="text-align:center;color:white;background-color:black;margin-top:0px;">Dziękuję za uwagę :) Na pytania odpowiem w komentarzach.</h1>
+
+</div>
 
 
-
-
-
-<div id="disqus_thread" style="background-color:lime;"></div>
+<div id="disqus_thread" style="background-color:darksalmon;"></div>
 
 <script>
     /**
@@ -128,3 +157,4 @@ xhr4.send(data4);
 
 licznikodw(); 
 </script>
+
