@@ -1,3 +1,11 @@
+---
+layout: none
+title: ledowka z biedry
+description: bla
+image: assets/images/ledowka.jpg
+nav-menu: true
+---
+
 
 
 <div style="width:100%;background-color: gray;margin-top:0px;"> 
