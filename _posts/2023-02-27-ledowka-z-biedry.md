@@ -8,6 +8,7 @@ nav-menu: true
 
 
 
+
 <div style="width:100%;background-color: gray;margin-top:0px;"> 
 
 <h1 style="text-align:center;color:white;background-color:black;margin-top:0px;">Komunikacja na czas kryzysu - ledówka z biedry.</h1>
@@ -40,6 +41,37 @@ c - Powietrze - fala akustyczna - możemy sobie pokrzyczeć ;-)<br>
 
 Bo kosztuje tyle co czekolada, świeci w 3 kolorach, ma pilota, przetwornicę impulsową, jej obwody działają przy napięciu 5V identycznym jakie jest na wyjściu popularnych powerbanków. Ponadto kolorowe LEDY są kluczowane z częstotliwością 620Hz czyli w sam raz dla ludzkiego ucha.
 
+# 4. Co można zrobić z nieprzerobioną ledówką z biedry w kontekście komunikacji w czasie kryzysu?
+
+Bez żadnych przeróbek można nadawać komunikat przełączając kolorki pilotem. Ledówka świeci jasno i jest widoczna z dużej odległości. Poponuję taki "kolorowy kod":<br>&nbsp;<br>
+
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led4.jpg"> 
+
+<br>&nbsp;<br>
+
+Białymi LEDami również da radę mrygać. Posługiwanie się dołączonym pilotem nie jest wygodne, jednak nadawanie alfabetem Morse-a jest możliwe z dobrą szybkością. Na naciśnięcie przycisku na pilocie ledówka reaguje bez dającego się zauważyć opóźnienia. 
+
+# 5. Jak można przerobić ledówkę z biedry by stała się jeszcze bardziej użyteczna w kryzysie?
+
+Postanowiłem dodać możliwość nadawania w trybie radiotelegrafii w paśmie radiofonicznym. W tym celu dodałem ledówce obwód wg przedstawionego niżej schematu:<br>&nbsp;<br>
+
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led5.jpg"> <br>&nbsp;<br>
+
+
+Po tej modyfikacji ledówka wysyła antenką w przestrzeń modulowaną tonem 620Hz falę radiową o częstotliwości 17.734MHz. Jest to zakres 16m radiofonii. Można ten sygnał odbierać na normalnym, cywilnym, nieprzerobionym radiu z zakresem fal krótkich. Słychać pip pip piiiip :-)<br>&nbsp;<br>
+
+Jednocześnie ze względu na niską impedancję anteny ćwierćfalowej duża "porcja" sygnału "idzie" do okablowania sieci enegetycznej do której jest podpięta ledówka i rozchodzi się po przewodach!
+
+Mieszkaniec np bloku wystarczy, że przyłoży antenę radia w okolicę gniazdka znajdującego się w swojej kwaterze - odbierze sygnał nadawany z innego mieszkania, rozchodzący się po kablach normalnie dostarczających prąd do gniazdka. <br>&nbsp;<br>
+
+Czyli teraz moja przerobiona ledówka nadaje sygnał radiowy MOŻLIWY DO ODEBRANIA ZWYKŁYM "RADYJKIEM" jednocześnie i anteną i "do tyłu w kabel energetyczny".
+
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led6.jpg"> <br>&nbsp;<br>
+
+
+
+
+<h1 style="color:red;"> jutro (28.02.2023) dokończę opracowanie<h1>
 
 
 
