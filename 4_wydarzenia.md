@@ -20,16 +20,17 @@ comments: true
 </div>
 
 
+<h1> Nadchodzące wydarzenia: </h1>
+
+<hr class="major" />
 
 
-
-
-
+<h1> Minione wydarzenia: </h1>
 
 <hr class="major" />
 
 ## Zadbaj o zdrowie i odporność naturalnie z olejkami.
-<span style="color:lime;">Odbędzie się 5.02.2023 o godz. 16.00 - 17.30</span><br>
+<span style="color:gray;">Odbyło się się 5.02.2023 o godz. 16.00 - 17.30</span><br>
 
 Miejsce: Studio Jogi Trzecie Piętro ul. Czesława Niemena 3/44, Gdynia
 
