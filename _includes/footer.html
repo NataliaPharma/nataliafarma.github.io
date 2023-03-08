@@ -31,30 +31,14 @@
 				Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania,
 				którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span><br>
 				&nbsp;<br>
-				<button type="button" onclick="nacisnietox();">Wyślij</button>
+				<button type="button" onclick="nacisnietowyslij();">Wyślij</button>
 			</div>
 			
 			
 			<hr class="major"></hr>
-		<!--
-			<form action="https://formspree.io/f/mnqrgpnq" method="POST">
-			<div class="field">
-					<label for="email">Zapisz się na newsletter:</label>
-			
-				        <input type="email" name="email" placeholder="email">
-				
-					<textarea name="message" id="email" placeholder="twój e-mail" rows="1"></textarea>
-                              
-				
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Zapisz" class="special" /></li>
-				</ul>
-			</form>
-		 -->	
-			
 			
 		</section>
+
 		<section class="split">
 			<section>
 				<div class="contact-method">
@@ -124,7 +108,6 @@
 
 </div>
 
-<!-- Scripts -->
 
 <script>
 	
@@ -133,10 +116,7 @@ var checkbox0x = document.querySelector("input[name=zgoda0x]");
 var checkbox1x = document.querySelector("input[name=zgoda1x]");
 	
 var pole3 = document.querySelector("textarea[name=message]");
-//var pole1 = document.querySelector("input[name=mail]");
 
-//var send0 = document.querySelector("input[name=email]");
-//var send1 = document.querySelector("textarea[name=message]");
 
 checkbox0x.addEventListener('change', function() {
   if (this.checked) {
@@ -155,24 +135,23 @@ checkbox0x.addEventListener('change', function() {
  });
 	
 	
-function nacisnietox() {
+function nacisnietowyslij(){
 	
-var okix = 1;
+  var okix = 1;
 	
-        if (checkbox0x.checked == false || checkbox1x.checked == false ) {
+  if (checkbox0x.checked == false || checkbox1x.checked == false ) {
 	alert("Nie wyrazono potrzebnych zgód.");
 	okix = 0;
 	}
 	
 	
-        if (pole3.value == "") {
+  if (pole3.value == "") {
 	alert("treść wiadomości pusta :(");
 	okix = 0;
 	}
 	
 	if (okix == 1) {
 	
-        //send3.value = cip(pole0.value + " # " + pole1.value);
 	document.getElementById("wysylajx").click();
 	} 
 	
