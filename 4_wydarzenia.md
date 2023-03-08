@@ -22,6 +22,8 @@ comments: true
 
 <h1> Nadchodzące wydarzenia: </h1>
 
+Na ten moment brak, ale jak tylko się pojawa damy znać - zapisz się do Newsletter by być na bieżąco :)
+
 <hr class="major" />
 
 
@@ -32,6 +34,7 @@ comments: true
 ## Zadbaj o zdrowie i odporność naturalnie z olejkami.
 <span style="color:gray;">Odbyło się się 5.02.2023 o godz. 16.00 - 17.30</span><br>
 
+<!--
 Miejsce: Studio Jogi Trzecie Piętro ul. Czesława Niemena 3/44, Gdynia
 
 Chcesz dowiedzieć się jak zadbać o zdrowie i odporność naturalnie? Zapraszam Cię na aromatyczne i praktyczne spotkanie. Podczas spotkania dowiesz się:
@@ -49,6 +52,7 @@ Inwestycja: 35 zł
 <div style="text-align:center;">
 <img src="https://www.pharmabusters.pl/assets/images/studio_olejki.jpg" alt="plakat" style="width:70%;" > 
 </div>
+-->
 
 
 
@@ -59,6 +63,7 @@ Inwestycja: 35 zł
 ## Wykład: Jak wzmacnić swoją odporność i cieszyć się zdrowiem niezależnie od pory roku?
 <span style="color:gray;">Odbyło się 18.01.2023 o godz. 17.30 - 18.15</span><br>
 
+<!--
 Masz już dość ciągłego chorowania, często czujesz się przemęczony i "nie do życia"? Podczas spotkania dowiesz się, jak uchronić organizm przed infekcjami wirusowymi czy bakteryjnymi. Zdradzę Ci sekretne sposoby na wzmocnienie odporności, byś mógł/mogła czerpać z życia pełnymi garściami. Przekonasz się, że droga po odporność nie prowadzi wyłącznie do apteki.<br>
 
 
@@ -71,6 +76,7 @@ Zapisy obowiązkowe! Można się zapisać klikając w ten link: &nbsp; <a href="
 <img src="https://www.pharmabusters.pl/assets/images/kongres.jpg" alt="plakat" style="width:70%;" > 
 </div>
 
+-->
 
 
 
@@ -78,29 +84,38 @@ Zapisy obowiązkowe! Można się zapisać klikając w ten link: &nbsp; <a href="
 
 ## Konsulacje zdrowotne. Sopot Haffnera 12A. Zapraszam!
 <span style="color:lime;">Termin: 01.01-01.03.2023</span><br>&nbsp;<br>
+	
+<!--
 Potrzebujesz porady, konsultacji, dostałeś niejasne zalecenia, nie wiesz do końca czy Twoje postępowanie jest optymalne dla Ciebie, masz jakieś wątpliwości w sprawie diety, farmakoterapii, stylu życia? Sprawdź czy naprawdę właściwie dbasz o zdrowie!
 <div style="text-align:center;">
 <img src="https://www.pharmabusters.pl/assets/images/zaproszenie_1.jpg" alt="zaproszenie" style="width:70%;" > 
 </div>
+
+-->
 
 <hr class="major" />
 
 ## Listopadowa sesja "pytania i odpowiedzi" część II.
 <span style="color:gray;">odbyło się 27.11.2022</span><br>&nbsp;<br>
 <a href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html">Listopadowa sesja - link do podstrony z nagraniem części drugiej.</a><br>&nbsp;<br>
+	
+<!--
 W 2 części listopadowego "QandA" można usłyszeć m.in. o tym czym jest Holistic Health, jak budować odporność psychiczną, jak podejść małego niejadka stroniącego od warzyw oraz, na koniec, o tym jakie znaczenie w prewencji chorób układu krążenia ma dieta.<br>&nbsp;<br>
 Mało? Masz pytania, które chciałbyś zadać? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w kolejnej sesji "QandA". Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
 
-
+-->
 
 <hr class="major" />
 
 ## Wpadnij pobiegać!
 <span style="color:gray;">odbyło się 2.12(piątek godz. 08:00), 11.12(niedziela godz. 09:00), 14.12.2022 (środa godz. 16:00)</span>
+
+<!--	
 <div style="text-align:center;">
 <img src="https://www.pharmabusters.pl/assets/images/trening.jpg" alt="plakat" style="width:70%;" > 
 </div>
-
+-->
+	
 <hr class="major" />
 
 ## Webinar - działanie olejków eterycznych na zdrowie.
@@ -115,8 +130,10 @@ Mało? Masz pytania, które chciałbyś zadać? Może takie, które pomogą Ci w
 ## Listopadowa sesja "pytania i odpowiedzi" część pierwsza.
 <span style="color:gray;">odbyło się 12.11.2022</span><br>&nbsp;<br>
 <a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - link do podstrony z nagraniem części pierwszej.</a><br>&nbsp;<br>
+	
+<!--
 Masz pytania, które chciałbyś zadać na wstępie? Może takie, które pomogą Ci w decyzji, czy zgłosić się na konsultacje do mnie? Zapraszam! Odpowiem niedługo w sesji "QandA".Pytania będą prezentowane anonimowo, więc nie ma złych pytań.
-
+-->
 
 
 <hr class="major" />
