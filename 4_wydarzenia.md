@@ -44,7 +44,7 @@ Miejsce: Studio Jogi Trzecie Piętro ul. Czesława Niemena 3/44, Gdynia
 <hr class="major" />
 
 ## Konsulacje zdrowotne. Sopot Haffnera 12A. Zapraszam!
-<span style="color:lime;">Termin: 01.01-01.03.2023</span><br>&nbsp;<br>
+<span style="color:gray;">Termin: 01.01-01.03.2023</span><br>&nbsp;<br>
 	
 <hr class="major" />
 
