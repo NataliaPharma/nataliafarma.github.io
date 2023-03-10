@@ -28,8 +28,9 @@ z-index:50;
 background-image: url('https://www.pharmabusters.pl/assets/images/zaproszenie_v.png');
 background-size:cover;
 opacity: 0.0;
-pointer-events: all;
+pointer-events: none; // jakby jakiś kolejny plakacik to zmienić na all
 transition: 1s;
+visibility: hidden;  // jakby jakiś kolejny plakacik to wywalić
 }
 
 .plakatx {
@@ -38,7 +39,7 @@ margin-left:auto;
 width:calc(2.6vw + 3.9vh);
 height:calc(2.6vw + 3.9vh);
 cursor: pointer;
-visibility: hidden;  // jakby jakiś kolejny plakacik to tu
+visibility: hidden;  // jakby jakiś kolejny plakacik to wywalić
 }
 
 </style>
