@@ -11,7 +11,7 @@ Tematyka: kulinarny motyw kojarzący się z odpornością! Powodzenia:)
 
 Termin nadsyłania prac: do 15.03.2023
 
-
+<p style="color:lime;">Dzięki za wszystkie przesłane wiersze ! Fajnie, że się zmobilizowaliście:) jeszcze na pewno konkurs powtórzymy, a w tym wydaniu wygrała pani H.R. Która wolała być anonimowa:) wszystkim uczestnikom bardzo gratuluję i życzę życiowej weny codziennie<br>&nbsp;<br>Dzieki!</p>
 
 <script>
         
