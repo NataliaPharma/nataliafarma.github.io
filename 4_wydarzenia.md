@@ -31,8 +31,17 @@ Na ten moment brak, ale jak tylko się pojawa damy znać - zapisz się do Newsle
 
 <hr class="major" />
 
+## Konkurs poetycki.
+<span style="color:gray;">Zwycięzca wyłoniony w dniu 15.03.2023</span><br>
+
+Dzięki za wszystkie przesłane wiersze ! Fajnie, że się zmobilizowaliście:) jeszcze na pewno konkurs powtórzymy, a w tym wydaniu wygrała pani H.R. Która wolała być anonimowa:) wszystkim uczestnikom bardzo gratuluję i życzę życiowej weny codziennie
+
+Dzieki! 
+
+<hr class="major" />
+
 ## Zadbaj o zdrowie i odporność naturalnie z olejkami.
-<span style="color:gray;">Odbyło się się 5.02.2023 o godz. 16.00 - 17.30</span><br>
+<span style="color:gray;">Odbyło się 5.02.2023 o godz. 16.00 - 17.30</span><br>
 
 Miejsce: Studio Jogi Trzecie Piętro ul. Czesława Niemena 3/44, Gdynia
 
