@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Holistyczne spojrzenie na budowanie odporności.
-description: Holistycznie spojrzenie na budowanie odporności.
+description: Holistyczne spojrzenie na budowanie odporności.
 ---
 
 <p>W jakim stopniu ogólny dobrostan zależy od nas? Czy warto ignorować działanie mechanizmów zawiadujących biologicznym rytmem okołodobowym człowieka? Co ma sen do poziomu cukru? Czy patogeny mogą przyjmować jedynie postać materialną? Czy komunikacja między mózgiem i jelitami przebiega jednokierunkowo? Jak się leczy wirusówki? Jest też przepis na posiadający cudowne właściwości wywar z... Zapraszam do obejrzenia!</p> 
