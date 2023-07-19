@@ -76,6 +76,14 @@ show_tile: false
 	function opracowania_obj_gen() {
 opr = [
 {
+tytul: "Holistyczne spojrzenie na budowanie odporności.",
+data: "19.07.2023",
+autor: "Miękus-Purwin Natalia",
+dzial: "wykłady",
+art_link: "https://www.pharmabusters.pl/2023/07/19/odpornosc-holistycznie.html",
+dzial_link: ""
+},	
+{
 tytul: "Olejki eteryczne w walce z wirusami.",
 data: "07.12.2022",
 autor: "Miękus-Purwin Natalia",
