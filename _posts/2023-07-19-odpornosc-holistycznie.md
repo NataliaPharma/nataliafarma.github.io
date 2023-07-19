@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Holistycznie spojrzenie na budowanie odporności.
+title: Holistyczne spojrzenie na budowanie odporności.
 description: Holistycznie spojrzenie na budowanie odporności.
 ---
 
