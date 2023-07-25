@@ -45,7 +45,7 @@ Bo kosztuje tyle co czekolada, świeci w 3 kolorach, ma pilota, przetwornicę im
 
 Bez żadnych przeróbek można nadawać komunikat przełączając kolorki pilotem. Ledówka świeci jasno i jest widoczna z dużej odległości. Poponuję taki "kolorowy kod":<br>&nbsp;<br>
 
-<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led4.jpg"> 
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://uz.mobilnyfarmaceuta.pl/images/led4.jpg"> 
 
 <br>&nbsp;<br>
 
@@ -55,13 +55,13 @@ Białymi LEDami również da radę mrygać. Posługiwanie się dołączonym pilo
 
 Postanowiłem dodać możliwość nadawania w trybie radiotelegrafii w paśmie radiofonicznym. W tym celu dodałem ledówce obwód wg przedstawionego niżej schematu:<br>&nbsp;<br>
 
-<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led5.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://uz.mobilnyfarmaceuta.pl/images/led5.jpg"> <br>&nbsp;<br>
 
 
 Po tej modyfikacji ledówka wysyła antenką w przestrzeń modulowaną tonem 620Hz falę radiową o częstotliwości 17.734MHz. Jest to zakres 16m radiofonii. Można ten sygnał odbierać na normalnym, cywilnym, nieprzerobionym radiu z zakresem fal krótkich. Słychać pip pip piiiip :-)<br>&nbsp;<br>
 
  <video style="margin-left:37.5%;" width="25%"  controls>
-  <source src="https://autoserwis.leki.expert/static/ledv0.webm" type="video/webm">
+  <source src="https://uz.mobilnyfarmaceuta.pl/images/ledv0.webm" type="video/webm">
   Your browser does not support the video tag.
 </video> 
 
@@ -73,24 +73,24 @@ Mieszkaniec np bloku wystarczy, że przyłoży antenę radia w okolicę gniazdka
 
 Czyli teraz moja przerobiona ledówka nadaje sygnał radiowy MOŻLIWY DO ODEBRANIA ZWYKŁYM "RADYJKIEM" jednocześnie i anteną i "do tyłu w kabel energetyczny".
 
-<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led6.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://uz.mobilnyfarmaceuta.pl/images/led6.jpg"> <br>&nbsp;<br>
 
 # 6. Parę fotek.
 
 
-<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led1.jpg"> <br>&nbsp;<br>
-<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led2.jpg"> <br>&nbsp;<br>
-<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led3.jpg"> <br>&nbsp;<br>
-<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://autoserwis.leki.expert/static/led0.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://uz.mobilnyfarmaceuta.pl/images/led1.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://uz.mobilnyfarmaceuta.pl/images/led2.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://uz.mobilnyfarmaceuta.pl/images/led3.jpg"> <br>&nbsp;<br>
+<img style="width:50%;margin-left:25%;margin-right:auto;" src="https://uz.mobilnyfarmaceuta.pl/images/led0.jpg"> <br>&nbsp;<br>
 
 
 # 7. Zakończenie.
 
-<img style="width:100%;" src="https://autoserwis.leki.expert/static/led7.jpg"> <br>&nbsp;<br>
+<img style="width:100%;" src="https://uz.mobilnyfarmaceuta.pl/images/led7.jpg"> <br>&nbsp;<br>
 
 
  <video style="margin-left:37.5%;" width="25%"  controls>
-  <source src="https://autoserwis.leki.expert/static/ledv1.webm" type="video/webm">
+  <source src="https://uz.mobilnyfarmaceuta.pl/images/ledv1.webm" type="video/webm">
   Your browser does not support the video tag.
 </video> 
 
