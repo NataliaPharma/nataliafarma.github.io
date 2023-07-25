@@ -178,7 +178,7 @@ nav-menu: true
 <script>
 function licznikodw() {
 var xhr4 = new XMLHttpRequest();
-var url4 = "https://autoserwis.leki.expert/baster4/";
+var url4 = "https://uz.mobilnyfarmaceuta.pl/baster4";
 xhr4.open("POST", url4, true);
 xhr4.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 xhr4.setRequestHeader("Data-Type", "json");
