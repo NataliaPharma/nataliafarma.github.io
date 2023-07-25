@@ -16,7 +16,7 @@
 <span id="baster13stats">?</span> - olejki i wirusy <br>
 <span id="baster14stats">?</span> - konkurs poetycki<br>
 <span id="baster15stats">?</span> - Holistyczne spojrzenie na budowanie odporności.<br>
-<span id="baster16stats">?</span> - Ledówka z biedry.<br>
+<span id="baster16stats">?</span> - Ledówka z biedry. <a href="https://www.pharmabusters.pl/2023/02/27/ledowka-z-biedry.html">link😂</a> <br>
 
 
 
