@@ -38,10 +38,10 @@ description: Holistyczne spojrzenie na budowanie odporności.
 
 
 <script>
-/*
+
 function licznikodw() {
 var xhr4 = new XMLHttpRequest();
-var url4 = "https://autoserwis.leki.expert/baster13/";
+var url4 = "https://uz.mobilnyfarmaceuta.pl/baster15";
 xhr4.open("POST", url4, true);
 xhr4.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 xhr4.setRequestHeader("Data-Type", "json");
@@ -62,6 +62,6 @@ xhr4.send(data4);
 };
 
 licznikodw();
-*/
+	
 </script>
 
