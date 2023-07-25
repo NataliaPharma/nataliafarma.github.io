@@ -15,13 +15,14 @@
 <span id="baster12stats">?</span> - pytania i odpowiedzi listopad cz.2 <br>
 <span id="baster13stats">?</span> - olejki i wirusy <br>
 <span id="baster14stats">?</span> - konkurs poetycki<br>
+<span id="baster15stats">?</span> - Holistyczne spojrzenie na budowanie odporności.<br>
 
 
 
 <script>
 function licznikodw(koncowka) {
 var xhr4 = new XMLHttpRequest();
-var url4 = "https://autoserwis.leki.expert/" + koncowka + "/";
+var url4 = "https://uz.mobilnyfarmaceuta.pl/" + koncowka;
 xhr4.open("POST", url4, true);
 xhr4.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 xhr4.setRequestHeader("Data-Type", "json");
@@ -56,5 +57,6 @@ licznikodw("baster11stats");
 licznikodw("baster12stats"); 
 licznikodw("baster13stats"); 
 licznikodw("baster14stats"); 
+licznikodw("baster15stats"); 
   
 </script>
