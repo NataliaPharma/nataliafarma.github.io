@@ -42,4 +42,4 @@ exclude:
 
 webserver_headers:
   "Access-Control-Allow-Origin": "*"
-  "Server": "https://autoserwis.pythonanywhere.com"
+  "Server": "https://uz.mobilnyfarmaceuta.pl"
