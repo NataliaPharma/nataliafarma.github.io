@@ -42,4 +42,4 @@ exclude:
 
 webserver_headers:
   "Access-Control-Allow-Origin": "*"
-  "Server": "https://uz.mobilnyfarmaceuta.pl"
+  "Server": "https://pharmabusters.pl"
