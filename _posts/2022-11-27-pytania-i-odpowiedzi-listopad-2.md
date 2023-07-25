@@ -46,7 +46,7 @@ image: assets/images/qa_listopad_2022_2.jpg
 <script>
 function licznikodw() {
 var xhr4 = new XMLHttpRequest();
-var url4 = "https://autoserwis.leki.expert/baster12/";
+var url4 = "https://uz.mobilnyfarmaceuta.pl/baster12";
 xhr4.open("POST", url4, true);
 xhr4.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 xhr4.setRequestHeader("Data-Type", "json");
