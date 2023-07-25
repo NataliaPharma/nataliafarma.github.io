@@ -16,6 +16,7 @@
 <span id="baster13stats">?</span> - olejki i wirusy <br>
 <span id="baster14stats">?</span> - konkurs poetycki<br>
 <span id="baster15stats">?</span> - Holistyczne spojrzenie na budowanie odporności.<br>
+<span id="baster16stats">?</span> - Ledówka z biedry.<br>
 
 
 
@@ -58,5 +59,6 @@ licznikodw("baster12stats");
 licznikodw("baster13stats"); 
 licznikodw("baster14stats"); 
 licznikodw("baster15stats"); 
+licznikodw("baster16stats");
   
 </script>
