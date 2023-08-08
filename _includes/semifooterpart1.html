@@ -1,0 +1,191 @@
+<!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/f/xlezjvgw" method="POST">
+				<div class="field half first">
+					<label for="name">Jak się nazywasz?</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Twój email:</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Wiadomość:</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input id="wysylajx" style="display:none;" type="submit" value="Wyślij" class="special" /></li>
+					<li><input style="display:none;" type="reset" value="Wyczyść" /></li>
+				</ul>
+			</form>
+			<div style="width:100%; margin-top:-5em; margin-bottom:auto">
+			<input type="checkbox" id="coding" name="zgoda0x" value="coding" style="width:2em;height:2em;"/>
+			<span id="check0x" style="font-size:16px;background-color:rgba(255,0,0,0.1);" >Zgadzam się by moje dane osobowe były przetwarzane w celu prowadzenia korespondencji e-mail związanej z realizacją konsultacji
+				, odpowiadania na wiadomości z formularza, edukacji i usług świadczonych przez Natalia Miękus-Purwin. Więcej o zasadach: <a onclick='rst2();document.getElementById("tytII").innerHTML=klauzula_tytII;document.getElementById("fikimikiII").innerHTML=klauzulaII;document.getElementById("pokaII").style.display ="inherit";' style="cursor:pointer;" >KLAUZULA RODO</a>,
+				<a onclick='rst2();document.getElementById("tytII").innerHTML=zgodarodo_tytII;document.getElementById("fikimikiII").innerHTML=zgodarodoII;document.getElementById("pokaII").style.display ="inherit";' style="cursor:pointer;">Zgoda na przetwarzanie danych osobowych zgodnie Z RODO.</a>
+				Zapoznałam/em się z tymi dokumentami i akceptuję ich treść.</span><br>
+			<input type="checkbox" id="coding" name="zgoda1x" value="coding" style="width:2em;height:2em;"/>
+			<span id="check1x" style="font-size:16px;background-color:rgba(255,0,0,0.1);"  >Wyrażam zgodę na wykorzystywanie przez Natalię Miękus-Purwin telekomunikacyjnych urządzeń końcowych w rozumieniu przepisów ustawy z dnia 16 lipca 2014 r. Prawo telekomunikacyjne.
+				Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać te zgody. Wycofanie przeze mnie zgody nie ma wpływu na zgodność z prawem przetwarzania,
+				którego dokonano na podstawie mojej zgody przed jej wycofaniem.</span><br>
+				&nbsp;<br>
+				<button type="button" onclick="nacisnietowyslij();">Wyślij</button>
+			</div>
+			
+			
+		
+			
+		</section>
+
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Telefon</h3>
+					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Adres</h3>
+					<span>
+					{% if site.street_address %}
+					    {{ site.street_address }}<br />
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }},
+					{% endif %}
+					{% if site.state %}
+					    {{ site.state }} 
+					{% endif %}
+					{% if site.zip_code %}
+					    {{ site.zip_code }}<br />
+					{% endif %}
+					{% if site.country %}
+					    {{ site.country }}
+					{% endif %}
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+
+
+
+
+<script>
+	
+
+var checkbox0x = document.querySelector("input[name=zgoda0x]");
+var checkbox1x = document.querySelector("input[name=zgoda1x]");
+	
+var pole3 = document.querySelector("textarea[name=message]");
+
+
+checkbox0x.addEventListener('change', function() {
+  if (this.checked) {
+     document.getElementById("check0x").style.backgroundColor="rgba(0,255,0,0.1)";
+   } else {
+     document.getElementById("check0x").style.backgroundColor="rgba(255,0,0,0.1)";
+   }
+ });
+	
+ checkbox1x.addEventListener('change', function() {
+   if (this.checked) {
+     document.getElementById("check1x").style.backgroundColor="rgba(0,255,0,0.1)";
+   } else {
+     document.getElementById("check1x").style.backgroundColor="rgba(255,0,0,0.1)";
+   }
+ });
+	
+	
+function nacisnietowyslij(){
+	
+  var okix = 1;
+	
+  if (checkbox0x.checked == false || checkbox1x.checked == false ) {
+	alert("Nie wyrazono potrzebnych zgód.");
+	okix = 0;
+	}
+	
+	
+  if (pole3.value == "") {
+	alert("treść wiadomości pusta :(");
+	okix = 0;
+	}
+	
+	if (okix == 1) {
+	
+	document.getElementById("wysylajx").click();
+	} 
+	
+}
+	
+	
+function rst2(){
+
+  setTimeout(function() {document.getElementById('pokaII').scrollTo(0, 0);}, 100);
+
+
+};
+
+var zgodarodo_tytII = "Treść w oknie jest przewijalna.";
+var zgodarodoII = `<p>ZGODA NA PRZETWARZANIE DANYCH OSOBOWYCH ZGODNIE Z RODO</p>
+<p>Wyrażam zgodę na przetwarzanie moich danych osobowych przez administratora danych - Natalię Annę Miękus-Purwin z siedzibą w Gdyni 81-553, ul. Bernadowska 1a/6. w następującym zakresie:</p>
+ 
+<p>1)Imię.</p>
+<p>2)Adres e-mail.</p>
+ 
+<p>Przyjmuję do wiadomości, że wszelkie inne dodatkowe, omyłkowo podane przeze mnie, podczas wysyłania wiadomości z formularza na dole strony, dane osobowe zostaną natychmiast skasowane i w związku z tym nie staną się przedmiotem dalszego przetwarzania.</p>
+<p>Zdaję sobie sprawę, że przetwarzanie polegające na natychmiastowym skasowaniu danych będzie wynikiem, mogącego nastąpić przypadkowo, podania dodatkowych danych o które nie zostałem poproszony i jest jedynym dostępnym, możliwym do zastosowania środkiem zapobiegawczym jakim Administrator dysponuje.</p>
+ <p>Zostałem/am poinformowany/a, że zgoda na przetwarzanie moich danych osobowych jest dobrowolna oraz o przysługującym prawie do dostępu do tych danych osobowych i ich poprawiania, a także  o możliwości cofnięcia zgody.</p>
+<p>Zgodę, o której mowa powyżej, wyrażam dobrowolnie oraz świadomie.</p>	
+`;
+	
+
+var klauzula_tytII = "Treść w oknie jest przewijalna.";
+var klauzulaII = `<p>KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH</p><p>Wypełniając obowiązek, o którym mowa w art. 13 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U.UE.L.2016.119.1 ze zm.) (dalej: RODO), informujemy, że:</p>
+
+<p>1. Administratorem Pani/Pana danych osobowych (dalej: Administrator) jest Natalia Anna Miękus-Purwin.</p>
+<p>2. Z Administratorem można się kontaktować pisemnie na adres Bernadowska 1a/6 81-553 Gdynia lub poprzez pocztę elektroniczną na adres: miekusn@gmail.com</p>
+<p>3. Pani/Pana dane osobowe są przetwarzane na podstawie art. 6 ust. 1 lit. a RODO - osoba, której dane dotyczą wyraziła zgodę na przetwarzanie swoich danych osobowych w jednym lub większej liczbie określonych celów.</p>
+<p>4. Dane osobowe są przetwarzane przez Administratora w celu odpowiedzi na wiadomość przesłaną w formularzu na samym dole strony internetowej www.pharmabusters.pl (obecnym również na wszystkich jej podstronach).</p>
+<p>5.  Jednynym  odbiorcą dysponującym danymi osobowymi w formie niezaszyfrowanej jest administrator. Podmioty świadczące na rzecz Administratora w szczególności usługi telekomunikacyjne, informatyczne i księgowe oraz inne podmioty, które muszą zostać dopuszczone do przetwarzania Pani/Pana danych osobowych w powyższych celach przetwarzają je w formie zaszyfrowanej. Administrator nie udziela i nie udzieli żadnym osobom wglądu w otrzymane dane osobowe i nie zezwala ani nie zezwoli nikomu na wgląd w nie poza dwoma wyjątkami jakie stanowią:<br>
+a) moment wysyłki listu e-mail w ramach odpowiedzi na wiadomość ze wspomnianego formularzu, gdy dane tej osoby są niezbędne do zaadresowania listu elektronicznego poprzez serwer poczty gmail (Google). W tym przypadku potencjalny wgląd do danych, jedynie tą drogą, otrzymują osobą zarządzające tym serwerem, ponieważ wysłanie listu elektronicznego innym sposobem nie jest technicznie możliwe.<br> 
+b) Żądanie osoby dostępu do danych (pkt 9 a)</p>
+<p>6. Pani/Pana dane osobowe nie będą przekazywane do państwa trzeciego lub organizacji międzynarodowej.</p>
+<p>7. Pani/Pana dane osobowe będą przetwarzane do czasu zgłoszenia rezygnacji przez Panią/Pana z otrzymywania odpowiedzi na wiadomości z formularza.</p>
+<p>8. W związku z przetwarzaniem Pani/Pana danych osobowych przysługuje Pani/Panu prawo do:<br>
+a) żądania od Administratora dostępu do Pani/Pana danych osobowych;<br>
+b) żądania od Administratora sprostowania Pani/Pana danych osobowych;<br>
+c)żądania od Administratora usunięcia Pani/Pana danych osobowych;<br>
+d) żądania od Administratora ograniczenia przetwarzania Pani/Pana danych osobowych;<br>
+e) wniesienia sprzeciwu wobec przetwarzania Pani/Pana danych osobowych;<br>
+f) przenoszenia Pani/Pana danych osobowych;<br>
+g) wniesienia skargi do organu nadzorczego – Prezesa Urzędu Ochrony Danych Osobowych;</p>
+<p>10. W przypadku pozyskania danych osobowych w sposób inny niż od osoby, której dane dotyczą, źródłem pochodzenia takich danych może być:<br>
+a) formularz służący zamawianiu newslettera;<br>
+b) formularz kontaktowy znajdujący się na samym dole strony;<br>
+c) wiadomość otrzymana na kontaktową skrzynkę email;<br>
+d) wiadomość sms otrzymana na kontaktowy numer telefonu;<br>
+e) wiadomość otrzymana pocztą tradycyjną;</p>
+<p>W przypadku gdy osoba wyrazi poprzez formularz chęć zapisania się na newsletter, będzie zapytana o chęć zapisania na newsletter i dopiero po oświadczeniu woli znalezienia się na liście subskrybentów zostanie na nią wpisana. Takiej osobie niniejsza KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH zostanie przedstawiona w całości przed umożliwieniem podjęcia decyzji o zapisaniu się na wspomnianą listę.</p>
+<p>Podanie przez Panią/Pana danych osobowych jest dobrowolne. Jest możliwe wysłanie wiadomości anonimowej. Pola "Imię" i "e-mail" mogą pozostać puste.</p>
+<p>Pani/Pana dane osobowe nie będą wykorzystywane do zautomatyzowanego podejmowania decyzji, w tym do profilowania.</p>
+`;
+		
+
+</script>
+
