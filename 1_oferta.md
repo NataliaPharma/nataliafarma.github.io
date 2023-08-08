@@ -35,7 +35,7 @@ nav-menu: true
 }
 .wrap .girl {
   border: #fffefe 0.5vw solid;
-  background: url("https://autoserwis.leki.expert/static/siad.png") no-repeat;
+  background: url("https://pharmabusters.pl/assets/images/siad.png") no-repeat;
   background-size: contain;
   margin-left: 0;
   width: 23.5vw;
@@ -72,7 +72,7 @@ nav-menu: true
 
 @media only screen and (max-width: 768px) {
   .girl {
-    background: url(https://autoserwis.leki.expert/static/siad.png) no-repeat cover fixed;
+    background: url(https://pharmabusters.pl/assets/images/siad.png) no-repeat cover fixed;
   }
 
   .headerx {
