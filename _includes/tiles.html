@@ -1,10 +1,34 @@
+
+
+<style>
+
+.tiles article:nth-child(6n-4)::before {
+
+background-color:rgba(0,0,0,0.0);
+
+
+}
+
+.tiles article:nth-child(6n-4)::after {
+
+background-color:rgba(0,0,0,0.0);
+
+}
+
+
+
+</style>
+
 {% if 'posts' == site.tiles-source %}
     {% assign tiles = site.posts %}
 {% elsif 'pages' == site.tiles-source %}
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
-<section id="one" class="tiles">
-  {% for tile in tiles limit:site.tiles-count %}
+<section id="one" class="tiles" >
+  <!--
+ tiles-count 
+  -->
+{% for tile in tiles limit:1 %}
   <article>
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
@@ -14,5 +38,54 @@
       <p style="text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);" >{{ tile.description }}</p>
     </header>
   </article>
-  {% endfor %}
+    {% endfor %}
+
+  <article id="introtile" style="padding:0 0 0 0;cursor:pointer;">
+
+     <video id="introvideo" style="width:100%;margin-left:auto;margin-right:auto;" muted autoplay loop>
+  <source src="https://uz.mobilnyfarmaceuta.pl/images/intro.webm" type="video/webm">Your browser does not support the video tag.
+  </video> 
+  <button type="button" id="mowienie" style="position: absolute;left: 40%;">Włącz dzwięk</button>
+
+  </article>
+
 </section>
+
+<script>
+
+
+
+function przelaczdzwiekfilmu() {
+
+
+var video = document.getElementById("introvideo");
+video.muted = !video.muted;
+
+if (video.muted == true) {
+document.getElementById("mowienie").style.visibility= "visible";
+} else {
+document.getElementById("mowienie").style.visibility= "hidden";
+}
+
+}
+
+var movietile = document.getElementById("introtile"); movietile.addEventListener("click", (event) => {przelaczdzwiekfilmu();});
+
+//movietile.style.background = "black";
+
+function onVisible(element) {
+
+ var video = document.getElementById("introvideo");
+
+  new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if(entry.intersectionRatio === 0 && video.muted == false) {
+        przelaczdzwiekfilmu();
+        //observer.disconnect();
+      }
+    });
+  }).observe(element);
+}
+
+onVisible(document.querySelector("#introvideo"));
+</script>
