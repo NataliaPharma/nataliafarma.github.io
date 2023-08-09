@@ -124,13 +124,16 @@ nav-menu: true
                   <h3>Sesje indywidualne on-line/stacjonarnie:</h3>
     
                   <ul>
-                   <li>Edukacja żywieniowa, nawyki żywieniowe, relacja z jedzeniem, choroby psychosomatyczne</li>
-                   <li>Edukacja holistyczna w zakresie integracji ciała i umysłu uwzględniając osiągnięcia medycyny wschodniej i zachodniej</li>
-                   <li>Opracowywanie najlepszych dla Ciebie strategii holistycznego dbania o zdrowie (w tym szczególnie metod relaksacji)</li>
-                   <li>Nawyki zdrowotne usprawniające systemy naprawcze organizmu, pomagające w prewencji chorób cywilizacyjnych</li>
-                   <li>Model pracy dostosowany do Twoich potrzeb - Ty wybierasz, jaki filar/filary zdrowia w swoim życiu chciałbyś zmienić/zmodyfikować tak, aby cieszyć się swoim miejscem na Ziemi</li>
-                   <li>Możliwość sesji domowych, wypracowanie odpowiednich wzorców pro-zdrowotnych dla całej rodziny</li>
-                   <li>Połączenie medycyny konwencjonalnej z naturalną - co naprawdę Tobie służy, a co jest tylko chwytem reklamowym?</li>
+                   <li>Wsparcie w procesie zdrowienia - niefarmakologiczne metody walki z chorobami przewlekłymi.</li>
+                   <li>Profilaktyka i edukacja zdrowotna - jak ustrzec się chorób związanych z niewłaściwym stylem życia?</li>
+                   <li>Łączenie ciała i umysłu dla lepszego radzenia sobie ze stresem w chorobie, w wypaleniu zawodowym, w zaburzeniach jedzenia, zaburzeniach hormonalnych.</li>
+                   <li>Zdrowie prokreacyjne kobiet i mężczyzn - suplementacja, dieta, ruch i używki.</li>
+                   <li>Choroby autoimmunologiczne tarczycy - suplementacja i zdrowy tryb życia.</li>
+                   <li>Naturoterapia jako uzupełnienie codziennego dbania o zdrowie.</li>
+                   <li>Jak stosować leki i łączyć je z pożywieniem? Porady, analiza spersonalizowana Twojego przypadku, pomoc w dopasowaniu odpowiednich pór przyjmowania leku i wpływu składników pożywienia  na farmakoterapię.</li>
+                   <li>Coaching zdrowia - praca wspólna nad Twoim problemem zdrowotnym.</li>
+                   <li>Zarządzanie stresem w ujęciu biologiczno-psychologicznym.</li>
+                   <li>Jak dożyc emerytury w zdrowiu? Dbanie o zdrowie w różnych grupach wiekowych jako element prewencji chorób.</li>
                    </ul>
                   </div>
       
