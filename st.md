@@ -17,6 +17,7 @@
 <span id="baster14stats">?</span> - konkurs poetycki<br>
 <span id="baster15stats">?</span> - Holistyczne spojrzenie na budowanie odporności.<br>
 <span id="baster16stats">?</span> - Ledówka z biedry. <a href="https://www.pharmabusters.pl/2023/02/27/ledowka-z-biedry.html">link😂</a> <br>
+<span id="baster17stats">?</span> - Czas zmian.<br>
 
 
 
@@ -60,5 +61,6 @@ licznikodw("baster13stats");
 licznikodw("baster14stats"); 
 licznikodw("baster15stats"); 
 licznikodw("baster16stats");
+licznikodw("baster17stats");
   
 </script>
