@@ -84,6 +84,14 @@ art_link: "https://www.pharmabusters.pl/2023/07/19/odpornosc-holistycznie.html",
 dzial_link: ""
 },	
 {
+tytul: "Czas zmian.",
+data: "10.08.2023",
+autor: "Miękus-Purwin Natalia",
+dzial: "wykłady",
+art_link: "https://www.pharmabusters.pl/2023/08/10/czas-zmian.html",
+dzial_link: ""
+},	
+{
 tytul: "Olejki eteryczne w walce z wirusami.",
 data: "07.12.2022",
 autor: "Miękus-Purwin Natalia",
