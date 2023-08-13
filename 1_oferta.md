@@ -35,6 +35,7 @@ nav-menu: true
 }
 .wrap .girl {
   border: #fffefe 0.5vw solid;
+  border-radius: 20% 0px 20% 0px;
   background: url("https://pharmabusters.pl/assets/images/siad.png") no-repeat;
   background-size: contain;
   margin-left: 0;
@@ -80,34 +81,47 @@ nav-menu: true
   }
 }
 
+
+#pokazh {
+  color: black;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+
+
+
 </style>
-
-<div class="a1">
-<div class="a2">
-
-   
-  
-<div class="wrap">
-  <div class="girl"></div>
-  <h1 class="headerx" >&nbsp; &nbsp; &nbsp; We can do it.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span></span></h1>
-  
-  
-  
-</div>
-  
-</div>
-
-</div>
-
-
 
 
 
 <div id="main" class="alt">
+
+    <div style="position:absolute;right:5vw;width:50%;height:48vw;padding:7vw;">
   
-      <div style="position:absolute; width:65%; border: 0px dotted red;top:15vw;left:auto;right:0px;text-align:left;">
-       <span style="font-size:24vw;color:white;">Oferta</span>
-      </div>
+        <div style="height:100%;width:100%;">
+              <div style="width:100%;text-align:center;margin-top:10vw;Margin-bottom:auto;">
+                  <h3 id="pokazh" style="font-size:4.5vw;"></h3>
+              </div>
+
+              <!--
+              <p id="pokaz" style="color:black;font-size:1.2vw;">Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
+
+
+            <div style="display: flex; justify-content: center;padding:5vw;">
+            <img src="https://www.pharmabusters.pl/assets/images/aktyw3.png" style="width:25%; margin:1vw;"> 
+            <img src="https://www.pharmabusters.pl/assets/images/edu3.png" style="width:34%; margin:1vw;"> 
+            <img src="https://www.pharmabusters.pl/assets/images/coop3.png" style="width:37%; margin:1vw;">
+            </div>
+            -->
+        </div>
+
+    </div>
+
+<img src="https://pharmabusters.pl/assets/images/ofg.jpg" style="width:100%;">
+      
 
   
       <section id="one">
@@ -147,70 +161,125 @@ nav-menu: true
                    <li>Zdrowe miejsce pracy/miejsce nauki - korekcja niesłużących wzorców pracy.</li>
                    <li>Miejsce pracy skupione na pracowniku - well-being psycho-fizyczny. Holistyczne ścieżki zdrowia.</li>
                    </ul>
+                  <div style="text-align:center;width:100%;">
+
+      <a href="https://www.pharmabusters.pl/assets/cennik2.pdf" style="z-index:100;"><img style="width:25%;margin-bottom:auto;margin-top:10%;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik2.pdf"><b>Pobierz cennik.</b></a>
+
+      </div>
+
+
                    </div>
 
              </div>   
-      </div> <!-- koniec inner -->
+      </div> 
       </section>
-  </div>  <!-- koniec main -->
 
 
 
-<div style="position: absolute;width:100%;text-align:center;padding:2vw;">
-
-<a href="https://www.pharmabusters.pl/assets/cennik2.pdf" style="z-index:100;"><img style="width:8vw;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik2.pdf"><b>Pobierz cennik.</b></a>
-</div>
-<iframe name="ramka_scr" id="scroller" src="https://pharmabusters.pl/scroller.html" style="width:100%; height:23vw;z-index:99;margin: 0px 0px 0px 0px;border:none;" ></iframe>
 
 
 
-   
-<div id="main" class="alt" style="background-image: url('https://www.pharmabusters.pl/assets/images/tlo4.jpg');background-size:cover;">
-      <div class="inner">
-           <div class="row" style="background-color:rgba(172,255,172,0.8);padding:0px;margin:0px;border:0px;color:black;">
-                  <div class="4u 12u$(medium)" style="border: 0.25vw solid rgba(0,0,0,0.0);border-left-width: 0.5vw;border-right-width: 1vw;background-color:rgba(0,0,0,0.0);">
+
+
+<div class="row" style="background-color:snow;color:black;">
+      
+                  <div class="6u 12u$(small)" style="padding-top:4vw;padding-bottom:4vw;padding-right:4vw;padding-left:8vw;">
     
-                          <div style="width:100%;text-align:center;">
-                          <p>&nbsp;</p>
-                                <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/aktyw3.png" alt="" />
-                          <h4 style="color:black;text-shadow: 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1);">AKTYWIZACJA</h4>
-                          <h4>&nbsp;</h4>
-                          </div>
-                          
-                          <p style="color:black;text-shadow: 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1);">Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
+
+                  <div style="width:100%;text-align:center;">
+                  <h3 style="color:black;">AKTYWIZACJA</h3>
+                  </div>
+                  
+                  <p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
+    
+                  
                   </div>
 
-                  <div class="4u 12u$(medium)" style="border: 0.25vw solid rgba(0,0,0,0.0);border-right-width: 1vw;background-color:rgba(0,255,0,0.1);">
-                         
-                         <div style="width:100%;text-align:center;">  
-                         <p>&nbsp;</p>
-                              <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/edu3.png" alt="" />
-                         <h4 style="color:black; text-shadow: 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1);">EDUKACJA</h4>
-                         <h4>&nbsp;</h4>
-                        </div>
-                         <p style="color:black;text-shadow: 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1);">Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia!</p>
+                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+
+
+    
+                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="display:block;border:0px solid white;border-radius: 20% 0px 20% 0px; margin:auto; width:100%;">
+    
+                   </div>
+
+</div>   
+
+
+
+
+<div class="row" style="background-color:white;color:black;">
+      
+                  <div class="6u 12u$(small)" style="padding-top:4vw;padding-bottom:4vw;padding-right:4vw;padding-left:8vw;">
+
+                  <div style="width:100%;text-align:center;">
+                  <h3 style="color:black;">EDUKACJA</h3>
                   </div>
 
-                  <div class="4u$ 12u$(medium)" style="border: 0.25vw solid rgba(0,0,0,0.0);border-right-width: 1vw;background-color:rgba(0,0,0,0.0);">
-                        
-                        <div style="width:100%;text-align:center;">
-                        <p>&nbsp;</p>
-                             <img style="height:calc(7vw + 14vh);" src="https://www.pharmabusters.pl/assets/images/coop3.png" alt="" />
-                        <h4 style="color:black;text-shadow: 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1);">WSPÓLNA PRACA NAD ZMIANĄ</h4>
-                        <h4>&nbsp;</h4>
-                        </div>
-                        <p style="color:black;text-shadow: 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1), 0px 0px 8px rgba(255, 255, 255, 1);">Dlaczego ludzie przerzucają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę, mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu.</p>
+                  <p>Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia!</p>
+    
+                  
                   </div>
-           </div>
-       </div> <!-- koniec inner -->
-  </div> <!-- koniec main -->
+
+                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
 
 
-<div id="main" class="alt">
-      <div class="inner" >
+    
+                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="display:block;border:1px solid white;border-radius: 20% 0px 20% 0px; margin:auto; width:80%;">
+    
+                   </div>
+
+</div>   
+
+
+<div class="row" style="background-color:snow;color:black;">
+      
+                  <div class="6u 12u$(small)" style="padding-top:4vw;padding-bottom:4vw;padding-right:4vw;padding-left:8vw;">
+
+                  <div style="width:100%;text-align:center;">
+                  <h3 style="color:black;">WSPÓLNA PRACA NAD ZMIANĄ</h3>
+                  </div>
+
+                  <p>Dlaczego ludzie przerzucają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę, mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu.</p>
+    
+                  
+                  </div>
+
+                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+
+
+    
+                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="display:block;border:1px solid white;border-radius: 20% 0px 20% 0px; margin:auto; width:100%;">
+    
+                   </div>
+
+</div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="inner" >
     
     
-      <h2 id="content">Co zyskujesz?</h2>
+      <h1 id="content">Co zyskujesz?</h1>
     
       <ul>
       <li>Harmonizację w ciele, w sercu i duszy - naprawdę jest osiągalne, mimo że pracy jest sporo każdego dnia.</li>
@@ -221,20 +290,31 @@ nav-menu: true
 
       <p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
       Chcesz spróbować?</p> 
+  </div>
+
+
+
+ <div class="inner" >
     
-      <div style="width:100%;">
-           <hr class="major" />
-      </div>
+    
+   
+   
     
       <h2> Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
       
-    
-     <div style="width:100%;">
-           <hr class="major" />
-     </div>
+</div>
 
 
-     <div id="disqus_thread"></div>
+
+
+
+
+
+
+<div id="main" class="alt">
+<div id="disqus_thread"></div>
+</div> 
+
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -256,10 +336,52 @@ nav-menu: true
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
   
     
-     </div> <!-- koniec inner -->
-</div> <!-- koniec main -->
+
     
 <script>
+
+var g1 = "AKTYWIZACJA"
+var g12 = `Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!`;
+
+var g2 = "EDUKACJA"
+var g22 = `Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia!`;
+
+var g3 = "WSPÓLNA PRACA NAD ZMIANĄ"
+var g32 = `Dlaczego ludzie przerzucają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę, mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu.`;
+
+
+var cnt = 0
+
+
+function zmianatekstu() {
+cnt ++
+if (cnt == 1) {
+document.getElementById("pokazh").innerHTML = g1
+//document.getElementById("pokaz").innerHTML = g12
+document.getElementById("pokazh").style.color= "rgba(0,0,0,1.0)";
+} else if (cnt == 2) {
+document.getElementById("pokazh").style.color= "rgba(0,0,0,0.0)";
+}else if (cnt == 3) {
+document.getElementById("pokazh").innerHTML = g2
+//document.getElementById("pokaz").innerHTML = g22
+document.getElementById("pokazh").style.color = "rgba(0,0,0,1.0)";
+}else if (cnt == 4) {
+document.getElementById("pokazh").style.color= "rgba(0,0,0,0.0)";
+}else if (cnt == 5) {
+document.getElementById("pokazh").innerHTML = g3
+//document.getElementById("pokaz").innerHTML = g32
+document.getElementById("pokazh").style.color = "rgba(0,0,0,1.0)";
+}else if (cnt == 6) {
+document.getElementById("pokazh").style.color= "rgba(0,0,0,0.0)";
+cnt = 0
+}
+
+
+}
+
+setInterval(zmianatekstu, 1000);
+zmianatekstu();
+
 function licznikodw() {
 var xhr4 = new XMLHttpRequest();
 var url4 = "https://uz.mobilnyfarmaceuta.pl/baster3";
