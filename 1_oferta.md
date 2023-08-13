@@ -97,12 +97,12 @@ nav-menu: true
 
 
 
-<div id="main" class="alt">
+<div id="main" class="alt" style="background-color:white; color:black;" >
 
     <div style="position:absolute;right:5vw;width:50%;height:48vw;padding:7vw;">
   
         <div style="height:100%;width:100%;">
-              <div style="width:100%;text-align:center;margin-top:10vw;Margin-bottom:auto;">
+              <div style="width:100%;text-align:center;margin-top:10vw;margin-bottom:auto;">
                   <h3 id="pokazh" style="font-size:4.5vw;"></h3>
               </div>
 
@@ -125,17 +125,17 @@ nav-menu: true
 
   
       <section id="one">
-      <div class="inner" >
-            <h2>&nbsp;</h2>
-            <header class="major">
-            <h1>Możliwości współpracy:</h1>
+      <div class="inner"  style="background-color:white;color:black;">
+          
+            <header class="major" style="background-color:white;color:black;">
+            <h1 style="background-color:white;color:black;">Możliwości współpracy:</h1>
             </header>
 
-            <div class="row">
+            <div class="row" >
       
-                  <div class="6u 12u$(small)">
+                  <div class="6u 12u$(small)" >
     
-                  <h3>Sesje indywidualne on-line/stacjonarnie:</h3>
+                  <h3 style="color:black;">Sesje indywidualne on-line/stacjonarnie:</h3>
     
                   <ul>
                    <li>Wsparcie w procesie zdrowienia - niefarmakologiczne metody walki z chorobami przewlekłymi.</li>
@@ -153,7 +153,7 @@ nav-menu: true
       
                    <div class="6u$ 12u$(small)">
     
-                   <h3>Oferta dla firm/uczelni wyższych/szkół ponadgimnazjalnych:</h3>
+                   <h3 style="color:black;">Oferta dla firm/uczelni wyższych/szkół ponadgimnazjalnych:</h3>
     
                    <ul>
                    <li>Holistyczne dbanie o zdrowie pracowników, ale również szefów.</li>
@@ -163,7 +163,7 @@ nav-menu: true
                    </ul>
                   <div style="text-align:center;width:100%;">
 
-      <a href="https://www.pharmabusters.pl/assets/cennik2.pdf" style="z-index:100;"><img style="width:25%;margin-bottom:auto;margin-top:10%;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik2.pdf"><b>Pobierz cennik.</b></a>
+      <a href="https://www.pharmabusters.pl/assets/cennik2.pdf" style="z-index:100;"><img style="width:25%;margin-bottom:auto;margin-top:10%;" src="https://www.pharmabusters.pl/assets/images/pdftr.png" alt="" /></a><br> <a href="https://www.pharmabusters.pl/assets/cennik2.pdf"><b style="background-color:white;color:black;">Pobierz cennik.</b></a>
 
       </div>
 
@@ -175,13 +175,21 @@ nav-menu: true
       </section>
 
 
+<div style="height:5vw;width:100%;"></div>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; align-content: space-between; width:100%;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;">
+             </div>
+
+<div style="height:5vw;width:100%;"></div>
 
 
 
 
-
-
-<div class="row" style="background-color:snow;color:black;">
+<div class="row" style="background-color:rgba(0,0,0,0.1);color:black;">
       
                   <div class="6u 12u$(small)" style="padding-top:4vw;padding-bottom:4vw;padding-right:4vw;padding-left:8vw;">
     
@@ -196,11 +204,20 @@ nav-menu: true
                   </div>
 
                    <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+                   
+                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  </div>
+
+                  <div style="height:5vw;width:100%;"></div>
+
+                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  </div>
 
 
-    
-                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="display:block;border:0px solid white;border-radius: 20% 0px 20% 0px; margin:auto; width:100%;">
-    
                    </div>
 
 </div>   
@@ -208,7 +225,7 @@ nav-menu: true
 
 
 
-<div class="row" style="background-color:white;color:black;">
+<div class="row" style="background-color:rgba(0,0,0,0.0);color:black;">
       
                   <div class="6u 12u$(small)" style="padding-top:4vw;padding-bottom:4vw;padding-right:4vw;padding-left:8vw;">
 
@@ -221,18 +238,29 @@ nav-menu: true
                   
                   </div>
 
+
                    <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+                   
+                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  </div>
+
+                  <div style="height:5vw;width:100%;"></div>
+
+                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  </div>
 
 
-    
-                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="display:block;border:1px solid white;border-radius: 20% 0px 20% 0px; margin:auto; width:80%;">
     
                    </div>
 
 </div>   
 
 
-<div class="row" style="background-color:snow;color:black;">
+<div class="row" style="background-color:rgba(0,0,0,0.1);color:black;">
       
                   <div class="6u 12u$(small)" style="padding-top:4vw;padding-bottom:4vw;padding-right:4vw;padding-left:8vw;">
 
@@ -246,40 +274,29 @@ nav-menu: true
                   </div>
 
                    <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+                   
+                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  </div>
+
+                  <div style="height:5vw;width:100%;"></div>
+
+                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  </div>
 
 
-    
-                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="display:block;border:1px solid white;border-radius: 20% 0px 20% 0px; margin:auto; width:100%;">
-    
-                   </div>
-
+                 </div>
 </div>   
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <div class="inner" >
+   <div class="inner" style="color:black;">
     
     
-      <h1 id="content">Co zyskujesz?</h1>
+      <h1 id="content" style="color:black;">Co zyskujesz?</h1>
     
       <ul>
       <li>Harmonizację w ciele, w sercu i duszy - naprawdę jest osiągalne, mimo że pracy jest sporo każdego dnia.</li>
@@ -294,7 +311,7 @@ nav-menu: true
 
 
 
- <div class="inner" >
+ <div class="inner" style="color:black;">
     
     
    
