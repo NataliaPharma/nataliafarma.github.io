@@ -20,68 +20,247 @@ comments: true
 </div>
 
 
-<h1> Nadchodzące wydarzenia: </h1>
-
-Na ten moment brak, ale jak tylko się pojawa damy znać - zapisz się do Newsletter by być na bieżąco :)
-
-<hr class="major" />
+<div class="inner">
 
 
-<h1> Minione wydarzenia: </h1>
 
-<hr class="major" />
 
-## Konkurs poetycki.
-<span style="color:gray;">Zwycięzca wyłoniony w dniu 15.03.2023</span><br>
+<hr class="major">
+        
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;">
+               <a href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html"><h4>Ostatni miesiąc...</h4></a>
+           </div>
+        
+        <p>Zatrzymać się i rozejrzeć dookoła. Zrobić to czego nawet nie sposób rozpocząć w normalnym rytmie codzienności. Zaszła potrzeba zwolnienia. Przerwa twórcza. Taka sytuacja ;) Mimo wszystko zapraszam na konsultacje idywidualne! Co takiego się stało? Szczegóły wewnątrz posta. Po przerwie czeka mnie poruszenie wielu nowych tematów, których nie brakuje i ciągle przybywa.<a style="color:skyblue;" href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html">&nbsp; (czytaj dalej)</a></p>
 
-Dzięki za wszystkie przesłane wiersze ! Fajnie, że się zmobilizowaliście:) jeszcze na pewno konkurs powtórzymy, a w tym wydaniu wygrała pani H.R. Która wolała być anonimowa:) wszystkim uczestnikom bardzo gratuluję i życzę życiowej weny codziennie
+      
+        <blockquote>
+            <a>#wykłady</a>&nbsp; &nbsp;·&nbsp; &nbsp; <a href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html"><img src="https://www.pharmabusters.pl/assets/images/czasz.jpg" alt="poeta" style="width:70%;margin-left:15%;" > </a>          
+       </div>           
+    </div>      
 
-Dzieki! 
 
-<hr class="major" />
 
-## Zadbaj o zdrowie i odporność naturalnie z olejkami.
-<span style="color:gray;">Odbyło się 5.02.2023 o godz. 16.00 - 17.30</span><br>
 
-Miejsce: Studio Jogi Trzecie Piętro ul. Czesława Niemena 3/44, Gdynia
 
-<hr class="major" />
+    <hr class="major">
+        
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;">
+               <a href="https://www.pharmabusters.pl/2023/07/19/odpornosc-holistycznie.html"><h4>Holistyczne spojrzenie na budowanie odporności.</h4></a>
+           </div>
+        
+        <p>W jakim stopniu ogólny dobrostan zależy od nas? Czy warto ignorować działanie mechanizmów zawiadujących biologicznym rytmem okołodobowym człowieka? Co ma sen do poziomu cukru? Czy patogeny mogą przyjmować jedynie postać materialną? Czy komunikacja między mózgiem i jelitami przebiega jednokierunkowo? Jak się leczy wirusówki? Jest też przepis na posiadający cudowne właściwości wywar z... Zapraszam do obejrzenia! <a style="color:skyblue;" href="https://www.pharmabusters.pl/2023/07/19/odpornosc-holistycznie.html">&nbsp; (czytaj dalej)</a></p>
 
-## Wykład: Jak wzmacnić swoją odporność i cieszyć się zdrowiem niezależnie od pory roku?
-<span style="color:gray;">Odbyło się 18.01.2023 o godz. 17.30 - 18.15</span><br>
+      
+        <blockquote>
+            <a>#wykłady</a>&nbsp; &nbsp;·&nbsp; &nbsp; <a href="https://www.pharmabusters.pl/2023/07/19/odpornosc-holistycznie.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2023/07/19/odpornosc-holistycznie.html"><img src="https://www.pharmabusters.pl/assets/images/odpory.jpg" alt="poeta" style="width:70%;margin-left:15%;" > </a>         
+       </div>           
+    </div>      
 
-<hr class="major" />
 
-## Konsulacje zdrowotne. Sopot Haffnera 12A. Zapraszam!
-<span style="color:gray;">Termin: 01.01-01.03.2023</span><br>&nbsp;<br>
-	
-<hr class="major" />
 
-## Listopadowa sesja "pytania i odpowiedzi" część II.
-<span style="color:gray;">odbyło się 27.11.2022</span><br>&nbsp;<br>
-<a href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html">Listopadowa sesja - link do podstrony z nagraniem części drugiej.</a><br>&nbsp;<br>
-	
-<hr class="major" />
 
-## Wpadnij pobiegać!
-<span style="color:gray;">odbyło się 2.12(piątek godz. 08:00), 11.12(niedziela godz. 09:00), 14.12.2022 (środa godz. 16:00)</span>
 
-<hr class="major" />
+            <hr class="major">
+        
+    <div class="row" >   
+                <div class="6u 12u$(small)"> 
+                        <div style="width:100%;text-align:center;">
+                       <a href="https://www.pharmabusters.pl/2023/01/28/konkurs-poetycki.html"><h4>Konkurs poetycki - wygraj darmową konsultację!</h4></a>
+                        </div>
+        
+                         <p>Jeżeli nachodzi cię czasem pisaniowe wzmożenie to zapraszam do udziału w konkursie! Anonimowo, bez żadnego logowania możesz podzielić się z nami swoim utworem, więc nie będzie obciachu ;) </p>
 
-## Webinar - działanie olejków eterycznych na zdrowie.
-<span style="color:gray;">odbyło się 23.11.2022 o godzinie 20:00</span>
- <audio controls>
-  <source src="https://www.pharmabusters.pl/assets/olejki_zapowiedz.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio> 
+                        <p>Tematyka: kulinarny motyw kojarzący się z odpornością! Powodzenia:)</p>
 
-<hr class="major" />
+                          <p>Termin nadsyłania prac: do 15.03.2023 <a style="color:skyblue;" href="https://www.pharmabusters.pl/2023/01/28/konkurs-poetycki.html">&nbsp; (czytaj dalej)</a></p>
 
-## Listopadowa sesja "pytania i odpowiedzi" część pierwsza.
-<span style="color:gray;">odbyło się 12.11.2022</span><br>&nbsp;<br>
-<a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">Listopadowa sesja - link do podstrony z nagraniem części pierwszej.</a><br>&nbsp;<br>
+                         <p>Photo by <a href="https://unsplash.com/@alvaroserrano?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Álvaro Serrano</a> on <a href="https://unsplash.com/s/photos/poetry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
-<hr class="major" />
+                       <blockquote>
+                     <a>#konkursy</a>
+                         </blockquote>
+
+                      </div>
+                 <div class="6u$ 12u$(small)">                
+    <a  class="obr" href="https://www.pharmabusters.pl/2023/01/28/konkurs-poetycki.html"><img src="https://www.pharmabusters.pl/assets/images/poetry.jpg" alt="poeta" style="width:70%;margin-left:15%;"></a>           
+                </div>           
+    </div>      
+
+
+
+              <hr class="major">
+        
+        <div class="row" >   
+                         <div class="6u 12u$(small)"> 
+                                  <div style="width:100%;text-align:center;">
+                                 <a href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html"><h4>Pojawiłam się na łamach miesięcznika Charaktery.</h4></a>
+                                 </div>
+                                 <p>Link: <a href="https://charaktery.eu/artykul/holistyczne-modele-zdrowia-dostosowane-do-twoich-potrzeb-umow-konsultacje">Holistyczne modele zdrowia dostosowane do Twoich potrzeb - umów konsultację</a><br>&nbsp;<br>Zdrowia!</p>
+                             <blockquote>
+                            <a>#prasa</a>
+                            </blockquote>
+                         </div>
+                    <div class="6u$ 12u$(small)">                
+               <a  class="obr" href="https://charaktery.eu/artykul/holistyczne-modele-zdrowia-dostosowane-do-twoich-potrzeb-umow-konsultacje"><img src="https://www.pharmabusters.pl/assets/images/charaktery0.jpg" alt="przeciwwirusowe olejki" style="width:70%;margin-left:15%;" > </a>           
+                    </div>           
+            </div>      
+
+
+
+
+
+  
+
+
+                    <hr class="major">
+        
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;">
+               <a href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html"><h4>Olejki eteryczne w walce z wirusami. Wykład na szybko specjalnie dla Was.</h4></a>
+           </div>
+        <p> Jak olejki eteryczne radzą sobie w walce z wirusami? Jak je stosować i czy warto to robić? Jakie znamy wiarygodne źródła informacji o właściwościach leczniczych olejków? Jak zaopatrzyć się w produkt dobrej jakości? Czyli naukowo-praktyczna opowieść o olejkach eterycznych działających przeciwwirusowo. Zapraszam! <br>
+        <a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html">&nbsp; (czytaj dalej)</a></p>
+        <blockquote>
+            <a>#wykłady</a>&nbsp; &nbsp;·&nbsp; &nbsp;<a href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html"><img src="https://www.pharmabusters.pl/assets/images/olejkiv.jpg" alt="przeciwwirusowe olejki" style="width:70%;margin-left:15%;" > </a>           
+       </div>           
+    </div>      
+
+
+
+
+
+
+                    <hr class="major">
+        
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;">
+               <a href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html"><h4>Seria Q&A (listopad 2022 część II)</h4></a>
+           </div>
+        <p> Ważne tematy w tym odcinku to między innymi:<br> Czemu nie psychodietetyk? Czemu Holistic Health?<br>Łatwe metody na odporność psychiczną.<br>Aby niejadek zjadł... warzywa?<br>Choroby układu krążenia - czy możemy zastosować prewencję dietetyczną?<br>
+        <a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html">&nbsp; (czytaj dalej)</a></p>
+        <blockquote>
+            <a>#lifehacks</a>&nbsp; &nbsp;·&nbsp; &nbsp;<a href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html"><img src="https://www.pharmabusters.pl/assets/images/qa_listopad_2022_cz2.jpg" alt="QA" style="width:70%;margin-left:15%;" > </a>         
+       </div>           
+    </div>      
+            
+
+                    
+                    
+            <hr class="major">
+        
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;">
+               <a href="https://www.pharmabusters.pl/2022/11/27/polscy-aptekarze-zainteresowani.html"><h4>Polscy aptekarze zainteresowani holistycznym podejściem do pacjenta.</h4></a>
+           </div>
+        <p>Portal aptekarski.com zamieścił wywiad ze mną przeprowadzony przez Panią mgr farm. Joannę Bilek.
+           Opowiadam tam o ścieżce kariery zawodowej, moich zainteresowaniach. Przybliżam realia pracy naukowca. Przedstawiam założenia jakimi kieruję się w indywidualnej pracy z pacjentem.
+           <b>Będąc pacjentem przekonasz się jak wiele potrafimy i jak dużo możemy dla Ciebie zrobić gdy się do nas (farmaceutów) zwrócisz!</b>
+           Jeśli akurat studiujesz farmację będziesz mieć okazję poznać tajniki postawy, która uwolni Cię przed poczuciem bycia skazanym na aptekę.<br>&nbsp;<br>
+           Gorąco zapraszam do lektury skrótowca jak i całego tekstu zamieszczonego na portalu aptekarski.com.
+          
+        <a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/11/27/polscy-aptekarze-zainteresowani.html">&nbsp; (czytaj dalej)</a></p>
+        <blockquote>
+            <a>#prasa</a>&nbsp; &nbsp;·&nbsp; &nbsp;<a href="https://www.pharmabusters.pl/2022/11/27/polscy-aptekarze-zainteresowani.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2022/11/27/polscy-aptekarze-zainteresowani.html"><img src="https://www.pharmabusters.pl/assets/images/aptekarski.gif" alt="QA" style="width:70%;margin-left:15%;" > </a>           
+       </div>           
+    </div>      
+            
+            
+            
+            
+            
+            <hr class="major">
+        
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;">
+               <a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html"><h4>Seria Q&A (listopad 2022)</h4></a>
+           </div>
+        <p> Ważne tematy w tym odcinku to między innymi:<br>Jak studiować, by nie zwariować?<br>Jak znaleźć zapał, gdy się go straciło?<br>Czy Holistic Health to coś dla mnie?<br>Czy można jeść ZA ZDROWO?<br>Co dają konsultacje ze mną?<br>Owoce - zdrowie czy nie?<br>
+        <a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html">&nbsp; (czytaj dalej)</a></p>
+        <blockquote>
+            <a>#lifehacks</a>&nbsp; &nbsp;·&nbsp; &nbsp;<a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html"><img src="https://www.pharmabusters.pl/assets/images/qa_listopad_2022.jpg" alt="QA" style="width:70%;margin-left:15%;" > </a>           
+       </div>           
+    </div>      
+            
+
+
+
+         
+        <hr class="major">
+        
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;">
+               <a href="https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html"><h4>Próba mikrofonu.</h4></a>
+           </div>
+        <p> Jak nie krzyczeć na pacjentów i współpracowników ? Jak utrzymać pozytywny nastrój cały dzień?<a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html">&nbsp; (czytaj dalej)</a></p>
+        <blockquote>
+            <a>#lifehacks</a>&nbsp; &nbsp;·&nbsp; &nbsp;<a href="https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html#disqus_thread">Second article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html"><img src="https://www.pharmabusters.pl/assets/images/jaknie.jpg" alt="nati mowi" style="width:70%;margin-left:15%;" > </a>           
+       </div>           
+    </div>  
+
+
+        
+        <hr class="major">
+    <div class="row" > 
+         <div class="6u 12u$(small)"> 
+         <div style="width:100%;text-align:center;">
+            <a href="https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html"><h4>Koło życia.</h4></a>
+          </div>
+        <p>Dysbalans w którejś ze sfer życia jest często tym, co sprawia, że nie czujemy się dobrze w miejscu, w którym jesteśmy. WORK/LIFE balance to coś, co staje się powoli nierealne, zważywszy na czasy, w których żyjemy.<a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html">&nbsp; (czytaj dalej)</a></p>
+         <blockquote>
+        <a>#równowaga</a>&nbsp; &nbsp;·&nbsp; &nbsp;<a href="https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html#disqus_thread">Second article</a>
+        </blockquote>
+         </div>
+    
+        <div class="6u$ 12u$(small)">               
+              <a class="obr"  href="https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html"><img src="https://www.pharmabusters.pl/assets/images/kolo-zycia.png" alt="kolo" style="width:70%;margin-left:15%;" ></a>           
+            </div>  
+        
+        
+    </div>  
+    
+    
+</div>
+    
+    
+
 
 <div id="disqus_thread"></div>
 <script>
@@ -105,6 +284,7 @@ Miejsce: Studio Jogi Trzecie Piętro ul. Czesława Niemena 3/44, Gdynia
 <script id="dsq-count-scr" src="//pharmabusters.disqus.com/count.js" async></script>
 
 <hr class="major" />
+
 
 <script>
 function licznikodw() {
