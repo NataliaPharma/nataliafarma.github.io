@@ -56,7 +56,7 @@ comments: true
 <hr class="major" />
 
 
-<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum:</h1>
+<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 9</h1>
 
 
         
@@ -83,6 +83,9 @@ comments: true
 
 
             <hr class="major">
+
+            <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 8</h1>
+
         
     <div class="row" >   
                 <div class="6u 12u$(small)"> 
@@ -102,20 +105,31 @@ comments: true
                      <a>#konkursy</a>
                          </blockquote>
 
+
+
+
                       </div>
                  <div class="6u$ 12u$(small)">                
     <a  class="obr" href="https://www.pharmabusters.pl/2023/01/28/konkurs-poetycki.html"><img src="https://www.pharmabusters.pl/assets/images/poetry.jpg" alt="poeta" style="width:70%;margin-left:15%;"></a>           
                 </div>           
+
+                <p style="color:lime;">Zwycięzca wyłoniony w dniu 15.03.2023</p>
+
+<p style="color:lime;">Dzięki za wszystkie przesłane wiersze ! Fajnie, że się zmobilizowaliście:) jeszcze na pewno konkurs powtórzymy, a w tym wydaniu wygrała pani H.R. Która wolała być anonimowa:) wszystkim uczestnikom bardzo gratuluję i życzę życiowej weny codziennie. Dzieki! </p>
+
     </div>      
 
 
 
               <hr class="major">
+
+              <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 7</h1>
+
         
         <div class="row" >   
                          <div class="6u 12u$(small)"> 
                                   <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
-                                 <a href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html"><h4>Pojawiłam się na łamach miesięcznika Charaktery.</h4></a>
+                                 <a href="https://charaktery.eu/artykul/holistyczne-modele-zdrowia-dostosowane-do-twoich-potrzeb-umow-konsultacje"><h4>Pojawiłam się na łamach miesięcznika Charaktery.</h4></a>
                                  </div>
                                  <p>Link: <a href="https://charaktery.eu/artykul/holistyczne-modele-zdrowia-dostosowane-do-twoich-potrzeb-umow-konsultacje">Holistyczne modele zdrowia dostosowane do Twoich potrzeb - umów konsultację</a><br>&nbsp;<br>Zdrowia!</p>
                              <blockquote>
@@ -135,6 +149,8 @@ comments: true
 
 
                     <hr class="major">
+                    <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 6</h1>
+
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
@@ -158,6 +174,8 @@ comments: true
 
 
                     <hr class="major">
+                    <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 5</h1>
+
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
@@ -179,6 +197,8 @@ comments: true
                     
                     
             <hr class="major">
+            <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 4</h1>
+
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
@@ -206,6 +226,8 @@ comments: true
             
             
             <hr class="major">
+            <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 3</h1>
+
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
@@ -228,6 +250,8 @@ comments: true
 
          
         <hr class="major">
+        <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 2</h1>
+
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
@@ -247,6 +271,8 @@ comments: true
 
         
         <hr class="major">
+        <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum: 1</h1>
+
     <div class="row" > 
          <div class="6u 12u$(small)"> 
          <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
