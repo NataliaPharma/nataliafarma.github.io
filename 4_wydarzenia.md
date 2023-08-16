@@ -20,7 +20,7 @@ comments: true
 
 <div style="position: absolute; top:3.25em;left:0px">
 
-<p style="font-size:7vw;">Wydarzenia.</p>
+<p style="font-size:7vw; background: ">Wydarzenia.</p>
 
 </div>
 
@@ -32,12 +32,12 @@ comments: true
 
 <hr class="major" />
 
-<h1><u>Tymczasem w Gdyni...</u></h1>
+<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Tymczasem w Gdyni...</h1>
 
      
     <div class="row" >   
        <div class="6u 12u$(small)"> 
-          <div style="width:100%;text-align:center;">
+          <div style="width:100%;text-align:center;  background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                <a href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html"><h4>Ostatni miesiąc.</h4></a>
            </div>
         
@@ -56,13 +56,13 @@ comments: true
 <hr class="major" />
 
 
-<h1><u>Archiwum:</u></h1>
+<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%);">Archiwum:</h1>
 
 
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
-          <div style="width:100%;text-align:center;">
+          <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                <a href="https://www.pharmabusters.pl/2023/07/19/odpornosc-holistycznie.html"><h4>Holistyczne spojrzenie na budowanie odporności.</h4></a>
            </div>
         
@@ -86,7 +86,7 @@ comments: true
         
     <div class="row" >   
                 <div class="6u 12u$(small)"> 
-                        <div style="width:100%;text-align:center;">
+                        <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                        <a href="https://www.pharmabusters.pl/2023/01/28/konkurs-poetycki.html"><h4>Konkurs poetycki - wygraj darmową konsultację!</h4></a>
                         </div>
         
@@ -114,7 +114,7 @@ comments: true
         
         <div class="row" >   
                          <div class="6u 12u$(small)"> 
-                                  <div style="width:100%;text-align:center;">
+                                  <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                                  <a href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html"><h4>Pojawiłam się na łamach miesięcznika Charaktery.</h4></a>
                                  </div>
                                  <p>Link: <a href="https://charaktery.eu/artykul/holistyczne-modele-zdrowia-dostosowane-do-twoich-potrzeb-umow-konsultacje">Holistyczne modele zdrowia dostosowane do Twoich potrzeb - umów konsultację</a><br>&nbsp;<br>Zdrowia!</p>
@@ -138,7 +138,7 @@ comments: true
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
-          <div style="width:100%;text-align:center;">
+          <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                <a href="https://www.pharmabusters.pl/2022/12/07/przeciwwirusowe-olejki.html"><h4>Olejki eteryczne w walce z wirusami. Wykład na szybko specjalnie dla Was.</h4></a>
            </div>
         <p> Jak olejki eteryczne radzą sobie w walce z wirusami? Jak je stosować i czy warto to robić? Jakie znamy wiarygodne źródła informacji o właściwościach leczniczych olejków? Jak zaopatrzyć się w produkt dobrej jakości? Czyli naukowo-praktyczna opowieść o olejkach eterycznych działających przeciwwirusowo. Zapraszam! <br>
@@ -161,7 +161,7 @@ comments: true
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
-          <div style="width:100%;text-align:center;">
+          <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                <a href="https://www.pharmabusters.pl/2022/11/27/pytania-i-odpowiedzi-listopad-2.html"><h4>Seria Q&A (listopad 2022 część II)</h4></a>
            </div>
         <p> Ważne tematy w tym odcinku to między innymi:<br> Czemu nie psychodietetyk? Czemu Holistic Health?<br>Łatwe metody na odporność psychiczną.<br>Aby niejadek zjadł... warzywa?<br>Choroby układu krążenia - czy możemy zastosować prewencję dietetyczną?<br>
@@ -182,7 +182,7 @@ comments: true
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
-          <div style="width:100%;text-align:center;">
+          <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                <a href="https://www.pharmabusters.pl/2022/11/27/polscy-aptekarze-zainteresowani.html"><h4>Polscy aptekarze zainteresowani holistycznym podejściem do pacjenta.</h4></a>
            </div>
         <p>Portal aptekarski.com zamieścił wywiad ze mną przeprowadzony przez Panią mgr farm. Joannę Bilek.
@@ -209,7 +209,7 @@ comments: true
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
-          <div style="width:100%;text-align:center;">
+          <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                <a href="https://www.pharmabusters.pl/2022/11/12/pytania-i-odpowiedzi-listopad.html"><h4>Seria Q&A (listopad 2022)</h4></a>
            </div>
         <p> Ważne tematy w tym odcinku to między innymi:<br>Jak studiować, by nie zwariować?<br>Jak znaleźć zapał, gdy się go straciło?<br>Czy Holistic Health to coś dla mnie?<br>Czy można jeść ZA ZDROWO?<br>Co dają konsultacje ze mną?<br>Owoce - zdrowie czy nie?<br>
@@ -231,7 +231,7 @@ comments: true
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
-          <div style="width:100%;text-align:center;">
+          <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
                <a href="https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html"><h4>Próba mikrofonu.</h4></a>
            </div>
         <p> Jak nie krzyczeć na pacjentów i współpracowników ? Jak utrzymać pozytywny nastrój cały dzień?<a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/10/12/raz-dwa-trzy-proba-mikrofonu.html">&nbsp; (czytaj dalej)</a></p>
@@ -249,7 +249,7 @@ comments: true
         <hr class="major">
     <div class="row" > 
          <div class="6u 12u$(small)"> 
-         <div style="width:100%;text-align:center;">
+         <div style="width:100%;text-align:center; background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
             <a href="https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html"><h4>Koło życia.</h4></a>
           </div>
         <p>Dysbalans w którejś ze sfer życia jest często tym, co sprawia, że nie czujemy się dobrze w miejscu, w którym jesteśmy. WORK/LIFE balance to coś, co staje się powoli nierealne, zważywszy na czasy, w których żyjemy.<a style="color:skyblue;" href="https://www.pharmabusters.pl/2022/10/11/kolo-zycia.html">&nbsp; (czytaj dalej)</a></p>
