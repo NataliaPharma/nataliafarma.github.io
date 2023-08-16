@@ -6,27 +6,35 @@ nav-menu: true
 comments: true
 ---
 
+<p>
 
-<div class="image main">
-     <div style="background-color:PaleVioletRed;text-align:center;" >
+<div class="image main" style="position:absolute; top:0px;right:0px;width:100%; background-color:#242943;">
+     <div style="background-color:rgba(0,0,0,0.0);text-align:center;border-radius:0 0 0 0;" >
 	     <div style="position:absolute;width:100%;text-align:left;z-index:100;margin-bottom:0px;margin-top:0px;padding:0px;">
 	     <p style="font-size:6px;color:gray;margin-bottom:0px;margin-top:0px;padding:0px;">This work is based on "Pigeon" (https://sketchfab.com/3d-models/pigeon-5884a0f5200c44ceaa7d0399bea577f9) by FourthGreen (https://sketchfab.com/FourthGreen) licensed under CC-BY-4.0</p>
              </div>
-	         <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/golab.html" style="width:100%; aspect-ratio : 1 / 0.25;z-index:99;" ></iframe>
+	         <iframe name="ramka1" id="iframe1" src="https://pharmabusters.pl/golab.html" style="width:100%; aspect-ratio : 1 / 0.25;z-index:99; border-radius:200% 0 0 0;margin-top:3.25em;margin-bootm:auto;" ></iframe>
 	         <h3> Kiliknij <a style="color:skyblue;cursor:pointer;" href="https://www.pharmabusters.pl/newsletter" > >>tutaj<< </a> by zapisać się do Newsletteru!</h3>
-	         <p>Nowe komunikaty pojawiające się na tej podstronie będą wpadnać prosto do Twojej skrzynki!</p>
      </div>
-	
+</div>
+
+<div style="position: absolute; top:3.25em;left:0px">
+
+<p style="font-size:7vw;">Wydarzenia.</p>
+
 </div>
 
 
-<div class="inner">
+<div style="width:100%;height:20vw;"></div>
 
 
 
 
-<hr class="major">
-        
+<hr class="major" />
+
+<h1> Tymczasem w Gdyni...  </h1>
+
+     
     <div class="row" >   
        <div class="6u 12u$(small)"> 
           <div style="width:100%;text-align:center;">
@@ -43,13 +51,14 @@ comments: true
        <div class="6u$ 12u$(small)">                
               <a  class="obr" href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html"><img src="https://www.pharmabusters.pl/assets/images/czasz.jpg" alt="poeta" style="width:70%;margin-left:15%;" > </a>          
        </div>           
-    </div>      
+    </div>    
+
+<hr class="major" />
 
 
+<h1> Archiwum: </h1>
 
 
-
-    <hr class="major">
         
     <div class="row" >   
        <div class="6u 12u$(small)"> 
