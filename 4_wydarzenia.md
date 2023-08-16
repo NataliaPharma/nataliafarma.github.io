@@ -32,13 +32,13 @@ comments: true
 
 <hr class="major" />
 
-<h1> Tymczasem w Gdyni...  </h1>
+<h1><u>Tymczasem w Gdyni...</u></h1>
 
      
     <div class="row" >   
        <div class="6u 12u$(small)"> 
           <div style="width:100%;text-align:center;">
-               <a href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html"><h4>Ostatni miesiąc...</h4></a>
+               <a href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html"><h4>Ostatni miesiąc.</h4></a>
            </div>
         
         <p>Zatrzymać się i rozejrzeć dookoła. Zrobić to czego nawet nie sposób rozpocząć w normalnym rytmie codzienności. Zaszła potrzeba zwolnienia. Przerwa twórcza. Taka sytuacja ;) Mimo wszystko zapraszam na konsultacje idywidualne! Co takiego się stało? Szczegóły wewnątrz posta. Po przerwie czeka mnie poruszenie wielu nowych tematów, których nie brakuje i ciągle przybywa.<a style="color:skyblue;" href="https://www.pharmabusters.pl/2023/08/10/czas-zmian.html">&nbsp; (czytaj dalej)</a></p>
@@ -56,7 +56,7 @@ comments: true
 <hr class="major" />
 
 
-<h1> Archiwum: </h1>
+<h1><u>Archiwum:</u></h1>
 
 
         
