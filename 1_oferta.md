@@ -177,16 +177,12 @@ nav-menu: true
 
 <div style="height:5vw;width:100%;"></div>
 
-<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; align-content: space-between; width:100%;">
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; align-content: space-between; width:100%; display:none;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:17%;">
              </div>
-
-<div style="height:5vw;width:100%;"></div>
-
-
 
 
 <div class="row" style="background-color:rgba(0,0,0,0.1);color:black;">
@@ -203,16 +199,16 @@ nav-menu: true
                   
                   </div>
 
-                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;">
                    
-                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
                   </div>
 
                   <div style="height:5vw;width:100%;"></div>
 
-                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
                   </div>
@@ -239,16 +235,16 @@ nav-menu: true
                   </div>
 
 
-                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;">
                    
-                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
                   </div>
 
                   <div style="height:5vw;width:100%;"></div>
 
-                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
                   </div>
@@ -273,16 +269,16 @@ nav-menu: true
                   
                   </div>
 
-                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;padding-left:4vw;">
+                   <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;">
                    
-                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
                   </div>
 
                   <div style="height:5vw;width:100%;"></div>
 
-                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;">
+                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
                   <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
                   </div>
@@ -317,18 +313,13 @@ nav-menu: true
    
    
     
-      <h2> Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
+      <h2 style="color:black;"> Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
       
 </div>
 
 
 
-
-
-
-
-
-<div id="main" class="alt">
+<div id="main" class="alt" style="background-color:#242943;">
 <div id="disqus_thread"></div>
 </div> 
 
