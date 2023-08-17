@@ -320,7 +320,7 @@ nav-menu: true
 
 
 <div id="main" class="alt" style="background-color:#242943;">
-<div id="disqus_thread"></div>
+<div id="disqus_thread" style="width:97%;"></div>
 </div> 
 
 <script>
