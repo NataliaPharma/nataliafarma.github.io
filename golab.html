@@ -76,6 +76,8 @@ function init() {
   });
 }
 
+
+
 function createCamera() {
   const fov = 35;
   const aspect = container.clientWidth / container.clientHeight;
@@ -153,6 +155,18 @@ function onWindowResize() {
 }
 window.addEventListener("resize", onWindowResize, false);
   
-  
+const tloader = new THREE.TextureLoader();
+
+var dodotex = tloader.load('https://www.pharmabusters.pl/assets/images/tlowyd.jpg')
+dodotex.magFilter = THREE.LinearFilter;
+dodotex.minFilter = THREE.LinearFilter; 
+var dodomaterial = new THREE.MeshBasicMaterial( { map: dodotex, flatShading: false, side: THREE.OneSide, opacity: 1, transparent: true } )
+var dodogeometry = new THREE.PlaneGeometry( 20, 10, 4, 4 );
+var dodo = new THREE.Mesh(dodogeometry, dodomaterial);
+dodo.position.z = -11;
+dodo.position.y = -1;
+dodo.position.x = -1;
+scene.add(dodo)
+
 </script>
 
