@@ -301,19 +301,10 @@ nav-menu: true
       <li>Spojrzenie na życie z innej perspektywy - problemy nie znikną, ale możliwe, że nauczysz się żyć tak, by nie determinowały negatywnie całego Twojego życia</li>
       </ul>
 
-      <p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!
-      Chcesz spróbować?</p> 
+      <p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!</p> 
+
+      <a href="https://www.pharmabusters.pl/q">Pod tym linkiem znajduje się anonimowy kwestionariusz, dzięki któremu sprawdzisz, czy potrzebujesz konsultacji!</a>
   </div>
-
-
-<script src="https://www.pharmabusters.pl/assets/js/iframeResizer.min.js"></script>
-
-
-<iframe id="myIframe" src="https://www.pharmabusters.pl/q" style="width:100%;min-width:100%;height:100vh; border:0px solid black;"></iframe>
-
-<script>
-  iFrameResize({ log: true }, '#myIframe')
-</script>
 
 
 
