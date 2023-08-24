@@ -303,7 +303,6 @@ nav-menu: true
 
       <p>Ale tak naprawdę każdy zyska coś innego! To jest zależne tylko od Ciebie!</p> 
 
-      <a href="https://www.pharmabusters.pl/q">Pod tym linkiem znajduje się anonimowy kwestionariusz, dzięki któremu sprawdzisz, czy potrzebujesz konsultacji!</a>
   </div>
 
 
