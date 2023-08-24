@@ -306,16 +306,14 @@ nav-menu: true
   </div>
 
 
+<script src="https://www.pharmabusters.pl/assets/js/iframeResizer.min.js"></script>
 
- <div class="inner" style="color:black;">
-    
-    
-   
-   
-    
-      <h2 style="color:black;"> Zapraszam do kontaktu - również mailowo udostępnię Tobie cennik, gdyż jest on zmienny, zależnie od potrzeb.</h2>
-      
-</div>
+
+<iframe scrolling="no" id="myIframe" src="https://www.pharmabusters.pl/q" style="width:100vw;height:100vh; border:0px solid black;"></iframe>
+
+<script>
+  iFrameResize({ log: true }, '#myIframe')
+</script>
 
 
 
@@ -336,7 +334,7 @@ nav-menu: true
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
     s.src = 'https://pharmabusters.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
+    s.setAttribute('data-timestamp', +naew Date());
     (d.head || d.body).appendChild(s);
     })();
 </script>
