@@ -315,7 +315,7 @@ nav-menu: true
 <script>
 
 
-document.getElementById("myIframe").addEventListener("load", () => {iFrameResize({ log: true }, '#myIframe');});
+document.getElementById("myIframe").addEventListener("load", () => {iFrameResize({ log: true, heightCalculationMethod: 'lowestElement' }, '#myIframe');});
 
   
 </script>
