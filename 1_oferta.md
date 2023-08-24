@@ -310,7 +310,7 @@ nav-menu: true
 <script src="https://www.pharmabusters.pl/assets/js/iframeResizer.min.js"></script>
 
 
-<iframe id="myIframe" src="https://www.pharmabusters.pl/q" style="width:100%;min-width:100%;"></iframe>
+<iframe id="myIframe" src="https://www.pharmabusters.pl/q" style="width: 1px;min-width:100%;"></iframe>
 
 <script>
 
