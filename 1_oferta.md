@@ -5,6 +5,11 @@ description: "❖ Sesje indywidualne&nbsp;<br>&nbsp;<br>❖ Spotkania wykładowe
 nav-menu: true
 ---
 <style>
+
+  @font-face {
+font-family: "suezone";
+src: url("https://www.pharmabusters.pl/assets/fonts/suezone-regular-webfont.woff") format("woff");
+}
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -83,7 +88,10 @@ nav-menu: true
 
 
 #pokazh {
-  color: black;
+  font-family: 'suezone', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  color: tomato;
   -webkit-transition: color 1s ease-out;
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
@@ -238,15 +246,15 @@ nav-menu: true
                    <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;">
                    
                    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  <img src="https://pharmabusters.pl/assets/images/edukacja1.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/edukacja2.jpg" style="width:45%;">
                   </div>
 
                   <div style="height:5vw;width:100%;"></div>
 
                   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  <img src="https://pharmabusters.pl/assets/images/edukacja3.jpg" style="width:45%;"> 
+                  <img src="https://pharmabusters.pl/assets/images/edukacja4.jpg" style="width:45%;">
                   </div>
 
 
@@ -332,13 +340,13 @@ document.getElementById("myIframe").addEventListener("load", () => {iFrameResize
     
 <script>
 
-var g1 = "AKTYWIZACJA"
+var g1 = "aktywizacja"
 var g12 = `Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!`;
 
-var g2 = "EDUKACJA"
+var g2 = "edukacja"
 var g22 = `Prowadzę wykłady z tematyki okołozdrowotnej, moje unikalne metody łączą dbałość o zdrowie fizyczne, psychiczne i emocjonalne jednocześnie. Jeśli posłuchasz zrozumiesz, że to podejście holistyczne daje spektakularne zdrowotne efekty. Zrozumiesz, że zdrowie możemy osiągnąć dopiero słuchając siebie, znajdując swoje miejsce w ciele, ale również w warunkach, w których żyjemy. Zakładam, że nie ma tematów, których powinniśmy unikać – jest za to wiele niedopowiedzeń, półprawd, czy też źle przekazanych informacji i wynikające z tego nieporozumienia!`;
 
-var g3 = "WSPÓLNA PRACA NAD ZMIANĄ"
+var g3 = "wspólna praca nad zmiana"
 var g32 = `Dlaczego ludzie przerzucają odpowiedzialność za swoje zdrowie na innych? Niedobór czasu i wglądu w temat, brak edukacji (albo wiara w "modę, mity i półprawdy") to niewątpliwie jedne z głównych przyczyn. Odczuwamy też brak osób, którym moglibyśmy zaufać jeśli chodzi o o utrzymywanie swojej szeroko pojętej kondycji zdrowotnej na najwyższym poziomie. Wspieram osoby starające zmienić swój styl życia na taki, który w pełni posłuży ich zdrowiu.`;
 
 
@@ -350,21 +358,21 @@ cnt ++
 if (cnt == 1) {
 document.getElementById("pokazh").innerHTML = g1
 //document.getElementById("pokaz").innerHTML = g12
-document.getElementById("pokazh").style.color= "rgba(0,0,0,1.0)";
+document.getElementById("pokazh").style.color= "rgba(128,0,0,1.0)";
 } else if (cnt == 2) {
-document.getElementById("pokazh").style.color= "rgba(0,0,0,0.0)";
+document.getElementById("pokazh").style.color= "rgba(128,0,0,0.0)";
 }else if (cnt == 3) {
 document.getElementById("pokazh").innerHTML = g2
 //document.getElementById("pokaz").innerHTML = g22
-document.getElementById("pokazh").style.color = "rgba(0,0,0,1.0)";
+document.getElementById("pokazh").style.color = "rgba(128,0,0,1.0)";
 }else if (cnt == 4) {
-document.getElementById("pokazh").style.color= "rgba(0,0,0,0.0)";
+document.getElementById("pokazh").style.color= "rgba(128,0,0,0.0)";
 }else if (cnt == 5) {
 document.getElementById("pokazh").innerHTML = g3
 //document.getElementById("pokaz").innerHTML = g32
-document.getElementById("pokazh").style.color = "rgba(0,0,0,1.0)";
+document.getElementById("pokazh").style.color = "rgba(128,0,0,1.0)";
 }else if (cnt == 6) {
-document.getElementById("pokazh").style.color= "rgba(0,0,0,0.0)";
+document.getElementById("pokazh").style.color= "rgba(128,0,0,0.0)";
 cnt = 0
 }
 
