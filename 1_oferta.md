@@ -203,6 +203,8 @@ src: url("https://www.pharmabusters.pl/assets/fonts/suezone-regular-webfont.woff
                   </div>
                   
                   <p>Zgoda, są ludzie którzy pomogą, lekarze przepiszą odpowiednie leki, farmaceuci posłużą poradą, internet jest pełen przydatnych informacji, ale to od nas zależy jak wszelkie rady i dobre dla nas wskazówki zastosujemy. Ważne jest nie tylko „co”, równie ważne jest „jak”. I nic tak nie uczy jak dobre przykłady. Jesteś zainteresowany przeprowadzić w swojej firmie, szkole, na uczelni, w swojej rodzinie, czy tylko dla siebie, wykład albo sesję edukacyjną? Napisz do mnie. Zobaczymy, co dalej. Od zamiaru przejdziesz gładko do czynu, znajdziesz chęć i zmobilizujesz się. Możesz zachować swoje zdrowie na wiele lat!</p>
+
+                  <p style="color:gray;"><a href="https://www.freepik.com/icon/activation_2038575">Icon by Flat Icons</a></p>
     
                   
                   </div>
@@ -210,16 +212,11 @@ src: url("https://www.pharmabusters.pl/assets/fonts/suezone-regular-webfont.woff
                    <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;">
                    
                    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  <img src="https://pharmabusters.pl/assets/images/activation.png" style="width:100%;"> 
+              
                   </div>
 
-                  <div style="height:5vw;width:100%;"></div>
-
-                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
-                  </div>
+                  
 
 
                    </div>
@@ -280,16 +277,11 @@ src: url("https://www.pharmabusters.pl/assets/fonts/suezone-regular-webfont.woff
                    <div class="6u$ 12u$(small)" style="display:block;padding:8vw;padding-top:4vw;padding-bottom:4vw;">
                    
                    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
+                  <img src="https://pharmabusters.pl/assets/images/coop3.png" style="width:100%;"> 
+                
                   </div>
 
-                  <div style="height:5vw;width:100%;"></div>
-
-                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content: space-between;padding-left:4vw;">
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;"> 
-                  <img src="https://pharmabusters.pl/assets/images/pytajnik.jpg" style="width:45%;">
-                  </div>
+                 
 
 
                  </div>
