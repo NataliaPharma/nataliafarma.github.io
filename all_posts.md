@@ -77,6 +77,14 @@ show_tile: false
 	function opracowania_obj_gen() {
 opr = [
 {
+tytul: "Higiena cyfrowa - nowy filar zdrowia w erze technologii",
+data: "20.12.2024",
+autor: "Miękus-Purwin Natalia",
+dzial: "prasa",
+art_link: "https://www.pharmabusters.pl/2024/12/20/higiena-cyfrowa.html",
+dzial_link: ""
+},
+{
 tytul: "Technologia PCT-MS-MicroLC-SWATH do analizy różnic związanych z płcią między móżdżkiem męskim i żeńskim.",
 data: "04.12.2024",
 autor: "Miękus-Purwin Natalia",
