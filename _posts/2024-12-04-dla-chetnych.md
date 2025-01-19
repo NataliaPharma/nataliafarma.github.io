@@ -4,7 +4,7 @@ title: Technologia PCT-MS-MicroLC-SWATH do analizy różnic związanych z płci�
 description: Dla chętnych.
 ---
 <div style="text-align:center;">
-    <img src="https://www.pharmabusters.pl/assets/images/punk2-article.jpg" alt="Artykuł naukowy" style="width:1200px;" />
+    <img src="https://www.pharmabusters.pl/assets/images/punkt2-article.jpg" alt="Artykuł naukowy" style="width:1200px;" />
 </div>
 
 <p>
