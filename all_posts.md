@@ -77,7 +77,7 @@ show_tile: false
 	function opracowania_obj_gen() {
 opr = [
 {
-tytul: "Holistyczne spojrzenie na budowanie odporności.",
+tytul: "Cykl wykładów 01/2025",
 data: "01.11.2024",
 autor: "Miękus-Purwin Natalia",
 dzial: "informacje",
