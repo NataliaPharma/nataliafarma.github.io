@@ -77,6 +77,14 @@ show_tile: false
 	function opracowania_obj_gen() {
 opr = [
 {
+tytul: "Technologia PCT-MS-MicroLC-SWATH do analizy różnic związanych z płcią między móżdżkiem męskim i żeńskim.",
+data: "04.12.2024",
+autor: "Miękus-Purwin Natalia",
+dzial: "prasa",
+art_link: "https://www.pharmabusters.pl/2024/12/04/dla-chetnych.html",
+dzial_link: ""
+},
+{
 tytul: "Spotkania dietetyczno-farmaceutyczne kobiet",
 data: "01.11.2024",
 autor: "Miękus-Purwin Natalia",
