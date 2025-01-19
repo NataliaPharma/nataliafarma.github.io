@@ -45,6 +45,7 @@ show_tile: false
 	<option>Q&A</option>
 	<option>prasa</option>
 	    <option>wykłady</option>
+	    <option>informacje</option>
 	</select>
     </td>
 
@@ -75,6 +76,14 @@ show_tile: false
 	
 	function opracowania_obj_gen() {
 opr = [
+{
+tytul: "Holistyczne spojrzenie na budowanie odporności.",
+data: "01.11.2024",
+autor: "Miękus-Purwin Natalia",
+dzial: "informacje",
+art_link: "https://www.pharmabusters.pl/2024/11/01/cykl-warsztatow-01-2025.html",
+dzial_link: ""
+},	
 {
 tytul: "Holistyczne spojrzenie na budowanie odporności.",
 data: "19.07.2023",
