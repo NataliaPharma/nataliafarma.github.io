@@ -27,7 +27,30 @@ comments: true
 
 <div style="width:100%;height:20vw;"></div>
 
+<hr class="major" />
 
+<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Spotkania dietetyczno-farmaceutyczne kobiet</h1>
+
+     
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;  background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
+               <a href="https://www.pharmabusters.pl/2024/11/01/cykl-warsztatow-01-2025.html"><h4>Czy można się czuć dobrze ze sobą niezależnie od wieku?</h4></a>
+           </div>
+        
+        <p>Poznaj tajniki długiego życia, bez ciągłego "muszę" z nastawieniem na Siebie. Bo Ty szczęśliwa i zdrowa to szczęśliwe i zdrowe otoczenie. Zapisy na 4-spotkaniowe warsztaty (każdy po 2h), które odbywać się będą w styczniu 2025 już ruszyły! Chcesz poznać szczegóły/zapisać się - napisz na IG albo na maila: miekusn@gmail.com<a style="color:skyblue;" href="https://www.pharmabusters.pl/2024/11/01/cykl-warsztatow-01-2025.html">&nbsp; (czytaj dalej)</a></p>
+
+      
+        <blockquote>
+            <a>#wykłady</a>&nbsp; &nbsp;·&nbsp; &nbsp; <a href="https://www.pharmabusters.pl/2024/11/01/cykl-warsztatow-01-2025.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2024/11/01/cykl-warsztatow-01-2025.html"><img src="https://www.pharmabusters.pl/assets/images/styczen-image.jpg" alt="poeta" style="width:70%;margin-left:15%;" > </a>          
+       </div>           
+    </div>    
+
+<hr class="major" />
 
 
 <hr class="major" />
