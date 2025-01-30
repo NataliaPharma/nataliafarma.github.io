@@ -26,7 +26,27 @@ comments: true
 
 
 <div style="width:100%;height:20vw;"></div>
+<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Higiena cyfrowa</h1>
 
+     
+    <div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;  background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
+               <a href="https://www.pharmabusters.pl/2024/12/20/higiena-cyfrowa.html"><h4>Nowy filar zdrowia w erze technologii</h4></a>
+           </div>
+        
+        <p>Zapraszam do odkrycia nowego wymiaru troski o zdrowie w erze cyfrowej! W artykule, który opublikowałam na stronie Aptekarz Polski dowiesz się, dlaczego higiena cyfrowa została uznana za siódmy filar medycyny stylu życia.  <a style="color:skyblue;" href="https://www.pharmabusters.pl/2024/12/20/higiena-cyfrowa.html">&nbsp; (czytaj dalej)</a></p>
+
+      
+        <blockquote>
+            <a>#wykłady</a>&nbsp; &nbsp;·&nbsp; &nbsp; <a href="https://www.pharmabusters.pl/2024/12/20/higiena-cyfrowa.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2024/12/20/higiena-cyfrowa.html"><img src="https://www.pharmabusters.pl/assets/images/punkt3-photo.jpg" alt="poeta" style="width:70%;margin-left:15%;" > </a>          
+       </div>           
+    </div>   
+<hr class="major" />
 <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Analiza różnic płciowych w móżdżku za pomocą technologii PCT-MS-MicroLC-SWATH</h1>
 
      
