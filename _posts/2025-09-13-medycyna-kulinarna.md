@@ -8,7 +8,7 @@ description: Kolejna nowość z zakresu dietetyki, czy skuteczna interwencja zdr
 </div>
 
 <p>
-Medycyna kulinarna – czy to kolejna nowość z zakresu dietetyki, która za jakiś czas odejdzie w niepamięć, czy skuteczna interwencja zdrowotna pozwalająca na prewencję i leczenie chorób? Przeczytaj koniecznie i dowiedz się więcej!<b><a href="https://www.aptekarzpolski.pl/aktualnosci/higiena-cyfrowa-siodmym-filarem-medycyny-stylu-zycia/" target="_blank">Link do artykułu</a></b> 
+Medycyna kulinarna – czy to kolejna nowość z zakresu dietetyki, która za jakiś czas odejdzie w niepamięć, czy skuteczna interwencja zdrowotna pozwalająca na prewencję i leczenie chorób? Przeczytaj koniecznie i dowiedz się więcej!<b><a href="https://www.aptekarzpolski.pl/aktualnosci/medycyna-kulinarna-z-czym-to-sie-je/" target="_blank">Link do artykułu</a></b> 
 </p>
 <blockquote style="margin-left:0px;">	
 		
