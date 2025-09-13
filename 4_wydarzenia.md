@@ -26,7 +26,7 @@ comments: true
 
 
 <div style="width:100%;height:20vw;"></div>
-<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Higiena cyfrowa</h1>
+<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Medycyna kulinarna</h1>
 
 	<div class="row" >   
        <div class="6u 12u$(small)"> 
@@ -46,7 +46,7 @@ comments: true
        </div>           
     </div>   
 <hr class="major" />
-
+<h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Higiena cyfrowa</h1>
     <div class="row" >   
        <div class="6u 12u$(small)"> 
           <div style="width:100%;text-align:center;  background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
