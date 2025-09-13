@@ -28,7 +28,25 @@ comments: true
 <div style="width:100%;height:20vw;"></div>
 <h1 style="background:radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.0) 100%); ">Higiena cyfrowa</h1>
 
-     
+	<div class="row" >   
+       <div class="6u 12u$(small)"> 
+          <div style="width:100%;text-align:center;  background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
+               <a href="https://www.pharmabusters.pl/2025/09/13/medycyna-kulinarna.html"><h4>Medycyna kulinarna. Z czym to się je?</h4></a>
+           </div>
+        
+        <p>Medycyna kulinarna – czy to kolejna nowość z zakresu dietetyki, która za jakiś czas odejdzie w niepamięć, czy skuteczna interwencja zdrowotna pozwalająca na prewencję i leczenie chorób?  <a style="color:skyblue;" href="https://www.pharmabusters.pl/2025/09/13/medycyna-kulinarna.html">&nbsp; (czytaj dalej)</a></p>
+
+      
+        <blockquote>
+            <a>#wykłady</a>&nbsp; &nbsp;·&nbsp; &nbsp; <a href="https://www.pharmabusters.pl/2025/09/13/medycyna-kulinarna.html#disqus_thread">Third article</a>
+        </blockquote>
+       </div>
+       <div class="6u$ 12u$(small)">                
+              <a  class="obr" href="https://www.pharmabusters.pl/2025/09/13/medycyna-kulinarna.html"><img src="https://www.pharmabusters.pl/assets/images/medycyna-kulinarna.jpg" alt="poeta" style="width:70%;margin-left:15%;" > </a>          
+       </div>           
+    </div>   
+<hr class="major" />
+
     <div class="row" >   
        <div class="6u 12u$(small)"> 
           <div style="width:100%;text-align:center;  background: radial-gradient(circle, rgba(174,235,238,0.3) 0%, rgba(148,187,233,0.0) 100%);">
