@@ -22,10 +22,10 @@ tiles-count: 4
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  Instagram: https://www.instagram.com/pharmabusters/?hl=en
+  #Instagram: https://www.instagram.com/pharmabusters/?hl=en
   LinkedIn: https://pl.linkedin.com/in/natalia-miekus-purwin-10915854?trk=public_profile_browsemap
   Twitter: 
-  Youtube: https://www.youtube.com/@pharmabusters2144
+  #Youtube: https://www.youtube.com/@pharmabusters2144
   Slack:
 
 # build settings
