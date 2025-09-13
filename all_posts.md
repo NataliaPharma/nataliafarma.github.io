@@ -76,6 +76,14 @@ show_tile: false
 	
 	function opracowania_obj_gen() {
 opr = [
+	{
+tytul: "Medycyna kulinarna. Z czym to się je?",
+data: "13.09.2025",
+autor: "Miękus-Purwin Natalia",
+dzial: "prasa",
+art_link: "https://www.pharmabusters.pl/2025/09/13/medycyna-kulinarna.html",
+dzial_link: ""
+},
 {
 tytul: "Higiena cyfrowa - nowy filar zdrowia w erze technologii",
 data: "20.12.2024",
