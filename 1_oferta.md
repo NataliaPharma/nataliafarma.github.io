@@ -128,7 +128,7 @@ src: url("https://www.pharmabusters.pl/assets/fonts/suezone-regular-webfont.woff
 
     </div>
 
-<img src="https://pharmabusters.pl/assets/images/natalia-hero.jpg" style="width:100%; height:70vh; object-fit:cover; margin:0; padding:0;" >
+<img src="https://pharmabusters.pl/assets/images/natalia-hero.jpg" style="width:100%; height:70vh; margin:0; padding:0;" >
       
 
   
